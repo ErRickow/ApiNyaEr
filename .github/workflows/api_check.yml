@@ -5,7 +5,7 @@ on:
     paths:
     - "**.py"
   schedule:
-    - cron: '40 2 * * *'  # This runs the job at 8:10 AM IST (GMT+5:30)
+    - cron: '0 13 * * *'  # This will run the job at 6:00 PM WIB (GMT+7) in Jakarta
   workflow_dispatch:
 jobs:
   run-and-commit:
