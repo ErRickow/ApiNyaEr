@@ -98,7 +98,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_kPHtVgjk.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_VyZyRyXr.png
 ```
 
 ### 4. Cat
@@ -234,8 +234,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Inu x Boku Secret Service",
-        "url": "https://nekos.best/api/v2/hug/e868c5a9-a440-491a-a96b-fda4953202f7.gif"
+        "anime_name": "Kawaii Dake ja Nai Shikimori-san",
+        "url": "https://nekos.best/api/v2/hug/929963f4-0d6d-4d75-b93f-03f4d25c7419.gif"
     }
 ]
 ```
