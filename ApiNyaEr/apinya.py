@@ -1,18 +1,15 @@
 import os
-import re
 import random
 import string
-import textwrap
-from io import BytesIO
-from typing import Union
 from os.path import realpath
+from typing import Union
 
-import aiohttp
 import aiofiles
+import aiohttp
 import requests
-from PIL import Image, ImageOps, ImageDraw, ImageFont
 
 from .fungsi import FilePath
+
 
 class ErApi:
     def __init__(self):
@@ -20,7 +17,7 @@ class ErApi:
             "neko_url": "https://nekos.best/api/v2/{endpoint}?amount={amount}",
             "neko_hug": "https://nekos.best/api/v2/hug?amount={}",
         }
-        
+
     async def _make_request(
         self,
         url: str,
@@ -284,5 +281,6 @@ class ErApi:
         """
         response = await self._make_request(self.base_urls["neko_hug"].format(amount))
         return response["results"]
+
 
 apinya = ErApi()
