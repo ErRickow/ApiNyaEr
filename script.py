@@ -204,7 +204,7 @@ async def write_api_status_to_file(
     readme_content,
     readme_file="README.md",
     separator="---",
-    license_text="\nThis Project is Licensed under [MIT License](https://github.com/Vivekkumar-IN/TheApi/blob/main/LICENSE)",
+    license_text="\nThis Project is Licensed under [MIT License](https://github.com/ErRickow/ApiNyaEr/blob/main/LICENSE)",
 ):
     try:
         with open(readme_file, "r") as f:
