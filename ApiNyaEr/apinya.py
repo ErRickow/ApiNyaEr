@@ -87,14 +87,10 @@ class ErApi:
             str: Teks doa yang diformat dengan rapi termasuk doa, ayat, latin, dan artinya.
         """
         url = self.base_urls["doa_url"]
-        parameter = {"doaName": nama_doa}
-        respons = await self._make_request(url, parameter=params)
+        params = {"doaName": nama_doa}
+        respons = await self._make_request(url, params=params)
 
-        if (
-            isinstance(respons, dict)
-            and respons.get("status") == "success"
-            and "data" in respons
-        ):
+        if isinstance(respons, dict) and respons.get("status") == "success" and "data" in respons:
             data_doa = respons["data"]
             return (
                 f"{data_doa.get('doa', 'Tidak tersedia')}\n"
