@@ -104,7 +104,7 @@ class ErApi:
             )
         return "Doa tidak ditemukan atau format data tidak valid."
 
-    async def ambil_respons_ai(self, pertanyaan):
+    async def cohere(self, pertanyaan: str) -> str:
         """
         Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan.
 
@@ -118,9 +118,16 @@ class ErApi:
         params = {"q": pertanyaan}
         respons = await self._make_request(url, params=params)
 
-        if isinstance(respons, dict) and respons.get("status") == "success":
-            return respons.get("data", {}).get("result", "Tidak ada hasil")
-        return "Gagal mendapatkan respons AI."
+        # Memastikan respons adalah dictionary dan memeriksa status keberhasilan
+        if isinstance(respons, dict):
+            if respons.get("status") == "success":
+                # Mengambil hasil dari field 'result'
+                result = respons.get("result", "Tidak ada hasil dari AI.")
+                return result
+            else:
+                return "Status API menunjukkan kegagalan."
+        else:
+            return "Format respons tidak valid atau terjadi kesalahan."
 
     async def carbon(self, query):
         """
