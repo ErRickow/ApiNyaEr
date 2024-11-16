@@ -247,7 +247,7 @@ async def write_api_status_to_file(
 # Main function to run the script
 async def main():
     methods = inspect.getmembers(
-        api, predicate=lambda m: inspect.ismethod(m) or inspect.isfunction(m)
+        apinya, predicate=lambda m: inspect.ismethod(m) or inspect.isfunction(m)
     )
     status_content, readme_content = await generate_api_status(methods)
     await write_api_status_to_file(status_content, readme_content)
