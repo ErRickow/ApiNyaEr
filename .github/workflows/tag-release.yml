@@ -6,11 +6,11 @@ on:
       tag_name:
         description: 'The tag name to create'
         required: true
-        default: ''
+        default: 'New Update'
       release_name:
         description: 'The release name'
         required: true
-        default: ''
+        default: 'New Update'
 
 jobs:
   create_tag_and_release:
