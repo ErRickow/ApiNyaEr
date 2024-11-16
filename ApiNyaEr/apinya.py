@@ -90,7 +90,11 @@ class ErApi:
         params = {"doaName": nama_doa}
         respons = await self._make_request(url, params=params)
 
-        if isinstance(respons, dict) and respons.get("status") == "success" and "data" in respons:
+        if (
+            isinstance(respons, dict)
+            and respons.get("status") == "success"
+            and "data" in respons
+        ):
             data_doa = respons["data"]
             return (
                 f"{data_doa.get('doa', 'Tidak tersedia')}\n"
