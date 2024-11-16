@@ -31,7 +31,7 @@ import inspect
 
 import aiofiles
 
-from ApinyaEr import apinya
+from ApiNyaEr import apinya
 
 
 # Helper function to test each API method
@@ -140,7 +140,7 @@ async def generate_api_status(methods):
             readme_content.append(
                 f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                 f"{formatted_docstring}\n\n"
-                f"```python\nfrom TheApi import api\n\n"
+                f"```python\nfrom ErApi import apinya\n\n"
                 f"result = await apinya.{name}({params_str})\n"
                 f"print(result)\n```\n\n"
                 f"#### Expected Output\n\n"
@@ -154,8 +154,8 @@ async def generate_api_status(methods):
                 readme_content.append(
                     f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                     f"{formatted_docstring}\n\n"
-                    f"```python\nfrom TheApi import api\n\n"
-                    f"result = await api.{name}()\n"
+                    f"```python\nfrom ErApi import apinya\n\n"
+                    f"result = await apinya.{name}()\n"
                     f"print(result)\n```\n\n"
                     f"#### Expected Output\n\n"
                     f"{format_result(result)}\n"
@@ -183,7 +183,7 @@ async def generate_api_status(methods):
                 readme_content.append(
                     f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                     f"{formatted_docstring}\n\n"
-                    f"```python\nfrom TheApi import api\n\n"
+                    f"```python\nfrom ErApi import apinya\n\n"
                     f"result = await apinya.{name}({params_str})\n"
                     f"print(result)\n```\n\n"
                     f"#### Expected Output\n\n"
@@ -226,7 +226,7 @@ async def write_api_status_to_file(
     preface += (
         "Welcome to the **TheApi**! This library allows you to easily interact with the API using both **synchronous** and **asynchronous** options.\n\n"
         "- **Sync**: `from TheApi.sync import api`\n"
-        "- **Async**: `from TheApi import api`\n\n"
+        "- **Async**: `from ErApi import apinya`\n\n"
         "Below, we’ll cover each function, providing examples and expected results so you can get started quickly! Let’s dive in 🚀\n\n"
         "## Status\n\n"
         "| Function           | Status |\n"
