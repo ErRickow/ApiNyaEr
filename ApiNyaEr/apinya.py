@@ -79,6 +79,48 @@ class ErApi:
         random_str = "".join(random.choices(string.ascii_letters + string.digits, k=8))
         return random_str
 
+    async def ambil_doa(self, nama_doa: str) -> str:
+        """
+        Mengambil data doa dari API ItzPire berdasarkan nama doa.
+
+        Args:
+            nama_doa (str): Nama doa yang ingin diambil.
+
+        Returns:
+            str: Teks doa yang diformat dengan rapi termasuk doa, ayat, latin, dan artinya.
+        """
+        url = self.base_urls["doa_url"]
+        parameter = {"doaName": nama_doa}
+        respons = await self._make_request(url, parameter=parameter)
+
+        if isinstance(respons, dict) and respons.get("status") == "success" and "data" in respons:
+            data_doa = respons["data"]
+            return (
+                f"{data_doa.get('doa', 'Tidak tersedia')}\n"
+                f"Ayat: {data_doa.get('ayat', 'Tidak tersedia')}\n"
+                f"Latin: {data_doa.get('latin', 'Tidak tersedia')}\n"
+                f"Artinya: {data_doa.get('artinya', 'Tidak tersedia')}"
+            )
+        return "Doa tidak ditemukan atau format data tidak valid."
+
+    async def ambil_respons_ai(self, pertanyaan: str) -> str:
+        """
+        Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan.
+
+        Args:
+            pertanyaan (str): Teks pertanyaan yang akan dikirim ke AI.
+
+        Returns:
+            str: Respons yang dihasilkan oleh AI.
+        """
+        url = self.base_urls["ai_url"]
+        parameter = {"q": pertanyaan}
+        respons = await self._make_request(url, parameter=parameter)
+
+        if isinstance(respons, dict) and respons.get("status") == "success":
+            return respons.get("data", {}).get("result", "Tidak ada hasil")
+        return "Gagal mendapatkan respons AI."
+
     async def carbon(self, query):
         """
         Generates a code snippet image using the Carbon API, saves it to the downloads folder,
