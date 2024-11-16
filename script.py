@@ -21,7 +21,8 @@ async def test_method(method, *args):
         return status, str(e)
 
 
-# Memformat docstring menjadi format markdown yang lebih mudah dibaca untuk README
+# Memformat docstring menjadi format markdown yang lebih mudah dibaca
+# untuk README
 def format_docstring(docstring):
     lines = docstring.splitlines()
     formatted_lines = []
@@ -31,12 +32,14 @@ def format_docstring(docstring):
     for line in lines:
         stripped_line = line.strip()
 
-        # Periksa apakah itu header bagian seperti "Args:", "Returns:", "Raises:"
+        # Periksa apakah itu header bagian seperti "Args:", "Returns:",
+        # "Raises:"
         if stripped_line in ["Args:", "Returns:", "Raises:"]:
             formatted_lines.append(f"**{stripped_line}**")
             in_section = True
             nested_item = False
-        elif in_section and line.startswith("    "):  # Menangani baris yang terindented
+        # Menangani baris yang terindented
+        elif in_section and line.startswith("    "):
             # Deteksi item bersarang dalam bagian
             if stripped_line.startswith("- "):
                 formatted_lines.append(f"    - {stripped_line[2:]}")
@@ -122,7 +125,8 @@ async def generate_ai_status(methods):
         else:
             # Tangani fungsi lain
             if len(signature.parameters) == 0:
-                status, result = await test_method(method)  # Tidak ada parameter
+                # Tidak ada parameter
+                status, result = await test_method(method)
                 # Tambahkan dokumentasi fungsi untuk fungsi tanpa parameter
                 readme_content.append(
                     f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
