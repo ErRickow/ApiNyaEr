@@ -75,7 +75,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_6ebmU1Zm.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_A1VXLbLq.png
 ```
 
 ### 3. Cat
@@ -120,9 +120,11 @@ print(result)
 #### Expected Output
 
 ```text
-Tidur is an Indonesian word that means to sleep. It can also mean to lie or sit quietly in order to get new strength or energy, or because one is tired.
+Tidur is an Indonesian word that means to sleep, slumber, rest, kip, repose, catnap, nap, snooze, get some sleep, forty winks, and more.
 
-Tidur is also the name of a weighted blanket company, and a multiple timer app.
+Tidur can also refer to:
+- A weighted blanket collection from Malaysia
+- A multiple timer app for iOS
 ```
 
 ### 5. Dog
@@ -235,8 +237,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Akatsuki no Yona: The Girl Standing in the Blush of Dawn",
-        "url": "https://nekos.best/api/v2/hug/2838c749-cbf0-407c-b727-ceb1ca517463.gif"
+        "anime_name": "To Love-Ru: Trouble",
+        "url": "https://nekos.best/api/v2/hug/2c898eb2-71a0-4cf2-a79c-176510764d80.gif"
     }
 ]
 ```
