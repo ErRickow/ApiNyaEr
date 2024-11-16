@@ -98,7 +98,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_VyZyRyXr.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_i8wJhmqd.png
 ```
 
 ### 4. Cat
@@ -234,8 +234,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kawaii Dake ja Nai Shikimori-san",
-        "url": "https://nekos.best/api/v2/hug/929963f4-0d6d-4d75-b93f-03f4d25c7419.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/f7246b64-e9ae-4ebd-a1d0-bb934fd1418e.gif"
     }
 ]
 ```
