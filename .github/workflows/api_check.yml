@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install git+https://github.com/Vivekkumar-IN/TheApi
+          pip install git+https://github.com/ErRickow/ApiNyaEr
 
       - name: Run API Status Script
         run: |
@@ -39,7 +39,7 @@ jobs:
           git pull origin main
           git stash pop
           git add README.md
-          git commit -m "Update Status of TheApi"
+          git commit -m "Update Status of ApiNyaEr"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
