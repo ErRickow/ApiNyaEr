@@ -90,11 +90,7 @@ class ErApi:
         params = {"doaName": nama_doa}
         respons = await self._make_request(url, params=params)
 
-        if (
-            isinstance(respons, dict)
-            and respons.get("status") == "success"
-            and "data" in respons
-        ):
+        if isinstance(respons, dict) and respons.get("status") == "success" and "data" in respons:
             data_doa = respons["data"]
             return (
                 f"{data_doa.get('doa', 'Tidak tersedia')}\n"
@@ -104,7 +100,7 @@ class ErApi:
             )
         return "Doa tidak ditemukan atau format data tidak valid."
 
-    async def ambil_respons_ai(self, pertanyaan: str) -> str:
+    async def ambil_respons_ai(self, pertanyaan):
         """
         Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan.
 
