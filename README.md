@@ -99,7 +99,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_73e7E0eq.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_TaFmPWTp.png
 ```
 
 ### 4. Cat
@@ -233,8 +233,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Sword Art Online",
-        "url": "https://nekos.best/api/v2/hug/f33d03b0-fb25-4592-b48c-4de029596488.gif"
+        "anime_name": "Suisei no Gargantia",
+        "url": "https://nekos.best/api/v2/hug/40142a6f-83c4-450e-a477-ca7c89787623.gif"
     }
 ]
 ```
