@@ -16,7 +16,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 
 | Function           | Status |
 |--------------------|--------|
-| [1. Ambil Doa](#1-ambil-doa) | ❌
+| [1. Ambil Doa](#1-ambil-doa) | ✅
 | [2. Ambil Respons Ai](#2-ambil-respons-ai) | ✅
 | [3. Carbon](#3-carbon) | ✅
 | [4. Cat](#4-cat) | ❌
@@ -41,14 +41,17 @@ Mengambil data doa dari API ItzPire berdasarkan nama doa.
 ```python
 from ApiNyaEr import apinya
 
-result = await apinya.ambil_doa(nama_doa='Pokemon')
+result = await apinya.ambil_doa(nama_doa='Tidur')
 print(result)
 ```
 
 #### Expected Output
 
 ```text
-Request failed: 500, message='Internal Server Error', url='https://itzpire.com/religion/islamic/doa?doaName=Pokemon'
+Doa sebelum tidur
+Ayat: بِسْمِكَ االلّٰهُمَّ اَحْيَا وَبِاسْمِكَ اَمُوْتُ
+Latin: Bismikallaahumma ahyaa wa ammuut
+Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
 ```
 
 ### 2. Ambil Respons Ai
@@ -65,7 +68,7 @@ Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan.
 ```python
 from ApiNyaEr import apinya
 
-result = await apinya.ambil_respons_ai(pertanyaan='Pokemon')
+result = await apinya.ambil_respons_ai(pertanyaan='Tidur')
 print(result)
 ```
 
@@ -89,14 +92,14 @@ Generates a code snippet image using the Carbon API, saves it to the downloads f
 ```python
 from ApiNyaEr import apinya
 
-result = await apinya.carbon(query='Pokemon')
+result = await apinya.carbon(query='Tidur')
 print(result)
 ```
 
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_x1Dimbdl.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_73e7E0eq.png
 ```
 
 ### 4. Cat
@@ -166,7 +169,7 @@ Defaults to "repositories". max_results (int, optional): The maximum number of r
 ```python
 from ApiNyaEr import apinya
 
-result = await apinya.github_search(query='Pokemon', search_type='repositories', max_results=3)
+result = await apinya.github_search(query='Tidur', search_type='repositories', max_results=3)
 print(result)
 ```
 
@@ -175,31 +178,31 @@ print(result)
 ```json
 [
     {
-        "name": "PokemonGo-Map",
-        "full_name": "AHAAAAAAA/PokemonGo-Map",
-        "description": "\ud83c\udf0f Live visualization of all the pokemon in your area... and more! (shutdown)",
-        "url": "https://github.com/AHAAAAAAA/PokemonGo-Map",
-        "language": null,
-        "stargazers_count": 7529,
-        "forks_count": 2815
-    },
-    {
-        "name": "pokemon-showdown",
-        "full_name": "smogon/pokemon-showdown",
-        "description": "Pok\u00e9mon battle simulator.",
-        "url": "https://github.com/smogon/pokemon-showdown",
+        "name": "rs-bed-covid-indo-api",
+        "full_name": "satyawikananda/rs-bed-covid-indo-api",
+        "description": "API ketersediaan rumah sakit dan tempat tidur rumah sakit untuk pasien covid-19 ataupun non-covid yang berada di Indonesia",
+        "url": "https://github.com/satyawikananda/rs-bed-covid-indo-api",
         "language": "TypeScript",
-        "stargazers_count": 4796,
-        "forks_count": 2799
+        "stargazers_count": 112,
+        "forks_count": 25
     },
     {
-        "name": "PokemonGo-Bot",
-        "full_name": "PokemonGoF/PokemonGo-Bot",
-        "description": "The Pokemon Go Bot, baking with community.",
-        "url": "https://github.com/PokemonGoF/PokemonGo-Bot",
-        "language": "Python",
-        "stargazers_count": 3871,
-        "forks_count": 1543
+        "name": "bed-covid-rs-indo",
+        "full_name": "hendraaagil/bed-covid-rs-indo",
+        "description": "Website yang memberikan informasi terkait ketersediaan rumah sakit dan tempat tidur rumah sakit untuk pasien covid-19 ataupun non-covid di Indonesia.",
+        "url": "https://github.com/hendraaagil/bed-covid-rs-indo",
+        "language": "JavaScript",
+        "stargazers_count": 23,
+        "forks_count": 3
+    },
+    {
+        "name": "hobikoding.github.io",
+        "full_name": "hobikoding/hobikoding.github.io",
+        "description": ":rose: Hobikoding - Mari ngoding sambil tidur",
+        "url": "https://github.com/hobikoding/hobikoding.github.io",
+        "language": "Makefile",
+        "stargazers_count": 3,
+        "forks_count": 0
     }
 ]
 ```
@@ -230,8 +233,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "InuYasha",
-        "url": "https://nekos.best/api/v2/hug/cf674745-1c53-44e5-aa8e-5fcc7dd56f2c.gif"
+        "anime_name": "Sword Art Online",
+        "url": "https://nekos.best/api/v2/hug/f33d03b0-fb25-4592-b48c-4de029596488.gif"
     }
 ]
 ```
