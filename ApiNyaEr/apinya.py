@@ -88,13 +88,9 @@ class ErApi:
         """
         url = self.base_urls["doa_url"]
         parameter = {"doaName": nama_doa}
-        respons = await self._make_request(url, parameter=parameter)
+        respons = await self._make_request(url, parameter=params)
 
-        if (
-            isinstance(respons, dict)
-            and respons.get("status") == "success"
-            and "data" in respons
-        ):
+        if isinstance(respons, dict) and respons.get("status") == "success" and "data" in respons:
             data_doa = respons["data"]
             return (
                 f"{data_doa.get('doa', 'Tidak tersedia')}\n"
@@ -115,8 +111,8 @@ class ErApi:
             str: Respons yang dihasilkan oleh AI.
         """
         url = self.base_urls["ai_url"]
-        parameter = {"q": pertanyaan}
-        respons = await self._make_request(url, parameter=parameter)
+        params = {"q": pertanyaan}
+        respons = await self._make_request(url, params=params)
 
         if isinstance(respons, dict) and respons.get("status") == "success":
             return respons.get("data", {}).get("result", "Tidak ada hasil")
