@@ -16,36 +16,41 @@ class ErApi:
         self.base_urls = {
             "neko_url": "https://nekos.best/api/v2/{endpoint}?amount={amount}",
             "neko_hug": "https://nekos.best/api/v2/hug?amount={}",
+            "doa_url": "https://itzpire.com/religion/islamic/doa",
+            "ai_url": "https://itzpire.com/ai/cohere",
         }
 
     async def _make_request(
         self,
         url: str,
-        method: str = "GET",
-        params: dict = None,
+        metode: str = "GET",
+        parameter: dict = None,
         data: dict = None,
-        files: dict = None,
-        headers: dict = None,
+        file: dict = None,
+        header: dict = None,
         verify: bool = True,
     ) -> Union[dict, str]:
+        parameter = parameter or {}
+        data = data or {}
+        header = header or {}
         """
-        Makes an asynchronous HTTP request to the specified URL with optional parameters, headers, and data.
+        Membuat permintaan HTTP asinkron ke URL yang ditentukan dengan parameter, header, dan data opsional.
 
-        Args:
-            url (str): The URL to which the request is sent.
-            method (str, optional): The HTTP method to use (e.g., "GET", "POST"). Defaults to "GET".
-            params (dict, optional): Query parameters to include in the request. Defaults to None.
-            data (dict, optional): Data to include in the request body (for POST requests). Defaults to None.
-            files (dict, optional): Files to upload in the request (if applicable). Defaults to None.
-            headers (dict, optional): Headers to include in the request. Defaults to None.
-            verify (bool, optional): Whether to verify SSL certificates. Defaults to True.
+        Argumen:
+            url (str): URL tujuan permintaan dikirimkan.
+            method (str, opsional): Metode HTTP yang digunakan (misalnya, "GET", "POST"). Default: "GET".
+            params (dict, opsional): Parameter kueri yang disertakan dalam permintaan. Default: None.
+            data (dict, opsional): Data yang disertakan dalam body permintaan (untuk permintaan POST). Default: None.
+            files (dict, opsional): File yang diunggah dalam permintaan (jika ada). Default: None.
+            headers (dict, opsional): Header yang disertakan dalam permintaan. Default: None.
+            verify (bool, opsional): Apakah sertifikat SSL harus diverifikasi. Default: True.
 
-        Returns:
-            Union[dict, str]: The JSON response as a dictionary if the response is JSON-formatted,
-                              otherwise returns the response as a string.
+        Mengembalikan:
+            Union[dict, str]: Respons JSON dalam bentuk dictionary jika respons diformat sebagai JSON,
+                              jika tidak, mengembalikan respons sebagai string.
 
-        Raises:
-            ValueError: If the request fails due to a client error.
+        Menghasilkan:
+            ValueError: Jika permintaan gagal karena kesalahan klien.
         """
         async with aiohttp.ClientSession() as session:
             try:
