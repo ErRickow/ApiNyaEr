@@ -23,11 +23,11 @@ class ErApi:
     async def _make_request(
         self,
         url: str,
-        metode: str = "GET",
-        parameter: dict = None,
+        method: str = "GET",
+        params: dict = None,
         data: dict = None,
-        file: dict = None,
-        header: dict = None,
+        files: dict = None,
+        headers: dict = None,
         verify: bool = True,
     ) -> Union[dict, str]:
         """
@@ -90,11 +90,7 @@ class ErApi:
         parameter = {"doaName": nama_doa}
         respons = await self._make_request(url, parameter=parameter)
 
-        if (
-            isinstance(respons, dict)
-            and respons.get("status") == "success"
-            and "data" in respons
-        ):
+        if isinstance(respons, dict) and respons.get("status") == "success" and "data" in respons:
             data_doa = respons["data"]
             return (
                 f"{data_doa.get('doa', 'Tidak tersedia')}\n"
