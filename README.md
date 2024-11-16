@@ -3,18 +3,18 @@ what
 
 ---
 
-# 📘 API Documentation
+# 📘 Dokumentasi AI
 
-Welcome to the **ErApi**! This library allows you to easily interact with the API using both **synchronous** and **asynchronous** options.
+Selamat datang di **ErAI**! Perpustakaan ini memungkinkan Anda untuk berinteraksi dengan AI menggunakan opsi **sinkron** dan **asinkron**.
 
 - **Sync**: `from ApiNyaEr.sync import apinya`
 - **Async**: `from ApiNyaEr import apinya`
 
-Below, we’ll cover each function, providing examples and expected results so you can get started quickly! Let’s dive in 🚀
+Berikut, kami akan membahas setiap fungsi, memberikan contoh dan hasil yang diharapkan agar Anda bisa mulai dengan cepat! Mari kita mulai 🚀
 
 ## Status
 
-| Function           | Status |
+| Fungsi             | Status |
 |--------------------|--------|
 | [1. Ambil Doa](#1-ambil-doa) | ❌
 | [2. Ambil Respons Ai](#2-ambil-respons-ai) | ❌
@@ -25,11 +25,11 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [7. Hug](#7-hug) | ❌
 
 
-## 🎓 How to Use Each Function
+## 🎓 Cara Menggunakan Setiap Fungsi
 
 ### 1. Ambil Doa
 
-**Description**:
+**Deskripsi**:
 Mengambil data doa dari API ItzPire berdasarkan nama doa.
 
 **Args:**
@@ -45,7 +45,7 @@ result = await apinya.ambil_doa(nama_doa='Pokemon')
 print(result)
 ```
 
-#### Expected Output
+#### Hasil yang Diharapkan
 
 ```text
 name 'method' is not defined
@@ -53,7 +53,7 @@ name 'method' is not defined
 
 ### 2. Ambil Respons Ai
 
-**Description**:
+**Deskripsi**:
 Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan.
 
 **Args:**
@@ -69,7 +69,7 @@ result = await apinya.ambil_respons_ai(pertanyaan='Pokemon')
 print(result)
 ```
 
-#### Expected Output
+#### Hasil yang Diharapkan
 
 ```text
 name 'method' is not defined
@@ -77,8 +77,10 @@ name 'method' is not defined
 
 ### 3. Carbon
 
-**Description**:
-Generates a code snippet image using the Carbon API, saves it to the downloads folder, uploads it, and returns the URL of the uploaded image.
+**Deskripsi**:
+Generates a code snippet image using the Carbon API, saves it to the downloads folder,
+**Deskripsi**:
+uploads it, and returns the URL of the uploaded image.
 
 **Args:**
   - **query (str)**: The code snippet to be rendered as an image.
@@ -93,15 +95,15 @@ result = await apinya.carbon(query='Pokemon')
 print(result)
 ```
 
-#### Expected Output
+#### Hasil yang Diharapkan
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_PtX9p5tu.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_YXZCOCBa.png
 ```
 
 ### 4. Cat
 
-**Description**:
+**Deskripsi**:
 Fetches a random cat image URL.
 
 **Returns:**
@@ -114,7 +116,7 @@ result = await apinya.cat()
 print(result)
 ```
 
-#### Expected Output
+#### Hasil yang Diharapkan
 
 ```text
 'cat'
@@ -122,7 +124,7 @@ print(result)
 
 ### 5. Dog
 
-**Description**:
+**Deskripsi**:
 Fetches a random dog image URL.
 
 **Returns:**
@@ -135,7 +137,7 @@ result = await apinya.dog()
 print(result)
 ```
 
-#### Expected Output
+#### Hasil yang Diharapkan
 
 ```text
 'dog'
@@ -143,7 +145,7 @@ print(result)
 
 ### 6. Github Search
 
-**Description**:
+**Deskripsi**:
 Searches GitHub for various types of content.
 
 **Args:**
@@ -157,8 +159,10 @@ Searches GitHub for various types of content.
     - "commits"
     - "topics"
 
-**Description**:
-Defaults to "repositories". max_results (int, optional): The maximum number of results to return. Defaults to 3.
+**Deskripsi**:
+Defaults to "repositories".
+**Deskripsi**:
+max_results (int, optional): The maximum number of results to return. Defaults to 3.
 
 **Returns:**
   - **list**: A list of search results or an error message.
@@ -170,7 +174,7 @@ result = await apinya.github_search(query='Pokemon', search_type='repositories',
 print(result)
 ```
 
-#### Expected Output
+#### Hasil yang Diharapkan
 
 ```json
 [
@@ -206,7 +210,7 @@ print(result)
 
 ### 7. Hug
 
-**Description**:
+**Deskripsi**:
 Fetches a specified number hug gif from the Nekos.Best API.
 
 **Args:**
@@ -225,11 +229,11 @@ result = await apinya.hug(amount=1)
 print(result)
 ```
 
-#### Expected Output
+#### Hasil yang Diharapkan
 
 ```text
 name 'method' is not defined
 ```
 
 
-This Project is Licensed under [MIT License](https://github.com/ErRickow/ApiNyaEr/blob/main/LICENSE)
+Proyek ini dilisensikan di bawah [MIT License](https://github.com/ErRickow/ApiNyaEr/blob/main/LICENSE)
