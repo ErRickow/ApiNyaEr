@@ -20,7 +20,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [2. Cat](#2-cat) | ❌
 | [3. Dog](#3-dog) | ❌
 | [4. Github Search](#4-github-search) | ✅
-| [5. Hug](#5-hug) | ✅
+| [5. Hug](#5-hug) | ❌
 
 
 ## 🎓 How to Use Each Function
@@ -46,7 +46,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_WQikxbFg.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_qxKsS1hf.png
 ```
 
 ### 2. Cat
@@ -177,13 +177,8 @@ print(result)
 
 #### Expected Output
 
-```json
-[
-    {
-        "anime_name": "Hotarubi no Mori e",
-        "url": "https://nekos.best/api/v2/hug/01b8d0bb-827b-49ed-a538-c109ee5883e1.gif"
-    }
-]
+```text
+name 'method' is not defined
 ```
 
 
