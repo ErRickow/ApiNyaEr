@@ -2,11 +2,11 @@ import sys
 import asyncio
 from functools import wraps
 
-from .api import TheApi
+from .apinya import ErApi
 
 
-def syncify(api, meth):
-    async_meth = getattr(api, meth)
+def syncify(apinya, meth):
+    async_meth = getattr(apinya, meth)
 
     @wraps(async_meth)
     def sync_meth(*args, **kwargs):
@@ -29,7 +29,7 @@ def syncify(api, meth):
 
 class SyncApi:
     def __init__(self):
-        self._async_api = TheApi()
+        self._async_api = ErApi()
 
     def __getattr__(self, name):
         attr = getattr(self._async_api, name)
@@ -38,4 +38,4 @@ class SyncApi:
         return attr
 
 
-api = SyncApi()
+apinya = SyncApi()
