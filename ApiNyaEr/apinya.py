@@ -30,9 +30,6 @@ class ErApi:
         header: dict = None,
         verify: bool = True,
     ) -> Union[dict, str]:
-        parameter = parameter or {}
-        data = data or {}
-        header = header or {}
         """
         Membuat permintaan HTTP asinkron ke URL yang ditentukan dengan parameter, header, dan data opsional.
 
@@ -93,11 +90,7 @@ class ErApi:
         parameter = {"doaName": nama_doa}
         respons = await self._make_request(url, parameter=parameter)
 
-        if (
-            isinstance(respons, dict)
-            and respons.get("status") == "success"
-            and "data" in respons
-        ):
+        if isinstance(respons, dict) and respons.get("status") == "success" and "data" in respons:
             data_doa = respons["data"]
             return (
                 f"{data_doa.get('doa', 'Tidak tersedia')}\n"
