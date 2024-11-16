@@ -98,7 +98,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_YXZCOCBa.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_l8kvy2st.png
 ```
 
 ### 4. Cat
