@@ -17,9 +17,9 @@ Below, we’ll cover each function, providing examples and expected results so y
 | Function           | Status |
 |--------------------|--------|
 | [1. Ambil Doa](#1-ambil-doa) | ✅
-| [2. Ambil Respons Ai](#2-ambil-respons-ai) | ✅
-| [3. Carbon](#3-carbon) | ✅
-| [4. Cat](#4-cat) | ❌
+| [2. Carbon](#2-carbon) | ✅
+| [3. Cat](#3-cat) | ❌
+| [4. Cohere](#4-cohere) | ✅
 | [5. Dog](#5-dog) | ❌
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
@@ -54,31 +54,7 @@ Latin: Bismikallaahumma ahyaa wa ammuut
 Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
 ```
 
-### 2. Ambil Respons Ai
-
-**Description**:
-Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan.
-
-**Args:**
-  - **pertanyaan (str)**: Teks pertanyaan yang akan dikirim ke AI.
-
-**Returns:**
-  - **str**: Respons yang dihasilkan oleh AI.
-
-```python
-from ApiNyaEr import apinya
-
-result = await apinya.ambil_respons_ai(pertanyaan='Tidur')
-print(result)
-```
-
-#### Expected Output
-
-```text
-Tidak ada hasil
-```
-
-### 3. Carbon
+### 2. Carbon
 
 **Description**:
 Generates a code snippet image using the Carbon API, saves it to the downloads folder, uploads it, and returns the URL of the uploaded image.
@@ -99,10 +75,10 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_TaFmPWTp.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_6ebmU1Zm.png
 ```
 
-### 4. Cat
+### 3. Cat
 
 **Description**:
 Fetches a random cat image URL.
@@ -121,6 +97,32 @@ print(result)
 
 ```text
 'cat'
+```
+
+### 4. Cohere
+
+**Description**:
+Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan.
+
+**Args:**
+  - **pertanyaan (str)**: Teks pertanyaan yang akan dikirim ke AI.
+
+**Returns:**
+  - **str**: Respons yang dihasilkan oleh AI.
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.cohere(pertanyaan='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+Tidur is an Indonesian word that means to sleep. It can also mean to lie or sit quietly in order to get new strength or energy, or because one is tired.
+
+Tidur is also the name of a weighted blanket company, and a multiple timer app.
 ```
 
 ### 5. Dog
@@ -233,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Suisei no Gargantia",
-        "url": "https://nekos.best/api/v2/hug/40142a6f-83c4-450e-a477-ca7c89787623.gif"
+        "anime_name": "Akatsuki no Yona: The Girl Standing in the Blush of Dawn",
+        "url": "https://nekos.best/api/v2/hug/2838c749-cbf0-407c-b727-ceb1ca517463.gif"
     }
 ]
 ```
