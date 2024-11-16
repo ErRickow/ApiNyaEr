@@ -3,7 +3,7 @@ what
 
 ---
 
-# 📘 Dokumentasi AI
+# 📘 Dokumentasi ErApi
 
 Selamat datang di **ErAI**! Perpustakaan ini memungkinkan Anda untuk berinteraksi dengan AI menggunakan opsi **sinkron** dan **asinkron**.
 
@@ -17,7 +17,7 @@ Berikut, kami akan membahas setiap fungsi, memberikan contoh dan hasil yang diha
 | Fungsi             | Status |
 |--------------------|--------|
 | [1. Ambil Doa](#1-ambil-doa) | ❌
-| [2. Ambil Respons Ai](#2-ambil-respons-ai) | ❌
+| [2. Ambil Respons Ai](#2-ambil-respons-ai) | ✅
 | [3. Carbon](#3-carbon) | ✅
 | [4. Cat](#4-cat) | ❌
 | [5. Dog](#5-dog) | ❌
@@ -72,7 +72,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-Request failed: 524, message='', url='https://itzpire.com/ai/cohere?q=Pokemon'
+Tidak ada hasil
 ```
 
 ### 3. Carbon
@@ -98,7 +98,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_1ottTCxY.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_kPHtVgjk.png
 ```
 
 ### 4. Cat
