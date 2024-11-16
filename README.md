@@ -17,7 +17,7 @@ Berikut, kami akan membahas setiap fungsi, memberikan contoh dan hasil yang diha
 | Fungsi             | Status |
 |--------------------|--------|
 | [1. Ambil Doa](#1-ambil-doa) | ❌
-| [2. Ambil Respons Ai](#2-ambil-respons-ai) | ❌
+| [2. Ambil Respons Ai](#2-ambil-respons-ai) | ✅
 | [3. Carbon](#3-carbon) | ✅
 | [4. Cat](#4-cat) | ❌
 | [5. Dog](#5-dog) | ❌
@@ -48,7 +48,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-ErApi._make_request() got an unexpected keyword argument 'parameter'
+name 'params' is not defined
 ```
 
 ### 2. Ambil Respons Ai
@@ -72,7 +72,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-ErApi._make_request() got an unexpected keyword argument 'parameter'
+Tidak ada hasil
 ```
 
 ### 3. Carbon
@@ -98,7 +98,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_61yHi8yb.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_TmrkNZm0.png
 ```
 
 ### 4. Cat
@@ -234,8 +234,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kyoukai no Kanata",
-        "url": "https://nekos.best/api/v2/hug/b1136a84-2653-4c87-b80f-ea3cc0bf6ab9.gif"
+        "anime_name": "Inu x Boku Secret Service",
+        "url": "https://nekos.best/api/v2/hug/e868c5a9-a440-491a-a96b-fda4953202f7.gif"
     }
 ]
 ```
