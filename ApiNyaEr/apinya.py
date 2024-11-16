@@ -12,7 +12,7 @@ import aiofiles
 import requests
 from PIL import Image, ImageOps, ImageDraw, ImageFont
 
-from .func import FilePath
+from .fungsi import FilePath
 
 class ErApi:
     def __init__(self):
