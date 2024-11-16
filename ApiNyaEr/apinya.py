@@ -285,4 +285,4 @@ class ErApi:
         response = await self._make_request(self.base_urls["neko_hug"].format(amount))
         return response["results"]
 
-apinya = TheApi()
+apinya = ErApi()
