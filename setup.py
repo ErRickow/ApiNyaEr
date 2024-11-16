@@ -10,8 +10,8 @@ def read_requirements():
 
 
 setup(
-    name="TheApi",
-    version="1.2",
+    name="ApiNyaEr",
+    version="1.0",
     packages=find_packages(),
     install_requires=read_requirements(),
 )
