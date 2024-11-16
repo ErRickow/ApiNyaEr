@@ -140,7 +140,7 @@ async def generate_api_status(methods):
             readme_content.append(
                 f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                 f"{formatted_docstring}\n\n"
-                f"```python\nfrom ErApi import apinya\n\n"
+                f"```python\nfrom ApiNyaEr import apinya\n\n"
                 f"result = await apinya.{name}({params_str})\n"
                 f"print(result)\n```\n\n"
                 f"#### Expected Output\n\n"
@@ -154,7 +154,7 @@ async def generate_api_status(methods):
                 readme_content.append(
                     f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                     f"{formatted_docstring}\n\n"
-                    f"```python\nfrom ErApi import apinya\n\n"
+                    f"```python\nfrom ApiNyaEr import apinya\n\n"
                     f"result = await apinya.{name}()\n"
                     f"print(result)\n```\n\n"
                     f"#### Expected Output\n\n"
@@ -183,7 +183,7 @@ async def generate_api_status(methods):
                 readme_content.append(
                     f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                     f"{formatted_docstring}\n\n"
-                    f"```python\nfrom ErApi import apinya\n\n"
+                    f"```python\nfrom ApiNyaEr import apinya\n\n"
                     f"result = await apinya.{name}({params_str})\n"
                     f"print(result)\n```\n\n"
                     f"#### Expected Output\n\n"
@@ -225,8 +225,8 @@ async def write_api_status_to_file(
     preface = "# 📘 API Documentation\n\n"
     preface += (
         "Welcome to the **TheApi**! This library allows you to easily interact with the API using both **synchronous** and **asynchronous** options.\n\n"
-        "- **Sync**: `from ErApi.sync import apinya`\n"
-        "- **Async**: `from ErApi import apinya`\n\n"
+        "- **Sync**: `from ApiNyaEr.sync import apinya`\n"
+        "- **Async**: `from ApiNyaEr import apinya`\n\n"
         "Below, we’ll cover each function, providing examples and expected results so you can get started quickly! Let’s dive in 🚀\n\n"
         "## Status\n\n"
         "| Function           | Status |\n"
