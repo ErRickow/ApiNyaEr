@@ -5,6 +5,7 @@ def read_requirements():
     try:
         with open("requirements.txt") as f:
             return f.read().splitlines()
+ 
     except FileNotFoundError:
         return []
 
