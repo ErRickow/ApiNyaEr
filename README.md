@@ -22,7 +22,7 @@ Berikut, kami akan membahas setiap fungsi, memberikan contoh dan hasil yang diha
 | [4. Cat](#4-cat) | ❌
 | [5. Dog](#5-dog) | ❌
 | [6. Github Search](#6-github-search) | ✅
-| [7. Hug](#7-hug) | ❌
+| [7. Hug](#7-hug) | ✅
 
 
 ## 🎓 Cara Menggunakan Setiap Fungsi
@@ -48,7 +48,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-name 'method' is not defined
+ErApi._make_request() got an unexpected keyword argument 'parameter'
 ```
 
 ### 2. Ambil Respons Ai
@@ -72,7 +72,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-name 'method' is not defined
+ErApi._make_request() got an unexpected keyword argument 'parameter'
 ```
 
 ### 3. Carbon
@@ -98,7 +98,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_l8kvy2st.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_61yHi8yb.png
 ```
 
 ### 4. Cat
@@ -231,8 +231,13 @@ print(result)
 
 #### Hasil yang Diharapkan
 
-```text
-name 'method' is not defined
+```json
+[
+    {
+        "anime_name": "Kyoukai no Kanata",
+        "url": "https://nekos.best/api/v2/hug/b1136a84-2653-4c87-b80f-ea3cc0bf6ab9.gif"
+    }
+]
 ```
 
 
