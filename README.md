@@ -17,7 +17,7 @@ Berikut, kami akan membahas setiap fungsi, memberikan contoh dan hasil yang diha
 | Fungsi             | Status |
 |--------------------|--------|
 | [1. Ambil Doa](#1-ambil-doa) | ❌
-| [2. Ambil Respons Ai](#2-ambil-respons-ai) | ✅
+| [2. Ambil Respons Ai](#2-ambil-respons-ai) | ❌
 | [3. Carbon](#3-carbon) | ✅
 | [4. Cat](#4-cat) | ❌
 | [5. Dog](#5-dog) | ❌
@@ -48,7 +48,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-name 'params' is not defined
+Request failed: 500, message='Internal Server Error', url='https://itzpire.com/religion/islamic/doa?doaName=Pokemon'
 ```
 
 ### 2. Ambil Respons Ai
@@ -72,7 +72,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-Tidak ada hasil
+Request failed: 524, message='', url='https://itzpire.com/ai/cohere?q=Pokemon'
 ```
 
 ### 3. Carbon
@@ -98,7 +98,7 @@ print(result)
 #### Hasil yang Diharapkan
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_TmrkNZm0.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_1ottTCxY.png
 ```
 
 ### 4. Cat
