@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_9x7NME7m.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_zpxqDoic.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/c2r.jpg
+https://cdn2.thecatapi.com/images/MTU5NzIzNA.jpg
 ```
 
 ### 4. Cohere
@@ -118,10 +118,10 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "error": "Request failed with status code 429"
-}
+```text
+Tidur is an Indonesian word that means to sleep, slumber, rest, kip, repose, catnap, nap, snooze, get some sleep, forty winks, sleepy, feel sleepy, slumber, nod, dozy, oversleep, caught by daylight, and sleep.
+
+Tidur is also the name of a weighted blanket collection, a multiple timer app, and a website that sells weighted blankets.
 ```
 
 ### 5. Dog
@@ -143,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/4cf97b2e-602b-4769-b605-1c379122385c.jpg
+https://random.dog/b1168d67-1cd7-4998-b0e3-9db93e07ee5d.jpg
 ```
 
 ### 6. Github Search
@@ -235,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Hibike! Euphonium",
-        "url": "https://nekos.best/api/v2/hug/b30aa74d-5d1c-4225-a242-30c5ed0f09f2.gif"
+        "anime_name": "Umibe no Etranger",
+        "url": "https://nekos.best/api/v2/hug/4619bde0-9f22-4010-a58a-d6a4cb8d12a4.gif"
     }
 ]
 ```
