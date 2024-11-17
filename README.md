@@ -75,7 +75,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_qfNdBUCi.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ixlijjhX.png
 ```
 
 ### 3. Cat
@@ -119,10 +119,10 @@ print(result)
 
 #### Expected Output
 
-```text
-Tidur is an Indonesian word that means to sleep, slumber, rest, kip, repose, catnap, nap, snooze, get some sleep, forty winks, or to be sleepy.
-
-Tidur can also refer to a weighted blanket or bolster.
+```json
+{
+    "error": "Request failed with status code 429"
+}
 ```
 
 ### 5. Dog
@@ -235,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Hotarubi no Mori e",
-        "url": "https://nekos.best/api/v2/hug/01b8d0bb-827b-49ed-a538-c109ee5883e1.gif"
+        "anime_name": "Hibike! Euphonium",
+        "url": "https://nekos.best/api/v2/hug/f8702ca1-e7d8-44e1-a2aa-221f10749498.gif"
     }
 ]
 ```
