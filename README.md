@@ -23,7 +23,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
-| [8. Kapan Libur](#8-kapan-libur) | ❌
+| [8. Kapan Libur](#8-kapan-libur) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_tG8LwiyK.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_GaDPsBRe.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/18a.gif
+https://cdn2.thecatapi.com/images/ci9.jpg
 ```
 
 ### 4. Cohere
@@ -118,12 +118,10 @@ print(result)
 
 #### Expected Output
 
-```text
-Tidur is an Indonesian word that means "to sleep". It can also be used to refer to a state of reduced consciousness, or to lie down.
-
-I found a few other uses of the word Tidur:
-- Tidur is the name of a weighted blanket company based in Malaysia.
-- Tidur is the name of a multiple timer app available on the App Store.
+```json
+{
+    "error": "Request failed with status code 429"
+}
 ```
 
 ### 5. Dog
@@ -145,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/affbb84a-f293-4bac-a9fb-dcf2f3dd3f0d.jpg
+https://random.dog/b8e062b5-a2c3-4880-b378-808c85011fbe.jpg
 ```
 
 ### 6. Github Search
@@ -237,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Date a Live",
-        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
+        "anime_name": "Hotarubi no Mori e",
+        "url": "https://nekos.best/api/v2/hug/01b8d0bb-827b-49ed-a538-c109ee5883e1.gif"
     }
 ]
 ```
@@ -261,7 +259,7 @@ print(result)
 #### Expected Output
 
 ```text
-name 'request' is not defined
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (38 hari lagi)
 ```
 
 
