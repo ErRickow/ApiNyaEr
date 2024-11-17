@@ -23,7 +23,8 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
-| [8. Rendy Gpt](#8-rendy-gpt) | ❌
+| [8. Kapan Libur](#8-kapan-libur) | ❌
+| [9. Rendy Gpt](#9-rendy-gpt) | ❌
 
 
 ## 🎓 How to Use Each Function
@@ -73,7 +74,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_zpxqDoic.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_3l8dGBsP.png
 ```
 
 ### 3. Cat
@@ -95,7 +96,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTU5NzIzNA.jpg
+https://cdn2.thecatapi.com/images/efb.jpg
 ```
 
 ### 4. Cohere
@@ -119,9 +120,9 @@ print(result)
 #### Expected Output
 
 ```text
-Tidur is an Indonesian word that means to sleep, slumber, rest, kip, repose, catnap, nap, snooze, get some sleep, forty winks, sleepy, feel sleepy, slumber, nod, dozy, oversleep, caught by daylight, and sleep.
+Tidur is an Indonesian word that means to sleep. It can also mean to lie or sit quietly in order to get new strength or energy, or because one is tired.
 
-Tidur is also the name of a weighted blanket collection, a multiple timer app, and a website that sells weighted blankets.
+Tidur is also the name of a weighted blanket collection, and a multiple timer app.
 ```
 
 ### 5. Dog
@@ -143,7 +144,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/b1168d67-1cd7-4998-b0e3-9db93e07ee5d.jpg
+https://random.dog/580ce3c8-a8bf-48a8-92cc-68d1955c7dc8.jpg
 ```
 
 ### 6. Github Search
@@ -235,13 +236,34 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Umibe no Etranger",
-        "url": "https://nekos.best/api/v2/hug/4619bde0-9f22-4010-a58a-d6a4cb8d12a4.gif"
+        "anime_name": "Acchi Kocchi",
+        "url": "https://nekos.best/api/v2/hug/5721b0f4-a2ed-4de6-9ea3-763601c72fc9.gif"
     }
 ]
 ```
 
-### 8. Rendy Gpt
+### 8. Kapan Libur
+
+**Description**:
+Fetches a random useless fact.
+
+**Returns:**
+  - **str**: A random useless fact.
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.kapan_libur()
+print(result)
+```
+
+#### Expected Output
+
+```text
+name 'data' is not defined
+```
+
+### 9. Rendy Gpt
 
 **Description**:
 Mengambil respons dari API AI Randy berdasarkan pertanyaan yang diberikan.
