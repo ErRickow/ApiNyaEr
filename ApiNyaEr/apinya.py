@@ -35,7 +35,7 @@ class ErApi:
         """
         Membuat permintaan HTTP asinkron ke URL yang ditentukan dengan parameter, header, dan data opsional.
 
-        Argumen:
+        Args:
             url (str): URL tujuan permintaan dikirimkan.
             method (str, opsional): Metode HTTP yang digunakan (misalnya, "GET", "POST"). Default: "GET".
             params (dict, opsional): Parameter kueri yang disertakan dalam permintaan. Default: None.
@@ -44,7 +44,7 @@ class ErApi:
             headers (dict, opsional): Header yang disertakan dalam permintaan. Default: None.
             verify (bool, opsional): Apakah sertifikat SSL harus diverifikasi. Default: True.
 
-        Mengembalikan:
+        Returns:
             Union[dict, str]: Respons JSON dalam bentuk dictionary jika respons diformat sebagai JSON,
                               jika tidak, mengembalikan respons sebagai string.
 
