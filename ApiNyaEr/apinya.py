@@ -4,7 +4,6 @@ import string
 from os.path import realpath
 from typing import Union
 
-import json
 import aiofiles
 import aiohttp
 import requests
@@ -89,7 +88,7 @@ class ErApi:
             str: A random useless fact.
         """
         response = requests.get(self.base_urls["libur"]).json()
-        next_libur = response['data']['nextLibur']
+        next_libur = response["data"]["nextLibur"]
         return next_libur
 
     async def ambil_doa(self, nama_doa: str) -> str:
@@ -123,21 +122,21 @@ class ErApi:
     async def cohere(self, pertanyaan: str) -> str:
         """
         Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan menggunakan metode POST.
-    
+
         Args:
             pertanyaan (str): Teks pertanyaan yang akan dikirim ke AI.
-    
+
         Returns:
             str: Respons yang dihasilkan oleh AI.
         """
-    
+
         url = self.base_urls["ai_url"]
         params = {"q": pertanyaan}
-   #     headers = {"Content-Type": "application/json"}  # Menentukan tipe konten sebagai JSON
-    
+        #     headers = {"Content-Type": "application/json"}  # Menentukan tipe konten sebagai JSON
+
         respons = await self._make_request(url, params=params)
 
-    # ... (sisanya sama seperti kode sebelumnya)
+        # ... (sisanya sama seperti kode sebelumnya)
 
         # Memastikan respons adalah dictionary dan memeriksa status keberhasilan
         if isinstance(respons, dict):
