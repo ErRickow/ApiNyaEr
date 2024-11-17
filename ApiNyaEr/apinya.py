@@ -4,6 +4,7 @@ import string
 from os.path import realpath
 from typing import Union
 
+import json
 import aiofiles
 import aiohttp
 import requests
@@ -21,6 +22,7 @@ class ErApi:
             "cat": "https://api.thecatapi.com/v1/images/search",
             "dog": "https://random.dog/woof.json",
             "randy": "https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old",
+            "libur": "https://itzpire.com/information/nextLibur",
         }
 
     async def _make_request(
@@ -79,25 +81,32 @@ class ErApi:
         random_str = "".join(random.choices(string.ascii_letters + string.digits, k=8))
         return random_str
 
+    async def kapan_libur(self):
+        """
+        Fetches a random useless fact.
+
+        Returns:
+            str: A random useless fact.
+        """
+        response = await self._make_request(self.base_urls["libur"])
+        next_libur = data['data']['nextLibur']
+        return response["next_libur"]
+
     async def rendy_gpt(self, pertanyaan: str) -> str:
         """
         Mengambil respons dari API AI Randy berdasarkan pertanyaan yang diberikan.
-
+    
         Args:
             pertanyaan (str): Teks pertanyaan yang akan dikirim ke AI.
-
+    
         Returns:
             str: Respons yang dihasilkan oleh AI.
         """
         url = self.base_urls["randy"]
         params = {"query": pertanyaan}
         respons = await self._make_request(url, params=params)
-
-        if (
-            isinstance(respons, dict)
-            and "randydev" in respons
-            and "result" in respons["randydev"]
-        ):
+    
+        if isinstance(respons, dict) and "randydev" in respons and "result" in respons["randydev"]:
             if respons.status == 200:
                 output = respons["randydev"]["result"].get("message")
                 return output
@@ -105,7 +114,7 @@ class ErApi:
                 return f"Status API tidak berhasil: {respons.status}"
         else:
             return "Format respons tidak valid atau terjadi kesalahan."
-
+     
     async def ambil_doa(self, nama_doa: str) -> str:
         """
         Mengambil data doa dari API ItzPire berdasarkan nama doa.
@@ -137,21 +146,21 @@ class ErApi:
     async def cohere(self, pertanyaan: str) -> str:
         """
         Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan menggunakan metode POST.
-
+    
         Args:
             pertanyaan (str): Teks pertanyaan yang akan dikirim ke AI.
-
+    
         Returns:
             str: Respons yang dihasilkan oleh AI.
         """
-
+    
         url = self.base_urls["ai_url"]
         params = {"q": pertanyaan}
-        #     headers = {"Content-Type": "application/json"}  # Menentukan tipe konten sebagai JSON
-
+   #     headers = {"Content-Type": "application/json"}  # Menentukan tipe konten sebagai JSON
+    
         respons = await self._make_request(url, params=params)
 
-        # ... (sisanya sama seperti kode sebelumnya)
+    # ... (sisanya sama seperti kode sebelumnya)
 
         # Memastikan respons adalah dictionary dan memeriksa status keberhasilan
         if isinstance(respons, dict):
