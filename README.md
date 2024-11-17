@@ -74,7 +74,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_3l8dGBsP.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_fSkSqmxq.png
 ```
 
 ### 3. Cat
@@ -96,7 +96,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/efb.jpg
+https://cdn2.thecatapi.com/images/J2qM5HR5K.jpg
 ```
 
 ### 4. Cohere
@@ -119,10 +119,10 @@ print(result)
 
 #### Expected Output
 
-```text
-Tidur is an Indonesian word that means to sleep. It can also mean to lie or sit quietly in order to get new strength or energy, or because one is tired.
-
-Tidur is also the name of a weighted blanket collection, and a multiple timer app.
+```json
+{
+    "error": "Request failed with status code 429"
+}
 ```
 
 ### 5. Dog
@@ -144,7 +144,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/580ce3c8-a8bf-48a8-92cc-68d1955c7dc8.jpg
+https://random.dog/2b9be14d-f084-4cbc-a266-35cc02ff62e9.gif
 ```
 
 ### 6. Github Search
@@ -236,8 +236,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Acchi Kocchi",
-        "url": "https://nekos.best/api/v2/hug/5721b0f4-a2ed-4de6-9ea3-763601c72fc9.gif"
+        "anime_name": "Noragami OAD",
+        "url": "https://nekos.best/api/v2/hug/c08992e3-ec9c-4cf4-88d0-6ca921d3ef64.gif"
     }
 ]
 ```
@@ -260,7 +260,7 @@ print(result)
 #### Expected Output
 
 ```text
-name 'data' is not defined
+'dict' object has no attribute 'status'
 ```
 
 ### 9. Rendy Gpt
