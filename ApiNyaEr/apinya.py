@@ -48,7 +48,7 @@ class ErApi:
             Union[dict, str]: Respons JSON dalam bentuk dictionary jika respons diformat sebagai JSON,
                               jika tidak, mengembalikan respons sebagai string.
 
-        Menghasilkan:
+        Result:
             ValueError: Jika permintaan gagal karena kesalahan klien.
         """
         async with aiohttp.ClientSession() as session:
