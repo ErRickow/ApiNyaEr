@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_XXhcBvBB.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_QUIUdvLW.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/Yx3nQTUHu.jpg
+https://cdn2.thecatapi.com/images/a70.jpg
 ```
 
 ### 4. Cohere
@@ -143,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/07e51206-2967-4632-ad03-a7f12675bc55.jpg
+https://random.dog/886c5960-5345-48f0-bf3c-9fd5145a62aa.jpg
 ```
 
 ### 6. Github Search
@@ -235,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Suisei no Gargantia",
-        "url": "https://nekos.best/api/v2/hug/40142a6f-83c4-450e-a477-ca7c89787623.gif"
+        "anime_name": "Kamisama Hajimemashita",
+        "url": "https://nekos.best/api/v2/hug/6729fa94-442a-4f75-bfae-4ab5ad644d39.gif"
     }
 ]
 ```
@@ -262,7 +262,7 @@ print(result)
 #### Expected Output
 
 ```text
-ErApi._make_request() got an unexpected keyword argument 'json'
+Request failed: 422, message='Unprocessable Entity', url='https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old'
 ```
 
 
