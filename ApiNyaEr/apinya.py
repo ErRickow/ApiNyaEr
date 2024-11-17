@@ -4,7 +4,6 @@ import string
 from os.path import realpath
 from typing import Union
 
-import json
 import aiofiles
 import aiohttp
 import requests
@@ -89,24 +88,28 @@ class ErApi:
             str: A random useless fact.
         """
         response = await self._make_request(self.base_urls["libur"])
-        next_libur = data['data']['nextLibur']
+        next_libur = data["data"]["nextLibur"]
         return response["next_libur"]
 
     async def rendy_gpt(self, pertanyaan: str) -> str:
         """
         Mengambil respons dari API AI Randy berdasarkan pertanyaan yang diberikan.
-    
+
         Args:
             pertanyaan (str): Teks pertanyaan yang akan dikirim ke AI.
-    
+
         Returns:
             str: Respons yang dihasilkan oleh AI.
         """
         url = self.base_urls["randy"]
         params = {"query": pertanyaan}
         respons = await self._make_request(url, params=params)
-    
-        if isinstance(respons, dict) and "randydev" in respons and "result" in respons["randydev"]:
+
+        if (
+            isinstance(respons, dict)
+            and "randydev" in respons
+            and "result" in respons["randydev"]
+        ):
             if respons.status == 200:
                 output = respons["randydev"]["result"].get("message")
                 return output
@@ -114,7 +117,7 @@ class ErApi:
                 return f"Status API tidak berhasil: {respons.status}"
         else:
             return "Format respons tidak valid atau terjadi kesalahan."
-     
+
     async def ambil_doa(self, nama_doa: str) -> str:
         """
         Mengambil data doa dari API ItzPire berdasarkan nama doa.
@@ -146,21 +149,21 @@ class ErApi:
     async def cohere(self, pertanyaan: str) -> str:
         """
         Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan menggunakan metode POST.
-    
+
         Args:
             pertanyaan (str): Teks pertanyaan yang akan dikirim ke AI.
-    
+
         Returns:
             str: Respons yang dihasilkan oleh AI.
         """
-    
+
         url = self.base_urls["ai_url"]
         params = {"q": pertanyaan}
-   #     headers = {"Content-Type": "application/json"}  # Menentukan tipe konten sebagai JSON
-    
+        #     headers = {"Content-Type": "application/json"}  # Menentukan tipe konten sebagai JSON
+
         respons = await self._make_request(url, params=params)
 
-    # ... (sisanya sama seperti kode sebelumnya)
+        # ... (sisanya sama seperti kode sebelumnya)
 
         # Memastikan respons adalah dictionary dan memeriksa status keberhasilan
         if isinstance(respons, dict):
