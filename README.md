@@ -23,6 +23,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
+| [8. Rendy Gpt](#8-rendy-gpt) | ❌
 
 
 ## 🎓 How to Use Each Function
@@ -72,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_th8KHLYb.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_WGPpV3me.png
 ```
 
 ### 3. Cat
@@ -94,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/1q7.jpg
+https://cdn2.thecatapi.com/images/aa8.jpg
 ```
 
 ### 4. Cohere
@@ -142,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/ec18751d-0c52-4dc9-a338-42a30017cc21.jpg
+https://random.dog/0b410598-ebfa-4b08-b6da-52f7096740ab.jpg
 ```
 
 ### 6. Github Search
@@ -234,10 +235,34 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Yuru Yuri",
-        "url": "https://nekos.best/api/v2/hug/2363175c-4cda-414e-8929-a87f53fc1cc1.gif"
+        "anime_name": "Cuckoo no Iinazuke",
+        "url": "https://nekos.best/api/v2/hug/f45aad5e-e82f-4cac-b071-9b6f67752e0e.gif"
     }
 ]
+```
+
+### 8. Rendy Gpt
+
+**Description**:
+Mengambil respons dari API AI Randy berdasarkan pertanyaan yang diberikan.
+
+**Args:**
+  - **pertanyaan (str)**: Teks pertanyaan yang akan dikirim ke AI.
+
+**Returns:**
+  - **str**: Respons yang dihasilkan oleh AI.
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.rendy_gpt(pertanyaan='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+ErApi._make_request() got an unexpected keyword argument 'json'
 ```
 
 
