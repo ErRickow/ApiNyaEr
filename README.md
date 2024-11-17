@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_wIeek5n0.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_9x7NME7m.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTkwNzQzOQ.gif
+https://cdn2.thecatapi.com/images/c2r.jpg
 ```
 
 ### 4. Cohere
@@ -143,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/72ed6030-63d1-421b-9091-7ce2c5deb2f5.webm
+https://random.dog/4cf97b2e-602b-4769-b605-1c379122385c.jpg
 ```
 
 ### 6. Github Search
@@ -235,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Princess Connect! Re:Dive",
-        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
+        "anime_name": "Hibike! Euphonium",
+        "url": "https://nekos.best/api/v2/hug/b30aa74d-5d1c-4225-a242-30c5ed0f09f2.gif"
     }
 ]
 ```
@@ -262,7 +262,7 @@ print(result)
 #### Expected Output
 
 ```text
-Request failed: 422, message='Unprocessable Entity', url='https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old'
+Request failed: 405, message='Method Not Allowed', url='https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old?query=Tidur'
 ```
 
 
