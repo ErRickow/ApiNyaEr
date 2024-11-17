@@ -131,14 +131,11 @@ class ErApi:
 
     async def carbon(self, query):
         """
-        Generates a code snippet image using the Carbon API, saves it to the downloads folder,
-        uploads it, and returns the URL of the uploaded image.
-
         Args:
-            query (str): The code snippet to be rendered as an image.
+            query (str): Potongan kode yang akan dirender sebagai gambar.
 
-        Returns:
-            FilePath: The file path of the saved image.
+        Return:
+            FilePath: Jalur file dari gambar yang disimpan.
         """
         async with aiohttp.ClientSession(
             headers={"Content-Type": "application/json"},
