@@ -19,7 +19,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [1. Ambil Doa](#1-ambil-doa) | ✅
 | [2. Carbon](#2-carbon) | ✅
 | [3. Cat](#3-cat) | ✅
-| [4. Cohere](#4-cohere) | ✅
+| [4. Cohere](#4-cohere) | ❌
 | [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Gzx7cmrf.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_GijrZOtn.png
 ```
 
 ### 3. Cat
@@ -95,13 +95,13 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/nNG4PzUzN.jpg
+https://cdn2.thecatapi.com/images/993.jpg
 ```
 
 ### 4. Cohere
 
 **Description**:
-Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan.
+Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan menggunakan metode POST.
 
 **Args:**
   - **pertanyaan (str)**: Teks pertanyaan yang akan dikirim ke AI.
@@ -118,10 +118,8 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "error": "Request failed with status code 429"
-}
+```text
+name 'json' is not defined
 ```
 
 ### 5. Dog
@@ -143,7 +141,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/dfcd6aad-2519-42ca-adbb-2b157ac57b9f.jpg
+https://random.dog/c814f405-4bf3-40ac-a7a3-7adbf5ef8703.jpg
 ```
 
 ### 6. Github Search
@@ -235,8 +233,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Wotaku ni Koi wa Muzukashii",
-        "url": "https://nekos.best/api/v2/hug/47e30b67-b979-4dd5-9b06-720e5118f088.gif"
+        "anime_name": "Suisei no Gargantia",
+        "url": "https://nekos.best/api/v2/hug/40142a6f-83c4-450e-a477-ca7c89787623.gif"
     }
 ]
 ```
