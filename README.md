@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_QUIUdvLW.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Gzx7cmrf.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/a70.jpg
+https://cdn2.thecatapi.com/images/nNG4PzUzN.jpg
 ```
 
 ### 4. Cohere
@@ -143,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/886c5960-5345-48f0-bf3c-9fd5145a62aa.jpg
+https://random.dog/dfcd6aad-2519-42ca-adbb-2b157ac57b9f.jpg
 ```
 
 ### 6. Github Search
@@ -235,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kamisama Hajimemashita",
-        "url": "https://nekos.best/api/v2/hug/6729fa94-442a-4f75-bfae-4ab5ad644d39.gif"
+        "anime_name": "Wotaku ni Koi wa Muzukashii",
+        "url": "https://nekos.best/api/v2/hug/47e30b67-b979-4dd5-9b06-720e5118f088.gif"
     }
 ]
 ```
