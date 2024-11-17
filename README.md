@@ -56,14 +56,11 @@ Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
 
 ### 2. Carbon
 
-**Description**:
-Generates a code snippet image using the Carbon API, saves it to the downloads folder, uploads it, and returns the URL of the uploaded image.
-
 **Args:**
-  - **query (str)**: The code snippet to be rendered as an image.
+  - **query (str)**: Potongan kode yang akan dirender sebagai gambar.
 
-**Returns:**
-  - **FilePath**: The file path of the saved image.
+**Description**:
+Return: FilePath: Jalur file dari gambar yang disimpan.
 
 ```python
 from ApiNyaEr import apinya
@@ -75,7 +72,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ixlijjhX.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_G7H2qbgS.png
 ```
 
 ### 3. Cat
@@ -235,8 +232,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Hibike! Euphonium",
-        "url": "https://nekos.best/api/v2/hug/f8702ca1-e7d8-44e1-a2aa-221f10749498.gif"
+        "anime_name": "Aikatsu Stars",
+        "url": "https://nekos.best/api/v2/hug/54243578-3314-414e-9e49-6f3f15872041.gif"
     }
 ]
 ```
