@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_GaDPsBRe.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_IDYJyfGX.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/ci9.jpg
+https://cdn2.thecatapi.com/images/d78.jpg
 ```
 
 ### 4. Cohere
@@ -143,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/b8e062b5-a2c3-4880-b378-808c85011fbe.jpg
+https://random.dog/410b6af5-9d35-408b-8339-5b2bee994e5d.jpg
 ```
 
 ### 6. Github Search
@@ -235,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Hotarubi no Mori e",
-        "url": "https://nekos.best/api/v2/hug/01b8d0bb-827b-49ed-a538-c109ee5883e1.gif"
+        "anime_name": "Date a Live",
+        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
     }
 ]
 ```
