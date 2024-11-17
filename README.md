@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_3UXnjihW.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_GT7nDOgH.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/tv8tNeYaU.jpg
+https://cdn2.thecatapi.com/images/dts.jpg
 ```
 
 ### 4. Cohere
@@ -119,7 +119,7 @@ print(result)
 #### Expected Output
 
 ```text
-Request failed: 404, message='Not Found', url='https://itzpire.com/ai/cohere'
+Request failed: 400, message='Bad Request', url='https://itzpire.com/ai/cohere'
 ```
 
 ### 5. Dog
@@ -141,7 +141,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/211763a6-ed82-4351-9f11-c494592f8fa5.jpg
+https://random.dog/b9acfb03-5510-411f-aa46-9287ff4db44c.gif
 ```
 
 ### 6. Github Search
@@ -233,8 +233,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Nagi no Asukara",
-        "url": "https://nekos.best/api/v2/hug/f88c212e-b0dc-4a44-a6ef-8f9ab761d95d.gif"
+        "anime_name": "Shinmai Maou no Testament",
+        "url": "https://nekos.best/api/v2/hug/77ddc5f7-d8b8-44e9-9aee-a88532c4b051.gif"
     }
 ]
 ```
