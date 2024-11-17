@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_WGPpV3me.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_XXhcBvBB.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/aa8.jpg
+https://cdn2.thecatapi.com/images/Yx3nQTUHu.jpg
 ```
 
 ### 4. Cohere
@@ -143,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/0b410598-ebfa-4b08-b6da-52f7096740ab.jpg
+https://random.dog/07e51206-2967-4632-ad03-a7f12675bc55.jpg
 ```
 
 ### 6. Github Search
@@ -235,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Cuckoo no Iinazuke",
-        "url": "https://nekos.best/api/v2/hug/f45aad5e-e82f-4cac-b071-9b6f67752e0e.gif"
+        "anime_name": "Suisei no Gargantia",
+        "url": "https://nekos.best/api/v2/hug/40142a6f-83c4-450e-a477-ca7c89787623.gif"
     }
 ]
 ```
