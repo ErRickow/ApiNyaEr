@@ -18,6 +18,8 @@ class ErApi:
             "neko_hug": "https://nekos.best/api/v2/hug?amount={}",
             "doa_url": "https://itzpire.com/religion/islamic/doa",
             "ai_url": "https://itzpire.com/ai/cohere",
+            "cat": "https://api.thecatapi.com/v1/images/search",
+            "dog": "https://random.dog/woof.json",
         }
 
     async def _make_request(
