@@ -112,12 +112,12 @@ class ErApi:
             if respons.status == 200:
                 return None
             return respons.json()
-                output = respons["randydev"]["result"].get("message")
-                return output
-            else:
-                return f"Status API tidak berhasil: {respons.status}"
-        else:
-            return "Format respons tidak valid atau terjadi kesalahan."
+#                 output = respons["randydev"]["result"].get("message")
+#                 return output
+#             else:
+#                 return f"Status API tidak berhasil: {respons.status}"
+#         else:
+#             return "Format respons tidak valid atau terjadi kesalahan."
      
     async def ambil_doa(self, nama_doa: str) -> str:
         """
