@@ -166,11 +166,11 @@ class ErApi:
 
     async def github_search(self, query, search_type="repositories", max_results=3):
         """
-        Searches GitHub for various types of content.
+        Pencarian GitHub untuk beberapa tipe konten.
 
         Args:
-            query (str): The search query.
-            search_type (str, optional): The type of search. Can be one of:
+            query (str): query Pencarian.
+            search_type (str, optional): Type pencarian, terdiri dari:
                 - "repositories"
                 - "users"
                 - "organizations"
@@ -179,11 +179,12 @@ class ErApi:
                 - "commits"
                 - "topics"
 
-                Defaults to "repositories".
-            max_results (int, optional): The maximum number of results to return. Defaults to 3.
+                Defaults ke "repositories".
+            max_results (int, optional): Maximum nomor dari results untuk
+            return. Defaultnya 3.
 
         Returns:
-            list: A list of search results or an error message.
+            list: List dari pencarian results atau pesan error.
         """
         valid_search_types = [
             "repositories",
@@ -197,7 +198,7 @@ class ErApi:
 
         if search_type not in valid_search_types:
             return {
-                "error": f"Invalid search type. Valid types are: {valid_search_types}"
+                "error": f"Type pencarian salah guoblok. Tipe validnya kek gini: {valid_search_types}"
             }
 
         url_mapping = {
@@ -291,7 +292,7 @@ class ErApi:
             return result_list
 
         except requests.exceptions.RequestException as e:
-            return {"error": f"Request exception: {e}"}
+            return {"error": f"Requestnya Error: {e}"}
         except requests.exceptions.HTTPError as e:
             return {
                 "error": f"HTTP error: {e.response.status_code} - {e.response.text}"
@@ -303,35 +304,37 @@ class ErApi:
 
     async def cat(self):
         """
-        Fetches a random cat image URL.
+        Generate random gambar kucing.
 
         Returns:
-            str or None: The URL of a random cat image if available; None if no response is received.
+            str or None: Url random kucing ataupun None; None jika response
+            tidak di terima.
         """
         response = await self._make_request(self.base_urls["cat"])
         return response[0]["url"] if response else None
 
     async def dog(self):
         """
-        Fetches a random dog image URL.
+        Dapatkan random foto anjing.
 
         Returns:
-            str or None: The URL of a random dog image if available; None if no response is received.
+            str or None: Url Random anjing jika tersedia; None jika tidak ada
+            response yang di terima.
         """
         response = await self._make_request(self.base_urls["dog"])
         return response["url"] if response else None
 
     async def hug(self, amount: int = 1) -> list:
-        """Fetches a specified number hug gif from the Nekos.Best API.
+        """Dapatkan gif Random pelukan dari Nekos.Best API.
 
         Args:
-            amount (int): The number of neko images to fetch. Defaults to 1.
+            amount (int): Jumlah gambar nya, Defaultnya 1.
 
         Returns:
-            list: A list of dictionaries containing information about each fetched neko image or GIF.
-                  Each dictionary typically includes:
-                  - anime_name (str): The name of the anime.
-                  - url (str): The URL of the GIF.
+            list: List dari dictionaries tentang informasi neko image atau GIF.
+                  Type dictionaries:
+                  - anime_name (str): Nama anime.
+                  - url (str): Url gif nya.
         """
         response = await self._make_request(self.base_urls["neko_hug"].format(amount))
         return response["results"]
