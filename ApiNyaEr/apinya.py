@@ -20,6 +20,7 @@ class ErApi:
             "ai_url": "https://itzpire.com/ai/cohere",
             "cat": "https://api.thecatapi.com/v1/images/search",
             "dog": "https://random.dog/woof.json",
+            "randy": "https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old"
         }
 
     async def _make_request(
@@ -78,6 +79,29 @@ class ErApi:
         random_str = "".join(random.choices(string.ascii_letters + string.digits, k=8))
         return random_str
 
+    async def rendy_gpt(self, pertanyaan: str) -> str:
+        """
+        Mengambil respons dari API AI Randy berdasarkan pertanyaan yang diberikan.
+    
+        Args:
+            pertanyaan (str): Teks pertanyaan yang akan dikirim ke AI.
+    
+        Returns:
+            str: Respons yang dihasilkan oleh AI.
+        """
+        url = self.base_urls["randy"]
+        payload = {"query": pertanyaan}
+        respons = await self._make_request(url, method='POST', json=payload)
+    
+        if isinstance(respons, dict) and "randydev" in respons and "result" in respons["randydev"]:
+            if respons.status == 200:
+                output = respons["randydev"]["result"].get("pertanyaan")
+                return output
+            else:
+                return f"Status API tidak berhasil: {respons.status}"
+        else:
+            return "Format respons tidak valid atau terjadi kesalahan."
+     
     async def ambil_doa(self, nama_doa: str) -> str:
         """
         Mengambil data doa dari API ItzPire berdasarkan nama doa.
