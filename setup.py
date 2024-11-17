@@ -1,5 +1,7 @@
-from setuptools import find_packages, setup
 import os
+
+from setuptools import find_packages, setup
+
 
 def read_requirements():
     try:
@@ -9,9 +11,11 @@ def read_requirements():
     except FileNotFoundError:
         return []
 
+
 def read(fname, version=False):
     text = open(os.path.join(os.path.dirname(__file__), fname), encoding="utf8").read()
     return text
+
 
 setup(
     name="ApiNyaEr",
