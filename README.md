@@ -18,9 +18,9 @@ Below, we’ll cover each function, providing examples and expected results so y
 |--------------------|--------|
 | [1. Ambil Doa](#1-ambil-doa) | ✅
 | [2. Carbon](#2-carbon) | ✅
-| [3. Cat](#3-cat) | ❌
+| [3. Cat](#3-cat) | ✅
 | [4. Cohere](#4-cohere) | ✅
-| [5. Dog](#5-dog) | ❌
+| [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
 
@@ -72,16 +72,17 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_G7H2qbgS.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_th8KHLYb.png
 ```
 
 ### 3. Cat
 
 **Description**:
-Fetches a random cat image URL.
+Generate random gambar kucing.
 
 **Returns:**
-  - **str or None**: The URL of a random cat image if available; None if no response is received.
+  - **str or None**: Url random kucing ataupun None; None jika response
+    tidak di terima.
 
 ```python
 from ApiNyaEr import apinya
@@ -93,7 +94,7 @@ print(result)
 #### Expected Output
 
 ```text
-'cat'
+https://cdn2.thecatapi.com/images/1q7.jpg
 ```
 
 ### 4. Cohere
@@ -125,10 +126,11 @@ print(result)
 ### 5. Dog
 
 **Description**:
-Fetches a random dog image URL.
+Dapatkan random foto anjing.
 
 **Returns:**
-  - **str or None**: The URL of a random dog image if available; None if no response is received.
+  - **str or None**: Url Random anjing jika tersedia; None jika tidak ada
+    response yang di terima.
 
 ```python
 from ApiNyaEr import apinya
@@ -140,17 +142,17 @@ print(result)
 #### Expected Output
 
 ```text
-'dog'
+https://random.dog/ec18751d-0c52-4dc9-a338-42a30017cc21.jpg
 ```
 
 ### 6. Github Search
 
 **Description**:
-Searches GitHub for various types of content.
+Pencarian GitHub untuk beberapa tipe konten.
 
 **Args:**
-  - **query (str)**: The search query.
-  - **search_type (str, optional)**: The type of search. Can be one of:
+  - **query (str)**: query Pencarian.
+  - **search_type (str, optional)**: Type pencarian, terdiri dari:
     - "repositories"
     - "users"
     - "organizations"
@@ -160,10 +162,10 @@ Searches GitHub for various types of content.
     - "topics"
 
 **Description**:
-Defaults to "repositories". max_results (int, optional): The maximum number of results to return. Defaults to 3.
+Defaults ke "repositories". max_results (int, optional): Maximum nomor dari results untuk return. Defaultnya 3.
 
 **Returns:**
-  - **list**: A list of search results or an error message.
+  - **list**: List dari pencarian results atau pesan error.
 
 ```python
 from ApiNyaEr import apinya
@@ -209,16 +211,16 @@ print(result)
 ### 7. Hug
 
 **Description**:
-Fetches a specified number hug gif from the Nekos.Best API.
+Dapatkan gif Random pelukan dari Nekos.Best API.
 
 **Args:**
-  - **amount (int)**: The number of neko images to fetch. Defaults to 1.
+  - **amount (int)**: Jumlah gambar nya, Defaultnya 1.
 
 **Returns:**
-  - **list**: A list of dictionaries containing information about each fetched neko image or GIF.
-    Each dictionary typically includes:
-    - anime_name (str): The name of the anime.
-    - url (str): The URL of the GIF.
+  - **list**: List dari dictionaries tentang informasi neko image atau GIF.
+    Type dictionaries:
+    - anime_name (str): Nama anime.
+    - url (str): Url gif nya.
 
 ```python
 from ApiNyaEr import apinya
@@ -232,8 +234,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Aikatsu Stars",
-        "url": "https://nekos.best/api/v2/hug/54243578-3314-414e-9e49-6f3f15872041.gif"
+        "anime_name": "Yuru Yuri",
+        "url": "https://nekos.best/api/v2/hug/2363175c-4cda-414e-8929-a87f53fc1cc1.gif"
     }
 ]
 ```
