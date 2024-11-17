@@ -24,7 +24,6 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
 | [8. Kapan Libur](#8-kapan-libur) | ❌
-| [9. Rendy Gpt](#9-rendy-gpt) | ❌
 
 
 ## 🎓 How to Use Each Function
@@ -74,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_fSkSqmxq.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_tG8LwiyK.png
 ```
 
 ### 3. Cat
@@ -96,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/J2qM5HR5K.jpg
+https://cdn2.thecatapi.com/images/18a.gif
 ```
 
 ### 4. Cohere
@@ -119,10 +118,12 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "error": "Request failed with status code 429"
-}
+```text
+Tidur is an Indonesian word that means "to sleep". It can also be used to refer to a state of reduced consciousness, or to lie down.
+
+I found a few other uses of the word Tidur:
+- Tidur is the name of a weighted blanket company based in Malaysia.
+- Tidur is the name of a multiple timer app available on the App Store.
 ```
 
 ### 5. Dog
@@ -144,7 +145,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/2b9be14d-f084-4cbc-a266-35cc02ff62e9.gif
+https://random.dog/affbb84a-f293-4bac-a9fb-dcf2f3dd3f0d.jpg
 ```
 
 ### 6. Github Search
@@ -236,8 +237,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Noragami OAD",
-        "url": "https://nekos.best/api/v2/hug/c08992e3-ec9c-4cf4-88d0-6ca921d3ef64.gif"
+        "anime_name": "Date a Live",
+        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
     }
 ]
 ```
@@ -260,31 +261,7 @@ print(result)
 #### Expected Output
 
 ```text
-'dict' object has no attribute 'status'
-```
-
-### 9. Rendy Gpt
-
-**Description**:
-Mengambil respons dari API AI Randy berdasarkan pertanyaan yang diberikan.
-
-**Args:**
-  - **pertanyaan (str)**: Teks pertanyaan yang akan dikirim ke AI.
-
-**Returns:**
-  - **str**: Respons yang dihasilkan oleh AI.
-
-```python
-from ApiNyaEr import apinya
-
-result = await apinya.rendy_gpt(pertanyaan='Tidur')
-print(result)
-```
-
-#### Expected Output
-
-```text
-Request failed: 405, message='Method Not Allowed', url='https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old?query=Tidur'
+name 'request' is not defined
 ```
 
 
