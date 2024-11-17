@@ -19,7 +19,7 @@ def read(fname, version=False):
 
 setup(
     name="ApiNyaEr",
-    version="1.1",
+    version="1.2",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author="Er",
