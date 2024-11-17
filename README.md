@@ -19,7 +19,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [1. Ambil Doa](#1-ambil-doa) | ✅
 | [2. Carbon](#2-carbon) | ✅
 | [3. Cat](#3-cat) | ✅
-| [4. Cohere](#4-cohere) | ❌
+| [4. Cohere](#4-cohere) | ✅
 | [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_GT7nDOgH.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_wIeek5n0.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/dts.jpg
+https://cdn2.thecatapi.com/images/MTkwNzQzOQ.gif
 ```
 
 ### 4. Cohere
@@ -118,8 +118,10 @@ print(result)
 
 #### Expected Output
 
-```text
-Request failed: 400, message='Bad Request', url='https://itzpire.com/ai/cohere'
+```json
+{
+    "error": "Request failed with status code 429"
+}
 ```
 
 ### 5. Dog
@@ -141,7 +143,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/b9acfb03-5510-411f-aa46-9287ff4db44c.gif
+https://random.dog/72ed6030-63d1-421b-9091-7ce2c5deb2f5.webm
 ```
 
 ### 6. Github Search
@@ -233,8 +235,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Shinmai Maou no Testament",
-        "url": "https://nekos.best/api/v2/hug/77ddc5f7-d8b8-44e9-9aee-a88532c4b051.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
     }
 ]
 ```
