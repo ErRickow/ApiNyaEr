@@ -10,7 +10,6 @@ import requests
 
 from .fungsi import FilePath
 
-
 class ErApi:
     def __init__(self):
         self.base_urls = {
@@ -70,6 +69,28 @@ class ErApi:
             except aiohttp.ClientError as e:
                 raise ValueError(f"Request failed: {str(e)}")
 
+    @staticmethod 
+    def password(num: int = 12) -> str:
+        """
+        This function generates a random password by combining uppercase letters, lowercase letters, punctuation marks, and digits.
+
+        Parameters:
+        - num (int): The length of the generated password. Default is 12 if not specified.
+
+        Returns:
+        - str: A randomly generated password consisting of characters from string.ascii_letters, string.punctuation, and string.digits.
+
+        Example usage:
+        >>> from MukeshAPI import api
+        >>> api.password()
+        'r$6Ag~P{32F+'
+        >>> api.password(10)
+        'ZnK"9|?v3a'
+        """
+        characters = string.ascii_letters + string.punctuation + string.digits
+        password = "".join(random.sample(characters, num))
+        return password
+  
     def _rnd_str(self):
         """
         Generates a random string of 8 alphanumeric characters.
