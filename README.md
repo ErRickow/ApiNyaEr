@@ -16,14 +16,15 @@ Below, we’ll cover each function, providing examples and expected results so y
 
 | Function           | Status |
 |--------------------|--------|
-| [1. Ambil Doa](#1-ambil-doa) | ✅
+| [1. Ambil Doa](#1-ambil-doa) | ❌
 | [2. Carbon](#2-carbon) | ✅
 | [3. Cat](#3-cat) | ✅
-| [4. Cohere](#4-cohere) | ✅
+| [4. Cohere](#4-cohere) | ❌
 | [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
-| [8. Kapan Libur](#8-kapan-libur) | ✅
+| [8. Kapan Libur](#8-kapan-libur) | ❌
+| [9. Password](#9-password) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -49,10 +50,7 @@ print(result)
 #### Expected Output
 
 ```text
-Doa sebelum tidur
-Ayat: بِسْمِكَ االلّٰهُمَّ اَحْيَا وَبِاسْمِكَ اَمُوْتُ
-Latin: Bismikallaahumma ahyaa wa ammuut
-Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
+Request failed: 522, message='', url='https://itzpire.com/religion/islamic/doa?doaName=Tidur'
 ```
 
 ### 2. Carbon
@@ -73,7 +71,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_nt83g89x.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ZbOnFuqS.png
 ```
 
 ### 3. Cat
@@ -95,7 +93,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/cp8.png
+https://cdn2.thecatapi.com/images/27v.jpg
 ```
 
 ### 4. Cohere
@@ -119,11 +117,7 @@ print(result)
 #### Expected Output
 
 ```text
-Tidur is an Indonesian word that means to sleep or to lie or sit quietly in order to get new strength or energy, or because one is tired. It can also be used as an euphemism for having sexual intercourse.
-
-Tidur is also the name of a weighted blanket collection that helps promote relaxation and reduce anxiety.
-
-Tidur is also the name of a multiple timer app.
+Request failed: 522, message='', url='https://itzpire.com/ai/cohere?q=Tidur'
 ```
 
 ### 5. Dog
@@ -145,7 +139,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/b8acf898-dc54-4ff3-973b-a0e00e567b8c.jpg
+https://random.dog/6c32c078-794b-4b95-bbc4-1f272c69486f.jpg
 ```
 
 ### 6. Github Search
@@ -237,8 +231,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Nakitai Watashi wa Neko o Kaburu",
-        "url": "https://nekos.best/api/v2/hug/6298d90b-5f62-4007-80e5-436646e7b1f7.gif"
+        "anime_name": "Kobayashi-san Chi no Maid Dragon",
+        "url": "https://nekos.best/api/v2/hug/be9cad94-ad16-47be-ad78-7c8e278d2917.gif"
     }
 ]
 ```
@@ -261,7 +255,35 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (37 hari lagi)
+Expecting value: line 1 column 1 (char 0)
+```
+
+### 9. Password
+
+**Description**:
+This function generates a random password by combining uppercase letters, lowercase letters, punctuation marks, and digits.
+
+**Description**:
+Parameters: - num (int): The length of the generated password. Default is 12 if not specified.
+
+**Returns:**
+**Description**:
+- str: A randomly generated password consisting of characters from string.ascii_letters, string.punctuation, and string.digits.
+
+**Description**:
+Example usage: >>> from MukeshAPI import api >>> api.password() 'r$6Ag~P{32F+' >>> api.password(10) 'ZnK"9|?v3a'
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.password(num=12)
+print(result)
+```
+
+#### Expected Output
+
+```text
+M)RJ!~A[-_Sr
 ```
 
 
