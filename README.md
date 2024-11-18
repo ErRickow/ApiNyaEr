@@ -73,7 +73,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_IDYJyfGX.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_nt83g89x.png
 ```
 
 ### 3. Cat
@@ -95,7 +95,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/d78.jpg
+https://cdn2.thecatapi.com/images/cp8.png
 ```
 
 ### 4. Cohere
@@ -118,10 +118,12 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "error": "Request failed with status code 429"
-}
+```text
+Tidur is an Indonesian word that means to sleep or to lie or sit quietly in order to get new strength or energy, or because one is tired. It can also be used as an euphemism for having sexual intercourse.
+
+Tidur is also the name of a weighted blanket collection that helps promote relaxation and reduce anxiety.
+
+Tidur is also the name of a multiple timer app.
 ```
 
 ### 5. Dog
@@ -143,7 +145,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/410b6af5-9d35-408b-8339-5b2bee994e5d.jpg
+https://random.dog/b8acf898-dc54-4ff3-973b-a0e00e567b8c.jpg
 ```
 
 ### 6. Github Search
@@ -235,8 +237,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Date a Live",
-        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
+        "anime_name": "Nakitai Watashi wa Neko o Kaburu",
+        "url": "https://nekos.best/api/v2/hug/6298d90b-5f62-4007-80e5-436646e7b1f7.gif"
     }
 ]
 ```
@@ -259,7 +261,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (38 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (37 hari lagi)
 ```
 
 
