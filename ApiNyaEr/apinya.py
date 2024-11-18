@@ -10,6 +10,7 @@ import requests
 
 from .fungsi import FilePath
 
+
 class ErApi:
     def __init__(self):
         self.base_urls = {
@@ -69,7 +70,7 @@ class ErApi:
             except aiohttp.ClientError as e:
                 raise ValueError(f"Request failed: {str(e)}")
 
-    @staticmethod 
+    @staticmethod
     def password(num: int = 12) -> str:
         """
         This function generates a random password by combining uppercase letters, lowercase letters, punctuation marks, and digits.
@@ -90,7 +91,7 @@ class ErApi:
         characters = string.ascii_letters + string.punctuation + string.digits
         password = "".join(random.sample(characters, num))
         return password
-  
+
     def _rnd_str(self):
         """
         Generates a random string of 8 alphanumeric characters.
