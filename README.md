@@ -17,16 +17,17 @@ Below, we’ll cover each function, providing examples and expected results so y
 | Function           | Status |
 |--------------------|--------|
 | [1. Ambil Doa](#1-ambil-doa) | ✅
-| [2. Carbon](#2-carbon) | ✅
-| [3. Cat](#3-cat) | ✅
-| [4. Cohere](#4-cohere) | ✅
-| [5. Dare](#5-dare) | ✅
-| [6. Dog](#6-dog) | ✅
-| [7. Github Search](#7-github-search) | ✅
-| [8. Hug](#8-hug) | ✅
-| [9. Kapan Libur](#9-kapan-libur) | ✅
-| [10. Password](#10-password) | ✅
-| [11. Truth](#11-truth) | ✅
+| [2. Blackbox](#2-blackbox) | ❌
+| [3. Carbon](#3-carbon) | ✅
+| [4. Cat](#4-cat) | ✅
+| [5. Cohere](#5-cohere) | ✅
+| [6. Dare](#6-dare) | ✅
+| [7. Dog](#7-dog) | ✅
+| [8. Github Search](#8-github-search) | ✅
+| [9. Hug](#9-hug) | ✅
+| [10. Kapan Libur](#10-kapan-libur) | ✅
+| [11. Password](#11-password) | ✅
+| [12. Truth](#12-truth) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -58,7 +59,31 @@ Latin: Bismikallaahumma ahyaa wa ammuut
 Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
 ```
 
-### 2. Carbon
+### 2. Blackbox
+
+**Description**:
+Interact with the Blackbox AI API for generating content. 🧠
+
+**Args:**
+  - **args (str)**: The input text to interact with the Blackbox AI chat API.
+
+**Returns:**
+  - **requests.Response**: The response object from the API request.
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.blackbox(args='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+name 'urllib' is not defined
+```
+
+### 3. Carbon
 
 **Args:**
   - **query (str)**: Potongan kode yang akan dirender sebagai gambar.
@@ -76,10 +101,10 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_1LCN25pa.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_o8oihSu1.png
 ```
 
-### 3. Cat
+### 4. Cat
 
 **Description**:
 Generate random gambar kucing.
@@ -98,10 +123,10 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/2fg.jpg
+https://cdn2.thecatapi.com/images/MTkyMjg3MQ.jpg
 ```
 
-### 4. Cohere
+### 5. Cohere
 
 **Description**:
 Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan menggunakan metode POST.
@@ -127,7 +152,7 @@ print(result)
 }
 ```
 
-### 5. Dare
+### 6. Dare
 
 **Description**:
 Dapatkan Kata kata dare
@@ -145,10 +170,10 @@ print(result)
 #### Expected Output
 
 ```text
-Pilih orang secara acak di jalan, lalu bilang 'You don't know you're beautiful' (ala One Direction)
+Minta tandatangan pada seorang guru yang paling kamu benci sambil bilang 'Anda benar-benar orang yang paling saya kagumi di dunia.'
 ```
 
-### 6. Dog
+### 7. Dog
 
 **Description**:
 Dapatkan random foto anjing.
@@ -167,10 +192,10 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/c51308bb-bbff-4db2-98e7-a3711eafb598.jpg
+https://random.dog/ba7d232f-e40c-40bb-a26b-3f0b5cd0e68a.jpg
 ```
 
-### 7. Github Search
+### 8. Github Search
 
 **Description**:
 Pencarian GitHub untuk beberapa tipe konten.
@@ -233,7 +258,7 @@ print(result)
 ]
 ```
 
-### 8. Hug
+### 9. Hug
 
 **Description**:
 Dapatkan gif Random pelukan dari Nekos.Best API.
@@ -259,13 +284,13 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Little Witch Academia",
-        "url": "https://nekos.best/api/v2/hug/a3dfcc78-0c9b-4c74-ac1b-b259470a06e9.gif"
+        "anime_name": "Date a Live",
+        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
     }
 ]
 ```
 
-### 9. Kapan Libur
+### 10. Kapan Libur
 
 **Description**:
 Dapatkan informasi Hari libur kedepan.
@@ -286,7 +311,7 @@ print(result)
 Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (35 hari lagi)
 ```
 
-### 10. Password
+### 11. Password
 
 **Description**:
 This function generates a random password by combining uppercase letters, lowercase letters, punctuation marks, and digits.
@@ -296,7 +321,7 @@ Parameters: - num (int): The length of the generated password. Default is 12 if 
 
 **Returns:**
 **Description**:
-- str: A randomly generated password consisting of characters from string.ascii_letters, string.punctuation, and string.digits.
+- str: A randomly generated password consisting of characters from string.ascii_letters, string.punctuation, and string.digits.'
 
 ```python
 from ApiNyaEr import apinya
@@ -308,10 +333,10 @@ print(result)
 #### Expected Output
 
 ```text
-['w^qD}J1l$|
+&v^N$<8eJZ_T
 ```
 
-### 11. Truth
+### 12. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -329,7 +354,7 @@ print(result)
 #### Expected Output
 
 ```text
-Jika kamu lahir kembali dan harus jadi salah satu dari temanmu, siapa yang akan kamu pilih untuk jadi dia?
+Orang seperti apa yang ingin kamu nikahi suatu saat nanti?
 ```
 
 
