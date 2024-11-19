@@ -74,7 +74,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_RhJZitw1.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_H4KQkwPq.png
 ```
 
 ### 3. Cat
@@ -96,7 +96,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/5mc.jpg
+https://cdn2.thecatapi.com/images/cc8.jpg
 ```
 
 ### 4. Cohere
@@ -144,7 +144,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/37d8a447-7ea0-4113-bcd6-3c123c55d648.gif
+https://random.dog/1e8d7674-2889-498a-828d-161fd7ff372a.jpg
 ```
 
 ### 6. Github Search
@@ -236,8 +236,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Sword Art Online",
-        "url": "https://nekos.best/api/v2/hug/f33d03b0-fb25-4592-b48c-4de029596488.gif"
+        "anime_name": "Kaijin Kaihatsubu no Kuroitsu-san",
+        "url": "https://nekos.best/api/v2/hug/4151b575-c780-4dd4-ab7c-eaa25bfe5200.gif"
     }
 ]
 ```
@@ -288,7 +288,7 @@ print(result)
 #### Expected Output
 
 ```text
-ygJ[@#/{hvVo
+]r=pw3VZ`C.k
 ```
 
 
