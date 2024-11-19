@@ -75,7 +75,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_5b06jU24.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_cb0DWOSK.png
 ```
 
 ### 3. Cat
@@ -97,7 +97,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTY3NjQ1Mw.jpg
+https://cdn2.thecatapi.com/images/0THCGrAZj.jpg
 ```
 
 ### 4. Cohere
@@ -145,7 +145,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/2ae2870c-8827-41dd-b732-fc695f6f1e3e.jpg
+https://random.dog/d91e1807-d666-485a-8a9b-d78c431cf2bf.png
 ```
 
 ### 6. Github Search
@@ -237,8 +237,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Yuru Yuri",
-        "url": "https://nekos.best/api/v2/hug/2363175c-4cda-414e-8929-a87f53fc1cc1.gif"
+        "anime_name": "Umibe no Etranger",
+        "url": "https://nekos.best/api/v2/hug/4619bde0-9f22-4010-a58a-d6a4cb8d12a4.gif"
     }
 ]
 ```
@@ -261,7 +261,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (36 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (35 hari lagi)
 ```
 
 ### 9. Password
@@ -289,7 +289,7 @@ print(result)
 #### Expected Output
 
 ```text
-hQL_|lT}Fme*
+JE?0mf~(Z#2y
 ```
 
 ### 10. Truth
@@ -307,7 +307,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa nama orang yang kamu benci, tapi kamu rasa orang itu suka sama kamu (nggak harus beda gender)?
+o
 ```
 
 
