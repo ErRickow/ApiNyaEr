@@ -1,5 +1,6 @@
 from base64 import b64decode as eranjeng
 
+
 def truth():
     try:
         huh = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL25heWExNTAzL3dhcm5pbmcvbWFpbi9kZXZzLmpzb24="
