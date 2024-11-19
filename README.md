@@ -105,7 +105,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_z0JEp0ta.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_xoKxmeyR.png
 ```
 
 ### 4. Cat
@@ -127,7 +127,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTg3NzE0Mw.jpg
+https://cdn2.thecatapi.com/images/hs.jpg
 ```
 
 ### 5. Cohere
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-Peluk orang yang NGGAK kamu sukai di kelas dan bilang, 'Terimakasih banyak kamu sudah bersedia menjadi orang paling baik untukku.'
+Buang buku catatan seseorang ke tempat sampah, di depan matanya, sambil bilang 'Buku ini isinya tidak ada yang bisa memahami'
 ```
 
 ### 7. Dog
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/165a3967-976c-4304-81d5-5a76f4e9b8d2.jpg
+https://random.dog/35d568e6-b84f-4faf-aaaf-a20dd19b32fe.mp4
 ```
 
 ### 8. Github Search
@@ -288,8 +288,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "To Love-Ru: Trouble",
-        "url": "https://nekos.best/api/v2/hug/2c898eb2-71a0-4cf2-a79c-176510764d80.gif"
+        "anime_name": "Elfen Lied",
+        "url": "https://nekos.best/api/v2/hug/09a0b73f-4a7d-49f2-a528-0b1c408d6c5e.gif"
     }
 ]
 ```
@@ -337,7 +337,7 @@ print(result)
 #### Expected Output
 
 ```text
-]j"eo#RLG=W2
+J8g<myGs."OX
 ```
 
 ### 12. Truth
@@ -358,7 +358,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa mimpi terkonyol yang pernah kamu inget?
+Siapa orang yg paling menjengkelkan di antara teman teman mu ? alasannya!
 ```
 
 
