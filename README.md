@@ -106,7 +106,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_mnTdxmjz.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Zfk638ML.png
 ```
 
 ### 4. Cat
@@ -128,7 +128,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTUwMzI3Mg.jpg
+https://cdn2.thecatapi.com/images/16g.jpg
 ```
 
 ### 5. Chatgpt
@@ -203,7 +203,7 @@ print(result)
 #### Expected Output
 
 ```text
-Menyanyikan lagu HAI TAYO di depan banyak orang sambil menari
+Mengerek tiang bendera tanpa ada benderanya.
 ```
 
 ### 8. Dog
@@ -225,7 +225,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/4e2fa1cf-245e-4d0b-8b80-acbc1f724e29.mp4
+https://random.dog/y3u28nj.mp4
 ```
 
 ### 9. Github Search
@@ -317,8 +317,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Assassin's Pride",
-        "url": "https://nekos.best/api/v2/hug/128079f7-88dd-42c7-a2a4-e0bd2cdb5dce.gif"
+        "anime_name": "Kaijin Kaihatsubu no Kuroitsu-san",
+        "url": "https://nekos.best/api/v2/hug/4151b575-c780-4dd4-ab7c-eaa25bfe5200.gif"
     }
 ]
 ```
@@ -366,7 +366,7 @@ print(result)
 #### Expected Output
 
 ```text
-"ln[@/C^$?]J
+gtJ#jY1qmasz
 ```
 
 ### 13. Truth
@@ -387,7 +387,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa nama orang yang kamu benci, tapi kamu rasa orang itu suka sama kamu (nggak harus beda gender)?
+Siapa yang paling mendekati tipe pasangan idealmu di sini
 ```
 
 
