@@ -75,7 +75,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_6kLk2sEw.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_nZniDgmk.png
 ```
 
 ### 3. Cat
@@ -97,7 +97,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/bpZGfNLW1.png
+https://cdn2.thecatapi.com/images/8d9.jpg
 ```
 
 ### 4. Cohere
@@ -145,7 +145,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/20e0908d-287f-4448-a805-c88415b9f93e.mp4
+https://random.dog/749579d7-90a6-4214-a360-9fe7ab1d02b3.jpg
 ```
 
 ### 6. Github Search
@@ -237,8 +237,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Sora no Method",
-        "url": "https://nekos.best/api/v2/hug/53acd7c7-b1f8-4717-baa0-734753ac7c79.gif"
+        "anime_name": "Idolish Seven: Third Beat!",
+        "url": "https://nekos.best/api/v2/hug/bfe6226c-f254-4c9c-ae10-a587233e381b.gif"
     }
 ]
 ```
@@ -289,7 +289,7 @@ print(result)
 #### Expected Output
 
 ```text
-|Bi`j:<0Nsq{
+E:eGIB|xZ1Jm
 ```
 
 ### 10. Truth
@@ -307,7 +307,7 @@ print(result)
 #### Expected Output
 
 ```text
-e
+Apa ketakutan terbesar kamu?
 ```
 
 
