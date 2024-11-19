@@ -1,5 +1,7 @@
 from base64 import b64decode as eranjeng
+
 import requests
+
 
 def truth():
     try:
@@ -11,5 +13,6 @@ def truth():
     except Exception as e:
         return f"An error occurred: {str(e)}"
         sys.exit(1)
-        
+
+
 TRUTH = truth()
