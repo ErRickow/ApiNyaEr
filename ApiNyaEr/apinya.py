@@ -4,7 +4,7 @@ import string
 from os.path import realpath
 from typing import Union
 from base64 import b64decode as apainier
-from urllib
+import urllib
 
 import aiofiles
 import aiohttp
