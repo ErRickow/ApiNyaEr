@@ -16,14 +16,14 @@ Below, we’ll cover each function, providing examples and expected results so y
 
 | Function           | Status |
 |--------------------|--------|
-| [1. Ambil Doa](#1-ambil-doa) | ❌
+| [1. Ambil Doa](#1-ambil-doa) | ✅
 | [2. Carbon](#2-carbon) | ✅
 | [3. Cat](#3-cat) | ✅
-| [4. Cohere](#4-cohere) | ❌
+| [4. Cohere](#4-cohere) | ✅
 | [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
 | [7. Hug](#7-hug) | ✅
-| [8. Kapan Libur](#8-kapan-libur) | ❌
+| [8. Kapan Libur](#8-kapan-libur) | ✅
 | [9. Password](#9-password) | ✅
 
 
@@ -50,7 +50,10 @@ print(result)
 #### Expected Output
 
 ```text
-Request failed: 522, message='', url='https://itzpire.com/religion/islamic/doa?doaName=Tidur'
+Doa sebelum tidur
+Ayat: بِسْمِكَ االلّٰهُمَّ اَحْيَا وَبِاسْمِكَ اَمُوْتُ
+Latin: Bismikallaahumma ahyaa wa ammuut
+Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
 ```
 
 ### 2. Carbon
@@ -71,7 +74,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ZbOnFuqS.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_TUbYkt21.png
 ```
 
 ### 3. Cat
@@ -93,7 +96,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/27v.jpg
+https://cdn2.thecatapi.com/images/3si.jpg
 ```
 
 ### 4. Cohere
@@ -116,8 +119,10 @@ print(result)
 
 #### Expected Output
 
-```text
-Request failed: 522, message='', url='https://itzpire.com/ai/cohere?q=Tidur'
+```json
+{
+    "error": "Request failed with status code 429"
+}
 ```
 
 ### 5. Dog
@@ -139,7 +144,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/6c32c078-794b-4b95-bbc4-1f272c69486f.jpg
+https://random.dog/dd7513ef-2032-4c0e-bb4e-f076115bc9bf.jpg
 ```
 
 ### 6. Github Search
@@ -231,8 +236,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kobayashi-san Chi no Maid Dragon",
-        "url": "https://nekos.best/api/v2/hug/be9cad94-ad16-47be-ad78-7c8e278d2917.gif"
+        "anime_name": "Original (???)",
+        "url": "https://nekos.best/api/v2/hug/e93c3408-fa92-43ea-a6ff-106a5d88de85.gif"
     }
 ]
 ```
@@ -255,7 +260,7 @@ print(result)
 #### Expected Output
 
 ```text
-Expecting value: line 1 column 1 (char 0)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (36 hari lagi)
 ```
 
 ### 9. Password
@@ -283,7 +288,7 @@ print(result)
 #### Expected Output
 
 ```text
-M)RJ!~A[-_Sr
+GK(B-3X&<2hx
 ```
 
 
