@@ -1,69 +1,67 @@
-TRUTH = [
-    "Acara tv apa yang paling memuakkan? Berikan alasannya!",
-    "Apa baju yang (menurutmu) paling jelek yang pernah kamu pakai, dan kapan kamu memakainya?",
-    "Apa binatang patronus yang cocok untuk kamu?",
-    "Apa hal paling buruk yang pernah kamu bilang tentang temenmu?",
-    "Apa hal paling memalukan dari dirimu?",
-    "Apa hal paling memalukan dari temanmu?",
-    "Apa hal pertama yang kamu lihat saat kamu melihat orang lain (beda gender)?",
-    "Apa hal pertama yang terlintas di pikiranmu saat kamu melihat cermin?",
-    "Apa hal terbodoh yang pernah kamu lakukan?",
-    "Apa hal terbodoh yg pernah kamu lakukan ?",
-    "Apa ketakutan terbesar kamu?",
-    "Apa mimpi terburukmu?",
-    "Apa mimpi terkonyol yang pernah kamu inget?",
-    "Apa pekerjaan paling konyol yang pernah kamu bayangin kamu akan jadi?",
-    "Apa sifat terburukmu menurut kamu?",
-    "Apa sifat yang ingin kamu rubah dari dirimu?",
-    "Apa sifat yang ingin kamu rubah dari temanmu?",
-    "Apa yang akan kamu lakuin bila pacarmu bilang hidung atau jarimu jelek?",
-    "Apa yg kamu fikirkan sebelum kamu tidur ? ex: menghayal tentang jodoh,dll.",
-    "Apakah hal yang menurutmu paling menonjol dari dirimu?",
-    "Bagian tubuh temanmu mana yang paling kamu sukai dan ingin kamu punya?",
-    "Bagian tubuhmu mana yang paling kamu benci?",
-    "Dari semua kelas yang ada di sekolah, kelas mana yang paling ingin kamu masuki dan kelas mana yang paling ingin kamu hindari?",
-    "Deksripsikan teman terdekat mu!",
-    "Deskripsikan dirimu dalam satu kata!",
-    "Film dan lagu apa yang pernah bikin kamu nangis?",
-    "Hal apa yang kamu rahasiakan sampe, sekarang dan gak ada satu orangpun yang tau?",
-    "Hal paling romantis apa yang seseorang (beda gender) pernah lakuin atau kasih ke kamu?",
-    "Hal-hal menjijikan apa yang pernah kamu alami ?",
-    "Jika kamu lahir kembali dan harus jadi salah satu dari temanmu, siapa yang akan kamu pilih untuk jadi dia?",
-    "Jika punya kekuatan super/ super power ingin melakukan apa",
-    "Jika sebentar lagi kiamat, apa yg kamu lakukan ?",
-    "Kalo kamu disuruh operasi plastik dengan contoh wajah dari teman sekelasmu, wajah siapa yang akan kamu tiru?",
-    "Kamu pernah mencuri sesuatu gak?",
-    "Kamu takut mati? kenapa?",
-    "Kapan terakhir kali menangis dan mengapa?",
-    "kemampuan spesial kamu apa?",
-    "Kok bisa suka sama orang yang kamu sukai?",
-    "Menurutmu, apa sifat baik teman terdekatmu yang nggak dia sadari?",
-    "Orang seperti apa yang ingin kamu nikahi suatu saat nanti?",
-    "Pekerjaan paling ngenes apa yang menurutmu cocok untuk teman di sebelah kananmu?",
-    "Pengen tukeran hidup sehari dengan siapa? (teman terdekat yang kalian sama-sama tahu) dan mengapa",
-    "Pernahkah kamu diam-diam berharap hubungan seseorang dengan pacarnya putus? Siapa?",
-    "Pilih PACAR atau TEMAN ? berikan alasannya !",
-    "Quote apa yang paling kamu ingat dan kamu suka?",
-    "Rahasia apa yg belum pernah kamu katakan sampai sekarang kepada teman mu ?",
-    "Rolemodel (panutan) kamu siapa?",
-    "Siapa di antara temanmu yang kamu pikir matre?",
-    "Siapa di antara teman-temanmu yang menurutmu potongan rambutnya paling ngenes (paling nggak banget)?",
-    "Siapa diantara temen-temenmu yang paling NGGAK fotogenik dan kalo difoto lagi ketawa mukanya kaya kuda?",
-    "Siapa mantan terindah mu? dan mengapa kalian putus ?!",
-    "Siapa nama artis yang pernah kamu cium fotonya diam-diam?",
-    "Siapa nama guru cowok yang pernah kamu sukai dulu?",
-    "Siapa nama mantan pacar teman mu yang pernah kamu sukai diam diam?",
-    "Siapa nama orang (beda gender) yang menurutmu akan asyik bila dijadikan pacar?",
-    "Siapa nama orang yang kamu benci, tapi kamu rasa orang itu suka sama kamu (nggak harus beda gender)?",
-    "Siapa nama orang yang pernah kamu ikutin diam-diam?",
-    "Siapa orang (lawan jenis) yang paling sering terlintas di pikiranmu?",
-    "Siapa orang yg paling menjengkelkan di antara teman teman mu ? alasannya!",
-    "Siapa sebenernya di antara teman-temanmu yang kamu pikir harus di make-over?",
-    "Siapa yang paling mendekati tipe pasangan idealmu di sini",
-]
+from base64 import b64decode as er
+
+TRUTH = er[
+ICAgICJBY2FyYSB0diBhcGEgeWFuZyBwYWxpbmcgbWVtdWFra2FuPyBCZXJpa2FuIGFsYXNhbm55YSEiLCA
+ICAgICJBcGEgYmFqdSB5YW5nIChtZW51cnV0bXUpIHBhbGluZyBqZWxlayB5YW5nIHBlcm5haCBrYW11IHBha2FpLCBkYW4ga2FwYW4ga2FtdSBtZW1ha2FpbnlhPyIs
+ICAgICJBcGEgYmluYXRhbmcgcGF0cm9udXMgeWFuZyBjb2NvayB1bnR1ayBrYW11PyIsICJBcGEgaGFsIHBhbGluZyBidXJ1ayB5YW5nIHBlcm5haCBrYW11IGJpbGFuZyB0ZW50YW5nIHRlbWVubXU_Iiw
+ICAgICJBcGEgaGFsIHBhbGluZyBtZW1hbHVrYW4gZGFyaSBkaXJpbXU_Iiw
+ICAgICJBcGEgaGFsIHBhbGluZyBtZW1hbHVrYW4gZGFyaSB0ZW1hbm11PyIsIA
+ICAgICJBcGEgaGFsIHBlcnRhbWEgeWFuZyBrYW11IGxpaGF0IHNhYXQga2FtdSBtZWxpaGF0IG9yYW5nIGxhaW4gKGJlZGEgZ2VuZGVyKT8iLA
+ICAgICJBcGEgaGFsIHBlcnRhbWEgeWFuZyB0ZXJsaW50YXMgZGkgcGlraXJhbm11IHNhYXQga2FtdSBtZWxpaGF0IGNlcm1pbj8iLA
+ICAgICJBcGEgaGFsIHRlcmJvZG9oIHlhbmcgcGVybmFoIGthbXUgbGFrdWthbj8iLCAiQXBhIGhhbCB0ZXJib2RvaCB5ZyBwZXJuYWgga2FtdSBsYWt1a2FuID8iLA
+ICAgICJBcGEga2V0YWt1dGFuIHRlcmJlc2FyIGthbXU_Iiw
+ICAgICJBcGEgbWltcGkgdGVyYnVydWttdT8iLCAiQXBhIG1pbXBpIHRlcmtvbnlvbCB5YW5nIHBlcm5haCBrYW11IGluZ2V0PyIs
+ICAgICJBcGEgcGVrZXJqYWFuIHBhbGluZyBrb255b2wgeWFuZyBwZXJuYWgga2FtdSBiYXlhbmdpbiBrYW11IGFrYW4gamFkaT8iLA
+ICAgICJBcGEgc2lmYXQgdGVyYnVydWttdSBtZW51cnV0IGthbXU_Iiw
+ICAgICJBcGEgc2lmYXQgeWFuZyBpbmdpbiBrYW11IHJ1YmFoIGRhcmkgZGlyaW11PyIs
+ICAgICJBcGEgc2lmYXQgeWFuZyBpbmdpbiBrYW11IHJ1YmFoIGRhcmkgdGVtYW5tdT8iLA
+ICAgICJBcGEgeWFuZyBha2FuIGthbXUgbGFrdWluIGJpbGEgcGFjYXJtdSBiaWxhbmcgaGlkdW5nIGF0YXUgamFyaW11IGplbGVrPyIs
+ICAgICJBcGEgeWcga2FtdSBmaWtpcmthbiBzZWJlbHVtIGthbXUgdGlkdXIgPyBleDogbWVuZ2hheWFsIHRlbnRhbmcgam9kb2gsZGxsLiIs
+ICAgICJBcGFrYWggaGFsIHlhbmcgbWVudXJ1dG11IHBhbGluZyBtZW5vbmpvbCBkYXJpIGRpcmltdT8iLA
+ICAgICJCYWdpYW4gdHVidWggdGVtYW5tdSBtYW5hIHlhbmcgcGFsaW5nIGthbXUgc3VrYWkgZGFuIGluZ2luIGthbXUgcHVueWE_Iiw
+ICAgICJCYWdpYW4gdHVidWhtdSBtYW5hIHlhbmcgcGFsaW5nIGthbXUgYmVuY2k_Iiwg
+ICAgICJEYXJpIHNlbXVhIGtlbGFzIHlhbmcgYWRhIGRpIHNla29sYWgsIGtlbGFzIG1hbmEgeWFuZyBwYWxpbmcgaW5naW4ga2FtdSBtYXN1a2kgZGFuIGtlbGFzIG1hbmEgeWFuZyBwYWxpbmcgaW5naW4ga2FtdSBoaW5kYXJpPyIs
+ICAgICJEZWtzcmlwc2lrYW4gdGVtYW4gdGVyZGVrYXQgbXUhIiw
+ICAgICJEZXNrcmlwc2lrYW4gZGlyaW11IGRhbGFtIHNhdHUga2F0YSEiLA
+ICAgICJGaWxtIGRhbiBsYWd1IGFwYSB5YW5nIHBlcm5haCBiaWtpbiBrYW11IG5hbmdpcz8iLA
+ICAgICJIYWwgYXBhIHlhbmcga2FtdSByYWhhc2lha2FuIHNhbXBlLCBzZWthcmFuZyBkYW4gZ2FrIGFkYSBzYXR1IG9yYW5ncHVuIHlhbmcgdGF1PyIs
+ICAgICJIYWwgcGFsaW5nIHJvbWFudGlzIGFwYSB5YW5nIHNlc2VvcmFuZyAoYmVkYSBnZW5kZXIpIHBlcm5haCBsYWt1aW4gYXRhdSBrYXNpaCBrZSBrYW11PyIsIkhhbC1oYWwgbWVuamlqaWthbiBhcGEgeWFuZyBwZXJuYWgga2FtdSBhbGFtaSA_Iiw
+ICAgICJKaWthIGthbXUgbGFoaXIga2VtYmFsaSBkYW4gaGFydXMgamFkaSBzYWxhaCBzYXR1IGRhcmkgdGVtYW5tdSwgc2lhcGEgeWFuZyBha2FuIGthbXUgcGlsaWggdW50dWsgamFkaSBkaWE_Iiw
+ICAgICJKaWthIHB1bnlhIGtla3VhdGFuIHN1cGVyLyBzdXBlciBwb3dlciBpbmdpbiBtZWxha3VrYW4gYXBhIiw
+ICAgICJKaWthIHNlYmVudGFyIGxhZ2kga2lhbWF0LCBhcGEgeWcga2FtdSBsYWt1a2FuID8iLA
+ICAgICJLYWxvIGthbXUgZGlzdXJ1aCBvcGVyYXNpIHBsYXN0aWsgZGVuZ2FuIGNvbnRvaCB3YWphaCBkYXJpIHRlbWFuIHNla2VsYXNtdSwgd2FqYWggc2lhcGEgeWFuZyBha2FuIGthbXUgdGlydT8iLA
+ICAgICJLYW11IHBlcm5haCBtZW5jdXJpIHNlc3VhdHUgZ2FrPyIs
+ICAgICJLYW11IHRha3V0IG1hdGk_IGtlbmFwYT8iLA
+ICAgICJLYXBhbiB0ZXJha2hpciBrYWxpIG1lbmFuZ2lzIGRhbiBtZW5nYXBhPyIs
+ICAgICJrZW1hbXB1YW4gc3Blc2lhbCBrYW11IGFwYT8iLA
+ICAgICJLb2sgYmlzYSBzdWthIHNhbWEgb3JhbmcgeWFuZyBrYW11IHN1a2FpPyIs
+ICAgICJNZW51cnV0bXUsIGFwYSBzaWZhdCBiYWlrIHRlbWFuIHRlcmRla2F0bXUgeWFuZyBuZ2dhayBkaWEgc2FkYXJpPyIs
+ICAgICJPcmFuZyBzZXBlcnRpIGFwYSB5YW5nIGluZ2luIGthbXUgbmlrYWhpIHN1YXR1IHNhYXQgbmFudGk_Iiw
+ICAgICJQZWtlcmphYW4gcGFsaW5nIG5nZW5lcyBhcGEgeWFuZyBtZW51cnV0bXUgY29jb2sgdW50dWsgdGVtYW4gZGkgc2ViZWxhaCBrYW5hbm11PyIs
+ICAgICJQZW5nZW4gdHVrZXJhbiBoaWR1cCBzZWhhcmkgZGVuZ2FuIHNpYXBhPyAodGVtYW4gdGVyZGVrYXQgeWFuZyBrYWxpYW4gc2FtYS1zYW1hIHRhaHUpIGRhbiBtZW5nYXBhIiw
+ICAgICJQZXJuYWhrYWgga2FtdSBkaWFtLWRpYW0gYmVyaGFyYXAgaHVidW5nYW4gc2VzZW9yYW5nIGRlbmdhbiBwYWNhcm55YSBwdXR1cz8gU2lhcGE_Iiw
+ICAgICJQaWxpaCBQQUNBUiBhdGF1IFRFTUFOID8gYmVyaWthbiBhbGFzYW5ueWEgISIs
+ICAgICJRdW90ZSBhcGEgeWFuZyBwYWxpbmcga2FtdSBpbmdhdCBkYW4ga2FtdSBzdWthPyIs
+ICAgICJSYWhhc2lhIGFwYSB5ZyBiZWx1bSBwZXJuYWgga2FtdSBrYXRha2FuIHNhbXBhaSBzZWthcmFuZyBrZXBhZGEgdGVtYW4gbXUgPyIs
+ICAgICJSb2xlbW9kZWwgKHBhbnV0YW4pIGthbXUgc2lhcGE_Iiw
+ICAgICJTaWFwYSBkaSBhbnRhcmEgdGVtYW5tdSB5YW5nIGthbXUgcGlraXIgbWF0cmU_Iiw
+ICAgICJTaWFwYSBkaSBhbnRhcmEgdGVtYW4tdGVtYW5tdSB5YW5nIG1lbnVydXRtdSBwb3RvbmdhbiByYW1idXRueWEgcGFsaW5nIG5nZW5lcyAocGFsaW5nIG5nZ2FrIGJhbmdldCk_Iiw
+ICAgICJTaWFwYSBkaWFudGFyYSB0ZW1lbi10ZW1lbm11IHlhbmcgcGFsaW5nIE5HR0FLIGZvdG9nZW5payBkYW4ga2FsbyBkaWZvdG8gbGFnaSBrZXRhd2EgbXVrYW55YSBrYXlhIGt1ZGE_Iiw
+ICAgICJTaWFwYSBtYW50YW4gdGVyaW5kYWggbXU_IGRhbiBtZW5nYXBhIGthbGlhbiBwdXR1cyA_ISIs
+ICAgICJTaWFwYSBuYW1hIGFydGlzIHlhbmcgcGVybmFoIGthbXUgY2l1bSBmb3RvbnlhIGRpYW0tZGlhbT8iLA
+ICAgICJTaWFwYSBuYW1hIGd1cnUgY293b2sgeWFuZyBwZXJuYWgga2FtdSBzdWthaSBkdWx1PyIs
+ICAgICJTaWFwYSBuYW1hIG1hbnRhbiBwYWNhciB0ZW1hbiBtdSB5YW5nIHBlcm5haCBrYW11IHN1a2FpIGRpYW0gZGlhbT8iLA
+ICAgICJTaWFwYSBuYW1hIG9yYW5nIChiZWRhIGdlbmRlcikgeWFuZyBtZW51cnV0bXUgYWthbiBhc3lpayBiaWxhIGRpamFkaWthbiBwYWNhcj8iLA
+ICAgICJTaWFwYSBuYW1hIG9yYW5nIHlhbmcga2FtdSBiZW5jaSwgdGFwaSBrYW11IHJhc2Egb3JhbmcgaXR1IHN1a2Egc2FtYSBrYW11IChuZ2dhayBoYXJ1cyBiZWRhIGdlbmRlcik_Iiw
+ICAgICJTaWFwYSBuYW1hIG9yYW5nIHlhbmcgcGVybmFoIGthbXUgaWt1dGluIGRpYW0tZGlhbT8iLA
+ICAgICJTaWFwYSBvcmFuZyAobGF3YW4gamVuaXMpIHlhbmcgcGFsaW5nIHNlcmluZyB0ZXJsaW50YXMgZGkgcGlraXJhbm11PyIs
+ICAgICJTaWFwYSBvcmFuZyB5ZyBwYWxpbmcgbWVuamVuZ2tlbGthbiBkaSBhbnRhcmEgdGVtYW4gdGVtYW4gbXUgPyBhbGFzYW5ueWEhIiw
+ICAgICJTaWFwYSBzZWJlbmVybnlhIGRpIGFudGFyYSB0ZW1hbi10ZW1hbm11IHlhbmcga2FtdSBwaWtpciBoYXJ1cyBkaSBtYWtlLW92ZXI_Iiw
+ICAgICJTaWFwYSB5YW5nIHBhbGluZyBtZW5kZWthdGkgdGlwZSBwYXNhbmdhbiBpZGVhbG11IGRpIHNpbmki
+].decode("utf-8")
 
 DARE = [
-    "Ajak orang yg tidak kamu kenal itu selfie berdua dengan mu lalu upload ke snapgram",
+    "Ajak orang yg tidak kamu kenal itu selfie berdua dengan mu lalu upload ke snapgram", 
     "Ambil beberapa nomor dari kontakmu secara acak dan kirim sms 'Aku hamil' sama mereka.",
     "Ambil minuman apa saja yg ada didekat mu lalu campurkan dengan cabai dan minum!",
     "Ambil nomor secara acak dari kontakmu, telepon dia, dan bilang 'Aku mencintaimu'",
@@ -125,5 +123,5 @@ DARE = [
     "Tuker baju sama orang terdekat sampe ronde berikutnya.",
     "Update status di BBM, Line, WA, atau apapun itu dengan kata kata yang semuanya berawalan 'T'",
     "Upload video dia nyanyi ke youtube yang lagi nyanyiin lagu-lagu populer",
-    "Warnain kuku kaki dan tangan tapi dengan warna berbeda-beda buat seminggu",
+    "Warnain kuku kaki dan tangan tapi dengan warna berbeda-beda buat seminggu"
 ]
