@@ -25,6 +25,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [7. Hug](#7-hug) | ✅
 | [8. Kapan Libur](#8-kapan-libur) | ✅
 | [9. Password](#9-password) | ✅
+| [10. Truth](#10-truth) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -74,7 +75,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Xcqls8Uu.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_5b06jU24.png
 ```
 
 ### 3. Cat
@@ -96,7 +97,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTkyODQ1MQ.jpg
+https://cdn2.thecatapi.com/images/MTY3NjQ1Mw.jpg
 ```
 
 ### 4. Cohere
@@ -144,7 +145,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/f4e5228c-72c9-4846-8fdf-9e7327e95d60.jpg
+https://random.dog/2ae2870c-8827-41dd-b732-fc695f6f1e3e.jpg
 ```
 
 ### 6. Github Search
@@ -288,7 +289,25 @@ print(result)
 #### Expected Output
 
 ```text
-wf68}SZFjNH_
+hQL_|lT}Fme*
+```
+
+### 10. Truth
+
+**Description**:
+No description available.
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.truth()
+print(result)
+```
+
+#### Expected Output
+
+```text
+Siapa nama orang yang kamu benci, tapi kamu rasa orang itu suka sama kamu (nggak harus beda gender)?
 ```
 
 
