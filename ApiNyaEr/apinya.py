@@ -17,20 +17,24 @@ from .td import DARE, TRUTH
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "neko_url":
-            apainier("aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ==").decode("utf-8"),
-            "neko_hug":
-            apainier("aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi9odWc/YW1vdW50PXt9").decode("utf-8"),
-            "doa_url":
-            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ==").decode("utf-8"),
+            "neko_url": apainier(
+                "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ=="
+            ).decode("utf-8"),
+            "neko_hug": apainier(
+                "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi9odWc/YW1vdW50PXt9"
+            ).decode("utf-8"),
+            "doa_url": apainier(
+                "aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ=="
+            ).decode("utf-8"),
             "ai_url": "https://itzpire.com/ai/cohere",
-            "cat":
-            apainier("aHR0cHM6Ly9hcGkudGhlY2F0YXBpLmNvbS92MS9pbWFnZXMvc2VhcmNo").decode("utf-8"),
-            "dog":
-            apainier("aHR0cHM6Ly9yYW5kb20uZG9nL3dvb2YuanNvbg==").decode("utf-8"),
+            "cat": apainier(
+                "aHR0cHM6Ly9hcGkudGhlY2F0YXBpLmNvbS92MS9pbWFnZXMvc2VhcmNo"
+            ).decode("utf-8"),
+            "dog": apainier("aHR0cHM6Ly9yYW5kb20uZG9nL3dvb2YuanNvbg==").decode("utf-8"),
             "randy": "https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old",
-            "libur":
-            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI=").decode("utf-8"),
+            "libur": apainier(
+                "aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI="
+            ).decode("utf-8"),
         }
 
     async def _make_request(
