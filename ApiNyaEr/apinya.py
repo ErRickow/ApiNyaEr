@@ -9,8 +9,7 @@ import aiohttp
 import requests
 
 from .fungsi import FilePath
-from .td import TRUTH
-
+from .td import TRUTH, DARE
 
 class ErApi:
     def __init__(self):
@@ -105,15 +104,21 @@ class ErApi:
 
     @staticmethod
     def truth():
-        truthnya = random.choice(TRUTH)
+        """
+        Dapatkan Kata kata truth
+        
+        Returns:
+            str: Random kata truth
+        """
+        truthnya=random.choice(TRUTH)
         return truthnya
 
     async def kapan_libur(self):
         """
-        Fetches a random useless fact.
+        Dapatkan informasi Hari libur kedepan.
 
         Returns:
-            str: A random useless fact.
+            str: Hari Libur Berikutnya.
         """
         response = requests.get(self.base_urls["libur"]).json()
         next_libur = response["data"]["nextLibur"]
