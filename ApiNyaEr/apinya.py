@@ -9,7 +9,8 @@ import aiohttp
 import requests
 
 from .fungsi import FilePath
-from .td import TRUTH, DARE
+from .td import TRUTH
+
 
 class ErApi:
     def __init__(self):
@@ -106,11 +107,11 @@ class ErApi:
     def truth():
         """
         Dapatkan Kata kata truth
-        
+
         Returns:
             str: Random kata truth
         """
-        truthnya=random.choice(TRUTH)
+        truthnya = random.choice(TRUTH)
         return truthnya
 
     async def kapan_libur(self):
