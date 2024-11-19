@@ -178,21 +178,15 @@ class ErApi:
         return next_libur
 
     @staticmethod
-    def chatbot(args: str) -> str:
+    def ai(args: str) -> str:
         """
-        Interact with a chatbot to get a response based on the provided input text.
+        Interaksi dengan AI Basis Text.
 
         Args:
-        args (str): The text input to the chatbot for generating a response.
+        args (str): Text inputnya.
 
         Returns:
-        str: The response from the chatbot based on the input text.
-
-        Example usage:
-        >>> from MukeshAPI import api
-        >>> user_input = "Hello, how are you?"
-        >>> response = api.chatbot(user_input)
-        >>> print(response)
+        str: Respon chatbotnya.
         """
         x = apainier(
             "aHR0cHM6Ly9mYWxsZW54Ym90LnZlcmNlbC5hcHAvYXBpL2FwaWtleT01OTM1NjA4Mjk3LWZhbGxlbi11c2JrMzNrYnN1L2dyb3VwLWNvbnRyb2xsZXIvbXVrZXNoL21lc3NhZ2U9"
