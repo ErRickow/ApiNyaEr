@@ -19,7 +19,8 @@ class ErApi:
         self.base_urls = {
             "neko_url": "https://nekos.best/api/v2/{endpoint}?amount={amount}",
             "neko_hug": "https://nekos.best/api/v2/hug?amount={}",
-            "doa_url": "https://itzpire.com/religion/islamic/doa",
+            "doa_url":
+            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ==").decode("utf-8"),
             "ai_url": "https://itzpire.com/ai/cohere",
             "cat": "https://api.thecatapi.com/v1/images/search",
             "dog": "https://random.dog/woof.json",
