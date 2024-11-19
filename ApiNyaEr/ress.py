@@ -27,7 +27,7 @@ def gpt_4_mode(args:str,mode:str):
         payload=payload3
     elif mode=="elonmusk":
         payload=payload4
-    elif mode=="Er-Ai":
+    elif mode=="er":
         payload=payload5
     elif mode=="girlfriend" or mode=="crush" or mode=="gf":
         payload=payload7
