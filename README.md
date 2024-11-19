@@ -18,7 +18,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 |--------------------|--------|
 | [1. Ambil Doa](#1-ambil-doa) | ✅
 | [2. Carbon](#2-carbon) | ✅
-| [3. Cat](#3-cat) | ✅
+| [3. Cat](#3-cat) | ❌
 | [4. Cohere](#4-cohere) | ✅
 | [5. Dog](#5-dog) | ✅
 | [6. Github Search](#6-github-search) | ✅
@@ -75,7 +75,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_5cOwbjQ2.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_cqQSdFfG.png
 ```
 
 ### 3. Cat
@@ -97,7 +97,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/cv6.jpg
+Request failed: 429, message='Too Many Requests', url='https://api.thecatapi.com/v1/images/search'
 ```
 
 ### 4. Cohere
@@ -145,7 +145,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/c51308bb-bbff-4db2-98e7-a3711eafb598.jpg
+https://random.dog/d3cd484f-2371-4e73-a15d-8f41e41d24b6.mp4
 ```
 
 ### 6. Github Search
@@ -237,8 +237,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Idolish Seven: Third Beat!",
-        "url": "https://nekos.best/api/v2/hug/bfe6226c-f254-4c9c-ae10-a587233e381b.gif"
+        "anime_name": "Elfen Lied",
+        "url": "https://nekos.best/api/v2/hug/09a0b73f-4a7d-49f2-a528-0b1c408d6c5e.gif"
     }
 ]
 ```
@@ -289,7 +289,7 @@ print(result)
 #### Expected Output
 
 ```text
-sUl!-%O&)z^9
+<cB6!|#jz;Rx
 ```
 
 ### 10. Truth
@@ -307,7 +307,7 @@ print(result)
 #### Expected Output
 
 ```text
-d
+r
 ```
 
 
