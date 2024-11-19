@@ -1,18 +1,18 @@
 import os
 import random
 import string
-import urllib
-from base64 import b64decode as apainier
 from os.path import realpath
 from typing import Union
-
+from base64 import b64decode as apainier
+import urllib
+import json
 import aiofiles
 import aiohttp
 import requests
 
+from .ress import (payloads_response,gpt_4_mode,payload8)
 from .fungsi import FilePath
-from .td import DARE, TRUTH
-
+from .td import TRUTH, DARE
 
 class ErApi:
     def __init__(self):
@@ -102,22 +102,22 @@ class ErApi:
     def truth():
         """
         Dapatkan Kata kata truth
-
+        
         Returns:
             str: Random kata truth
         """
-        truthnya = random.choice(TRUTH)
+        truthnya=random.choice(TRUTH)
         return truthnya
 
     @staticmethod
     def dare():
         """
         Dapatkan Kata kata dare
-
+        
         Returns:
             str: Random kata dare
         """
-        darenya = random.choice(DARE)
+        darenya=random.choice(DARE)
         return darenya
 
     @staticmethod
@@ -132,8 +132,8 @@ class ErApi:
             requests.Response: The response object from the API request.
         """
 
-        url = apainier("aHR0cHM6Ly93d3cuYmxhY2tib3guYWkvYXBpL2NoYXQ=").decode("utf-8")
-
+        url = apainier('aHR0cHM6Ly93d3cuYmxhY2tib3guYWkvYXBpL2NoYXQ=').decode("utf-8")
+        
         payload = {
             "agentMode": {},
             "codeModelMode": True,
@@ -141,30 +141,30 @@ class ErApi:
             "isMicMode": False,
             "maxTokens": None,
             "messages": [
-                {"id": "XM7KpOE", "content": urllib.parse.unquote(args), "role": "user"}
+                {
+                    "id": "XM7KpOE",
+                    "content": urllib.parse.unquote(args),
+                    "role": "user"
+                }
             ],
             "previewToken": None,
             "trendingAgentMode": {},
             "userId": "87cdaa48-cdad-4dda-bef5-6087d6fc72f6",
-            "userSystemPrompt": None,
+            "userSystemPrompt": None
         }
 
         headers = {
-            "Content-Type": "application/json",
-            "Cookie": "sessionId=f77a91e1-cbe1-47d0-b138-c2e23eeb5dcf; intercom-id-jlmqxicb=4cf07dd8-742e-4e3f-81de-38669816d300; intercom-device-id-jlmqxicb=1eafaacb-f18d-402a-8255-b763cf390df6; intercom-session-jlmqxicb=",
-            "Origin": apainier("aHR0cHM6Ly93d3cuYmxhY2tib3guYWk=").decode("utf-8"),
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            'Content-Type': 'application/json',
+            'Cookie': 'sessionId=f77a91e1-cbe1-47d0-b138-c2e23eeb5dcf; intercom-id-jlmqxicb=4cf07dd8-742e-4e3f-81de-38669816d300; intercom-device-id-jlmqxicb=1eafaacb-f18d-402a-8255-b763cf390df6; intercom-session-jlmqxicb=',
+            'Origin': apainier('aHR0cHM6Ly93d3cuYmxhY2tib3guYWk=').decode("utf-8"),
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'
         }
         try:
             response = requests.post(url, json=payload, headers=headers)
             if response.status_code == 200:
-                return {
-                    "results": response.text,
-                    "join": "@Er_Support_Group",
-                    "success": True,
-                }
+                return {"results": response.text, "join": "@Er_Support_Group", "success": True}
         except Exception as e:
-            return e
+            return e  
 
     async def kapan_libur(self):
         """
@@ -176,6 +176,43 @@ class ErApi:
         response = requests.get(self.base_urls["libur"]).json()
         next_libur = response["data"]["nextLibur"]
         return next_libur
+
+    @staticmethod
+    def chatgpt(args:str,mode:str=False):
+       
+        """
+        Sends a query to a specified chatgpt API endpoint to retrieve a response based on the provided question.
+        
+
+        Args:
+            args (str): The question or input for the chatgpt.
+            mode(str) : this  parameter is used to select different models of Chatgpt
+                        available modes are
+                        "girlfriend","anime","animev2","flirt","er","elonmusk","wormgpt"
+
+        Returns:
+            str: The response text from the chatgpt API.
+        """
+        if not mode:
+            session = requests.Session()
+            response_data=payloads_response(payloads=payload8,args=args)
+            url = m("aHR0cHM6Ly9hcGkuZXhoLmFpL2NoYXRib3QvdjEvZ2V0X3Jlc3BvbnNl").decode("utf-8")
+            headers = {
+            "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6ImJvdGlmeS13ZWItdjMifQ.O-w89I5aX2OE_i4k6jdHZJEDWECSUfOb1lr9UdVH4oTPMkFGUNm9BNzoQjcXOu8NEiIXq64-481hnenHdUrXfg",
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        }
+            response = session.post(url, headers=headers, data=json.dumps(response_data))
+            return {"results":response.json()["response"],"join":
+            "@Er_Support_Group", "success": True}
+        else:
+            try:
+                result = gpt_4_mode(args, mode)
+                return {"results":result,"join": "@Er_Support_Group", "success": True}
+                
+            except Exception as e:
+                return e  
+ 
 
     async def ambil_doa(self, nama_doa: str) -> str:
         """
