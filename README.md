@@ -20,12 +20,13 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [2. Carbon](#2-carbon) | ✅
 | [3. Cat](#3-cat) | ✅
 | [4. Cohere](#4-cohere) | ✅
-| [5. Dog](#5-dog) | ✅
-| [6. Github Search](#6-github-search) | ✅
-| [7. Hug](#7-hug) | ✅
-| [8. Kapan Libur](#8-kapan-libur) | ✅
-| [9. Password](#9-password) | ✅
-| [10. Truth](#10-truth) | ✅
+| [5. Dare](#5-dare) | ✅
+| [6. Dog](#6-dog) | ✅
+| [7. Github Search](#7-github-search) | ✅
+| [8. Hug](#8-hug) | ✅
+| [9. Kapan Libur](#9-kapan-libur) | ✅
+| [10. Password](#10-password) | ✅
+| [11. Truth](#11-truth) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -75,7 +76,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_oFGolGKv.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_1LCN25pa.png
 ```
 
 ### 3. Cat
@@ -97,7 +98,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/7ak.jpg
+https://cdn2.thecatapi.com/images/2fg.jpg
 ```
 
 ### 4. Cohere
@@ -126,7 +127,28 @@ print(result)
 }
 ```
 
-### 5. Dog
+### 5. Dare
+
+**Description**:
+Dapatkan Kata kata dare
+
+**Returns:**
+  - **str**: Random kata dare
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.dare()
+print(result)
+```
+
+#### Expected Output
+
+```text
+Pilih orang secara acak di jalan, lalu bilang 'You don't know you're beautiful' (ala One Direction)
+```
+
+### 6. Dog
 
 **Description**:
 Dapatkan random foto anjing.
@@ -145,10 +167,10 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/5d65e8d3-07fb-4002-baf0-b10f3fbf6859.mp4
+https://random.dog/c51308bb-bbff-4db2-98e7-a3711eafb598.jpg
 ```
 
-### 6. Github Search
+### 7. Github Search
 
 **Description**:
 Pencarian GitHub untuk beberapa tipe konten.
@@ -211,7 +233,7 @@ print(result)
 ]
 ```
 
-### 7. Hug
+### 8. Hug
 
 **Description**:
 Dapatkan gif Random pelukan dari Nekos.Best API.
@@ -237,13 +259,13 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Nakitai Watashi wa Neko o Kaburu",
-        "url": "https://nekos.best/api/v2/hug/6298d90b-5f62-4007-80e5-436646e7b1f7.gif"
+        "anime_name": "Little Witch Academia",
+        "url": "https://nekos.best/api/v2/hug/a3dfcc78-0c9b-4c74-ac1b-b259470a06e9.gif"
     }
 ]
 ```
 
-### 8. Kapan Libur
+### 9. Kapan Libur
 
 **Description**:
 Dapatkan informasi Hari libur kedepan.
@@ -264,7 +286,7 @@ print(result)
 Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (35 hari lagi)
 ```
 
-### 9. Password
+### 10. Password
 
 **Description**:
 This function generates a random password by combining uppercase letters, lowercase letters, punctuation marks, and digits.
@@ -276,9 +298,6 @@ Parameters: - num (int): The length of the generated password. Default is 12 if 
 **Description**:
 - str: A randomly generated password consisting of characters from string.ascii_letters, string.punctuation, and string.digits.
 
-**Description**:
-Example usage: >>> from MukeshAPI import api >>> api.password() 'r$6Ag~P{32F+' >>> api.password(10) 'ZnK"9|?v3a'
-
 ```python
 from ApiNyaEr import apinya
 
@@ -289,10 +308,10 @@ print(result)
 #### Expected Output
 
 ```text
-=N6ZFE]9G!Cg
+['w^qD}J1l$|
 ```
 
-### 10. Truth
+### 11. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -310,7 +329,7 @@ print(result)
 #### Expected Output
 
 ```text
-Orang seperti apa yang ingin kamu nikahi suatu saat nanti?
+Jika kamu lahir kembali dan harus jadi salah satu dari temanmu, siapa yang akan kamu pilih untuk jadi dia?
 ```
 
 
