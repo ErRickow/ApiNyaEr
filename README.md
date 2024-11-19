@@ -75,7 +75,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_cb0DWOSK.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_5cOwbjQ2.png
 ```
 
 ### 3. Cat
@@ -97,7 +97,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/0THCGrAZj.jpg
+https://cdn2.thecatapi.com/images/cv6.jpg
 ```
 
 ### 4. Cohere
@@ -145,7 +145,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/d91e1807-d666-485a-8a9b-d78c431cf2bf.png
+https://random.dog/c51308bb-bbff-4db2-98e7-a3711eafb598.jpg
 ```
 
 ### 6. Github Search
@@ -237,8 +237,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Umibe no Etranger",
-        "url": "https://nekos.best/api/v2/hug/4619bde0-9f22-4010-a58a-d6a4cb8d12a4.gif"
+        "anime_name": "Idolish Seven: Third Beat!",
+        "url": "https://nekos.best/api/v2/hug/bfe6226c-f254-4c9c-ae10-a587233e381b.gif"
     }
 ]
 ```
@@ -289,7 +289,7 @@ print(result)
 #### Expected Output
 
 ```text
-JE?0mf~(Z#2y
+sUl!-%O&)z^9
 ```
 
 ### 10. Truth
@@ -307,7 +307,7 @@ print(result)
 #### Expected Output
 
 ```text
-o
+d
 ```
 
 
