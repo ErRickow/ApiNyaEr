@@ -75,7 +75,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_nZniDgmk.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_oFGolGKv.png
 ```
 
 ### 3. Cat
@@ -97,7 +97,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/8d9.jpg
+https://cdn2.thecatapi.com/images/7ak.jpg
 ```
 
 ### 4. Cohere
@@ -145,7 +145,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/749579d7-90a6-4214-a360-9fe7ab1d02b3.jpg
+https://random.dog/5d65e8d3-07fb-4002-baf0-b10f3fbf6859.mp4
 ```
 
 ### 6. Github Search
@@ -237,8 +237,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Idolish Seven: Third Beat!",
-        "url": "https://nekos.best/api/v2/hug/bfe6226c-f254-4c9c-ae10-a587233e381b.gif"
+        "anime_name": "Nakitai Watashi wa Neko o Kaburu",
+        "url": "https://nekos.best/api/v2/hug/6298d90b-5f62-4007-80e5-436646e7b1f7.gif"
     }
 ]
 ```
@@ -246,10 +246,10 @@ print(result)
 ### 8. Kapan Libur
 
 **Description**:
-Fetches a random useless fact.
+Dapatkan informasi Hari libur kedepan.
 
 **Returns:**
-  - **str**: A random useless fact.
+  - **str**: Hari Libur Berikutnya.
 
 ```python
 from ApiNyaEr import apinya
@@ -289,13 +289,16 @@ print(result)
 #### Expected Output
 
 ```text
-E:eGIB|xZ1Jm
+=N6ZFE]9G!Cg
 ```
 
 ### 10. Truth
 
 **Description**:
-No description available.
+Dapatkan Kata kata truth
+
+**Returns:**
+  - **str**: Random kata truth
 
 ```python
 from ApiNyaEr import apinya
@@ -307,7 +310,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa ketakutan terbesar kamu?
+Orang seperti apa yang ingin kamu nikahi suatu saat nanti?
 ```
 
 
