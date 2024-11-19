@@ -80,13 +80,6 @@ class ErApi:
 
         Returns:
         - str: A randomly generated password consisting of characters from string.ascii_letters, string.punctuation, and string.digits.
-
-        Example usage:
-        >>> from MukeshAPI import api
-        >>> api.password()
-        'r$6Ag~P{32F+'
-        >>> api.password(10)
-        'ZnK"9|?v3a'
         """
         characters = string.ascii_letters + string.punctuation + string.digits
         password = "".join(random.sample(characters, num))
