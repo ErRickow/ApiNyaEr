@@ -17,16 +17,20 @@ from .td import DARE, TRUTH
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "neko_url": "https://nekos.best/api/v2/{endpoint}?amount={amount}",
-            "neko_hug": "https://nekos.best/api/v2/hug?amount={}",
-            "doa_url": apainier(
-                "aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ=="
-            ).decode("utf-8"),
+            "neko_url":
+            apainier("aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ==").decode("utf-8"),
+            "neko_hug":
+            apainier("aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi9odWc/YW1vdW50PXt9").decode("utf-8"),
+            "doa_url":
+            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ==").decode("utf-8"),
             "ai_url": "https://itzpire.com/ai/cohere",
-            "cat": "https://api.thecatapi.com/v1/images/search",
-            "dog": "https://random.dog/woof.json",
+            "cat":
+            apainier("aHR0cHM6Ly9hcGkudGhlY2F0YXBpLmNvbS92MS9pbWFnZXMvc2VhcmNo").decode("utf-8"),
+            "dog":
+            apainier("aHR0cHM6Ly9yYW5kb20uZG9nL3dvb2YuanNvbg==").decode("utf-8"),
             "randy": "https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old",
-            "libur": "https://itzpire.com/information/nextLibur",
+            "libur":
+            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI=").decode("utf-8"),
         }
 
     async def _make_request(
@@ -78,13 +82,13 @@ class ErApi:
     @staticmethod
     def password(num: int = 12) -> str:
         """
-        This function generates a random password by combining uppercase letters, lowercase letters, punctuation marks, and digits.
+        Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
 
         Parameters:
-        - num (int): The length of the generated password. Default is 12 if not specified.
+        - num (int): Panjang kata sandi yang dihasilkan. Default adalah 12 jika tidak ditentukan.
 
         Returns:
-        - str: A randomly generated password consisting of characters from string.ascii_letters, string.punctuation, and string.digits.'
+        - str: Kata sandi yang dihasilkan secara acak yang terdiri dari karakter dari string.ascii_letters, string.punctuation, dan string.digits.
         """
         characters = string.ascii_letters + string.punctuation + string.digits
         password = "".join(random.sample(characters, num))
@@ -125,13 +129,13 @@ class ErApi:
     @staticmethod
     def blackbox(args: str) -> requests.Response:
         """
-        Interact with the Blackbox AI API for generating content. 🧠
+        Berinteraksi dengan Blackbox AI untuk menghasilkan konten. 🧠
 
         Args:
-            args (str): The input text to interact with the Blackbox AI chat API.
+            args (str): Teks masukan untuk berinteraksi dengan API obrolan Blackbox AI.
 
         Returns:
-            requests.Response: The response object from the API request.
+            requests.Response: Objek respons dari permintaan API.
         """
 
         url = apainier("aHR0cHM6Ly93d3cuYmxhY2tib3guYWkvYXBpL2NoYXQ=").decode("utf-8")
