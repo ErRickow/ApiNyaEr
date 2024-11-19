@@ -74,7 +74,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_H4KQkwPq.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Xcqls8Uu.png
 ```
 
 ### 3. Cat
@@ -96,7 +96,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/cc8.jpg
+https://cdn2.thecatapi.com/images/MTkyODQ1MQ.jpg
 ```
 
 ### 4. Cohere
@@ -144,7 +144,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/1e8d7674-2889-498a-828d-161fd7ff372a.jpg
+https://random.dog/f4e5228c-72c9-4846-8fdf-9e7327e95d60.jpg
 ```
 
 ### 6. Github Search
@@ -236,8 +236,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kaijin Kaihatsubu no Kuroitsu-san",
-        "url": "https://nekos.best/api/v2/hug/4151b575-c780-4dd4-ab7c-eaa25bfe5200.gif"
+        "anime_name": "Yuru Yuri",
+        "url": "https://nekos.best/api/v2/hug/2363175c-4cda-414e-8929-a87f53fc1cc1.gif"
     }
 ]
 ```
@@ -288,7 +288,7 @@ print(result)
 #### Expected Output
 
 ```text
-]r=pw3VZ`C.k
+wf68}SZFjNH_
 ```
 
 
