@@ -138,14 +138,19 @@ async def generate_api_status(methods):
             elif param.annotation is int:
                 params.append(f"{param.name}=5")  # Example for int parameters
             elif param.annotation is str:
-                params.append(f"{param.name}='example'")  # Example for string parameters
+                # Example for string parameters
+                params.append(f"{param.name}='example'")
             elif param.annotation is bool:
-                params.append(f"{param.name}=True")  # Example for boolean parameters
+                # Example for boolean parameters
+                params.append(f"{param.name}=True")
             else:
-                params.append(f"{param.name}=None")  # Default to None for other types
+                # Default to None for other types
+                params.append(f"{param.name}=None")
 
         # Test the function with sample parameters
-        status, result = await test_method(method, *[eval(param.split("=")[1]) for param in params])
+        status, result = await test_method(
+            method, *[eval(param.split("=")[1]) for param in params]
+        )
 
         params_str = ", ".join(params)
 
@@ -167,7 +172,10 @@ async def generate_api_status(methods):
 
     return status_content, readme_content
 
+
 # Writes the API status and documentation to README.md
+
+
 async def write_api_status_to_file(
     status_content,
     readme_content,
