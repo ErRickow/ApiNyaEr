@@ -28,7 +28,6 @@ class ErApi:
             "doa_url": apainier(
                 "aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ=="
             ).decode("utf-8"),
-            "ai_url": "https://itzpire.com/ai/cohere",
             "cat": apainier(
                 "aHR0cHM6Ly9hcGkudGhlY2F0YXBpLmNvbS92MS9pbWFnZXMvc2VhcmNo"
             ).decode("utf-8"),
@@ -292,35 +291,36 @@ class ErApi:
             )
         return "Doa tidak ditemukan atau format data tidak valid."
 
-    async def cohere(self, pertanyaan: str) -> str:
-        """
-        Mengambil respons dari API AI ItzPire berdasarkan pertanyaan yang diberikan menggunakan metode POST.
+    @staticmethod
+    def ai_image(text: str) -> bytes:
+        """Generate gambar dari text.
 
         Args:
-            pertanyaan (str): Teks pertanyaan yang akan dikirim ke AI.
+            text (str): Kata yang ingin di generate.
 
         Returns:
-            str: Respons yang dihasilkan oleh AI.
+            bytes: Generate di bytes format.
         """
+        url = base64.b64decode('aHR0cHM6Ly9haS1hcGkubWFnaWNzdHVkaW8uY29tL2FwaS9haS1hcnQtZ2VuZXJhdG9y').decode("utf-8")
 
-        url = self.base_urls["ai_url"]
-        params = {"q": pertanyaan}
-        #     headers = {"Content-Type": "application/json"}  # Menentukan tipe konten sebagai JSON
+        form_data = {
+            'prompt': teks,
+            'output_format': 'bytes',
+            'request_timestamp': str(int(time.time())),
+            'user_is_subscribed': 'false',
+        }
 
-        respons = await self._make_request(url, params=params)
-
-        # ... (sisanya sama seperti kode sebelumnya)
-
-        # Memastikan respons adalah dictionary dan memeriksa status keberhasilan
-        if isinstance(respons, dict):
-            if respons.get("status") == "success":
-                # Mengambil hasil dari field 'result'
-                result = respons.get("result", "Tidak ada hasil dari AI.")
-                return result
-            else:
-                return "Status API menunjukkan kegagalan."
+        response = requests.post(url, data=form_data)
+        if response.status_code == 200:
+            try:
+                if response.content:
+                    return response.content
+                else:
+                    raise Exception("Gagal merender gambar sayang.")
+            except Exception as e:
+                raise e
         else:
-            return "Format respons tidak valid atau terjadi kesalahan."
+            raise Exception("Error:", response.status_code)
 
     async def carbon(self, query):
         """
