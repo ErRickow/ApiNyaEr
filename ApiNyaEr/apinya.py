@@ -2,6 +2,7 @@ import json
 import os
 import random
 import string
+import time
 import urllib
 from base64 import b64decode as apainier
 from os.path import realpath
@@ -13,7 +14,7 @@ import requests
 
 from .fungsi import FilePath
 from .td import DARE, TRUTH
-from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
+from .teks import ANIMEK, EPEP, HECKER, ISLAMIC, FAKTA, PUBG
 
 
 class ErApi:
@@ -345,15 +346,13 @@ class ErApi:
         Returns:
             bytes: Generate di bytes format.
         """
-        url = apainier(
-            "aHR0cHM6Ly9haS1hcGkubWFnaWNzdHVkaW8uY29tL2FwaS9haS1hcnQtZ2VuZXJhdG9y"
-        ).decode("utf-8")
+        url = apainier('aHR0cHM6Ly9haS1hcGkubWFnaWNzdHVkaW8uY29tL2FwaS9haS1hcnQtZ2VuZXJhdG9y').decode("utf-8")
 
         form_data = {
-            "prompt": teks,
-            "output_format": "bytes",
-            "request_timestamp": str(int(time.time())),
-            "user_is_subscribed": "false",
+            'prompt': teks,
+            'output_format': 'bytes',
+            'request_timestamp': str(int(time.time())),
+            'user_is_subscribed': 'false',
         }
 
         response = requests.post(url, data=form_data)
