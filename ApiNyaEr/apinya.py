@@ -652,14 +652,14 @@ class ErApi:
         return response["results"]
 
     async def pypi(self, namanya):
-    """
-    Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
+        """
+        Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
 
-    Args:
-        namanya (str): Nama paket yang dicari di PyPI.
+        Args:
+            namanya (str): Nama paket yang dicari di PyPI.
 
-    Returns:
-        dict atau None: Sebuah kamus dengan informasi relevan tentang paket jika ditemukan, yang berisi:
+        Returns:
+            dict atau None: Sebuah kamus dengan informasi relevan tentang paket jika ditemukan, yang berisi:
             - name (str): Nama paket.
             - version (str): Versi terbaru paket.
             - summary (str): Deskripsi singkat tentang paket.
@@ -672,7 +672,7 @@ class ErApi:
             - keywords (str): Kata kunci yang terkait dengan paket.
             - classifiers (list): Daftar pengklasifikasi PyPI.
             - project_urls (dict): URL proyek tambahan (misalnya, kode sumber, dokumentasi).
-        Returns None jika paket tidak ditemukan atau terjadi kesalahan.
+            Returns None jika paket tidak ditemukan atau terjadi kesalahan.
         """
         url = f"{self.base_urls['pypi']}/{namanya}/json"
         response = await self._make_request(url)
