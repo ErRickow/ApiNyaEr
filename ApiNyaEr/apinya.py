@@ -103,7 +103,7 @@ class ErApi:
                   "kiss", "laugh", "lurk", "nod", "nom", "nope", "pat", "peck", "poke",
                   "pout", "punch", "shoot", "shrug", "slap", "sleep", "smile", "smug",
                   "stare", "think", "thumbsup", "tickle", "wave", "wink", "yawn", "yeet"
-            amount (int): amount item gambarnya. Default 1.
+            amount (int): jumlah item gambarnya. Default 1.
 
         Returns:
             dict: Dictionary konten yang di request. Dictionarynya memiliki kata
