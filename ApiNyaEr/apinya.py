@@ -1,9 +1,8 @@
 import json
 import os
-import re
 import random
+import re
 import string
-import time
 import urllib
 from base64 import b64decode as apainier
 from os.path import realpath
@@ -15,7 +14,7 @@ import requests
 
 from .fungsi import FilePath
 from .td import DARE, TRUTH
-from .teks import ANIMEK, EPEP, HECKER, ISLAMIC, FAKTA, PUBG
+from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 
 
 class ErApi:
@@ -38,8 +37,9 @@ class ErApi:
             "libur": apainier(
                 "aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI="
             ).decode("utf-8"),
-            "bing_image":
-            apainier("aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j").decode("utf-8"),
+            "bing_image": apainier(
+                "aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j"
+            ).decode("utf-8"),
             "pypi": apainier("aHR0cHM6Ly9weXBpLm9yZy9weXBp").decode("utf-8"),
         }
 
