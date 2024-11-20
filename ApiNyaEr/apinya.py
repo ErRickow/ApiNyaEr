@@ -2,7 +2,6 @@ import json
 import os
 import random
 import string
-import time
 import urllib
 from base64 import b64decode as apainier
 from os.path import realpath
@@ -14,7 +13,7 @@ import requests
 
 from .fungsi import FilePath
 from .td import DARE, TRUTH
-from .teks import ANIMEK, EPEP, HECKER, ISLAMIC, FAKTA, PUBG
+from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 
 
 class ErApi:
@@ -565,7 +564,6 @@ class ErApi:
         """
         response = await self._make_request(self.base_urls["neko_hug"].format(amount))
         return response["results"]
-
 
 
 apinya = ErApi()
