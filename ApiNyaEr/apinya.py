@@ -1,7 +1,7 @@
+import json
 import os
 import random
 import string
-import json
 import urllib
 from base64 import b64decode as apainier
 from os.path import realpath
@@ -13,26 +13,30 @@ import requests
 
 from .fungsi import FilePath
 from .td import DARE, TRUTH
-from .teks import EPEP, ANIMEK, FAKTA
+from .teks import ANIMEK, EPEP
 
 
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "neko_url":
-            apainier("aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ==").decode("utf-8"),
-            "neko_hug":
-            apainier("aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi9odWc/YW1vdW50PXt9").decode("utf-8"),
-            "doa_url":
-            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ==").decode("utf-8"),
+            "neko_url": apainier(
+                "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ=="
+            ).decode("utf-8"),
+            "neko_hug": apainier(
+                "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi9odWc/YW1vdW50PXt9"
+            ).decode("utf-8"),
+            "doa_url": apainier(
+                "aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ=="
+            ).decode("utf-8"),
             "ai_url": "https://itzpire.com/ai/cohere",
-            "cat":
-            apainier("aHR0cHM6Ly9hcGkudGhlY2F0YXBpLmNvbS92MS9pbWFnZXMvc2VhcmNo").decode("utf-8"),
-            "dog":
-            apainier("aHR0cHM6Ly9yYW5kb20uZG9nL3dvb2YuanNvbg==").decode("utf-8"),
+            "cat": apainier(
+                "aHR0cHM6Ly9hcGkudGhlY2F0YXBpLmNvbS92MS9pbWFnZXMvc2VhcmNo"
+            ).decode("utf-8"),
+            "dog": apainier("aHR0cHM6Ly9yYW5kb20uZG9nL3dvb2YuanNvbg==").decode("utf-8"),
             "randy": "https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old",
-            "libur":
-            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI=").decode("utf-8"),
+            "libur": apainier(
+                "aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI="
+            ).decode("utf-8"),
         }
 
     async def _make_request(
@@ -117,19 +121,23 @@ class ErApi:
         Returns:
             dict: dictionaries yang berisi konten ai nya.
         """
-        url = apainier('aHR0cHM6Ly9nZW5lcmF0aXZlbGFuZ3VhZ2UuZ29vZ2xlYXBpcy5jb20vdjFiZXRhL21vZGVscy9nZW1pbmktcHJvOmdlbmVyYXRlQ29udGVudD9rZXk9QUl6YVN5QmtOSlVub3BEaEFvVmU3dVJqZ0gzeElPSnZBdHJ6Zk9J').decode("utf-8")
-        headers = {'Content-Type': 'application/json'}
-        payload = {
-            'contents': [
-                {'parts': [{'text': args}]}
-            ]
-        }
+        url = apainier(
+            "aHR0cHM6Ly9nZW5lcmF0aXZlbGFuZ3VhZ2UuZ29vZ2xlYXBpcy5jb20vdjFiZXRhL21vZGVscy9nZW1pbmktcHJvOmdlbmVyYXRlQ29udGVudD9rZXk9QUl6YVN5QmtOSlVub3BEaEFvVmU3dVJqZ0gzeElPSnZBdHJ6Zk9J"
+        ).decode("utf-8")
+        headers = {"Content-Type": "application/json"}
+        payload = {"contents": [{"parts": [{"text": args}]}]}
 
         try:
             response = requests.post(url, headers=headers, data=json.dumps(payload))
             if response.status_code == 200:
-                generated_text = response.json()["candidates"][0]["content"]["parts"][0]["text"]
-                return {"results":generated_text,"author": "@chakszzz", "success": True}
+                generated_text = response.json()["candidates"][0]["content"]["parts"][
+                    0
+                ]["text"]
+                return {
+                    "results": generated_text,
+                    "author": "@chakszzz",
+                    "success": True,
+                }
         except Exception as e:
             return e
 
@@ -245,7 +253,9 @@ class ErApi:
         Returns:
         str: Respon chatbotnya.
         """
-        x = apainier("aHR0cHM6Ly9mYWxsZW54Ym90LnZlcmNlbC5hcHAvYXBpL2FwaWtleT01OTM1NjA4Mjk3LWZhbGxlbi11c2JrMzNrYnN1L2dyb3VwLWNvbnRyb2xsZXIvbXVrZXNoL21lc3NhZ2U9").decode("utf-8")
+        x = apainier(
+            "aHR0cHM6Ly9mYWxsZW54Ym90LnZlcmNlbC5hcHAvYXBpL2FwaWtleT01OTM1NjA4Mjk3LWZhbGxlbi11c2JrMzNrYnN1L2dyb3VwLWNvbnRyb2xsZXIvbXVrZXNoL21lc3NhZ2U9"
+        ).decode("utf-8")
         full_url = f"{x}{args}"
         response = requests.get(full_url).json()["reply"]
         return response
