@@ -14,7 +14,7 @@ import requests
 
 from .fungsi import FilePath
 from .td import DARE, TRUTH
-from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
+from .teks import ANIMEK, EPEP, HECKER, ISLAMIC, FAKTA, PUBG
 
 
 class ErApi:
@@ -37,6 +37,7 @@ class ErApi:
             "libur": apainier(
                 "aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI="
             ).decode("utf-8"),
+            "bing_image": "https://www.bing.com/images/async",
         }
 
     async def _make_request(
@@ -336,38 +337,26 @@ class ErApi:
             )
         return "Doa tidak ditemukan atau format data tidak valid."
 
-    @staticmethod
-    def ai_image(teks: str) -> bytes:
-        """Generate gambar dari text.
+    async def bing_image(self, teks: str, limit: int = 1):
+        """
+        Cari bing images based om teks.
 
         Args:
-            teks (str): Kata yang ingin di generate.
+            teks (str): Teks quesy yang ingin di cari gambarnya.
+            limit (int, optional): Maximum number photonya. Defaults nya 1.
 
         Returns:
-            bytes: Generate di bytes format.
+            list: List image url yang di terima.
         """
-        url = apainier(
-            "aHR0cHM6Ly9haS1hcGkubWFnaWNzdHVkaW8uY29tL2FwaS9haS1hcnQtZ2VuZXJhdG9y"
-        ).decode("utf-8")
-
-        form_data = {
-            "prompt": teks,
-            "output_format": "bytes",
-            "request_timestamp": str(int(time.time())),
-            "user_is_subscribed": "false",
+        data = {
+            "q": teks,
+            "first": 0,
+            "count": limit,
+            "adlt": "off",
+            "qft": "",
         }
-
-        response = requests.post(url, data=form_data)
-        if response.status_code == 200:
-            try:
-                if response.content:
-                    return response.content
-                else:
-                    raise Exception("Gagal merender gambar sayang.")
-            except Exception as e:
-                raise e
-        else:
-            raise Exception("Error:", response.status_code)
+        response = await self._make_request(self.base_urls["bing_image"], params=data)
+        return re.findall(r"murl&quot;:&quot;(.*?)&quot;", response) if response else []
 
     async def carbon(self, query):
         """
@@ -576,6 +565,7 @@ class ErApi:
         """
         response = await self._make_request(self.base_urls["neko_hug"].format(amount))
         return response["results"]
+
 
 
 apinya = ErApi()
