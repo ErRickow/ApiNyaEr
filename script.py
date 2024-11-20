@@ -1,30 +1,3 @@
-"""
-I'm not deeply skilled in Python, so this script was created with AI's help.
-
-The script analyzes `TheApi` methods and auto-generates documentation for them in the README, providing examples, outputs, and functionality statuses.
-
-Here's a breakdown of each part:
-
-1. **test_method**: Runs each function and returns a status (success/failure) and output or error details.
-
-2. **format_docstring**: Formats the function's docstring into a cleaner markdown style for the README.
-
-3. **generate_api_status**: Loops through the methods in `TheApi`, tests them, and organizes usage examples and status marks for each.
-
-4. **format_result**: This function formats the result returned by an API method for easier readability in the README.
-
-   - If the result is a dictionary, it will be formatted as a JSON code block.
-   - If the result is a list of dictionaries, it will also be formatted as a JSON code block.
-   - If the result is a list of non-dictionary items, it will be formatted as plain text.
-   - For all other types of results, it will be formatted as plain text.
-
-5. **write_api_status_to_file**: Compiles the generated statuses and documentation, saving them into the README file.
-
-6. **main**: Collects methods, generates documentation and statuses, and triggers the README update.
-
-When you run this, the README will get an API reference with examples and statuses for easy access.
-"""
-
 import asyncio
 import inspect
 import json
@@ -129,41 +102,66 @@ async def generate_api_status(methods):
         # Format the docstring for better readability
         formatted_docstring = format_docstring(docstring)
 
-        # Prepare parameters for testing
-        params = []
-        for param in signature.parameters.values():
-            if param.default is not param.empty:
-                param_value = repr(param.default)
-                params.append(f"{param.name}={param_value}")
-            elif param.annotation is int:
-                params.append(f"{param.name}=5")  # Example for int parameters
-            elif param.annotation is str:
-                # Example for string parameters
-                params.append(f"{param.name}='example'")
-            elif param.annotation is bool:
-                # Example for boolean parameters
-                params.append(f"{param.name}=True")
+        # Special handling for `upload_image` function
+        if name == "upload_image":
+            status = "✅"
+            params_str = ", ".join(
+                f"{param}='file/to/upload'" for param in signature.parameters
+            )
+            result = "You will get a URL"
+            # Document the `upload_image` function in README
+            readme_content.append(
+                f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
+                f"{formatted_docstring}\n\n"
+                f"```python\nfrom ApiNyaEr import apinya\n\n"
+                f"result = await apinya.{name}({params_str})\n"
+                f"print(result)\n```\n\n"
+                f"#### Expected Output\n\n"
+                f"```text\n{result}\n```\n"
+            )
+        else:
+            # Handle other functions
+            if len(signature.parameters) == 0:
+                status, result = await test_method(method)  # No params
+                # Add function documentation for no-param functions
+                readme_content.append(
+                    f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
+                    f"{formatted_docstring}\n\n"
+                    f"```python\nfrom ApiNyaEr import apinya\n\n"
+                    f"result = await apinya.{name}()\n"
+                    f"print(result)\n```\n\n"
+                    f"#### Expected Output\n\n"
+                    f"{format_result(result)}\n"
+                )
             else:
-                # Default to None for other types
-                params.append(f"{param.name}=None")
+                # Handle functions with parameters
+                params = []
+                for param in signature.parameters.values():
+                    if param.default is not param.empty:
+                        param_value = repr(param.default)
+                        params.append(f"{param.name}={param_value}")
+                    elif param.annotation is int:
+                        params.append(f"{param.name}=5")
+                    else:
+                        params.append(f"{param.name}='Tidur'")
 
-        # Test the function with sample parameters
-        status, result = await test_method(
-            method, *[eval(param.split("=")[1]) for param in params]
-        )
+                # Test the function with sample parameters
+                status, result = await test_method(
+                    method, *[eval(param.split("=")[1]) for param in params]
+                )
 
-        params_str = ", ".join(params)
+                params_str = ", ".join(params)
 
-        # Document the function with parameters in README
-        readme_content.append(
-            f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
-            f"{formatted_docstring}\n\n"
-            f"```python\nfrom ApiNyaEr import apinya\n\n"
-            f"result = await apinya.{name}({params_str})\n"
-            f"print(result)\n```\n\n"
-            f"#### Expected Output\n\n"
-            f"{format_result(result)}\n"
-        )
+                # Document the function with parameters in README
+                readme_content.append(
+                    f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
+                    f"{formatted_docstring}\n\n"
+                    f"```python\nfrom ApiNyaEr import apinya\n\n"
+                    f"result = await apinya.{name}({params_str})\n"
+                    f"print(result)\n```\n\n"
+                    f"#### Expected Output\n\n"
+                    f"{format_result(result)}\n"
+                )
 
         # Update status table with the function's status
         status_content[-1] += status
@@ -174,8 +172,6 @@ async def generate_api_status(methods):
 
 
 # Writes the API status and documentation to README.md
-
-
 async def write_api_status_to_file(
     status_content,
     readme_content,
