@@ -1,8 +1,9 @@
 import json
 import os
-import random
 import re
+import random
 import string
+import time
 import urllib
 from base64 import b64decode as apainier
 from os.path import realpath
@@ -14,7 +15,7 @@ import requests
 
 from .fungsi import FilePath
 from .td import DARE, TRUTH
-from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
+from .teks import ANIMEK, EPEP, HECKER, ISLAMIC, FAKTA, PUBG
 
 
 class ErApi:
@@ -37,9 +38,8 @@ class ErApi:
             "libur": apainier(
                 "aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI="
             ).decode("utf-8"),
-            "bing_image": apainier(
-                "aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j"
-            ).decode("utf-8"),
+            "bing_image":
+            apainier("aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j").decode("utf-8"),
             "pypi": apainier("aHR0cHM6Ly9weXBpLm9yZy9weXBp").decode("utf-8"),
         }
 
@@ -89,7 +89,7 @@ class ErApi:
             except aiohttp.ClientError as e:
                 raise ValueError(f"Request failed: {str(e)}")
 
-    async def wibu(self, endpoint: str = "kiss", jumlah: int = 1) -> dict:
+    async def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
         """Fetch spesifik Gambar/Gif Anime.
 
         Args:
@@ -103,7 +103,7 @@ class ErApi:
                   "kiss", "laugh", "lurk", "nod", "nom", "nope", "pat", "peck", "poke",
                   "pout", "punch", "shoot", "shrug", "slap", "sleep", "smile", "smug",
                   "stare", "think", "thumbsup", "tickle", "wave", "wink", "yawn", "yeet"
-            jumlah (int): Jumlah item gambarnya. Default 1.
+            amount (int): amount item gambarnya. Default 1.
 
         Returns:
             dict: Dictionary konten yang di request. Dictionarynya memiliki kata
@@ -165,7 +165,7 @@ class ErApi:
                 f"SALAH GUOBLOK'{endpoint}'. Harus yang kek gini: {', '.join(valid_categories)}"
             )
 
-        url = self.base_urls["neko_url"].format(endpoint=endpoint, jumlah=jumlah)
+        url = self.base_urls["neko_url"].format(endpoint=endpoint, amount=amount)
 
         response = await self._make_request(url)
 
@@ -640,7 +640,7 @@ class ErApi:
         """Dapatkan gif Random pelukan dari Nekos.Best API.
 
         Args:
-            amount (int): Jumlah gambar nya, Defaultnya 1.
+            amount (int): amount gambar nya, Defaultnya 1.
 
         Returns:
             list: List dari dictionaries tentang informasi neko image atau GIF.
