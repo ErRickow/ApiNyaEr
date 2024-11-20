@@ -39,7 +39,7 @@ class ErApi:
             ).decode("utf-8"),
             "bing_image":
             apainier("aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j").decode("utf-8"),
-            "pypi": "https://pypi.org/pypi",
+            "pypi": apainier("aHR0cHM6Ly9weXBpLm9yZy9weXBp").decode("utf-8"),
         }
 
     async def _make_request(
