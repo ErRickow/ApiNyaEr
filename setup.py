@@ -1,5 +1,7 @@
 import os
+
 from setuptools import find_packages, setup
+
 
 def read_requirements():
     try:
@@ -9,9 +11,11 @@ def read_requirements():
         print("Warning: requirements.txt not found. No dependencies will be installed.")
         return []
 
+
 def read(fname, version=False):
     text = open(os.path.join(os.path.dirname(__file__), fname), encoding="utf8").read()
     return text
+
 
 setup(
     name="ApiNyaEr",
@@ -28,6 +32,6 @@ setup(
         "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
-    keywords='Python Api, With Easy Instalation',
+    python_requires=">=3.6",
+    keywords="Python Api, With Easy Instalation",
 )
