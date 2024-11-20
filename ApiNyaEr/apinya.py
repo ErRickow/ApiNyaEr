@@ -17,24 +17,20 @@ from .td import DARE, TRUTH
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "neko_url": apainier(
-                "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ=="
-            ).decode("utf-8"),
-            "neko_hug": apainier(
-                "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi9odWc/YW1vdW50PXt9"
-            ).decode("utf-8"),
-            "doa_url": apainier(
-                "aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ=="
-            ).decode("utf-8"),
+            "neko_url":
+            apainier("aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ==").decode("utf-8"),
+            "neko_hug":
+            apainier("aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi9odWc/YW1vdW50PXt9").decode("utf-8"),
+            "doa_url":
+            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9yZWxpZ2lvbi9pc2xhbWljL2RvYQ==").decode("utf-8"),
             "ai_url": "https://itzpire.com/ai/cohere",
-            "cat": apainier(
-                "aHR0cHM6Ly9hcGkudGhlY2F0YXBpLmNvbS92MS9pbWFnZXMvc2VhcmNo"
-            ).decode("utf-8"),
-            "dog": apainier("aHR0cHM6Ly9yYW5kb20uZG9nL3dvb2YuanNvbg==").decode("utf-8"),
+            "cat":
+            apainier("aHR0cHM6Ly9hcGkudGhlY2F0YXBpLmNvbS92MS9pbWFnZXMvc2VhcmNo").decode("utf-8"),
+            "dog":
+            apainier("aHR0cHM6Ly9yYW5kb20uZG9nL3dvb2YuanNvbg==").decode("utf-8"),
             "randy": "https://private-akeno.randydev.my.id/ryuzaki/chatgpt-old",
-            "libur": apainier(
-                "aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI="
-            ).decode("utf-8"),
+            "libur":
+            apainier("aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI=").decode("utf-8"),
         }
 
     async def _make_request(
@@ -107,6 +103,33 @@ class ErApi:
         """
         random_str = "".join(random.choices(string.ascii_letters + string.digits, k=8))
         return random_str
+
+    @staticmethod
+    def gemini(args: str) -> dict:
+        """
+        Generate content using the Gemini API. ✨
+
+        Args:
+            args (str): The input text to generate content.
+
+        Returns:
+            dict: A dictionary containing the generated content with metadata.
+        """
+        url = m('aHR0cHM6Ly9nZW5lcmF0aXZlbGFuZ3VhZ2UuZ29vZ2xlYXBpcy5jb20vdjFiZXRhL21vZGVscy9nZW1pbmktcHJvOmdlbmVyYXRlQ29udGVudD9rZXk9QUl6YVN5QmtOSlVub3BEaEFvVmU3dVJqZ0gzeElPSnZBdHJ6Zk9J').decode("utf-8")
+        headers = {'Content-Type': 'application/json'}
+        payload = {
+            'contents': [
+                {'parts': [{'text': args}]}
+            ]
+        }
+
+        try:
+            response = requests.post(url, headers=headers, data=json.dumps(payload))
+            if response.status_code == 200:
+                generated_text = response.json()["candidates"][0]["content"]["parts"][0]["text"]
+                return {"results":generated_text,"author": "@chakszzz", "success": True}
+        except Exception as e:
+            return e
 
     @staticmethod
     def truth():
