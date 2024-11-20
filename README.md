@@ -10,6 +10,22 @@ Below, we’ll cover each function, providing examples and expected results so y
 ## Status
 
 | Function           | Status |
+|
+
+---
+
+# 📘 API Documentation
+
+Welcome to the **ErApi**! This library allows you to easily interact with the API using both **synchronous** and **asynchronous** options.
+
+- **Sync**: `from ApiNyaEr.sync import apinya`
+- **Async**: `from ApiNyaEr import apinya`
+
+Below, we’ll cover each function, providing examples and expected results so you can get started quickly! Let’s dive in 🚀
+
+## Status
+
+| Function           | Status |
 |--------------------|--------|
 | [1. Ai](#1-ai) | ✅
 | [2. Ai Image](#2-ai-image) | ❌
@@ -131,7 +147,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_aPw4t7TO.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_9eiUsBx2.png
 ```
 
 ### 5. Cat
@@ -153,7 +169,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/7bd.gif
+https://cdn2.thecatapi.com/images/e4p.jpg
 ```
 
 ### 6. Dare
@@ -174,7 +190,7 @@ print(result)
 #### Expected Output
 
 ```text
-isi mulut penuh dengan air dan harus tahan hingga dua putaran. Jika tertawa dan tumpah atau terminum, maka harus ngisi ulang dan ditambah satu putaran lagi.
+Upload video dia nyanyi ke youtube yang lagi nyanyiin lagu-lagu populer
 ```
 
 ### 7. Doa
@@ -220,7 +236,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/adbf2147-7bfa-4933-b3be-c42358c2fecb.jpg
+https://random.dog/244ed23b-e0d8-44ce-be2c-552fc777d1ae.jpg
 ```
 
 ### 9. Fakta Unik
@@ -241,7 +257,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 *A “jiffy” is the scientific name for 1/100th of a second.*
+🌾 **A “jiffy” is the scientific name for 1/100th of a second.**
 ```
 
 ### 10. Gemini
@@ -266,7 +282,7 @@ print(result)
 
 ```json
 {
-    "results": "* **Customer:** I'm looking for a new pair of running shoes.\n* **Salesperson:** What kind of running do you do?\n* **Customer:** I mostly run on the road.\n* **Salesperson:** Okay, I recommend these shoes. They're designed for road running and they have a lot of cushioning to protect your feet.\n* **Customer:** How much do they cost?\n* **Salesperson:** They're $120.\n* **Customer:** That's a little more than I wanted to spend. Do you have anything cheaper?\n* **Salesperson:** We do have a pair of shoes that are $100. They're not as cushioned as these shoes, but they're still a good option for road running.\n* **Customer:** I'll take those.\n* **Salesperson:** Great! Do you need anything else today?\n* **Customer:** No, that's all. Thanks!",
+    "results": "**Example Code:**\n\n```python\nimport asyncio\nimport websockets\n\nasync def hello(websocket):\n    name = await websocket.recv()\n    print(f\"Hello {name}!\")\n\n    greeting = f\"Hello {name}!\"\n\n    await websocket.send(greeting)\n    print(f\"Sent greeting: {greeting}\")\n\nasync def main():\n    async with websockets.serve(hello, \"localhost\", 8765):\n        await asyncio.Future()\n\nasyncio.run(main())\n```\n\n**Explanation:**\n\n1. **Import required modules:** We import asyncio for asynchronous programming and websockets for WebSocket functionality.\n\n2. **WebSocket handler function (hello):**\n   - This function accepts a WebSocket connection (websocket) as an argument.\n   - It reads the client's message (name) from the incoming WebSocket connection.\n   - It constructs a greeting message (greeting) based on the client's name.\n   - Finally, it sends the greeting message back to the client.\n\n3. **Main function (main):**\n   - In this async function, we use the websockets.serve() coroutine to create a WebSocket server and bind it to the given host and port (localhost and 8765 in this case).\n   - The server is configured to handle WebSocket connections using the hello() handler function.\n   - The await asyncio.Future() line is used to keep the server active until the client disconnects.\n\n4. **asyncio.run(main()):**\n   - This line starts the asyncio event loop and calls the main() function.\n   - It will run until the main() function completes or an error is raised.",
     "author": "@chakszzz",
     "success": true
 }
@@ -335,8 +351,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kantai Collection: KanColle",
-        "url": "https://nekos.best/api/v2/hug/56886a54-ef3f-4947-b069-494af839f70c.gif"
+        "anime_name": "Engage Kiss",
+        "url": "https://nekos.best/api/v2/hug/c968b89d-494e-453d-95b7-bd5f3d238e4e.gif"
     }
 ]
 ```
@@ -380,7 +396,7 @@ print(result)
 #### Expected Output
 
 ```text
-°ᴮᴸᴰ°нυsᴎιツ
+꧁þαšТΣĻ꧂௶ꣷ
 ```
 
 ### 15. Password
@@ -405,7 +421,7 @@ print(result)
 #### Expected Output
 
 ```text
-Bte=Yoz?%dHy
+d;wpcD3Bb*Ix
 ```
 
 ### 16. Qanime
@@ -427,10 +443,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 *Quotes": "Mustahil menyelamatkan semua orang. Menyelamatkan banyak orang harus dibayar dengan menghancurkan sebagian kecil orang lainnya.*",
-    "\ud83c\udf39 *Character": "Archer*",
-    "\ud83c\udf41 *Anime": "Fate/stay night: Unlimited Blade Works 2nd Season*",
-    "\ud83c\udf41 *Episode": "Episode 7*"
+    "\ud83c\udf81 **Quotes": "Melihatnya bekerja keras untuk membenciku, entah mengapa agak menyenangkan.**",
+    "\ud83c\udf39 **Character": "Ohana Matsumae**",
+    "\ud83c\udf41 **Anime": "Hanasaku Iroha**",
+    "\ud83c\udf41 **Episode": "Episode 3**"
 }
 ```
 
@@ -452,7 +468,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 *Kami tumbuh untuk percaya bahwa kami tidak bersalah sampai terbukti bersalah, tapi kenyataannya kami selalu divonis bersalah.*
+🃏 **Di balik layar monitor ini aku dapat melihat dunia.**
 ```
 
 ### 18. Qislam
@@ -473,7 +489,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 *Sungguh tak terhitung banyaknya nikmat yang sudah engkau berikan kepada kami ya Allah*
+📖 **Ketika seseorang pergi dan tinggalkan kita maka datanglah pada Allah dengan doa dan ibadah kita bersungguh-sungguh kita akan merasakan keindahan dan kasih sayang yang luar biasa**
 ```
 
 ### 19. Qpubg
@@ -494,7 +510,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 *Lari mengejar airdrop saja aku mau, apa lagi lari mengejar cintamu*
+🏆 **Tidak ada kemenangan sejati tanpa chicken dinner**
 ```
 
 ### 20. Truth
@@ -515,7 +531,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa yang akan kamu lakuin bila pacarmu bilang hidung atau jarimu jelek?
+Kapan terakhir kali menangis dan mengapa?
 ```
 
 
