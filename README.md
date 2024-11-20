@@ -1,8 +1,3 @@
-# ApiNyaEr
-what
-
----
-
 # 📘 API Documentation
 
 Welcome to the **ErApi**! This library allows you to easily interact with the API using both **synchronous** and **asynchronous** options.
