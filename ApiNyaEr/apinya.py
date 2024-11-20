@@ -1,7 +1,9 @@
 import json
 import os
+import re
 import random
 import string
+import time
 import urllib
 from base64 import b64decode as apainier
 from os.path import realpath
@@ -13,7 +15,7 @@ import requests
 
 from .fungsi import FilePath
 from .td import DARE, TRUTH
-from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
+from .teks import ANIMEK, EPEP, HECKER, ISLAMIC, FAKTA, PUBG
 
 
 class ErApi:
@@ -36,9 +38,8 @@ class ErApi:
             "libur": apainier(
                 "aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI="
             ).decode("utf-8"),
-            "bing_image": apainier(
-                "aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j"
-            ).decode("utf-8"),
+            "bing_image":
+            apainier("aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j").decode("utf-8"),
             "pypi": apainier("aHR0cHM6Ly9weXBpLm9yZy9weXBp").decode("utf-8"),
         }
 
@@ -567,6 +568,51 @@ class ErApi:
         """
         response = await self._make_request(self.base_urls["neko_hug"].format(amount))
         return response["results"]
+
+    async def pypi(self, namanya):
+        """
+        Retrieves metadata information about a specified Python package from the PyPI API.
+
+        Args:
+            namanya (str): The name of the package to search for on PyPI.
+
+        Returns:
+            dict or None: A dictionary with relevant package information if found, containing:
+                - name (str): Package name.
+                - version (str): Latest package version.
+                - summary (str): Short description of the package.
+                - author (str): Package author.
+                - author_email (str): Email of the package author.
+                - license (str): License type.
+                - home_page (str): URL of the package's homepage.
+                - package_url (str): URL of the package on PyPI.
+                - requires_python (str): Minimum Python version required.
+                - keywords (str): Keywords associated with the package.
+                - classifiers (list): List of PyPI classifiers.
+                - project_urls (dict): Additional project URLs (e.g., source code, documentation).
+            Returns None if the package is not found or there is an error.
+        """
+        url = f"{self.base_urls['pypi']}/{namanya}/json"
+        response = await self._make_request(url)
+        if response:
+            info = response["info"]
+            relevant_info = {
+                "name": info["name"],
+                "version": info["version"],
+                "summary": info["summary"],
+                "author": info["author"],
+                "author_email": info["author_email"],
+                "license": info["license"],
+                "home_page": info["home_page"],
+                "package_url": info["package_url"],
+                "requires_python": info["requires_python"],
+                "keywords": info["keywords"],
+                "classifiers": info["classifiers"],
+                "project_urls": info["project_urls"],
+            }
+            return relevant_info
+        else:
+            return None
 
 
 apinya = ErApi()
