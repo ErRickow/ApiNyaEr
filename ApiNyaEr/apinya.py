@@ -1,8 +1,9 @@
 import json
 import os
-import random
 import re
+import random
 import string
+import time
 import urllib
 from base64 import b64decode as apainier
 from os.path import realpath
@@ -14,7 +15,7 @@ import requests
 
 from .fungsi import FilePath
 from .td import DARE, TRUTH
-from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
+from .teks import ANIMEK, EPEP, HECKER, ISLAMIC, FAKTA, PUBG
 
 
 class ErApi:
@@ -37,9 +38,8 @@ class ErApi:
             "libur": apainier(
                 "aHR0cHM6Ly9pdHpwaXJlLmNvbS9pbmZvcm1hdGlvbi9uZXh0TGlidXI="
             ).decode("utf-8"),
-            "bing_image": apainier(
-                "aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j"
-            ).decode("utf-8"),
+            "bing_image":
+            apainier("aHR0cHM6Ly93d3cuYmluZy5jb20vaW1hZ2VzL2FzeW5j").decode("utf-8"),
             "pypi": apainier("aHR0cHM6Ly9weXBpLm9yZy9weXBp").decode("utf-8"),
         }
 
@@ -88,6 +88,88 @@ class ErApi:
                     return await response.text()
             except aiohttp.ClientError as e:
                 raise ValueError(f"Request failed: {str(e)}")
+
+    async def wibu(self, endpoint: str = "kiss", jumlah: int = 1) -> dict:
+        """Fetch spesifik Gambar/Gif Anime.
+
+        Args:
+            endpoint (str): Kategori endpoin gambar/Gif animenya. Defaultnya
+            "kiss".
+                Valid Format endpoints:
+                - "husbando", "kitsune", "neko", "waifu"
+                Valid GIF endpoints:
+                - "baka", "bite", "blush", "bored", "cry", "cuddle", "dance", "facepalm",
+                  "feed", "handhold", "handshake", "happy", "highfive", "hug", "kick",
+                  "kiss", "laugh", "lurk", "nod", "nom", "nope", "pat", "peck", "poke",
+                  "pout", "punch", "shoot", "shrug", "slap", "sleep", "smile", "smug",
+                  "stare", "think", "thumbsup", "tickle", "wave", "wink", "yawn", "yeet"
+            jumlah (int): Jumlah item gambarnya. Default 1.
+
+        Returns:
+            dict: Dictionary konten yang di request. Dictionarynya memiliki kata
+            kunci`"results"`,
+                  yang menampung limit.
+
+        Raises:
+            ValueError: Jika endpoint tidak valid.
+        """
+        valid_categories = [
+            "husbando",
+            "kitsune",
+            "neko",
+            "waifu",  # Images
+            "baka",
+            "bite",
+            "blush",
+            "bored",
+            "cry",
+            "cuddle",
+            "dance",
+            "facepalm",
+            "feed",
+            "handhold",
+            "handshake",
+            "happy",
+            "highfive",
+            "hug",
+            "kick",
+            "kiss",
+            "laugh",
+            "lurk",
+            "nod",
+            "nom",
+            "nope",
+            "pat",
+            "peck",
+            "poke",
+            "pout",
+            "punch",
+            "shoot",
+            "shrug",
+            "slap",
+            "sleep",
+            "smile",
+            "smug",
+            "stare",
+            "think",
+            "thumbsup",
+            "tickle",
+            "wave",
+            "wink",
+            "yawn",
+            "yeet",  # GIFs
+        ]
+
+        if endpoint not in valid_categories:
+            raise ValueError(
+                f"SALAH GUOBLOK'{endpoint}'. Harus yang kek gini: {', '.join(valid_categories)}"
+            )
+
+        url = self.base_urls["neko_url"].format(endpoint=endpoint, jumlah=jumlah)
+
+        response = await self._make_request(url)
+
+        return response
 
     @staticmethod
     def password(num: int = 12) -> str:
@@ -570,28 +652,28 @@ class ErApi:
         return response["results"]
 
     async def pypi(self, namanya):
-        """
-        Retrieves metadata information about a specified Python package from the PyPI API.
+    """
+    Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
 
-        Args:
-            namanya (str): The name of the package to search for on PyPI.
+    Args:
+        namanya (str): Nama paket yang dicari di PyPI.
 
-        Returns:
-            dict or None: A dictionary with relevant package information if found, containing:
-                - name (str): Package name.
-                - version (str): Latest package version.
-                - summary (str): Short description of the package.
-                - author (str): Package author.
-                - author_email (str): Email of the package author.
-                - license (str): License type.
-                - home_page (str): URL of the package's homepage.
-                - package_url (str): URL of the package on PyPI.
-                - requires_python (str): Minimum Python version required.
-                - keywords (str): Keywords associated with the package.
-                - classifiers (list): List of PyPI classifiers.
-                - project_urls (dict): Additional project URLs (e.g., source code, documentation).
-            Returns None if the package is not found or there is an error.
-        """
+    Returns:
+        dict atau None: Sebuah kamus dengan informasi relevan tentang paket jika ditemukan, yang berisi:
+            - name (str): Nama paket.
+            - version (str): Versi terbaru paket.
+            - summary (str): Deskripsi singkat tentang paket.
+            - author (str): Penulis paket.
+            - author_email (str): Email penulis paket.
+            - license (str): Jenis lisensi.
+            - home_page (str): URL halaman utama paket.
+            - package_url (str): URL paket di PyPI.
+            - requires_python (str): Versi Python minimum yang dibutuhkan.
+            - keywords (str): Kata kunci yang terkait dengan paket.
+            - classifiers (list): Daftar pengklasifikasi PyPI.
+            - project_urls (dict): URL proyek tambahan (misalnya, kode sumber, dokumentasi).
+        Returns None jika paket tidak ditemukan atau terjadi kesalahan.
+    """
         url = f"{self.base_urls['pypi']}/{namanya}/json"
         response = await self._make_request(url)
         if response:
@@ -612,7 +694,7 @@ class ErApi:
             }
             return relevant_info
         else:
-            return None
+            return "TOLOL"
 
 
 apinya = ErApi()
