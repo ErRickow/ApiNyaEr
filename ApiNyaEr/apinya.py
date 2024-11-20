@@ -673,7 +673,7 @@ class ErApi:
             - classifiers (list): Daftar pengklasifikasi PyPI.
             - project_urls (dict): URL proyek tambahan (misalnya, kode sumber, dokumentasi).
         Returns None jika paket tidak ditemukan atau terjadi kesalahan.
-    """
+        """
         url = f"{self.base_urls['pypi']}/{namanya}/json"
         response = await self._make_request(url)
         if response:
