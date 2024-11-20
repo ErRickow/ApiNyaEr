@@ -129,66 +129,36 @@ async def generate_api_status(methods):
         # Format the docstring for better readability
         formatted_docstring = format_docstring(docstring)
 
-        # Special handling for `upload_image` function
-        if name == "upload_image":
-            status = "✅"
-            params_str = ", ".join(
-                f"{param}='file/to/upload'" for param in signature.parameters
-            )
-            result = "You will get a URL"
-            # Document the `upload_image` function in README
-            readme_content.append(
-                f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
-                f"{formatted_docstring}\n\n"
-                f"```python\nfrom ApiNyaEr import apinya\n\n"
-                f"result = await apinya.{name}({params_str})\n"
-                f"print(result)\n```\n\n"
-                f"#### Expected Output\n\n"
-                f"```text\n{result}\n```\n"
-            )
-        else:
-            # Handle other functions
-            if len(signature.parameters) == 0:
-                status, result = await test_method(method)  # No params
-                # Add function documentation for no-param functions
-                readme_content.append(
-                    f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
-                    f"{formatted_docstring}\n\n"
-                    f"```python\nfrom ApiNyaEr import apinya\n\n"
-                    f"result = await apinya.{name}()\n"
-                    f"print(result)\n```\n\n"
-                    f"#### Expected Output\n\n"
-                    f"{format_result(result)}\n"
-                )
+        # Prepare parameters for testing
+        params = []
+        for param in signature.parameters.values():
+            if param.default is not param.empty:
+                param_value = repr(param.default)
+                params.append(f"{param.name}={param_value}")
+            elif param.annotation is int:
+                params.append(f"{param.name}=5")  # Example for int parameters
+            elif param.annotation is str:
+                params.append(f"{param.name}='example'")  # Example for string parameters
+            elif param.annotation is bool:
+                params.append(f"{param.name}=True")  # Example for boolean parameters
             else:
-                # Handle functions with parameters
-                params = []
-                for param in signature.parameters.values():
-                    if param.default is not param.empty:
-                        param_value = repr(param.default)
-                        params.append(f"{param.name}={param_value}")
-                    elif param.annotation is int:
-                        params.append(f"{param.name}=5")
-                    else:
-                        params.append(f"{param.name}='Tidur'")
+                params.append(f"{param.name}=None")  # Default to None for other types
 
-                # Test the function with sample parameters
-                status, result = await test_method(
-                    method, *[eval(param.split("=")[1]) for param in params]
-                )
+        # Test the function with sample parameters
+        status, result = await test_method(method, *[eval(param.split("=")[1]) for param in params])
 
-                params_str = ", ".join(params)
+        params_str = ", ".join(params)
 
-                # Document the function with parameters in README
-                readme_content.append(
-                    f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
-                    f"{formatted_docstring}\n\n"
-                    f"```python\nfrom ApiNyaEr import apinya\n\n"
-                    f"result = await apinya.{name}({params_str})\n"
-                    f"print(result)\n```\n\n"
-                    f"#### Expected Output\n\n"
-                    f"{format_result(result)}\n"
-                )
+        # Document the function with parameters in README
+        readme_content.append(
+            f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
+            f"{formatted_docstring}\n\n"
+            f"```python\nfrom ApiNyaEr import apinya\n\n"
+            f"result = await apinya.{name}({params_str})\n"
+            f"print(result)\n```\n\n"
+            f"#### Expected Output\n\n"
+            f"{format_result(result)}\n"
+        )
 
         # Update status table with the function's status
         status_content[-1] += status
@@ -196,7 +166,6 @@ async def generate_api_status(methods):
         function_count += 1
 
     return status_content, readme_content
-
 
 # Writes the API status and documentation to README.md
 async def write_api_status_to_file(
