@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 
-from ApiNyaEr import apinya  # Pastikan untuk mengimpor objek apinya
+from ApiNyaEr import apinya  
 
 app = Flask(__name__)
 
