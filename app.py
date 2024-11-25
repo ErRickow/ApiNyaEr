@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 
-from ApiNyaEr import apinya  
+from ApiNyaEr import apinya
 
 app = Flask(__name__)
 
