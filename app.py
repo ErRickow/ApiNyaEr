@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/api/<method_name>", methods=["GET", "POST"])
 async def api_handler(method_name):
     # Ambil parameter dari permintaan
-    params = request.args.to_dict()  # Untuk GET
+    params = request.args.to_dict() 
     if request.method == "POST":
         params = request.json  # Untuk POST
 
