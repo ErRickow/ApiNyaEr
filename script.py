@@ -213,7 +213,6 @@ async def write_api_status_to_file(
         "from ApiNyaEr import apinya\n"
         "```\n\n"
         "Below, we’ll cover each function, providing examples and expected results so you can get started quickly! Let’s dive in 🚀\n\n"
-    )
         "## Status\n\n"
         "| Function           | Status |\n"
         "|--------------------|--------|\n"
