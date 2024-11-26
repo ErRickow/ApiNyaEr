@@ -198,6 +198,7 @@ async def write_api_status_to_file(
     preface = "# 📘 API Documentation\n\n"
     preface += (
         "Welcome to the **ErApi**! This library allows you to easily interact with the API using both **synchronous** and **asynchronous** options.\n\n"
+        "- **U can install the library with**: `pip3 install ApiNyaEr`\n"
         "- **Sync**: `from ApiNyaEr.sync import apinya`\n"
         "- **Async**: `from ApiNyaEr import apinya`\n\n"
         "Below, we’ll cover each function, providing examples and expected results so you can get started quickly! Let’s dive in 🚀\n\n"
