@@ -90,29 +90,18 @@ class ErApi:
             except aiohttp.ClientError as e:
                 raise ValueError(f"Request failed: {str(e)}")
 
-    async def pinterest(self, query: str, count=1) -> list:
+    @staticmethod
+    def get_pinter_url(self, query: str) -> str:
         """
-        Mengambil sejumlah gambar dari base URL Pinterest berdasarkan query.
+        Mengembalikan URL Pinterest berdasarkan query yang diberikan.
 
         Args:
             query (str): Kata kunci pencarian untuk Pinterest.
-            count (int): Jumlah gambar yang ingin diambil. Default: 1.
 
         Returns:
-            list: Daftar URL gambar yang dipilih secara acak.
+            str: URL lengkap dengan query yang dimasukkan.
         """
-        url = self.base_urls["pinter"].format(query=query)
-
-        response = await self._make_request(url)
-        if isinstance(response, dict) and "images" in response:
-            image_urls = response["images"]
-
-            if count > len(image_urls):
-                raise ValueError("Count melebihi jumlah gambar yang tersedia.")
-                # Pilih gambar secara acak
-            return random.sample(image_urls, count)
-
-        raise ValueError("Respons API tidak valid atau tidak ada gambar.")
+        return self.base_urls["pinter"].format(query=query)
 
     async def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
         """Fetch spesifik Gambar/Gif Anime.
