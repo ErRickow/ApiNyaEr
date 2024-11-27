@@ -28,7 +28,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 
 | Function           | Status |
 |--------------------|--------|
-| [1. Ai](#1-ai) | ❌
+| [1. Ai](#1-ai) | ✅
 | [2. Bing Image](#2-bing-image) | ✅
 | [3. Blackbox](#3-blackbox) | ✅
 | [4. Carbon](#4-carbon) | ✅
@@ -78,7 +78,7 @@ print(result)
 #### Expected Output
 
 ```text
-Expecting value: line 1 column 1 (char 0)
+Kenapa awak tidur bilik saya.
 ```
 
 ### 2. Bing Image
@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_wgkCZORp.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_7lH7S3IE.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/o0eqzDky9.jpg
+https://cdn2.thecatapi.com/images/aat.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Minum tiga teguk teh atau coke (coca-cola atau sprite) yang dicampur sambal.
+Kirim sms pada tiga nomor acak di kontakmu dan tulis 'Aku baru saja menjadi model majalah Playboy.'
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/27206e48-8011-4afb-ad05-82040e1ebe65.png
+https://random.dog/0597fcdd-871c-487e-a62f-b3cab8937fda.mp4
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **25% kandungan dalam apel adalah Udara. makanya apel bisa mengapung**
+🌾 **Telur segar tenggelam diair, telur yang kadaluarsa mengambang**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Definisi**\n\nTidur adalah keadaan istirahat yang melibatkan pengurangan kesadaran dan aktivitas fisik sistemik.\n\n**Tahap Tidur**\n\nAda dua tahap utama tidur:\n\n* **Tidur Non-REM (NREM):** Terdiri dari tiga tahap:\n    * Tahap N1 (tidur ringan): Peralihan dari bangun ke tidur\n    * Tahap N2 (tidur nyenyak): Aktivitas otak melambat\n    * Tahap N3 (tidur nyenyak): Tidur paling dalam dan sulit untuk dibangunkan\n* **Tidur REM (Tidur Gerakan Mata Cepat):** Juga dikenal sebagai tahap bermimpi, ditandai dengan aktivitas otak yang cepat dan gerakan mata yang cepat\n\n**Siklus Tidur**\n\nTidur terjadi dalam siklus sekitar 90 menit, berulang antara tahap NREM dan REM beberapa kali sepanjang malam.\n\n**Fungsi Tidur**\n\nTidur sangat penting untuk kesehatan fisik dan mental secara keseluruhan, termasuk:\n\n* Pertumbuhan dan perbaikan sel\n* Konsolidasi memori\n* Regulasi nafsu makan\n* Memperkuat sistem kekebalan tubuh\n* Mengurangi stres dan kecemasan\n\n**Gangguan Tidur**\n\nGangguan tidur adalah kondisi yang memengaruhi pola tidur normal, termasuk:\n\n* Insomnia: Kesulitan tidur atau tetap tertidur\n* Apnea tidur: Berhenti bernapas saat tidur\n* Narkolepsi: Kebutuhan berlebihan untuk tidur\n* Sindrom kaki gelisah: Dorongan yang tak tertahankan untuk menggerakkan kaki\n\n**Tips untuk Tidur Nyenyak**\n\n* Pergi tidur dan bangun pada waktu yang sama setiap hari\n* Ciptakan lingkungan tidur yang nyaman dan santai\n* Hindari kafein dan alkohol sebelum tidur\n* Lakukan olahraga teratur\n* Hindari layar elektronik sebelum tidur\n* Dapatkan bantuan profesional jika Anda mengalami kesulitan tidur yang berkelanjutan",
+    "results": "**Definisi**\n\nTidur adalah keadaan istirahat alami di mana aktivitas fisik dan mental sangat berkurang. Tidur penting untuk kesehatan fisik, mental, dan emosional secara keseluruhan.\n\n**Jenis Tidur**\n\n* **Tidur NREM (Non-Rapid Eye Movement):** Fase tidur yang lebih dalam dan kurang aktif. Terdiri dari tiga tahap:\n    * Tidur Tahap 1: Tidur ringan dan transisi dari kesadaran ke tidur.\n    * Tidur Tahap 2: Tidur yang lebih dalam, aktivitas otak melambat.\n    * Tidur Tahap 3 (Tidur Gelombang Delta): Tidur terdalam, aktivitas otak sangat lambat.\n* **Tidur REM (Rapid Eye Movement):** Fase tidur aktif, ditandai dengan pergerakan mata yang cepat, mimpi yang jelas, dan aktivitas otak yang mirip dengan saat bangun.\n\n**Siklus Tidur**\n\nSiklus tidur normal terdiri dari serangkaian siklus NREM dan REM, berlangsung sekitar 90 menit. Biasanya kita mengalami 4-5 siklus tidur per malam.\n\n**Fungsi Tidur**\n\nTidur memainkan peran penting dalam berbagai fungsi, termasuk:\n\n* **Restorasi Fisik:** Memperbaiki jaringan, otot, dan hormon.\n* **Pemrosesan Kognitif:** Mengkonsolidasikan ingatan dan memproses informasi.\n* **Pengaturan Emosional:** Mendukung pengaturan suasana hati dan mengurangi stres.\n* **Fungsi Kekebalan Tubuh:** Meningkatkan sistem kekebalan tubuh.\n* **Kinerja Fisik:** Meningkatkan kekuatan, kecepatan, dan daya tahan.\n\n**Gangguan Tidur**\n\nAda berbagai gangguan tidur yang dapat memengaruhi kualitas tidur, antara lain:\n\n* Insomia\n* Apnea Tidur\n* Gangguan Irama Sirkadian\n* Gangguan Gerakan Periodik Tungkai\n* Narkolepsi\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia, individu, dan faktor lainnya. Rata-rata, sebagian besar orang dewasa membutuhkan 7-9 jam tidur per malam.\n\n**Cara Meningkatkan Kualitas Tidur**\n\nBeberapa tips untuk meningkatkan kualitas tidur meliputi:\n\n* Tetapkan jadwal tidur yang teratur.\n* Ciptakan lingkungan tidur yang nyaman (gelap, tenang, dingin).\n* Batasi konsumsi kafein dan alkohol sebelum tidur.\n* Lakukan aktivitas relaksasi sebelum tidur (yoga, membaca).\n* Hindari penggunaan perangkat elektronik sebelum tidur.\n* Jika sulit tidur, bangun dari tempat tidur dan lakukan aktivitas lain sampai mengantuk.\n* Konsultasikan dengan dokter jika masalah tidur berlanjut.",
     "author": "@chakszzz",
     "success": true
 }
@@ -310,14 +310,14 @@ Mengembalikan URL Pinterest berdasarkan query yang diberikan.
 ```python
 from ApiNyaEr import apinya
 
-result = await apinya.get_pinter_url(self='Tidur', query='Tidur')
+result = await apinya.get_pinter_url(query='Tidur')
 print(result)
 ```
 
 #### Expected Output
 
 ```text
-'str' object has no attribute 'base_urls'
+name 'self' is not defined
 ```
 
 ### 12. Github Search
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Noragami OAD",
-        "url": "https://nekos.best/api/v2/hug/c08992e3-ec9c-4cf4-88d0-6ca921d3ef64.gif"
+        "anime_name": "Little Witch Academia",
+        "url": "https://nekos.best/api/v2/hug/a3dfcc78-0c9b-4c74-ac1b-b259470a06e9.gif"
     }
 ]
 ```
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-Ｋｏｋ ｍａｔｉ ｃｕｋ
+【YWS】 Ꮓϵɾzxᴬᶜ 戈心
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-A`|?0blH&B[Y
+KcGsr=`kdo(&
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Datang ke tempatmu sudah cukup untuk menyembuhkan satu hatiku.**",
-    "\ud83c\udf39 **Character": "Yuuka Kobayakawa**",
-    "\ud83c\udf41 **Anime": "Shoujo-tachi wa Kouya wo Mezasu**",
-    "\ud83c\udf41 **Episode": "Episode 1**"
+    "\ud83c\udf81 **Quotes": "Dia lebih mencemaskan temannya daripada dirinya sendiri. Dia lebih mementingkan temannya. Aku menghormati perasaannya. Jika kau ingin mencapai sesuatu, kau harus berusaha keras untuk mencapai semuanya.**",
+    "\ud83c\udf39 **Character": "Subaru Natsuki**",
+    "\ud83c\udf41 **Anime": "Re:Zero kara Hajimeru Isekai Seikatsu**",
+    "\ud83c\udf41 **Episode": "Episode 9**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kami melakukan hal-hal yang kami lakukan untuk rakyat, bukan untuk kepentingan kita sendiri seperti sebuah ketenaran.**
+🃏 **Hackers rarely have full knowledge of the technology stack of a target.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Maka aku ucapkan selamat engkau sukses membuat perasaannya sedikit terluka**
+📖 **Jangan salahkan orang ketika kamu kecewa, tapi salahkan dirimu sendiri karena terlalu berharap sesuatu yang belum pasti**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku menembak di PUBG aja belum tentu On Target, apalagi nembak kamu. Pasti Mission Failed**
+🏆 **Aku tidak pernah menyukai chicken, tapi tidak dengan chicken di PUBG**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Bagian tubuhmu mana yang paling kamu benci?
+Kapan terakhir kali menangis dan mengapa?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Golden Time",
-            "url": "https://nekos.best/api/v2/kiss/739e8b8b-34a5-4190-ae78-74e1af15b905.gif"
+            "anime_name": "Date a Live",
+            "url": "https://nekos.best/api/v2/kiss/ec4ea38c-2433-478b-83fd-897e7c750111.gif"
         }
     ]
 }
