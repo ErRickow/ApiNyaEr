@@ -78,7 +78,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kenapa awak tidur bilik saya.
+Tidur dengan siapa.
 ```
 
 ### 2. Bing Image
@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_7lH7S3IE.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Oy8TuEdF.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/aat.jpg
+https://cdn2.thecatapi.com/images/3ec.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kirim sms pada tiga nomor acak di kontakmu dan tulis 'Aku baru saja menjadi model majalah Playboy.'
+Suruh jadi pelayan buat ngelayanin kamu sama temen-temen kamu buat makan siang.
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/0597fcdd-871c-487e-a62f-b3cab8937fda.mp4
+https://random.dog/8907566a-fbae-448f-9e7b-99c78dd36d6a.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Telur segar tenggelam diair, telur yang kadaluarsa mengambang**
+🌾 **Karena langkanya logam, piala Oscars yang dibagikan pada perang dunia ke II terbuat dari kayu**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Definisi**\n\nTidur adalah keadaan istirahat alami di mana aktivitas fisik dan mental sangat berkurang. Tidur penting untuk kesehatan fisik, mental, dan emosional secara keseluruhan.\n\n**Jenis Tidur**\n\n* **Tidur NREM (Non-Rapid Eye Movement):** Fase tidur yang lebih dalam dan kurang aktif. Terdiri dari tiga tahap:\n    * Tidur Tahap 1: Tidur ringan dan transisi dari kesadaran ke tidur.\n    * Tidur Tahap 2: Tidur yang lebih dalam, aktivitas otak melambat.\n    * Tidur Tahap 3 (Tidur Gelombang Delta): Tidur terdalam, aktivitas otak sangat lambat.\n* **Tidur REM (Rapid Eye Movement):** Fase tidur aktif, ditandai dengan pergerakan mata yang cepat, mimpi yang jelas, dan aktivitas otak yang mirip dengan saat bangun.\n\n**Siklus Tidur**\n\nSiklus tidur normal terdiri dari serangkaian siklus NREM dan REM, berlangsung sekitar 90 menit. Biasanya kita mengalami 4-5 siklus tidur per malam.\n\n**Fungsi Tidur**\n\nTidur memainkan peran penting dalam berbagai fungsi, termasuk:\n\n* **Restorasi Fisik:** Memperbaiki jaringan, otot, dan hormon.\n* **Pemrosesan Kognitif:** Mengkonsolidasikan ingatan dan memproses informasi.\n* **Pengaturan Emosional:** Mendukung pengaturan suasana hati dan mengurangi stres.\n* **Fungsi Kekebalan Tubuh:** Meningkatkan sistem kekebalan tubuh.\n* **Kinerja Fisik:** Meningkatkan kekuatan, kecepatan, dan daya tahan.\n\n**Gangguan Tidur**\n\nAda berbagai gangguan tidur yang dapat memengaruhi kualitas tidur, antara lain:\n\n* Insomia\n* Apnea Tidur\n* Gangguan Irama Sirkadian\n* Gangguan Gerakan Periodik Tungkai\n* Narkolepsi\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia, individu, dan faktor lainnya. Rata-rata, sebagian besar orang dewasa membutuhkan 7-9 jam tidur per malam.\n\n**Cara Meningkatkan Kualitas Tidur**\n\nBeberapa tips untuk meningkatkan kualitas tidur meliputi:\n\n* Tetapkan jadwal tidur yang teratur.\n* Ciptakan lingkungan tidur yang nyaman (gelap, tenang, dingin).\n* Batasi konsumsi kafein dan alkohol sebelum tidur.\n* Lakukan aktivitas relaksasi sebelum tidur (yoga, membaca).\n* Hindari penggunaan perangkat elektronik sebelum tidur.\n* Jika sulit tidur, bangun dari tempat tidur dan lakukan aktivitas lain sampai mengantuk.\n* Konsultasikan dengan dokter jika masalah tidur berlanjut.",
+    "results": "**Tahapan Tidur**\n\nTidur adalah proses kompleks yang melibatkan pengurangan kesadaran dan aktivitas fisik. Tidur terdiri dari beberapa tahapan:\n\n* **Tahap 1 (Tidur Ringan):** Tahap transisi antara terjaga dan tidur. Gerakan mata melambat, dan ketegangan otot berkurang.\n* **Tahap 2 (Tidur Sedang):** Mata berhenti bergerak, dan aktivitas otak melambat. Suhu tubuh dan detak jantung menurun.\n* **Tahap 3 (Tidur Dalam):** Aktivitas otak sangat melambat, dan tubuh memasuki keadaan relaksasi yang dalam.\n* **Tidur REM (Rapid Eye Movement):** Tahap di mana mata bergerak cepat bolak-balik. Mimpi terjadi selama tahap ini.\n\n**Siklus Tidur**\n\nSiklus tidur normal berlangsung selama 90-110 menit dan terdiri dari tahapan tidur yang berulang:\n\n* Tahap 1 \u2192 Tahap 2 \u2192 Tahap 3 \u2192 Tidur REM \u2192 Tahap 2 \u2192 Tahap 1 \u2192 Bangun\n* Siklus ini berulang beberapa kali sepanjang malam.\n\n**Manfaat Tidur**\n\nTidur sangat penting untuk kesehatan fisik dan mental:\n\n* Memulihkan dan memperbaiki sel dan jaringan\n* Melancarkan metabolisme\n* Mengatur hormon\n* Menguatkan sistem kekebalan tubuh\n* Meningkatkan kognisi dan memori\n* Mengurangi stres dan kecemasan\n* Menyegarkan tubuh dan pikiran\n\n**Gangguan Tidur**\n\nGangguan tidur umum meliputi:\n\n* Insomnia (kesulitan tidur atau tetap tidur)\n* Apnea tidur (napas berhenti sejenak saat tidur)\n* Sindrom kaki gelisah (sensasi geli yang tak tertahankan pada kaki)\n* Gangguan tidur REM (perilaku yang tidak biasa selama tidur REM)\n\n**Tips untuk Tidur Nyenyak**\n\nBerikut beberapa tips untuk meningkatkan kualitas tidur:\n\n* Tidur dan bangun pada waktu yang sama setiap hari, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang nyaman, gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Usahakan berolahraga secara teratur, tetapi hindari berolahraga terlalu dekat dengan waktu tidur.\n* Buat rutinitas waktu tidur yang menenangkan, seperti membaca atau mandi air hangat.\n* Pastikan kamar tidur Anda gelap, tenang, dan sejuk.\n* Hindari penggunaan perangkat elektronik sebelum tidur, karena cahaya biru dapat mengganggu produksi melatonin.",
     "author": "@chakszzz",
     "success": true
 }
@@ -317,7 +317,7 @@ print(result)
 #### Expected Output
 
 ```text
-name 'self' is not defined
+name 'base_urls' is not defined
 ```
 
 ### 12. Github Search
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Little Witch Academia",
-        "url": "https://nekos.best/api/v2/hug/a3dfcc78-0c9b-4c74-ac1b-b259470a06e9.gif"
+        "anime_name": "Hotarubi no Mori e",
+        "url": "https://nekos.best/api/v2/hug/01b8d0bb-827b-49ed-a538-c109ee5883e1.gif"
     }
 ]
 ```
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-【YWS】 Ꮓϵɾzxᴬᶜ 戈心
+꧁ঔৣ☬☬ঔৣ꧂
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-KcGsr=`kdo(&
+^Dp{G>?~Y![]
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Dia lebih mencemaskan temannya daripada dirinya sendiri. Dia lebih mementingkan temannya. Aku menghormati perasaannya. Jika kau ingin mencapai sesuatu, kau harus berusaha keras untuk mencapai semuanya.**",
-    "\ud83c\udf39 **Character": "Subaru Natsuki**",
-    "\ud83c\udf41 **Anime": "Re:Zero kara Hajimeru Isekai Seikatsu**",
-    "\ud83c\udf41 **Episode": "Episode 9**"
+    "\ud83c\udf81 **Quotes": "Seekor ikan, baik yang tinggal di air jernih atau kotor, selama ikan itu terus berenang ke depan, dia akan tumbuh dengan indah.**",
+    "\ud83c\udf39 **Character": "Koro-sensei**",
+    "\ud83c\udf41 **Anime": "Ansatsu Kyoushitsu**",
+    "\ud83c\udf41 **Episode": "Episode 7**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Hackers rarely have full knowledge of the technology stack of a target.**
+🃏 **Peretas adalah bakat. Anda tidak akan mempelajarinya di sekolah. Ini seperti menjadi Messi atau C. Ronaldo. Jika Anda dilahirkan untuk menjadi seorang peretas, itu adalah takdir Anda. Jika tidak, Anda akan diretas.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Jangan salahkan orang ketika kamu kecewa, tapi salahkan dirimu sendiri karena terlalu berharap sesuatu yang belum pasti**
+📖 **Yakinlah masalah yang menimpamu saat ini merupakan cara Allah untuk mengingatkanmu agar lebih dekat dengan Allah**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku tidak pernah menyukai chicken, tapi tidak dengan chicken di PUBG**
+🏆 **Belum saatnya tidur hingga chicken dinner**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kapan terakhir kali menangis dan mengapa?
+Hal apa yang kamu rahasiakan sampe, sekarang dan gak ada satu orangpun yang tau?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Date a Live",
-            "url": "https://nekos.best/api/v2/kiss/ec4ea38c-2433-478b-83fd-897e7c750111.gif"
+            "anime_name": "Kuzu no Honkai",
+            "url": "https://nekos.best/api/v2/kiss/99e10428-a7cf-4037-9fc2-0b24b190c2ed.gif"
         }
     ]
 }
