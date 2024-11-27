@@ -101,7 +101,7 @@ class ErApi:
         Returns:
             str: URL lengkap dengan query yang dimasukkan.
         """
-        return self.base_urls["pinter"].format(query=query)
+        return base_urls["pinter"].format(query=query)
 
     async def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
         """Fetch spesifik Gambar/Gif Anime.
