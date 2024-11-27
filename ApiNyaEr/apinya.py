@@ -109,7 +109,7 @@ class ErApi:
 
             if count > len(image_urls):
                 raise ValueError("Count melebihi jumlah gambar yang tersedia.")
-                        # Pilih gambar secara acak
+                # Pilih gambar secara acak
             return random.sample(image_urls, count)
 
         raise ValueError("Respons API tidak valid atau tidak ada gambar.")
