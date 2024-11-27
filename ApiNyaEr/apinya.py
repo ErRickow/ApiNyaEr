@@ -20,6 +20,7 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
+            "pinter": "https://api.ryzendesu.vip/api/search/pinterest?query={query}",
             "neko_url": apainier(
                 "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ=="
             ).decode("utf-8"),
@@ -88,6 +89,30 @@ class ErApi:
                     return await response.text()
             except aiohttp.ClientError as e:
                 raise ValueError(f"Request failed: {str(e)}")
+
+    async def pinterest(self, query: str, count=1) -> list:
+        """
+        Mengambil sejumlah gambar dari base URL Pinterest berdasarkan query.
+
+        Args:
+            query (str): Kata kunci pencarian untuk Pinterest.
+            count (int): Jumlah gambar yang ingin diambil. Default: 1.
+
+        Returns:
+            list: Daftar URL gambar yang dipilih secara acak.
+        """
+        url = self.base_urls["pinter"].format(query=query)
+
+        response = await self._make_request(url)
+        if isinstance(response, dict) and "images" in response:
+            image_urls = response["images"]
+
+            if count > len(image_urls):
+                raise ValueError("Count melebihi jumlah gambar yang tersedia.")
+                        # Pilih gambar secara acak
+            return random.sample(image_urls, count)
+
+        raise ValueError("Respons API tidak valid atau tidak ada gambar.")
 
     async def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
         """Fetch spesifik Gambar/Gif Anime.
