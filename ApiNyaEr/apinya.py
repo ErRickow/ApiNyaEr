@@ -91,7 +91,7 @@ class ErApi:
                 raise ValueError(f"Request failed: {str(e)}")
 
     @staticmethod
-    def get_pinter_url(self, query: str) -> str:
+    def get_pinter_url(query: str) -> dict:
         """
         Mengembalikan URL Pinterest berdasarkan query yang diberikan.
 
