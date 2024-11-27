@@ -90,18 +90,19 @@ class ErApi:
             except aiohttp.ClientError as e:
                 raise ValueError(f"Request failed: {str(e)}")
 
-    @staticmethod
-    def get_pinter_url(query: str) -> dict:
+    async def get_pinter_url(self, query: str) -> dict:
         """
-        Mengembalikan URL Pinterest berdasarkan query yang diberikan.
+        Mengembalikan hasil request Pinterest berdasarkan query yang diberikan.
 
         Args:
             query (str): Kata kunci pencarian untuk Pinterest.
 
         Returns:
-            str: URL lengkap dengan query yang dimasukkan.
+            dict: Respons JSON dari API Pinterest.
         """
-        return base_urls["pinter"].format(query=query)
+        url = self.base_urls["pinter"].format(query=query)
+        anunya = await self._make_request(url)
+        return anunya if anunya else None
 
     async def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
         """Fetch spesifik Gambar/Gif Anime.
