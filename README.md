@@ -34,14 +34,14 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [4. Carbon](#4-carbon) | ✅
 | [5. Cat](#5-cat) | ✅
 | [6. Dare](#6-dare) | ✅
-| [7. Doa](#7-doa) | ✅
+| [7. Doa](#7-doa) | ❌
 | [8. Dog](#8-dog) | ✅
 | [9. Fakta Unik](#9-fakta-unik) | ✅
 | [10. Gemini](#10-gemini) | ✅
 | [11. Get Pinter Url](#11-get-pinter-url) | ❌
 | [12. Github Search](#12-github-search) | ✅
 | [13. Hug](#13-hug) | ✅
-| [14. Kapan Libur](#14-kapan-libur) | ✅
+| [14. Kapan Libur](#14-kapan-libur) | ❌
 | [15. Nama Epep](#15-nama-epep) | ✅
 | [16. Password](#16-password) | ✅
 | [17. Pypi](#17-pypi) | ❌
@@ -78,7 +78,7 @@ print(result)
 #### Expected Output
 
 ```text
-Awak nak tidur dengan saya tak?
+Sebelum tidur buat apa.
 ```
 
 ### 2. Bing Image
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_TW76n1kv.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ITa4hlQE.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/0VDLLByGi.jpg
+https://cdn2.thecatapi.com/images/dm7.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Marah-marah ketemen kamu yang gak dateng padahal udah janjian mau main 'truth or dare' bareng-bareng
+Berdiri deket kulkas, tutup mata, pilih makanan secara acak didalemnya, pas makanpun mata harus tetep ditutup.
 ```
 
 ### 7. Doa
@@ -219,10 +219,7 @@ print(result)
 #### Expected Output
 
 ```text
-Doa sebelum tidur
-Ayat: بِسْمِكَ االلّٰهُمَّ اَحْيَا وَبِاسْمِكَ اَمُوْتُ
-Latin: Bismikallaahumma ahyaa wa ammuut
-Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
+Request failed: 524, message='', url='https://itzpire.com/religion/islamic/doa?doaName=Tidur'
 ```
 
 ### 8. Dog
@@ -244,7 +241,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/237e527f-df94-48a4-89b1-2e2f7d844627.gif
+https://random.dog/e9e3d393-2af5-40a0-b4ab-b23241f8b9f8.mp4
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +262,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Cahaya matahari mencapai bumi membutuhkan waktu sekitar 8 jam 3 detik.**
+🌾 **Kita bisa mematangkan Mangga dengan cepat dengan cara memasukkan ke dalam paperbag bersama dengan pisang matang.**
 ```
 
 ### 10. Gemini
@@ -290,7 +287,7 @@ print(result)
 
 ```json
 {
-    "results": "**Definisi**\n\nTidur adalah keadaan fisiologis yang ditandai dengan penurunan kesadaran, respons yang berkurang terhadap rangsangan eksternal, dan aktivitas motorik yang berkurang.\n\n**Jenis Tidur**\n\n* **Tidur NREM (Non-Rapid Eye Movement)**\n    * Stadium 1: Transisi dari terjaga ke tidur\n    * Stadium 2: Tidur ringan\n    * Stadium 3: Tidur nyenyak\n    * Stadium 4: Tidur sangat nyenyak\n* **Tidur REM (Rapid Eye Movement)**\n    * Ditandai dengan pergerakan mata yang cepat, mimpi yang jelas, dan aktivitas otak yang serupa dengan saat terjaga\n\n**Tahapan Tidur**\n\nSiklus tidur biasanya berlangsung selama 90-120 menit dan melibatkan pergantian antara tidur NREM dan REM beberapa kali.\n\n**Fungsi Tidur**\n\n* **Istirahat dan pemulihan fisik**\n    * Memulihkan energi\n    * Memperbaiki jaringan\n    * Meningkatkan sistem kekebalan tubuh\n* **Konsolidasi memori**\n    * Membantu memperkuat ingatan dan pembelajaran\n* **Pengaturan emosi**\n    * Membantu mengelola stres dan emosi\n* **Kesehatan mental**\n    * Mencegah gangguan seperti depresi dan kecemasan\n* **Kinerja kognitif**\n    * Meningkatkan konsentrasi, kewaspadaan, dan kemampuan pengambilan keputusan\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung usia, kesehatan, dan faktor individu. Namun, secara umum, orang dewasa membutuhkan 7-9 jam tidur berkualitas setiap malam.\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat mengganggu kualitas dan durasi tidur, seperti:\n\n* Insomnia\n* Apnea tidur\n* Narkolepsi\n* Gangguan ritme sirkadian\n\n**Tips Tidur yang Baik**\n\n* Tetapkan jadwal tidur yang teratur\n* Ciptakan lingkungan tidur yang kondusif (gelap, tenang, dan sejuk)\n* Hindari kafein dan alkohol sebelum tidur\n* Lakukan aktivitas yang menenangkan sebelum tidur (misalnya membaca, mandi air hangat)\n* Pastikan kamar tidur bebas dari gangguan\n* Konsultasikan dengan dokter jika mengalami gangguan tidur yang berlangsung",
+    "results": "**Definisi**\n\nTidur adalah keadaan istirahat yang ditandai dengan kesadaran menurun, penurunan respons terhadap rangsangan, dan pemulihan fisik dan mental.\n\n**Tahapan Tidur**\n\n* **NREM (Tidur Non-REM):**\n    * Tahap 1: Transisi dari bangun ke tidur, terjadi kedutan otot dan gerakan mata.\n    * Tahap 2: Tidur menjadi lebih nyenyak, penurunan aktivitas otak dan gerakan mata.\n    * Tahap 3 dan 4 (Tidur Gelombang Lambat): Tahap tidur paling nyenyak, aktivitas otak sangat rendah dan sulit untuk dibangunkan.\n* **REM (Tidur Gerakan Mata Cepat):**\n    * Ditandai dengan gerakan mata yang cepat, peningkatan aktivitas otak, dan mimpi yang jelas.\n\n**Siklus Tidur**\n\nSiklus tidur umumnya berlangsung selama 90-110 menit dan melibatkan tahapan NREM dan REM yang bergantian. Biasanya, seseorang akan mengalami empat hingga enam siklus tidur per malam.\n\n**Fungsi Tidur**\n\n* **Pemulihan Fisik:** Tidur memberikan waktu bagi tubuh untuk memperbaiki jaringan, membangun otot, dan memproduksi hormon yang penting untuk pertumbuhan dan pemulihan.\n* **Pemulihan Mental:** Tidur memungkinkan otak untuk memproses informasi, mengkonsolidasikan memori, dan mengatur emosi.\n* **Meningkatkan Fungsi Kekebalan:** Tidur yang cukup membantu memperkuat sistem kekebalan dan melindungi dari infeksi.\n* **Mood dan Performa:** Tidur yang cukup sangat penting untuk mempertahankan suasana hati yang baik, ketajaman mental, dan kinerja kognitif.\n* **Kesehatan Jantung:** Studi menunjukkan bahwa tidur yang cukup dapat mengurangi risiko penyakit jantung dan stroke.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia, gaya hidup, dan kesehatan individu. Umumnya, orang dewasa yang sehat membutuhkan sekitar 7-9 jam tidur per malam.\n\n**Gangguan Tidur**\n\n* **Insomnia:** Kesulitan untuk tertidur atau tetap tertidur.\n* **Gangguan tidur obstruktif (OSA):** Penyumbatan pada saluran udara bagian atas yang menyebabkan dengkuran dan henti napas saat tidur.\n* **Gangguan gerakan periodik tungkai (PLMS):** Gerakan kaki yang tidak disengaja saat tidur.\n* **Sindrom kaki gelisah (RLS):** Ketidaknyamanan dan sensasi geli pada kaki yang memburuk saat malam hari.\n\n**Tips untuk Tidur Nyenyak**\n\n* Pertahankan jadwal tidur yang teratur, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Hindari penggunaan perangkat elektronik di tempat tidur.\n* Lakukan olahraga secara teratur, tetapi tidak terlalu dekat dengan waktu tidur.\n* Ciptakan rutinitas yang menenangkan sebelum tidur, seperti mandi air hangat atau membaca buku.\n* Pastikan kamar tidur Anda nyaman dan kondusif untuk tidur.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Suisei no Gargantia",
-        "url": "https://nekos.best/api/v2/hug/40142a6f-83c4-450e-a477-ca7c89787623.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/f7246b64-e9ae-4ebd-a1d0-bb934fd1418e.gif"
     }
 ]
 ```
@@ -433,7 +430,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (24 hari lagi)
+Expecting value: line 1 column 1 (char 0)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +451,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁ঔৣ☬☬ঔৣ꧂
+INT•ঔৣÐâřҟŦﺂℜêঔৣ
 ```
 
 ### 16. Password
@@ -479,7 +476,7 @@ print(result)
 #### Expected Output
 
 ```text
-?xzXmdY$WJL2
+4]AOkywp,`6#
 ```
 
 ### 17. Pypi
@@ -539,10 +536,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Mengetahui orang lain mau membaca tulisanku yang kusukai dan mereka memberikan kesan yang cukup bagus itu sangat menyenangkan.**",
-    "\ud83c\udf39 **Character": "Yoshiteru Zaimokuza**",
-    "\ud83c\udf41 **Anime": "Yahari Ore no Seishun Love Comedy wa Machigatteiru**",
-    "\ud83c\udf41 **Episode": "Episode 2**"
+    "\ud83c\udf81 **Quotes": "Genos, sejak awal karena keinginan besarku yang ingin menjadi pahlawanlah yang mendorongku untuk berlatih sangat keras.karena itulah aku menjadi sekuat ini.**",
+    "\ud83c\udf39 **Character": "Saitama**",
+    "\ud83c\udf41 **Anime": "One Punch Man**",
+    "\ud83c\udf41 **Episode": "Episode 6**"
 }
 ```
 
@@ -564,7 +561,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kami tumbuh untuk percaya bahwa kami tidak bersalah sampai terbukti bersalah, tapi kenyataannya kami selalu divonis bersalah.**
+🃏 **Hackers often describe what they do as playfully creative problem solving. Heather Brooke Problem Creative Often Computer hackers do not need to know each other's real names, or even live on the same continent, to steal millions in mere hours.**
 ```
 
 ### 20. Qislam
@@ -585,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Tak usah tergoda dengan wanita yang lihai memainkan tulisan bedak di mukanya sebab anakmu kelak butuhnya ibu yang berakhlak**
+📖 **Semoga memang dirimulah yang kelak menjadi pendamping hidupku**
 ```
 
 ### 21. Qpubg
@@ -606,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Sebuah tim dibentuk untuk mencapai tujuan yang sama – Chicken dinner**
+🏆 **Carilah pasangan yang kalau lagi main PUBG larinya ke safe zone, bukan red zone**
 ```
 
 ### 22. Truth
@@ -627,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kamu pernah mencuri sesuatu gak?
+Jika sebentar lagi kiamat, apa yg kamu lakukan ?
 ```
 
 ### 23. Wibu
@@ -669,8 +666,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Death Note",
-            "url": "https://nekos.best/api/v2/kiss/de8b5bde-dba5-437e-98a4-a48123f9809c.gif"
+            "anime_name": "Kuzu no Honkai",
+            "url": "https://nekos.best/api/v2/kiss/3385ca97-b64b-4798-a4c4-292a7eb5a15e.gif"
         }
     ]
 }
