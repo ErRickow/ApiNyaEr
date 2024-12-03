@@ -34,14 +34,14 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [4. Carbon](#4-carbon) | ✅
 | [5. Cat](#5-cat) | ✅
 | [6. Dare](#6-dare) | ✅
-| [7. Doa](#7-doa) | ❌
+| [7. Doa](#7-doa) | ✅
 | [8. Dog](#8-dog) | ✅
 | [9. Fakta Unik](#9-fakta-unik) | ✅
 | [10. Gemini](#10-gemini) | ✅
 | [11. Get Pinter Url](#11-get-pinter-url) | ❌
 | [12. Github Search](#12-github-search) | ✅
 | [13. Hug](#13-hug) | ✅
-| [14. Kapan Libur](#14-kapan-libur) | ❌
+| [14. Kapan Libur](#14-kapan-libur) | ✅
 | [15. Nama Epep](#15-nama-epep) | ✅
 | [16. Password](#16-password) | ✅
 | [17. Pypi](#17-pypi) | ❌
@@ -78,7 +78,7 @@ print(result)
 #### Expected Output
 
 ```text
-Sebelum tidur buat apa.
+Awal lagi ni.
 ```
 
 ### 2. Bing Image
@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ITa4hlQE.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_cUFeZuBE.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/dm7.jpg
+https://cdn2.thecatapi.com/images/cc9.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Berdiri deket kulkas, tutup mata, pilih makanan secara acak didalemnya, pas makanpun mata harus tetep ditutup.
+Ambil beberapa nomor dari kontakmu secara acak dan kirim sms 'Aku hamil' sama mereka.
 ```
 
 ### 7. Doa
@@ -219,7 +219,10 @@ print(result)
 #### Expected Output
 
 ```text
-Request failed: 524, message='', url='https://itzpire.com/religion/islamic/doa?doaName=Tidur'
+Doa sebelum tidur
+Ayat: بِسْمِكَ االلّٰهُمَّ اَحْيَا وَبِاسْمِكَ اَمُوْتُ
+Latin: Bismikallaahumma ahyaa wa ammuut
+Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
 ```
 
 ### 8. Dog
@@ -241,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/e9e3d393-2af5-40a0-b4ab-b23241f8b9f8.mp4
+https://random.dog/c6c7ab71-bf8c-4c1d-8bee-31cbdf5e2f5e.jpg
 ```
 
 ### 9. Fakta Unik
@@ -262,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Kita bisa mematangkan Mangga dengan cepat dengan cara memasukkan ke dalam paperbag bersama dengan pisang matang.**
+🌾 **Pendeta Mesir kuno mencabuti setiap helai rambut dan bulu dari badan mereka.**
 ```
 
 ### 10. Gemini
@@ -287,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Definisi**\n\nTidur adalah keadaan istirahat yang ditandai dengan kesadaran menurun, penurunan respons terhadap rangsangan, dan pemulihan fisik dan mental.\n\n**Tahapan Tidur**\n\n* **NREM (Tidur Non-REM):**\n    * Tahap 1: Transisi dari bangun ke tidur, terjadi kedutan otot dan gerakan mata.\n    * Tahap 2: Tidur menjadi lebih nyenyak, penurunan aktivitas otak dan gerakan mata.\n    * Tahap 3 dan 4 (Tidur Gelombang Lambat): Tahap tidur paling nyenyak, aktivitas otak sangat rendah dan sulit untuk dibangunkan.\n* **REM (Tidur Gerakan Mata Cepat):**\n    * Ditandai dengan gerakan mata yang cepat, peningkatan aktivitas otak, dan mimpi yang jelas.\n\n**Siklus Tidur**\n\nSiklus tidur umumnya berlangsung selama 90-110 menit dan melibatkan tahapan NREM dan REM yang bergantian. Biasanya, seseorang akan mengalami empat hingga enam siklus tidur per malam.\n\n**Fungsi Tidur**\n\n* **Pemulihan Fisik:** Tidur memberikan waktu bagi tubuh untuk memperbaiki jaringan, membangun otot, dan memproduksi hormon yang penting untuk pertumbuhan dan pemulihan.\n* **Pemulihan Mental:** Tidur memungkinkan otak untuk memproses informasi, mengkonsolidasikan memori, dan mengatur emosi.\n* **Meningkatkan Fungsi Kekebalan:** Tidur yang cukup membantu memperkuat sistem kekebalan dan melindungi dari infeksi.\n* **Mood dan Performa:** Tidur yang cukup sangat penting untuk mempertahankan suasana hati yang baik, ketajaman mental, dan kinerja kognitif.\n* **Kesehatan Jantung:** Studi menunjukkan bahwa tidur yang cukup dapat mengurangi risiko penyakit jantung dan stroke.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia, gaya hidup, dan kesehatan individu. Umumnya, orang dewasa yang sehat membutuhkan sekitar 7-9 jam tidur per malam.\n\n**Gangguan Tidur**\n\n* **Insomnia:** Kesulitan untuk tertidur atau tetap tertidur.\n* **Gangguan tidur obstruktif (OSA):** Penyumbatan pada saluran udara bagian atas yang menyebabkan dengkuran dan henti napas saat tidur.\n* **Gangguan gerakan periodik tungkai (PLMS):** Gerakan kaki yang tidak disengaja saat tidur.\n* **Sindrom kaki gelisah (RLS):** Ketidaknyamanan dan sensasi geli pada kaki yang memburuk saat malam hari.\n\n**Tips untuk Tidur Nyenyak**\n\n* Pertahankan jadwal tidur yang teratur, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Hindari penggunaan perangkat elektronik di tempat tidur.\n* Lakukan olahraga secara teratur, tetapi tidak terlalu dekat dengan waktu tidur.\n* Ciptakan rutinitas yang menenangkan sebelum tidur, seperti mandi air hangat atau membaca buku.\n* Pastikan kamar tidur Anda nyaman dan kondusif untuk tidur.",
+    "results": "**Tahapan Tidur**\n\nTidur dibagi menjadi dua tahap utama:\n\n**Tidur Non-REM (NREM)**\n\n* **Tahap N1 (Tidur Ringan):** Transisi dari terjaga ke tidur, berlangsung beberapa menit.\n* **Tahap N2 (Tidur Nyaman):** Tahap tidur ringan yang berlangsung sekitar 50% dari total waktu tidur.\n* **Tahap N3 (Tidur Dalam):** Tahap tidur nyenyak yang sulit dibangunkan. Biasanya terjadi pada awal malam.\n\n**Tidur REM (Rapid Eye Movement)**\n\n* Tahap tidur ketika mata bergerak dengan cepat bolak-balik.\n* Biasanya terjadi sekitar 90 menit setelah tertidur dan berulang sepanjang malam.\n* Dikaitkan dengan mimpi yang jelas.\n\n**Siklus Tidur**\n\nSiklus tidur khas terdiri dari:\n\n1. Tahap N1\n2. Tahap N2\n3. Tahap N3\n4. Tahap REM\n\nSatu siklus biasanya berlangsung sekitar 90-120 menit. Seseorang biasanya menjalani 4-6 siklus per malam.\n\n**Fungsi Tidur**\n\nTidur memiliki beberapa fungsi penting, antara lain:\n\n* Mengistirahatkan tubuh dan pikiran\n* Memulihkan dan memperbaiki jaringan\n* Mengatur hormon\n* Meningkatkan memori dan kognisi\n* Mendukung sistem kekebalan tubuh\n* Mengatur suasana hati\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat mempengaruhi kualitas dan durasi tidur, antara lain:\n\n* Insomnia\n* Apnea tidur\n* Narkolepsi\n* Sindrom kaki gelisah\n* Gangguan mimpi buruk\n\n**Tips untuk Tidur yang Baik**\n\n* Pergi tidur dan bangun pada waktu yang sama setiap hari, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang nyaman dan gelap.\n* Hindari kafein dan alkohol sebelum tidur.\n* Relakskan diri sebelum tidur dengan mandi air hangat atau membaca.\n* Pastikan kamar tidur memiliki suhu yang sejuk.\n* Olahraga secara teratur, tetapi hindari olahraga berat sebelum tidur.\n* Jika Anda kesulitan tidur, hindari berbaring di tempat tidur selama lebih dari 20 menit. Bangunlah dan lakukan aktivitas yang menenangkan sampai Anda merasa mengantuk.",
     "author": "@chakszzz",
     "success": true
 }
@@ -406,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Princess Connect! Re:Dive",
-        "url": "https://nekos.best/api/v2/hug/f7246b64-e9ae-4ebd-a1d0-bb934fd1418e.gif"
+        "anime_name": "Darker Than Black: Ryuusei no Gemini",
+        "url": "https://nekos.best/api/v2/hug/1dcc8b20-6420-476f-888e-17c7e09a11fb.gif"
     }
 ]
 ```
@@ -430,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Expecting value: line 1 column 1 (char 0)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (22 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -451,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-INT•ঔৣÐâřҟŦﺂℜêঔৣ
+♛Phaňţøm♛
 ```
 
 ### 16. Password
@@ -476,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-4]AOkywp,`6#
+Q[U.#x+o6De=
 ```
 
 ### 17. Pypi
@@ -536,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Genos, sejak awal karena keinginan besarku yang ingin menjadi pahlawanlah yang mendorongku untuk berlatih sangat keras.karena itulah aku menjadi sekuat ini.**",
-    "\ud83c\udf39 **Character": "Saitama**",
-    "\ud83c\udf41 **Anime": "One Punch Man**",
-    "\ud83c\udf41 **Episode": "Episode 6**"
+    "\ud83c\udf81 **Quotes": "Temanku akan menang meski kutinggalkan mereka!**",
+    "\ud83c\udf39 **Character": "Akiteru Tsukishima**",
+    "\ud83c\udf41 **Anime": "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou**",
+    "\ud83c\udf41 **Episode": "Episode 7**"
 }
 ```
 
@@ -561,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Hackers often describe what they do as playfully creative problem solving. Heather Brooke Problem Creative Often Computer hackers do not need to know each other's real names, or even live on the same continent, to steal millions in mere hours.**
+🃏 **Duniaku jauh lebih menarik dari dunia mereka.**
 ```
 
 ### 20. Qislam
@@ -582,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Semoga memang dirimulah yang kelak menjadi pendamping hidupku**
+📖 **Akan tiba saatnya sendiri ku menjadi kebahagiaan yang Hakiki**
 ```
 
 ### 21. Qpubg
@@ -603,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Carilah pasangan yang kalau lagi main PUBG larinya ke safe zone, bukan red zone**
+🏆 **Saat sepi, hanya game PUBG yang bisa membuatku happy**
 ```
 
 ### 22. Truth
@@ -624,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Jika sebentar lagi kiamat, apa yg kamu lakukan ?
+Apa baju yang (menurutmu) paling jelek yang pernah kamu pakai, dan kapan kamu memakainya?
 ```
 
 ### 23. Wibu
@@ -666,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Kuzu no Honkai",
-            "url": "https://nekos.best/api/v2/kiss/3385ca97-b64b-4798-a4c4-292a7eb5a15e.gif"
+            "anime_name": "Campione! Matsurowanu Kamigami to Kamigoroshi no Maou",
+            "url": "https://nekos.best/api/v2/kiss/070a49db-777a-4152-8601-159fae6fc797.gif"
         }
     ]
 }
