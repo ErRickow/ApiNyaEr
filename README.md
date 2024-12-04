@@ -28,7 +28,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 
 | Function           | Status |
 |--------------------|--------|
-| [1. Ai](#1-ai) | ✅
+| [1. Ai](#1-ai) | ❌
 | [2. Bing Image](#2-bing-image) | ✅
 | [3. Blackbox](#3-blackbox) | ✅
 | [4. Carbon](#4-carbon) | ✅
@@ -78,7 +78,7 @@ print(result)
 #### Expected Output
 
 ```text
-Awal lagi ni.
+Expecting value: line 1 column 1 (char 0)
 ```
 
 ### 2. Bing Image
@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_cUFeZuBE.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_utReFLCG.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/cc9.jpg
+https://cdn2.thecatapi.com/images/edd.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Ambil beberapa nomor dari kontakmu secara acak dan kirim sms 'Aku hamil' sama mereka.
+Telpon mama kamu dan bilang 'ma, aku mau nikah secepatnya'
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/c6c7ab71-bf8c-4c1d-8bee-31cbdf5e2f5e.jpg
+https://random.dog/b1412922-53ed-4d0a-8f35-df7e8d05369d.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Pendeta Mesir kuno mencabuti setiap helai rambut dan bulu dari badan mereka.**
+🌾 **Nama “Gorila” berasal dari kata Yunani “Gorillai” yang berarti “perempuan berbulu”.**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Tahapan Tidur**\n\nTidur dibagi menjadi dua tahap utama:\n\n**Tidur Non-REM (NREM)**\n\n* **Tahap N1 (Tidur Ringan):** Transisi dari terjaga ke tidur, berlangsung beberapa menit.\n* **Tahap N2 (Tidur Nyaman):** Tahap tidur ringan yang berlangsung sekitar 50% dari total waktu tidur.\n* **Tahap N3 (Tidur Dalam):** Tahap tidur nyenyak yang sulit dibangunkan. Biasanya terjadi pada awal malam.\n\n**Tidur REM (Rapid Eye Movement)**\n\n* Tahap tidur ketika mata bergerak dengan cepat bolak-balik.\n* Biasanya terjadi sekitar 90 menit setelah tertidur dan berulang sepanjang malam.\n* Dikaitkan dengan mimpi yang jelas.\n\n**Siklus Tidur**\n\nSiklus tidur khas terdiri dari:\n\n1. Tahap N1\n2. Tahap N2\n3. Tahap N3\n4. Tahap REM\n\nSatu siklus biasanya berlangsung sekitar 90-120 menit. Seseorang biasanya menjalani 4-6 siklus per malam.\n\n**Fungsi Tidur**\n\nTidur memiliki beberapa fungsi penting, antara lain:\n\n* Mengistirahatkan tubuh dan pikiran\n* Memulihkan dan memperbaiki jaringan\n* Mengatur hormon\n* Meningkatkan memori dan kognisi\n* Mendukung sistem kekebalan tubuh\n* Mengatur suasana hati\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat mempengaruhi kualitas dan durasi tidur, antara lain:\n\n* Insomnia\n* Apnea tidur\n* Narkolepsi\n* Sindrom kaki gelisah\n* Gangguan mimpi buruk\n\n**Tips untuk Tidur yang Baik**\n\n* Pergi tidur dan bangun pada waktu yang sama setiap hari, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang nyaman dan gelap.\n* Hindari kafein dan alkohol sebelum tidur.\n* Relakskan diri sebelum tidur dengan mandi air hangat atau membaca.\n* Pastikan kamar tidur memiliki suhu yang sejuk.\n* Olahraga secara teratur, tetapi hindari olahraga berat sebelum tidur.\n* Jika Anda kesulitan tidur, hindari berbaring di tempat tidur selama lebih dari 20 menit. Bangunlah dan lakukan aktivitas yang menenangkan sampai Anda merasa mengantuk.",
+    "results": "**Proses Tidur**\n\nTidur adalah keadaan kesadaran yang berkurang, ketika aktivitas otak melambat dan respons terhadap dunia luar berkurang. Ini adalah proses fisiologis yang penting untuk kesehatan dan fungsi kognitif.\n\n**Tahapan Tidur**\n\nTidur dibagi menjadi dua tahap utama:\n\n* **Tidur NREM (Non-Rapid Eye Movement):**\n    * Fase 1: Tahap transisi dari terjaga ke tidur, ditandai dengan gerakan mata yang lambat.\n    * Fase 2: Tahap tidur ringan, dengan gelombang otak yang lebih lambat dan aktivitas otot yang berkurang.\n    * Fase 3 dan 4 (gelombang lambat): Tahap tidur nyenyak, dengan gelombang otak yang sangat lambat dan sedikit gerakan otot.\n\n* **Tidur REM (Rapid Eye Movement):**\n    * Tahap tidur di mana mata bergerak cepat, dan aktivitas otak menyerupai keadaan terjaga.\n    * Tahapan ini terkait dengan mimpi, konsolidasi memori, dan pemrosesan emosional.\n\n**Siklus Tidur**\n\nManusia biasanya mengalami beberapa siklus tidur setiap malam, masing-masing berlangsung sekitar 90-120 menit. Satu siklus terdiri dari tahapan NREM dan REM. Tahapan NREM mendominasi paruh pertama malam, sedangkan tahapan REM menjadi lebih menonjol di paruh kedua.\n\n**Fungsi Tidur**\n\nTidur sangat penting untuk kesehatan dan kesejahteraan secara keseluruhan. Fungsi-fungsinya meliputi:\n\n* Konsolidasi memori\n* Pemulihan fisik dan mental\n* Pelepasan hormon pertumbuhan\n* Regulasi aktivitas hormonal\n* Pemrosesan emosional\n* Dukungan kekebalan tubuh\n\n**Kebutuhan Tidur**\n\nJumlah tidur yang dibutuhkan bervariasi tergantung pada individu. Namun, umumnya direkomendasikan bahwa orang dewasa mendapatkan 7-9 jam tidur setiap malam. Anak-anak dan remaja membutuhkan lebih banyak tidur, sekitar 9-11 jam.\n\n**Gangguan Tidur**\n\nGangguan tidur adalah kondisi yang mengganggu kualitas atau kuantitas tidur. Ini dapat mencakup:\n\n* Insomnia (kesulitan tidur)\n* Hipersomnia (kelebihan rasa kantuk)\n* Apnea tidur (penghentian napas sementara selama tidur)\n* Sindrom kaki gelisah\n* Gangguan mimpi buruk\n\nGangguan tidur dapat berdampak signifikan pada kesehatan dan kesejahteraan, dan penting untuk mencari bantuan medis jika Anda menduga Anda mengalami gangguan tidur.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Darker Than Black: Ryuusei no Gemini",
-        "url": "https://nekos.best/api/v2/hug/1dcc8b20-6420-476f-888e-17c7e09a11fb.gif"
+        "anime_name": "Umibe no Etranger",
+        "url": "https://nekos.best/api/v2/hug/4619bde0-9f22-4010-a58a-d6a4cb8d12a4.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (22 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (21 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-♛Phaňţøm♛
+꧁Ms. ★๖ۣۜƤriͥภcͣeͫss★꧂
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-Q[U.#x+o6De=
+D@w%h&(#AfUO
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Temanku akan menang meski kutinggalkan mereka!**",
-    "\ud83c\udf39 **Character": "Akiteru Tsukishima**",
-    "\ud83c\udf41 **Anime": "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou**",
-    "\ud83c\udf41 **Episode": "Episode 7**"
+    "\ud83c\udf81 **Quotes": "Entah itu orang suci ataupun pendosa, semua orang punya hak untuk menegakkan keadilan mereka. Menolak keadilan mereka dan membunuhnya adalah hal tabu bagiku.**",
+    "\ud83c\udf39 **Character": "Brad Blackstone**",
+    "\ud83c\udf41 **Anime": "Taboo Tattoo**",
+    "\ud83c\udf41 **Episode": "Episode 9**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Duniaku jauh lebih menarik dari dunia mereka.**
+🃏 **Hackers are breaking the systems for profit. Before, it was about intellectual curiosity and pursuit of knowledge and thrill, and now hacking is big business.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Akan tiba saatnya sendiri ku menjadi kebahagiaan yang Hakiki**
+📖 **Allah maha kuasa dan Allah maha tahu, jadi meskipun aku dan kamu tidak menjadi kita, insyaallah ini yang terbaik**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Saat sepi, hanya game PUBG yang bisa membuatku happy**
+🏆 **Prajurit sejati bertempur bukan karena dia membenci musuh di depannya. Tapi karena dia mencintai apa yang ada dibelakangnya**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa baju yang (menurutmu) paling jelek yang pernah kamu pakai, dan kapan kamu memakainya?
+Kalo kamu disuruh operasi plastik dengan contoh wajah dari teman sekelasmu, wajah siapa yang akan kamu tiru?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Campione! Matsurowanu Kamigami to Kamigoroshi no Maou",
-            "url": "https://nekos.best/api/v2/kiss/070a49db-777a-4152-8601-159fae6fc797.gif"
+            "anime_name": "Kaichou wa Maid-sama!",
+            "url": "https://nekos.best/api/v2/kiss/982258bf-933a-4713-8964-614905e48864.gif"
         }
     ]
 }
