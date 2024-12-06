@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_hOcS6jMS.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_DIbd5vaV.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/a5d.jpg
+https://cdn2.thecatapi.com/images/MTc5NjYzNA.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Nyebutin 1 biru sampai 10 biru dengan cepat dan tidak boleh melakukan kesalahan. Jika salah maka harus diulang dari awal.
+Beli satu botol coca cola dan siram bunga dengan coca cola itu di depan orang banyak.
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/5540b113-87af-4280-b998-d12a13d6b5ec.jpg
+https://random.dog/edd4a2ab-bd32-42ab-9f89-92cf00a8e27c.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Darah sama kental dengan air laut**
+🌾 **Amerika telah memiliki 30,30% bandara di dunia & India hanya 0,70%.**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Tahap Tidur**\n\nTidur terdiri dari beberapa tahap, yaitu:\n\n* **NREM 1 (Tidur Ringan):** Tahap awal tidur yang berlangsung selama beberapa menit. Anda masih dapat terbangun dengan mudah pada tahap ini.\n* **NREM 2 (Tidur Sedang):** Tahap tidur yang lebih dalam dari NREM 1. Mata Anda berhenti bergerak dan aktivitas otak Anda melambat.\n* **NREM 3 (Tidur Dalam):** Tahap tidur paling dalam dari tahap NREM. Anda sulit terbangun pada tahap ini dan aktivitas otak Anda sangat lambat.\n* **REM (Tidur Berkedut Mata):** Tahap tidur di mana mata Anda bergerak cepat dan aktivitas otak Anda mirip dengan saat Anda terjaga. Kebanyakan mimpi terjadi pada tahap ini.\n\n**Siklus Tidur**\n\nTahapan tidur terjadi dalam siklus yang berlangsung sekitar 90 menit. Satu siklus biasanya terdiri dari:\n\n1. NREM 1\n2. NREM 2\n3. NREM 3\n4. REM\n\nSiklus ini berulang beberapa kali sepanjang malam.\n\n**Fungsi Tidur**\n\nTidur memiliki banyak fungsi penting, termasuk:\n\n* Pemulihan fisik dan mental\n* Konsolidasi memori\n* Pembersihan racun otak\n* Regulasi hormon\n* Menjaga sistem kekebalan tubuh\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia, kesehatan, dan gaya hidup. Namun, rata-rata orang dewasa membutuhkan 7-9 jam tidur per malam. Anak-anak dan remaja membutuhkan lebih banyak tidur, sedangkan orang tua membutuhkan lebih sedikit.\n\n**Gangguan Tidur**\n\nAda banyak faktor yang dapat mengganggu tidur, antara lain:\n\n* Stres\n* Kecemasan\n* Depresi\n* Gangguan medis\n* Obat-obatan\n* Alkohol\n* Kafein\n* Kebiasaan tidur yang buruk\n\n**Tips untuk Tidur yang Lebih Baik**\n\nUntuk meningkatkan kualitas tidur Anda, cobalah tips berikut:\n\n* Pergi tidur dan bangun pada waktu yang sama setiap hari.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Lakukan aktivitas santai sebelum tidur, seperti membaca atau mandi air hangat.\n* Pastikan tempat tidur Anda nyaman dan mendukung.\n* Jika Anda tidak bisa tidur dalam waktu 20 menit, bangun dari tempat tidur dan lakukan sesuatu yang menenangkan sampai Anda merasa mengantuk.\n* Bicaralah dengan dokter Anda jika Anda mengalami gangguan tidur yang berkelanjutan.",
+    "results": "**Definisi Tidur**\n\nTidur adalah keadaan tidak sadar dan kurang responsif terhadap rangsangan eksternal, yang ditandai dengan perubahan karakteristik dalam aktivitas otak, otot, dan mata.\n\n**Jenis-jenis Tidur**\n\n* **Tidur REM (Rapid Eye Movement):** Tahap tidur yang ditandai dengan gerakan mata yang cepat, aktivitas otak yang tinggi, dan mimpi yang jelas.\n* **Tidur Non-REM:** Tahap tidur yang tidak ditandai dengan gerakan mata atau aktivitas otak yang tinggi. Dibagi menjadi tiga tahap:\n    * Tidur N1 (tidur ringan)\n    * Tidur N2 (tidur lebih dalam)\n    * Tidur N3 (tidur terdalam)\n\n**Siklus Tidur**\n\n* Orang dewasa biasanya mengalami 4-5 siklus tidur selama tidur malam.\n* Setiap siklus meliputi tahapan tidur REM dan Non-REM.\n* Panjang siklus tidur bervariasi, biasanya berlangsung selama 90-110 menit.\n\n**Fungsi Tidur**\n\n* **Pemulihan fisik:** Memberikan istirahat pada otot dan memperbaiki jaringan yang rusak.\n* **Pemulihan kognitif:** Memproses informasi baru yang dipelajari pada hari itu, memperkuat memori, dan meningkatkan konsentrasi.\n* **Pengaturan suasana hati:** Melepaskan hormon yang mengatur suasana hati, seperti serotonin dan dopamin.\n* **Penguatan sistem kekebalan:** Memperkuat sistem kekebalan dan membantu tubuh melawan infeksi.\n* **Pemeliharaan berat badan:** Mengatur kadar hormon yang mempengaruhi nafsu makan dan metabolisme.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur yang direkomendasikan bervariasi berdasarkan usia:\n\n* Dewasa: 7-9 jam\n* Remaja (13-18): 8-10 jam\n* Anak-anak (6-12): 9-11 jam\n* Balita (3-5): 11-13 jam\n* Bayi (0-2): 14-17 jam\n\n**Gangguan Tidur**\n\n* **Insomnia:** Kesulitan untuk tertidur atau tetap tidur.\n* **Hipersomnia:** Tidur berlebihan atau mengantuk berlebihan pada siang hari.\n* **Apnea tidur:** Gangguan di mana pernapasan berhenti berulang kali selama tidur.\n* **Gerakan anggota badan periodik saat tidur:** Gerakan kaki atau lengan yang tidak disengaja selama tidur.\n* **Gangguan ritme sirkadian:** Gangguan pada siklus tidur-bangun alami tubuh.\n\n**Tips Meningkatkan Kualitas Tidur**\n\n* Tetapkan jadwal tidur yang teratur.\n* Ciptakan lingkungan tidur yang nyaman dan gelap.\n* Hindari kafein dan alkohol sebelum tidur.\n* Jalani aktivitas fisik secara teratur.\n* Kelola stres dengan teknik relaksasi.\n* Hindari penggunaan perangkat elektronik sebelum tidur.\n* Jika mengalami gangguan tidur yang sedang berlangsung, konsultasikan dengan dokter.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kawaii Dake ja Nai Shikimori-san",
-        "url": "https://nekos.best/api/v2/hug/929963f4-0d6d-4d75-b93f-03f4d25c7419.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (20 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (19 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁●✮CENDEK✮●꧂
+ツち⻓ムㄚ乙ㄖツ꧂
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-)|^RJ[T_<%E2
+4sn|V`Z6/f!1
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Para penguasa itu seperti hewan ternak yang hanya memakan jabatan.**",
-    "\ud83c\udf39 **Character": "Marrine Kreische**",
-    "\ud83c\udf41 **Anime": "Grancrest Senki**",
-    "\ud83c\udf41 **Episode": "Episode 20**"
+    "\ud83c\udf81 **Quotes": "Datang ke tempatmu sudah cukup untuk menyembuhkan satu hatiku.**",
+    "\ud83c\udf39 **Character": "Yuuka Kobayakawa**",
+    "\ud83c\udf41 **Anime": "Shoujo-tachi wa Kouya wo Mezasu**",
+    "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **I really didn't understand why hackers would want to hack into a classroom. Are they going to learn algebra? Maybe calculus?**
+🃏 **Jika Anda yakin bahwa satu ide dapat mengubah dunia, maka kami percaya Anda adalah gagasan itu.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Sejatinya bukan karena kita hebat tapi Allah yang memudahkan urusan kita**
+📖 **Alhamdulillah atas segala nikmat yang telah engkau berikan**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Berpikir seperti sebuah gelas yang selalu kosong, maka dunia ini akan sangat terbuka bagimu**
+🏆 **Carilah pasangan yang kalau lagi main PUBG larinya ke safe zone, bukan red zone**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Film dan lagu apa yang pernah bikin kamu nangis?
+Apa binatang patronus yang cocok untuk kamu?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Higashi no Eden",
-            "url": "https://nekos.best/api/v2/kiss/83b0c890-2ee6-4939-ac95-179c4982e7cf.gif"
+            "anime_name": "Kin-iro Mosaic",
+            "url": "https://nekos.best/api/v2/kiss/fee74a4b-4ca4-461d-b279-685291430258.gif"
         }
     ]
 }
