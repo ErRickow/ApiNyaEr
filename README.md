@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_DIbd5vaV.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_4n3U2gpO.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTc5NjYzNA.jpg
+https://cdn2.thecatapi.com/images/d3e.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Beli satu botol coca cola dan siram bunga dengan coca cola itu di depan orang banyak.
+Cabut bulu kaki mu sendiri sebanyak 3x
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/edd4a2ab-bd32-42ab-9f89-92cf00a8e27c.jpg
+https://random.dog/ce818222-3c80-4977-83a5-67c252d85839.PNG
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Amerika telah memiliki 30,30% bandara di dunia & India hanya 0,70%.**
+🌾 **Jika kita terkunci diruang yang kedap udara, kita aka lebih dulu mati keracunan co2 dari pada kekerangan o2**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Definisi Tidur**\n\nTidur adalah keadaan tidak sadar dan kurang responsif terhadap rangsangan eksternal, yang ditandai dengan perubahan karakteristik dalam aktivitas otak, otot, dan mata.\n\n**Jenis-jenis Tidur**\n\n* **Tidur REM (Rapid Eye Movement):** Tahap tidur yang ditandai dengan gerakan mata yang cepat, aktivitas otak yang tinggi, dan mimpi yang jelas.\n* **Tidur Non-REM:** Tahap tidur yang tidak ditandai dengan gerakan mata atau aktivitas otak yang tinggi. Dibagi menjadi tiga tahap:\n    * Tidur N1 (tidur ringan)\n    * Tidur N2 (tidur lebih dalam)\n    * Tidur N3 (tidur terdalam)\n\n**Siklus Tidur**\n\n* Orang dewasa biasanya mengalami 4-5 siklus tidur selama tidur malam.\n* Setiap siklus meliputi tahapan tidur REM dan Non-REM.\n* Panjang siklus tidur bervariasi, biasanya berlangsung selama 90-110 menit.\n\n**Fungsi Tidur**\n\n* **Pemulihan fisik:** Memberikan istirahat pada otot dan memperbaiki jaringan yang rusak.\n* **Pemulihan kognitif:** Memproses informasi baru yang dipelajari pada hari itu, memperkuat memori, dan meningkatkan konsentrasi.\n* **Pengaturan suasana hati:** Melepaskan hormon yang mengatur suasana hati, seperti serotonin dan dopamin.\n* **Penguatan sistem kekebalan:** Memperkuat sistem kekebalan dan membantu tubuh melawan infeksi.\n* **Pemeliharaan berat badan:** Mengatur kadar hormon yang mempengaruhi nafsu makan dan metabolisme.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur yang direkomendasikan bervariasi berdasarkan usia:\n\n* Dewasa: 7-9 jam\n* Remaja (13-18): 8-10 jam\n* Anak-anak (6-12): 9-11 jam\n* Balita (3-5): 11-13 jam\n* Bayi (0-2): 14-17 jam\n\n**Gangguan Tidur**\n\n* **Insomnia:** Kesulitan untuk tertidur atau tetap tidur.\n* **Hipersomnia:** Tidur berlebihan atau mengantuk berlebihan pada siang hari.\n* **Apnea tidur:** Gangguan di mana pernapasan berhenti berulang kali selama tidur.\n* **Gerakan anggota badan periodik saat tidur:** Gerakan kaki atau lengan yang tidak disengaja selama tidur.\n* **Gangguan ritme sirkadian:** Gangguan pada siklus tidur-bangun alami tubuh.\n\n**Tips Meningkatkan Kualitas Tidur**\n\n* Tetapkan jadwal tidur yang teratur.\n* Ciptakan lingkungan tidur yang nyaman dan gelap.\n* Hindari kafein dan alkohol sebelum tidur.\n* Jalani aktivitas fisik secara teratur.\n* Kelola stres dengan teknik relaksasi.\n* Hindari penggunaan perangkat elektronik sebelum tidur.\n* Jika mengalami gangguan tidur yang sedang berlangsung, konsultasikan dengan dokter.",
+    "results": "**Tidur**\n\nTidur adalah keadaan sadar berkurang dan ketidakpedulian terhadap lingkungan yang secara teratur berganti dengan keadaan bangun. Tidur penting untuk kesehatan fisik dan mental yang optimal.\n\n**Proses Tidur**\n\nTidur terjadi dalam tahapan yang berbeda:\n\n* **Tahap N1 (Tidur Ringan):** Transisi dari terjaga ke tidur.\n* **Tahap N2 (Tidur Sedang):** Tahap tidur paling lama.\n* **Tahap N3 (Tidur Dalam):** Tahap tidur paling nyenyak, sulit dibangunkan.\n* **Tidur REM (Rapid Eye Movement):** Tahap tidur ketika mimpi terjadi.\n\nTahapan ini berulang sepanjang malam, dengan beberapa siklus tidur REM.\n\n**Manfaat Tidur**\n\n* **Kesehatan Fisik:**\n    * Memulihkan dan membangun jaringan tubuh\n    * Mengontrol nafsu makan dan metabolisme\n    * Memperkuat sistem kekebalan tubuh\n    * Mengurangi risiko penyakit kronis\n* **Kesehatan Mental:**\n    * Memperbaiki suasana hati dan mengurangi kecemasan\n    * Meningkatkan memori dan konsentrasi\n    * Mengembalikan kreativitas dan pemecahan masalah\n* **Performa Harian:**\n    * Meningkatkan kewaspadaan dan energi\n    * Meningkatkan refleks dan koordinasi\n    * Mengurangi kelelahan dan kesalahan\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada individu. Rata-rata orang dewasa membutuhkan sekitar 7-9 jam tidur per malam. Anak-anak dan remaja membutuhkan lebih banyak tidur.\n\n**Gangguan Tidur**\n\nGangguan tidur adalah kondisi yang dapat mengganggu kemampuan seseorang untuk tidur dengan nyenyak. Beberapa gangguan tidur yang umum meliputi:\n\n* Insomnia\n* Sleep apnea\n* Sindrom kaki gelisah\n* Narkolepsi\n\nGangguan tidur dapat berdampak signifikan pada kesehatan dan kesejahteraan secara keseluruhan. Jika Anda mengalami kesulitan tidur, penting untuk berkonsultasi dengan dokter.\n\n**Tips untuk Tidur Nyenyak**\n\n* Pergi tidur dan bangun pada waktu yang sama setiap hari, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Olahraga secara teratur, tetapi hindari berolahraga terlalu dekat dengan waktu tidur.\n* Buat ritual relaksasi sebelum tidur, seperti membaca atau mandi air hangat.\n* Hindari penggunaan perangkat elektronik sebelum tidur.\n* Jika Anda tidak bisa tidur setelah 20 menit, bangunlah dari tempat tidur dan lakukan sesuatu yang menenangkan hingga Anda merasa lelah.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Princess Connect! Re:Dive",
-        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
+        "anime_name": "Assassin's Pride",
+        "url": "https://nekos.best/api/v2/hug/128079f7-88dd-42c7-a2a4-e0bd2cdb5dce.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (19 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (18 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-ツち⻓ムㄚ乙ㄖツ꧂
+〖₩Ā₩〗 ↬ℳѦδØŊ↫  1  0
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-4sn|V`Z6/f!1
+)8OPJ3.]cCeB
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Datang ke tempatmu sudah cukup untuk menyembuhkan satu hatiku.**",
-    "\ud83c\udf39 **Character": "Yuuka Kobayakawa**",
-    "\ud83c\udf41 **Anime": "Shoujo-tachi wa Kouya wo Mezasu**",
-    "\ud83c\udf41 **Episode": "Episode 1**"
+    "\ud83c\udf81 **Quotes": "Wanita itu orang yang realistis. Kami tidak percaya hanya pada kata-kata.**",
+    "\ud83c\udf39 **Character": "Aiza Nagi**",
+    "\ud83c\udf41 **Anime": "Shigatsu wa Kimi no Uso**",
+    "\ud83c\udf41 **Episode": "Episode 17**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Jika Anda yakin bahwa satu ide dapat mengubah dunia, maka kami percaya Anda adalah gagasan itu.**
+🃏 **Faktanya ya, mereka sangat mudah. Masalahnya adalah anda tidak harus melindungi diri dari orang bodoh. Anda harus melindungi diri terhadap orang seperti saya.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Alhamdulillah atas segala nikmat yang telah engkau berikan**
+📖 **Takkan datang ridha Allah pada hubungan yang melanggar larangan Allah**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Carilah pasangan yang kalau lagi main PUBG larinya ke safe zone, bukan red zone**
+🏆 **Cukup 15 menit untuk pertempuran karena kami tahu waktu adalah uang**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa binatang patronus yang cocok untuk kamu?
+Siapa diantara temen-temenmu yang paling NGGAK fotogenik dan kalo difoto lagi ketawa mukanya kaya kuda?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Kin-iro Mosaic",
-            "url": "https://nekos.best/api/v2/kiss/fee74a4b-4ca4-461d-b279-685291430258.gif"
+            "anime_name": "Kuzu no Honkai",
+            "url": "https://nekos.best/api/v2/kiss/3385ca97-b64b-4798-a4c4-292a7eb5a15e.gif"
         }
     ]
 }
