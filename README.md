@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_4n3U2gpO.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_l8e2ytpK.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/d3e.jpg
+https://cdn2.thecatapi.com/images/MTY2MDIwMw.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Cabut bulu kaki mu sendiri sebanyak 3x
+Bilang pada seorang guru, 'Bu/Pak, baju saya terasa sempit' dengan ekspresi memelas.
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/ce818222-3c80-4977-83a5-67c252d85839.PNG
+https://random.dog/26c6d088-05de-4b85-b446-e961e2b6c516.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Jika kita terkunci diruang yang kedap udara, kita aka lebih dulu mati keracunan co2 dari pada kekerangan o2**
+🌾 **Kita bisa mematangkan Mangga dengan cepat dengan cara memasukkan ke dalam paperbag bersama dengan pisang matang.**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Tidur**\n\nTidur adalah keadaan sadar berkurang dan ketidakpedulian terhadap lingkungan yang secara teratur berganti dengan keadaan bangun. Tidur penting untuk kesehatan fisik dan mental yang optimal.\n\n**Proses Tidur**\n\nTidur terjadi dalam tahapan yang berbeda:\n\n* **Tahap N1 (Tidur Ringan):** Transisi dari terjaga ke tidur.\n* **Tahap N2 (Tidur Sedang):** Tahap tidur paling lama.\n* **Tahap N3 (Tidur Dalam):** Tahap tidur paling nyenyak, sulit dibangunkan.\n* **Tidur REM (Rapid Eye Movement):** Tahap tidur ketika mimpi terjadi.\n\nTahapan ini berulang sepanjang malam, dengan beberapa siklus tidur REM.\n\n**Manfaat Tidur**\n\n* **Kesehatan Fisik:**\n    * Memulihkan dan membangun jaringan tubuh\n    * Mengontrol nafsu makan dan metabolisme\n    * Memperkuat sistem kekebalan tubuh\n    * Mengurangi risiko penyakit kronis\n* **Kesehatan Mental:**\n    * Memperbaiki suasana hati dan mengurangi kecemasan\n    * Meningkatkan memori dan konsentrasi\n    * Mengembalikan kreativitas dan pemecahan masalah\n* **Performa Harian:**\n    * Meningkatkan kewaspadaan dan energi\n    * Meningkatkan refleks dan koordinasi\n    * Mengurangi kelelahan dan kesalahan\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada individu. Rata-rata orang dewasa membutuhkan sekitar 7-9 jam tidur per malam. Anak-anak dan remaja membutuhkan lebih banyak tidur.\n\n**Gangguan Tidur**\n\nGangguan tidur adalah kondisi yang dapat mengganggu kemampuan seseorang untuk tidur dengan nyenyak. Beberapa gangguan tidur yang umum meliputi:\n\n* Insomnia\n* Sleep apnea\n* Sindrom kaki gelisah\n* Narkolepsi\n\nGangguan tidur dapat berdampak signifikan pada kesehatan dan kesejahteraan secara keseluruhan. Jika Anda mengalami kesulitan tidur, penting untuk berkonsultasi dengan dokter.\n\n**Tips untuk Tidur Nyenyak**\n\n* Pergi tidur dan bangun pada waktu yang sama setiap hari, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Olahraga secara teratur, tetapi hindari berolahraga terlalu dekat dengan waktu tidur.\n* Buat ritual relaksasi sebelum tidur, seperti membaca atau mandi air hangat.\n* Hindari penggunaan perangkat elektronik sebelum tidur.\n* Jika Anda tidak bisa tidur setelah 20 menit, bangunlah dari tempat tidur dan lakukan sesuatu yang menenangkan hingga Anda merasa lelah.",
+    "results": "**Tahapan Tidur**\n\nTidur terdiri dari beberapa tahapan yang berbeda, di antaranya:\n\n* **Tahap 1 (Tidur Nyaman):** Tahap transisi antara terjaga dan tidur. Mata bergerak perlahan, otot rileks.\n* **Tahap 2 (Tidur Ringan):** Aktivitas otak lebih lambat, denyut nadi dan pernapasan melambat.\n* **Tahap 3 (Tidur Nyenyak):** Aktivitas otak sangat lambat, otot benar-benar rileks, dan susah dibangunkan.\n* **Tahap 4 (Tidur Sangat Nyenyak):** Tahap tidur terdalam, otak hampir tidak aktif, dan sangat sulit dibangunkan.\n* **Tidur REM (Rapid Eye Movement):** Mata bergerak cepat, otak aktif, dan terjadi mimpi. Tahap tidur ini penting untuk fungsi kognitif dan memori.\n\n**Siklus Tidur**\n\nPolanya tidur yang sehat terdiri dari empat hingga enam siklus tidur, masing-masing berlangsung sekitar 90-110 menit. Setiap siklus mencakup semua tahapan tidur, dengan tahap tidur nyenyak dan nyenyak yang paling mendominasi paruh awal malam.\n\n**Fungsi Tidur**\n\nTidur sangat penting untuk kesehatan fisik dan mental. Fungsi-fungsinya meliputi:\n\n* **Pemulihan fisik:** Meningkatkan pertumbuhan dan perbaikan jaringan, serta menyimpan energi.\n* **Regenerasi mental:** Menguatkan memori, konsentrasi, dan kemampuan pemecahan masalah.\n* **Keseimbangan hormonal:** Mengatur kadar hormon yang terkait dengan tidur, suasana hati, nafsu makan, dan pertumbuhan.\n* **Penguatan sistem kekebalan:** Produksi sel-sel kekebalan meningkat saat tidur.\n* **Perlindungan kardiovaskular:** Mengurangi tekanan darah dan kadar kolesterol, serta menurunkan risiko penyakit jantung.\n\n**Cara Meningkatkan Kualitas Tidur**\n\n* Pergi tidur dan bangun pada waktu yang sama setiap hari, bahkan pada akhir pekan.\n* Ciptakan lingkungan tidur yang nyaman, gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Berolahraga secara teratur, tetapi jangan terlalu dekat dengan waktu tidur.\n* Ciptakan rutinitas waktu tidur yang menenangkan, seperti membaca atau mandi air hangat.\n* Gunakan tempat tidur hanya untuk tidur dan aktivitas seksual.\n* Jika Anda tidak bisa tidur setelah 20 menit, bangunlah dari tempat tidur dan lakukan aktivitas yang menenangkan sampai Anda merasa lelah.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Assassin's Pride",
-        "url": "https://nekos.best/api/v2/hug/128079f7-88dd-42c7-a2a4-e0bd2cdb5dce.gif"
+        "anime_name": "To Love-Ru: Trouble",
+        "url": "https://nekos.best/api/v2/hug/2c898eb2-71a0-4cf2-a79c-176510764d80.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (18 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (17 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-〖₩Ā₩〗 ↬ℳѦδØŊ↫  1  0
+꧁ঔৣ☬☬ঔৣ꧂
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-)8OPJ3.]cCeB
+CX>O+z&Z~f`l
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Wanita itu orang yang realistis. Kami tidak percaya hanya pada kata-kata.**",
-    "\ud83c\udf39 **Character": "Aiza Nagi**",
-    "\ud83c\udf41 **Anime": "Shigatsu wa Kimi no Uso**",
-    "\ud83c\udf41 **Episode": "Episode 17**"
+    "\ud83c\udf81 **Quotes": "Saling menerima cinta satu sama lain adalah hal yang wajar. Jika dunia melarangnya, aku akan mengubah dunia ini meskipun harus menghancurkannya.**",
+    "\ud83c\udf39 **Character": "Theo Cornaro**",
+    "\ud83c\udf41 **Anime": "Grancrest Senki**",
+    "\ud83c\udf41 **Episode": "Episode 20**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Faktanya ya, mereka sangat mudah. Masalahnya adalah anda tidak harus melindungi diri dari orang bodoh. Anda harus melindungi diri terhadap orang seperti saya.**
+🃏 **Anda tidak dapat meretas takdir, kekuatan kasar... Anda perlu pintu belakang, saluran samping ke dalam hidup.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Takkan datang ridha Allah pada hubungan yang melanggar larangan Allah**
+📖 **Ya Allah maafkan segala kemaksiatan yang sudah hamba perbuat**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Cukup 15 menit untuk pertempuran karena kami tahu waktu adalah uang**
+🏆 **Skill dewa yang sebenarnya adalah yang membunuh lawan tanpa berperang**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa diantara temen-temenmu yang paling NGGAK fotogenik dan kalo difoto lagi ketawa mukanya kaya kuda?
+Jika sebentar lagi kiamat, apa yg kamu lakukan ?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Kuzu no Honkai",
-            "url": "https://nekos.best/api/v2/kiss/3385ca97-b64b-4798-a4c4-292a7eb5a15e.gif"
+            "anime_name": "Campione! Matsurowanu Kamigami to Kamigoroshi no Maou",
+            "url": "https://nekos.best/api/v2/kiss/070a49db-777a-4152-8601-159fae6fc797.gif"
         }
     ]
 }
