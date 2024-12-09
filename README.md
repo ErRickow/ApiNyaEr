@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
+https://cdn.timesmedia.co.id/images/2019/08/21/anak-tidur.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_l8e2ytpK.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_yRwUJeXk.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTY2MDIwMw.jpg
+https://cdn2.thecatapi.com/images/dbc.gif
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Bilang pada seorang guru, 'Bu/Pak, baju saya terasa sempit' dengan ekspresi memelas.
+Kirim sms pada orangtuamu 'Hai, bro! Aku baru beli majalah Playboy edisi terbaru!'
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/26c6d088-05de-4b85-b446-e961e2b6c516.jpg
+https://random.dog/a2acc1b8-6191-4e88-99c8-2dcb2b5c25c0.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Kita bisa mematangkan Mangga dengan cepat dengan cara memasukkan ke dalam paperbag bersama dengan pisang matang.**
+🌾 **Kode Telephone Internasional untuk Antartica adalah 672.**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Tahapan Tidur**\n\nTidur terdiri dari beberapa tahapan yang berbeda, di antaranya:\n\n* **Tahap 1 (Tidur Nyaman):** Tahap transisi antara terjaga dan tidur. Mata bergerak perlahan, otot rileks.\n* **Tahap 2 (Tidur Ringan):** Aktivitas otak lebih lambat, denyut nadi dan pernapasan melambat.\n* **Tahap 3 (Tidur Nyenyak):** Aktivitas otak sangat lambat, otot benar-benar rileks, dan susah dibangunkan.\n* **Tahap 4 (Tidur Sangat Nyenyak):** Tahap tidur terdalam, otak hampir tidak aktif, dan sangat sulit dibangunkan.\n* **Tidur REM (Rapid Eye Movement):** Mata bergerak cepat, otak aktif, dan terjadi mimpi. Tahap tidur ini penting untuk fungsi kognitif dan memori.\n\n**Siklus Tidur**\n\nPolanya tidur yang sehat terdiri dari empat hingga enam siklus tidur, masing-masing berlangsung sekitar 90-110 menit. Setiap siklus mencakup semua tahapan tidur, dengan tahap tidur nyenyak dan nyenyak yang paling mendominasi paruh awal malam.\n\n**Fungsi Tidur**\n\nTidur sangat penting untuk kesehatan fisik dan mental. Fungsi-fungsinya meliputi:\n\n* **Pemulihan fisik:** Meningkatkan pertumbuhan dan perbaikan jaringan, serta menyimpan energi.\n* **Regenerasi mental:** Menguatkan memori, konsentrasi, dan kemampuan pemecahan masalah.\n* **Keseimbangan hormonal:** Mengatur kadar hormon yang terkait dengan tidur, suasana hati, nafsu makan, dan pertumbuhan.\n* **Penguatan sistem kekebalan:** Produksi sel-sel kekebalan meningkat saat tidur.\n* **Perlindungan kardiovaskular:** Mengurangi tekanan darah dan kadar kolesterol, serta menurunkan risiko penyakit jantung.\n\n**Cara Meningkatkan Kualitas Tidur**\n\n* Pergi tidur dan bangun pada waktu yang sama setiap hari, bahkan pada akhir pekan.\n* Ciptakan lingkungan tidur yang nyaman, gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Berolahraga secara teratur, tetapi jangan terlalu dekat dengan waktu tidur.\n* Ciptakan rutinitas waktu tidur yang menenangkan, seperti membaca atau mandi air hangat.\n* Gunakan tempat tidur hanya untuk tidur dan aktivitas seksual.\n* Jika Anda tidak bisa tidur setelah 20 menit, bangunlah dari tempat tidur dan lakukan aktivitas yang menenangkan sampai Anda merasa lelah.",
+    "results": "**Pengertian Tidur**\n\nTidur adalah keadaan tidak sadar di mana aktivitas mental dan fisik berkurang sementara. Ini adalah proses alami yang penting untuk kesehatan dan kesejahteraan fisik, mental, dan emosional.\n\n**Jenis Tidur**\n\nAda dua jenis utama tidur:\n\n* **Tidur NREM (Motionless):**\n    * Tahap 1: Sangat ringan, berlangsung beberapa menit\n    * Tahap 2: Lebih dalam, berlangsung sekitar 20-60 menit\n    * Tahap 3: Sangat dalam, sulit untuk dibangunkan\n    * Tahap 4: Tidur delta (yang terdalam), terjadi selama sekitar 20-40 menit\n* **Tidur REM (Motionful):**\n    * Gerakan mata cepat\n    * Aktifitas otak meningkat\n    * Mimpi terjadi\n\nSiklus tidur biasanya berlangsung sekitar 90-110 menit dan terdiri dari berbagai tahapan NREM dan REM.\n\n**Manfaat Tidur**\n\nTidur yang cukup memiliki banyak manfaat bagi kesehatan, diantaranya:\n\n* **Pemulihan Fisik:** Memperbaiki jaringan, membangun otot, dan melepaskan hormon pertumbuhan\n* **Fungsi Kognitif:** Meningkatkan memori, konsentrasi, dan kreativitas\n* **Kesehatan Mental:** Mengurangi stres, kecemasan, dan depresi\n* **Sistem Kekebalan:** Meningkatkan fungsi sistem kekebalan dan membantu melawan penyakit\n* **Kesehatan Jantung:** Menurunkan risiko penyakit jantung dan stroke\n* **Pengaturan Metabolisme:** Mengatur nafsu makan, berat badan, dan kadar gula darah\n\n**Kebutuhan Tidur**\n\nJumlah tidur yang dibutuhkan bervariasi tergantung pada usia dan individu, tetapi umumnya:\n\n* Bayi baru lahir: 14-17 jam\n* Anak-anak: 9-11 jam\n* Remaja: 8-10 jam\n* Dewasa: 7-9 jam\n\n**Gangguan Tidur**\n\nBeberapa gangguan tidur yang umum diantaranya:\n\n* Insomnia\n* Sleep apnea\n* Narkolepsi\n* Sindrom kaki gelisah\n\nGangguan tidur dapat mengganggu siklus tidur normal dan berdampak negatif pada kesehatan. Jika Anda mengalami kesulitan tidur, penting untuk berkonsultasi dengan dokter untuk menentukan penyebab dan mendapatkan perawatan yang tepat.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "To Love-Ru: Trouble",
-        "url": "https://nekos.best/api/v2/hug/2c898eb2-71a0-4cf2-a79c-176510764d80.gif"
+        "anime_name": "Date a Live",
+        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (17 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (16 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁ঔৣ☬☬ঔৣ꧂
+ᴿᴶˢ࿐ÝѧN尺¡Ķø࿐
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-CX>O+z&Z~f`l
+8B%yhZq^V(xY
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Saling menerima cinta satu sama lain adalah hal yang wajar. Jika dunia melarangnya, aku akan mengubah dunia ini meskipun harus menghancurkannya.**",
-    "\ud83c\udf39 **Character": "Theo Cornaro**",
-    "\ud83c\udf41 **Anime": "Grancrest Senki**",
-    "\ud83c\udf41 **Episode": "Episode 20**"
+    "\ud83c\udf81 **Quotes": "Kejujuran yang kau perlihatkan saat kau mengungkapkan perasaanmu benar-benar murni dan manis.**",
+    "\ud83c\udf39 **Character": "Suzuno Kamazuki**",
+    "\ud83c\udf41 **Anime": "Hataraku Maou-sama!**",
+    "\ud83c\udf41 **Episode": "Episode 8**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Anda tidak dapat meretas takdir, kekuatan kasar... Anda perlu pintu belakang, saluran samping ke dalam hidup.**
+🃏 **Tak ada yang tahu identitas kami.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Ya Allah maafkan segala kemaksiatan yang sudah hamba perbuat**
+📖 **Gak usah bingung seperti apa jodohmu kelak, Insyaallah dia tidak akan jauh daripada sifatmu saat ini**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Skill dewa yang sebenarnya adalah yang membunuh lawan tanpa berperang**
+🏆 **Kalau ada yang nanya kenapa nggak malem mingguan? Bilang kalau lagi ngepush rank**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Jika sebentar lagi kiamat, apa yg kamu lakukan ?
+Dari semua kelas yang ada di sekolah, kelas mana yang paling ingin kamu masuki dan kelas mana yang paling ingin kamu hindari?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Campione! Matsurowanu Kamigami to Kamigoroshi no Maou",
-            "url": "https://nekos.best/api/v2/kiss/070a49db-777a-4152-8601-159fae6fc797.gif"
+            "anime_name": "Chuunibyou demo Koi ga Shitai! Ren",
+            "url": "https://nekos.best/api/v2/kiss/17c77bfb-7b16-4bd9-b5de-e00bd8bc229a.gif"
         }
     ]
 }
