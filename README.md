@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn.timesmedia.co.id/images/2019/08/21/anak-tidur.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_yRwUJeXk.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_OZtBBLqa.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/dbc.gif
+https://cdn2.thecatapi.com/images/3ls.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kirim sms pada orangtuamu 'Hai, bro! Aku baru beli majalah Playboy edisi terbaru!'
+Beri hormat pada seseorang di kelas, lalu bilang 'Hamba siap melayani Anda, Yang Mulia.'
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/a2acc1b8-6191-4e88-99c8-2dcb2b5c25c0.jpg
+https://random.dog/a82dc0e2-29e0-4007-845b-f0160a4f7295.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Kode Telephone Internasional untuk Antartica adalah 672.**
+🌾 **Telur segar tenggelam diair, telur yang kadaluarsa mengambang**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Pengertian Tidur**\n\nTidur adalah keadaan tidak sadar di mana aktivitas mental dan fisik berkurang sementara. Ini adalah proses alami yang penting untuk kesehatan dan kesejahteraan fisik, mental, dan emosional.\n\n**Jenis Tidur**\n\nAda dua jenis utama tidur:\n\n* **Tidur NREM (Motionless):**\n    * Tahap 1: Sangat ringan, berlangsung beberapa menit\n    * Tahap 2: Lebih dalam, berlangsung sekitar 20-60 menit\n    * Tahap 3: Sangat dalam, sulit untuk dibangunkan\n    * Tahap 4: Tidur delta (yang terdalam), terjadi selama sekitar 20-40 menit\n* **Tidur REM (Motionful):**\n    * Gerakan mata cepat\n    * Aktifitas otak meningkat\n    * Mimpi terjadi\n\nSiklus tidur biasanya berlangsung sekitar 90-110 menit dan terdiri dari berbagai tahapan NREM dan REM.\n\n**Manfaat Tidur**\n\nTidur yang cukup memiliki banyak manfaat bagi kesehatan, diantaranya:\n\n* **Pemulihan Fisik:** Memperbaiki jaringan, membangun otot, dan melepaskan hormon pertumbuhan\n* **Fungsi Kognitif:** Meningkatkan memori, konsentrasi, dan kreativitas\n* **Kesehatan Mental:** Mengurangi stres, kecemasan, dan depresi\n* **Sistem Kekebalan:** Meningkatkan fungsi sistem kekebalan dan membantu melawan penyakit\n* **Kesehatan Jantung:** Menurunkan risiko penyakit jantung dan stroke\n* **Pengaturan Metabolisme:** Mengatur nafsu makan, berat badan, dan kadar gula darah\n\n**Kebutuhan Tidur**\n\nJumlah tidur yang dibutuhkan bervariasi tergantung pada usia dan individu, tetapi umumnya:\n\n* Bayi baru lahir: 14-17 jam\n* Anak-anak: 9-11 jam\n* Remaja: 8-10 jam\n* Dewasa: 7-9 jam\n\n**Gangguan Tidur**\n\nBeberapa gangguan tidur yang umum diantaranya:\n\n* Insomnia\n* Sleep apnea\n* Narkolepsi\n* Sindrom kaki gelisah\n\nGangguan tidur dapat mengganggu siklus tidur normal dan berdampak negatif pada kesehatan. Jika Anda mengalami kesulitan tidur, penting untuk berkonsultasi dengan dokter untuk menentukan penyebab dan mendapatkan perawatan yang tepat.",
+    "results": "**Definisi**\n\nTidur adalah kondisi fisiologis yang ditandai dengan penurunan kesadaran, penurunan respon terhadap rangsangan, dan karakteristik perilaku spesifik seperti posisi tubuh dan aktivitas otak tertentu.\n\n**Siklus Tidur**\n\nSiklus tidur terdiri dari beberapa tahap:\n\n* **Tahap 1:** Tahap transisi antara terjaga dan tidur, berlangsung selama beberapa menit.\n* **Tahap 2:** Tahap tidur ringan, berlangsung selama sekitar 50% waktu tidur.\n* **Tahap 3:** Tahap tidur nyenyak, berlangsung selama sekitar 20-25% waktu tidur.\n* **Tahap 4:** Tahap tidur paling nyenyak, berlangsung selama sekitar 15-20% waktu tidur.\n* **Tidur REM (Rapid Eye Movement):** Tahap tidur yang ditandai dengan gerakan mata cepat, berlangsung selama sekitar 20-25% waktu tidur.\n\nSiklus tidur ini berulang beberapa kali sepanjang malam, dengan tahapan tidur yang lebih dalam terjadi pada awal malam dan tahapan tidur yang lebih ringan menjelang pagi.\n\n**Fungsi Tidur**\n\nTidur memiliki banyak fungsi penting, termasuk:\n\n* Memulihkan tubuh dan pikiran\n* Mengatur hormon\n* Memperkuat memori dan pembelajaran\n* Meningkatkan sistem kekebalan tubuh\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi dari orang ke orang, tetapi secara umum orang dewasa membutuhkan sekitar 7-9 jam tidur per malam. Anak-anak dan remaja membutuhkan lebih banyak tidur.\n\n**Gangguan Tidur**\n\nGangguan tidur adalah kondisi yang mengganggu tidur normal. Beberapa gangguan tidur yang umum meliputi:\n\n* Insomnia (kesulitan tidur atau tetap tidur)\n* Apnea tidur (berhenti napas saat tidur)\n* Gangguan ritme sirkadian (masalah tidur pada waktu yang tepat)\n* Sindrom kaki gelisah (dorongan yang kuat untuk menggerakkan kaki)\n\n**Tips untuk Tidur yang Baik**\n\n* Tetapkan waktu tidur dan bangun yang teratur\n* Ciptakan lingkungan tidur yang kondusif (gelap, tenang, dan sejuk)\n* Hindari kafein dan alkohol sebelum tidur\n* Dapatkan olahraga teratur\n* Kelola stres\n* Jika Anda mengalami kesulitan tidur, konsultasikan dengan dokter",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Date a Live",
-        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (16 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (15 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-ᴿᴶˢ࿐ÝѧN尺¡Ķø࿐
+{PLN}•JoKeR™
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-8B%yhZq^V(xY
+(&7!5>Q"{pal
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Kejujuran yang kau perlihatkan saat kau mengungkapkan perasaanmu benar-benar murni dan manis.**",
-    "\ud83c\udf39 **Character": "Suzuno Kamazuki**",
-    "\ud83c\udf41 **Anime": "Hataraku Maou-sama!**",
-    "\ud83c\udf41 **Episode": "Episode 8**"
+    "\ud83c\udf81 **Quotes": "Cinta sejati adalah cinta yang tak dipengaruhi oleh penampilan. Jika penampilan orang bisa mempengaruhi perasaanmu, maka cintamu itu palsu.**",
+    "\ud83c\udf39 **Character": "Chika Fujiwara**",
+    "\ud83c\udf41 **Anime": "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen**",
+    "\ud83c\udf41 **Episode": "Episode 5**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Tak ada yang tahu identitas kami.**
+🃏 **Mereka menganggapku remeh dalam dunia nyata, tapi mereka tidak tahu aku di dalam 'Cyber World'.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Gak usah bingung seperti apa jodohmu kelak, Insyaallah dia tidak akan jauh daripada sifatmu saat ini**
+📖 **Lebih baik tersindir ketika diingatkan, daripada tidak merasakan apa-apa ketika diingatkan**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Kalau ada yang nanya kenapa nggak malem mingguan? Bilang kalau lagi ngepush rank**
+🏆 **Kami tidak ingin to be a girl’s heart winner. Kami hanya ingin get a chicken dinner**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Dari semua kelas yang ada di sekolah, kelas mana yang paling ingin kamu masuki dan kelas mana yang paling ingin kamu hindari?
+Siapa nama orang yang kamu benci, tapi kamu rasa orang itu suka sama kamu (nggak harus beda gender)?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Chuunibyou demo Koi ga Shitai! Ren",
-            "url": "https://nekos.best/api/v2/kiss/17c77bfb-7b16-4bd9-b5de-e00bd8bc229a.gif"
+            "anime_name": "Samurai Flamenco",
+            "url": "https://nekos.best/api/v2/kiss/24c954b2-e518-4283-8c2e-9a57d72da948.gif"
         }
     ]
 }
