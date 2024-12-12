@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_S4yvKRTp.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_jbAUswqR.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/TlOXRrSiK.jpg
+https://cdn2.thecatapi.com/images/ddl.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Pergi ke lapangan yg luas, lalu berlari sekencang kencangnya sambil mengatakan 'aku gila aku gila'
+Bikin hiasan kepala absurd dari tisu, apapun itu, terus suruh pose didepan kamera, terus upload
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/80403db6-c7cf-4a1d-8439-420f08758f19.gif
+https://random.dog/58652afe-37c9-46fe-a011-53e5024652d7.mp4
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Microwave ditemukan setelah seorang ilmuan yang berjalan melewati tabung radar mendapati permen coklatnya meleleh disakunya.**
+🌾 **Ayam yang sudah terpenggal lehernya masih mampu lari sepanjang lapangan bola sebelum benar-benar mati**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Tidur**\n\nTidur adalah keadaan fisiologis yang dicirikan oleh perubahan kesadaran, berkurangnya aktivitas motorik, dan responsivitas yang berkurang terhadap rangsangan eksternal. Ini adalah proses penting yang melayani berbagai fungsi penting untuk kesehatan fisik dan mental kita.\n\n**Tahapan Tidur**\n\nTidur terjadi dalam siklus yang terdiri dari beberapa tahap:\n\n* **Tahap 1:** Tahap tidur ringan di mana kita bergerak masuk dan keluar dari tidur.\n* **Tahap 2:** Tahap tidur yang lebih dalam dengan aktivitas otak yang lebih lambat.\n* **Tahap 3:** Tahap tidur nyenyak yang sulit untuk dibangunkan.\n* **Tahap 4:** Tahap tidur paling dalam di mana aktivitas otak sangat lambat.\n* **Tahap REM:** Tahap tidur yang dicirikan oleh pergerakan mata yang cepat, mimpi, dan aktivitas otak yang tinggi.\n\nSiklus tidur ini berlangsung sekitar 90 menit dan berulang beberapa kali sepanjang malam.\n\n**Manfaat Tidur**\n\nTidur sangat penting untuk kesejahteraan kita secara keseluruhan, memberikan banyak manfaat, termasuk:\n\n* **Pemulihan Fisik:** Tidur memungkinkan tubuh kita memperbaiki jaringan, membangun otot, dan menghasilkan sel darah baru.\n* **Pemulihan Kognitif:** Tidur membantu meningkatkan memori, konsentrasi, dan pengambilan keputusan.\n* **Pengaturan Hormon:** Tidur membantu mengatur produksi hormon seperti hormon pertumbuhan dan kortisol, yang penting untuk pertumbuhan, metabolisme, dan fungsi kekebalan tubuh.\n* **Pengaturan Suasana Hati:** Tidur membantu menstabilkan suasana hati dan mengurangi risiko gangguan kesehatan mental seperti depresi.\n* **Peningkatan Kekebalan:** Tidur membantu memperkuat sistem kekebalan tubuh dan melawan infeksi.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia dan faktor individu. Namun, sebagian besar orang dewasa membutuhkan sekitar 7-9 jam tidur setiap malam. Anak-anak dan remaja membutuhkan lebih banyak tidur.\n\n**Gangguan Tidur**\n\nBerbagai faktor dapat mengganggu tidur, seperti:\n\n* Stres\n* Kecemasan\n* Depresi\n* Gangguan tidur (seperti insomnia, apnea tidur)\n* Penggunaan kafein atau alkohol sebelum tidur\n* Lingkungan tidur yang buruk (seperti kebisingan, cahaya, atau suhu yang tidak nyaman)\n\nGangguan tidur dapat menyebabkan masalah kesehatan fisik dan mental yang serius, jadi penting untuk mengatasi masalah apa pun sesegera mungkin.\n\n**Tips untuk Tidur yang Lebih Baik**\n\nUntuk meningkatkan kualitas tidur, pertimbangkan tips berikut:\n\n* Tetapkan jadwal tidur dan patuhi itu bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Olahraga secara teratur, tetapi hindari olahraga berat tepat sebelum tidur.\n* Relaksasi sebelum tidur dengan membaca, mandi air hangat, atau mendengarkan musik yang menenangkan.\n* Jika Anda tidak dapat tertidur setelah 20 menit, bangunlah dari tempat tidur dan lakukan aktivitas santai sampai Anda merasa lelah.",
+    "results": "**Pengertian Tidur**\n\nTidur adalah keadaan sadar yang berkurang secara fisiologis dan mental, ditandai dengan mata tertutup, berkurangnya aktivitas tubuh, dan penurunan respons terhadap rangsangan eksternal.\n\n**Jenis-Jenis Tidur**\n\n* **Tidur Non-REM (NREM):** Terdiri dari tiga tahap:\n    * N1: Tahap transisi antara terjaga dan tidur\n    * N2: Tahap tidur ringan yang sebagian besar menyusun tidur\n    * N3: Tahap tidur nyenyak, juga dikenal sebagai tidur gelombang lambat\n* **Tidur REM (Rapid Eye Movement):** Tahap yang ditandai dengan gerakan mata cepat, aktivitas otak yang tinggi, dan mimpi yang jelas\n\n**Siklus Tidur**\n\nSiklus tidur berlangsung sekitar 90-110 menit dan terdiri dari empat tahap utama: N1, N2, N3, dan REM. Siklus ini berulang sepanjang malam dalam urutan yang sama.\n\n**Fungsi Tidur**\n\n* **Pemulihan Fisik:** Tidur memungkinkan tubuh untuk memperbaiki jaringan dan memulihkan energi.\n* **Pemulihan Mental:** Tidur penting untuk fungsi kognitif, memori, dan pemrosesan emosi.\n* **Pengaturan Metabolisme:** Tidur mengatur pelepasan hormon yang mempengaruhi metabolisme, seperti hormon pertumbuhan dan insulin.\n* **Penguatan Imun:** Tidur meningkatkan fungsi kekebalan tubuh, membantu melawan infeksi.\n\n**Faktor-Faktor yang Mempengaruhi Tidur**\n\n* **Faktor Internal:** Hormon, siklus sirkadian, dan usia\n* **Faktor Eksternal:** Lingkungan tidur, cahaya, kebisingan, dan stres\n\n**Gangguan Tidur**\n\n* **Insomnia:** Kesulitan untuk tertidur atau tetap tertidur\n* **Hipersomnia:** Kebutuhan tidur yang berlebihan\n* **Sleep Apnea:** Berhenti bernapas secara berkala saat tidur\n* **Gangguan Pergerakan Kaki Saat Tidur:** Pergerakan kaki yang tidak disengaja saat tidur\n\n**Tips untuk Tidur yang Nyenyak**\n\n* Tetapkan jadwal tidur yang teratur\n* Ciptakan lingkungan tidur yang nyaman dan gelap\n* Hindari kafein dan alkohol sebelum tidur\n* Lakukan aktivitas relaksasi sebelum tidur, seperti membaca atau mandi air hangat\n* Pastikan kamar tidur Anda memiliki suhu yang sejuk dan sejuk",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Sora no Method",
-        "url": "https://nekos.best/api/v2/hug/53acd7c7-b1f8-4717-baa0-734753ac7c79.gif"
+        "anime_name": "Happy Sugar Life",
+        "url": "https://nekos.best/api/v2/hug/1613322e-52e3-44a6-8dd7-a57b6dac48ba.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (14 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (13 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-▄︻̷̿┻̿═━一ØV₵Ⱨ₳Ɽ₭₳⸕şťªİҝερ
+۝۩ •ZERO• ۩۝
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-IfNTh~2k.GF]
+,]N*d;X?+lP"
 ```
 
 ### 17. Pypi
@@ -539,9 +539,9 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Orang-orang berkata kalau orang yang meninggal akan pergi ke surga. Tapi menurutku tidak begitu. Aku pikir jika kita mati, kita akan pergi ke hati seseorang. Kita akan tinggal dalam kenangan mereka dan terus hidup. Seperti ayah dan ibu yang tinggal di hati kami. Tapi karena waktu, kenangan pun memudar. Jadi itulah mengapa orang-orang berharap untuk meninggalkan sesuatu agar tidak dilupakan dan tidak pernah dilupakan.**",
-    "\ud83c\udf39 **Character": "Kaito Kirishima**",
-    "\ud83c\udf41 **Anime": "Ano Natsu de Matteru**",
+    "\ud83c\udf81 **Quotes": "Datang ke tempatmu sudah cukup untuk menyembuhkan satu hatiku.**",
+    "\ud83c\udf39 **Character": "Yuuka Kobayakawa**",
+    "\ud83c\udf41 **Anime": "Shoujo-tachi wa Kouya wo Mezasu**",
     "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Saya percaya pada dunia di mana semua hal ini bisa terjadi, bahkan jika saya harus melakukannya sendiri.**
+🃏 **Kebodohan manusia, itulah sebabnya peretas selalu menang.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Kalau lagi hujan kini biasanya sahabat berdoa minta apa**
+📖 **Akan tiba saatnya sendiri ku menjadi kebahagiaan yang Hakiki**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Di dalam game PUBG mengajarkan, jika kita menemukan lawan yang menghadang, kita telah berada dijalur yang benar**
+🏆 **Aku tidak pernah menyukai chicken, tapi tidak dengan chicken di PUBG**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa hal paling memalukan dari temanmu?
+Jika punya kekuatan super/ super power ingin melakukan apa
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Mayo Chiki!",
-            "url": "https://nekos.best/api/v2/kiss/f221be01-c182-4681-be25-1ecd5fc37ab9.gif"
+            "anime_name": "Bakuman",
+            "url": "https://nekos.best/api/v2/kiss/650d229e-5ddc-48d5-9868-63c6e4bcb1d7.gif"
         }
     ]
 }
