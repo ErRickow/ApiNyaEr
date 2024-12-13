@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_jbAUswqR.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_j9dvRJYd.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/ddl.jpg
+https://cdn2.thecatapi.com/images/MTY0OTgzNQ.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Bikin hiasan kepala absurd dari tisu, apapun itu, terus suruh pose didepan kamera, terus upload
+Bilang pada seorang guru, 'Bu/Pak, baju saya terasa sempit' dengan ekspresi memelas.
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/58652afe-37c9-46fe-a011-53e5024652d7.mp4
+https://random.dog/1a69853b-8834-4cfe-b625-ef7a54aa5b55.gif
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Ayam yang sudah terpenggal lehernya masih mampu lari sepanjang lapangan bola sebelum benar-benar mati**
+🌾 **Gajah satu-satunya hewan yang tidak bisa meloncat**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Pengertian Tidur**\n\nTidur adalah keadaan sadar yang berkurang secara fisiologis dan mental, ditandai dengan mata tertutup, berkurangnya aktivitas tubuh, dan penurunan respons terhadap rangsangan eksternal.\n\n**Jenis-Jenis Tidur**\n\n* **Tidur Non-REM (NREM):** Terdiri dari tiga tahap:\n    * N1: Tahap transisi antara terjaga dan tidur\n    * N2: Tahap tidur ringan yang sebagian besar menyusun tidur\n    * N3: Tahap tidur nyenyak, juga dikenal sebagai tidur gelombang lambat\n* **Tidur REM (Rapid Eye Movement):** Tahap yang ditandai dengan gerakan mata cepat, aktivitas otak yang tinggi, dan mimpi yang jelas\n\n**Siklus Tidur**\n\nSiklus tidur berlangsung sekitar 90-110 menit dan terdiri dari empat tahap utama: N1, N2, N3, dan REM. Siklus ini berulang sepanjang malam dalam urutan yang sama.\n\n**Fungsi Tidur**\n\n* **Pemulihan Fisik:** Tidur memungkinkan tubuh untuk memperbaiki jaringan dan memulihkan energi.\n* **Pemulihan Mental:** Tidur penting untuk fungsi kognitif, memori, dan pemrosesan emosi.\n* **Pengaturan Metabolisme:** Tidur mengatur pelepasan hormon yang mempengaruhi metabolisme, seperti hormon pertumbuhan dan insulin.\n* **Penguatan Imun:** Tidur meningkatkan fungsi kekebalan tubuh, membantu melawan infeksi.\n\n**Faktor-Faktor yang Mempengaruhi Tidur**\n\n* **Faktor Internal:** Hormon, siklus sirkadian, dan usia\n* **Faktor Eksternal:** Lingkungan tidur, cahaya, kebisingan, dan stres\n\n**Gangguan Tidur**\n\n* **Insomnia:** Kesulitan untuk tertidur atau tetap tertidur\n* **Hipersomnia:** Kebutuhan tidur yang berlebihan\n* **Sleep Apnea:** Berhenti bernapas secara berkala saat tidur\n* **Gangguan Pergerakan Kaki Saat Tidur:** Pergerakan kaki yang tidak disengaja saat tidur\n\n**Tips untuk Tidur yang Nyenyak**\n\n* Tetapkan jadwal tidur yang teratur\n* Ciptakan lingkungan tidur yang nyaman dan gelap\n* Hindari kafein dan alkohol sebelum tidur\n* Lakukan aktivitas relaksasi sebelum tidur, seperti membaca atau mandi air hangat\n* Pastikan kamar tidur Anda memiliki suhu yang sejuk dan sejuk",
+    "results": "**Definisi**\n\nTidur adalah keadaan kesadaran yang ditandai dengan berkurangnya aktivitas fisik dan mental, serta persepsi sensorik yang berkurang.\n\n**Tahap Tidur**\n\nTidur terdiri dari dua tahap utama:\n\n* **Tidur Non-REM (Non-Rapid Eye Movement):**\n    * Tahap 1: Tidur ringan yang ditandai dengan gerakan mata lambat dan aktivitas otot yang menurun.\n    * Tahap 2: Tidur yang lebih dalam dengan gerakan mata yang lebih lambat dan sedikit aktivitas otot.\n    * Tahap 3: Tidur nyenyak yang ditandai dengan gerakan mata yang sangat lambat atau tidak ada gerakan mata dan penurunan aktivitas otot yang signifikan.\n* **Tidur REM (Rapid Eye Movement):**\n    * Tahap tidur yang ditandai dengan gerakan mata yang cepat, aktivitas otot yang lumpuh, dan mimpi yang jelas.\n\n**Siklus Tidur**\n\nSiklus tidur terdiri dari beberapa tahap tidur Non-REM dan REM yang berulang sepanjang malam. Satu siklus tidur biasanya berlangsung sekitar 90 menit.\n\n**Fungsi Tidur**\n\nTidur memiliki banyak fungsi penting, antara lain:\n\n* Pemulihan fisik dan mental\n* Konsolidasi memori\n* Pengaturan hormon\n* Dukungan fungsi kekebalan tubuh\n* Perbaikan jaringan\n* Pembuangan limbah dari otak\n\n**Kebutuhan Tidur**\n\nJumlah tidur yang dibutuhkan bervariasi tergantung pada individu. Kebanyakan orang dewasa membutuhkan sekitar 7-9 jam tidur per malam.\n\n**Gangguan Tidur**\n\nGangguan tidur adalah masalah yang mempengaruhi kemampuan untuk mendapatkan atau mempertahankan tidur yang cukup dan berkualitas. Gangguan tidur yang umum meliputi:\n\n* Insomnia (kesulitan tidur)\n* Hipersomnia (kelebihan tidur)\n* Narkolepsi (serangan kantuk di siang hari yang berlebihan)\n* Apnea tidur (berhenti bernapas saat tidur)\n* Gangguan gerakan tidur (kaki gelisah dan gerakan anggota tubuh yang tidak disengaja)\n\n**Tips untuk Tidur yang Baik**\n\n* Tetapkan jadwal tidur yang teratur dan patuhi sesering mungkin.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n*Hindari kafein dan alkohol sebelum tidur.\n* Lakukan aktivitas yang menenangkan sebelum tidur, seperti membaca atau mandi.\n* Hindari menggunakan perangkat elektronik di tempat tidur.\n* Bangun dari tempat tidur jika Anda tidak bisa tidur dan melakukan aktivitas santai sampai merasa mengantuk.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Happy Sugar Life",
-        "url": "https://nekos.best/api/v2/hug/1613322e-52e3-44a6-8dd7-a57b6dac48ba.gif"
+        "anime_name": "Sword Art Online",
+        "url": "https://nekos.best/api/v2/hug/f33d03b0-fb25-4592-b48c-4de029596488.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (13 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (12 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-۝۩ •ZERO• ۩۝
+꧁ ༺ HM•GAMING ༻ ꧂
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-,]N*d;X?+lP"
+=ix|034)/A21
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Datang ke tempatmu sudah cukup untuk menyembuhkan satu hatiku.**",
-    "\ud83c\udf39 **Character": "Yuuka Kobayakawa**",
-    "\ud83c\udf41 **Anime": "Shoujo-tachi wa Kouya wo Mezasu**",
-    "\ud83c\udf41 **Episode": "Episode 1**"
+    "\ud83c\udf81 **Quotes": "Kau tak boleh bilang \"hidup sendiri\" ketika banyak orang yang mengkhawatirkan dirimu.**",
+    "\ud83c\udf39 **Character": "Akari Kawamoto**",
+    "\ud83c\udf41 **Anime": "3-gatsu no Lion**",
+    "\ud83c\udf41 **Episode": "Episode 11**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kebodohan manusia, itulah sebabnya peretas selalu menang.**
+🃏 **Garbage can provide important details for hackers: names, telephone numbers, a company's internal jargon.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Akan tiba saatnya sendiri ku menjadi kebahagiaan yang Hakiki**
+📖 **Hubungan yang jelas di dalamnya ada pembohongan bagaimana kau akan membangun rumah tangga dengan pribadi seperti itu**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku tidak pernah menyukai chicken, tapi tidak dengan chicken di PUBG**
+🏆 **Daripada memainkan hati seseorang, Lebih baik kita memainkan game PUBG**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Jika punya kekuatan super/ super power ingin melakukan apa
+Siapa orang (lawan jenis) yang paling sering terlintas di pikiranmu?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Bakuman",
-            "url": "https://nekos.best/api/v2/kiss/650d229e-5ddc-48d5-9868-63c6e4bcb1d7.gif"
+            "anime_name": "Higashi no Eden",
+            "url": "https://nekos.best/api/v2/kiss/83b0c890-2ee6-4939-ac95-179c4982e7cf.gif"
         }
     ]
 }
