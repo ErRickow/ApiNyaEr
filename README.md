@@ -28,7 +28,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 
 | Function           | Status |
 |--------------------|--------|
-| [1. Ai](#1-ai) | ❌
+| [1. Ai](#1-ai) | ✅
 | [2. Bing Image](#2-bing-image) | ✅
 | [3. Blackbox](#3-blackbox) | ✅
 | [4. Carbon](#4-carbon) | ✅
@@ -78,7 +78,7 @@ print(result)
 #### Expected Output
 
 ```text
-Expecting value: line 1 column 1 (char 0)
+Awal lagi ni.
 ```
 
 ### 2. Bing Image
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_j9dvRJYd.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ZHZtYaei.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTY0OTgzNQ.jpg
+https://cdn2.thecatapi.com/images/9hg.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Bilang pada seorang guru, 'Bu/Pak, baju saya terasa sempit' dengan ekspresi memelas.
+Telpon mama kamu dan bilang 'ma, aku mau nikah secepatnya'
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/1a69853b-8834-4cfe-b625-ef7a54aa5b55.gif
+https://random.dog/0f889a7e-562b-4824-b521-b7aaf1757b9c.jpeg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Gajah satu-satunya hewan yang tidak bisa meloncat**
+🌾 **Sekitar 14% pecandu yang menggunakan jarum suntik, positif HIV.**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Definisi**\n\nTidur adalah keadaan kesadaran yang ditandai dengan berkurangnya aktivitas fisik dan mental, serta persepsi sensorik yang berkurang.\n\n**Tahap Tidur**\n\nTidur terdiri dari dua tahap utama:\n\n* **Tidur Non-REM (Non-Rapid Eye Movement):**\n    * Tahap 1: Tidur ringan yang ditandai dengan gerakan mata lambat dan aktivitas otot yang menurun.\n    * Tahap 2: Tidur yang lebih dalam dengan gerakan mata yang lebih lambat dan sedikit aktivitas otot.\n    * Tahap 3: Tidur nyenyak yang ditandai dengan gerakan mata yang sangat lambat atau tidak ada gerakan mata dan penurunan aktivitas otot yang signifikan.\n* **Tidur REM (Rapid Eye Movement):**\n    * Tahap tidur yang ditandai dengan gerakan mata yang cepat, aktivitas otot yang lumpuh, dan mimpi yang jelas.\n\n**Siklus Tidur**\n\nSiklus tidur terdiri dari beberapa tahap tidur Non-REM dan REM yang berulang sepanjang malam. Satu siklus tidur biasanya berlangsung sekitar 90 menit.\n\n**Fungsi Tidur**\n\nTidur memiliki banyak fungsi penting, antara lain:\n\n* Pemulihan fisik dan mental\n* Konsolidasi memori\n* Pengaturan hormon\n* Dukungan fungsi kekebalan tubuh\n* Perbaikan jaringan\n* Pembuangan limbah dari otak\n\n**Kebutuhan Tidur**\n\nJumlah tidur yang dibutuhkan bervariasi tergantung pada individu. Kebanyakan orang dewasa membutuhkan sekitar 7-9 jam tidur per malam.\n\n**Gangguan Tidur**\n\nGangguan tidur adalah masalah yang mempengaruhi kemampuan untuk mendapatkan atau mempertahankan tidur yang cukup dan berkualitas. Gangguan tidur yang umum meliputi:\n\n* Insomnia (kesulitan tidur)\n* Hipersomnia (kelebihan tidur)\n* Narkolepsi (serangan kantuk di siang hari yang berlebihan)\n* Apnea tidur (berhenti bernapas saat tidur)\n* Gangguan gerakan tidur (kaki gelisah dan gerakan anggota tubuh yang tidak disengaja)\n\n**Tips untuk Tidur yang Baik**\n\n* Tetapkan jadwal tidur yang teratur dan patuhi sesering mungkin.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n*Hindari kafein dan alkohol sebelum tidur.\n* Lakukan aktivitas yang menenangkan sebelum tidur, seperti membaca atau mandi.\n* Hindari menggunakan perangkat elektronik di tempat tidur.\n* Bangun dari tempat tidur jika Anda tidak bisa tidur dan melakukan aktivitas santai sampai merasa mengantuk.",
+    "results": "**Definisi Tidur**\n\nTidur adalah keadaan istirahat fisiologis yang teratur dan reversibel, ditandai dengan penurunan aktivitas mental dan fisik. Tidur sangat penting untuk kesehatan dan kesejahteraan fisik, mental, dan emosional.\n\n**Tahap Tidur**\n\nTidur terdiri dari dua tahap utama:\n\n* **Tidur Gerakan Mata Cepat (REM)**: Tahap tidur yang ditandai dengan gerakan mata yang cepat, mimpi yang jelas, dan aktivitas otak yang meningkat.\n* **Tidur Non-REM (NREM)**: Tahap tidur yang dibagi menjadi tiga subtahap (N1, N2, N3) dan ditandai dengan penurunan aktivitas otak dan gerakan tubuh.\n\n**Fungsi Tidur**\n\nTidur memiliki banyak fungsi penting, di antaranya:\n\n* **Pemulihan Fisik:** Tidur memberikan waktu bagi tubuh untuk memperbaiki jaringan, membangun tulang dan otot, serta memulihkan simpanan energi.\n* **Pemulihan Kognitif:** Tidur memfasilitasi konsolidasi memori, pembelajaran, dan pemecahan masalah.\n* **Regulasi Emosional:** Tidur membantu mengatur emosi dan mengurangi stres.\n* **Penguatan Kekebalan Tubuh:** Tidur memperkuat sistem kekebalan tubuh dan meningkatkan kemampuan tubuh untuk melawan infeksi.\n\n**Durasi dan Kualitas Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia dan faktor individu lainnya. Secara umum, orang dewasa membutuhkan 7-9 jam tidur setiap malam untuk kesehatan yang optimal.\n\nKualitas tidur sama pentingnya dengan durasinya. Tidur yang berkualitas tinggi mencakup:\n\n* Tertidur dengan mudah\n* Tetap tertidur sepanjang malam\n* Bangun merasa segar dan berenergi\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat memengaruhi kualitas dan durasi tidur, seperti:\n\n* Insomnia\n* Apnea tidur\n* Sindrom kaki gelisah\n* Gangguan tidur ritme sirkadian\n\n**Tips untuk Mendapatkan Tidur yang Berkualitas**\n\nBerikut adalah beberapa tips untuk meningkatkan kualitas tidur:\n\n* Tetapkan waktu tidur dan bangun yang teratur\n* Ciptakan lingkungan tidur yang kondusif (gelap, tenang, dan sejuk)\n* Hindari kafein dan alkohol sebelum tidur\n* Lakukan aktivitas yang menenangkan sebelum tidur (misalnya, mandi air hangat atau membaca)\n* Tinggalkan kekhawatiran di luar kamar tidur\n* Bicarakan dengan dokter jika Anda kesulitan tidur",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Sword Art Online",
-        "url": "https://nekos.best/api/v2/hug/f33d03b0-fb25-4592-b48c-4de029596488.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/f7246b64-e9ae-4ebd-a1d0-bb934fd1418e.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (12 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (11 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁ ༺ HM•GAMING ༻ ꧂
+°ᴮᴸᴰ°нυsᴎιツ
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-=ix|034)/A21
+K|G]\D$/Z5#B
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Kau tak boleh bilang \"hidup sendiri\" ketika banyak orang yang mengkhawatirkan dirimu.**",
-    "\ud83c\udf39 **Character": "Akari Kawamoto**",
-    "\ud83c\udf41 **Anime": "3-gatsu no Lion**",
-    "\ud83c\udf41 **Episode": "Episode 11**"
+    "\ud83c\udf81 **Quotes": "Aku tidak bisa fokus karena terpana olehmu.**",
+    "\ud83c\udf39 **Character": "Fuutarou Uesugi**",
+    "\ud83c\udf41 **Anime": "Gotoubun no Hanayome**",
+    "\ud83c\udf41 **Episode": "Episode 10**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Garbage can provide important details for hackers: names, telephone numbers, a company's internal jargon.**
+🃏 **Lawan dulu dan sekarang memiliki kelemahan esensial yang sama tentang mereka. Pertama mereka ingin menggunakan anda, kemudian ingin menjadi anda, kemudian mereka ingin menghabisi anda.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Hubungan yang jelas di dalamnya ada pembohongan bagaimana kau akan membangun rumah tangga dengan pribadi seperti itu**
+📖 **Dalam mengejar rejeki Janganlah mengajar jumlahnya tetapi kejarlah berkahnya**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Daripada memainkan hati seseorang, Lebih baik kita memainkan game PUBG**
+🏆 **Belum saatnya tidur hingga chicken dinner**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa orang (lawan jenis) yang paling sering terlintas di pikiranmu?
+Kamu pernah mencuri sesuatu gak?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Higashi no Eden",
-            "url": "https://nekos.best/api/v2/kiss/83b0c890-2ee6-4939-ac95-179c4982e7cf.gif"
+            "anime_name": "Engage Kiss",
+            "url": "https://nekos.best/api/v2/kiss/ac3013be-2c19-44b5-9b89-58cff9d96805.gif"
         }
     ]
 }
