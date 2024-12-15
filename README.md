@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://www.diedit.com/wp-content/uploads/2018/03/anak-tidur-1.jpg
+https://cdn.timesmedia.co.id/images/2019/08/21/anak-tidur.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ZHZtYaei.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Yw9H8Ehg.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/9hg.jpg
+https://cdn2.thecatapi.com/images/wu1YzlB9q.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Telpon mama kamu dan bilang 'ma, aku mau nikah secepatnya'
+Menyanyikan lagu Iwak Peyek dengan keras di ruang kelas.
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/0f889a7e-562b-4824-b521-b7aaf1757b9c.jpeg
+https://random.dog/AchingAmbitiousBonobo.webm
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Sekitar 14% pecandu yang menggunakan jarum suntik, positif HIV.**
+🌾 **Pemogokan cahaya di bumi sekitar 6.000 kali per menit.**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Definisi Tidur**\n\nTidur adalah keadaan istirahat fisiologis yang teratur dan reversibel, ditandai dengan penurunan aktivitas mental dan fisik. Tidur sangat penting untuk kesehatan dan kesejahteraan fisik, mental, dan emosional.\n\n**Tahap Tidur**\n\nTidur terdiri dari dua tahap utama:\n\n* **Tidur Gerakan Mata Cepat (REM)**: Tahap tidur yang ditandai dengan gerakan mata yang cepat, mimpi yang jelas, dan aktivitas otak yang meningkat.\n* **Tidur Non-REM (NREM)**: Tahap tidur yang dibagi menjadi tiga subtahap (N1, N2, N3) dan ditandai dengan penurunan aktivitas otak dan gerakan tubuh.\n\n**Fungsi Tidur**\n\nTidur memiliki banyak fungsi penting, di antaranya:\n\n* **Pemulihan Fisik:** Tidur memberikan waktu bagi tubuh untuk memperbaiki jaringan, membangun tulang dan otot, serta memulihkan simpanan energi.\n* **Pemulihan Kognitif:** Tidur memfasilitasi konsolidasi memori, pembelajaran, dan pemecahan masalah.\n* **Regulasi Emosional:** Tidur membantu mengatur emosi dan mengurangi stres.\n* **Penguatan Kekebalan Tubuh:** Tidur memperkuat sistem kekebalan tubuh dan meningkatkan kemampuan tubuh untuk melawan infeksi.\n\n**Durasi dan Kualitas Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia dan faktor individu lainnya. Secara umum, orang dewasa membutuhkan 7-9 jam tidur setiap malam untuk kesehatan yang optimal.\n\nKualitas tidur sama pentingnya dengan durasinya. Tidur yang berkualitas tinggi mencakup:\n\n* Tertidur dengan mudah\n* Tetap tertidur sepanjang malam\n* Bangun merasa segar dan berenergi\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat memengaruhi kualitas dan durasi tidur, seperti:\n\n* Insomnia\n* Apnea tidur\n* Sindrom kaki gelisah\n* Gangguan tidur ritme sirkadian\n\n**Tips untuk Mendapatkan Tidur yang Berkualitas**\n\nBerikut adalah beberapa tips untuk meningkatkan kualitas tidur:\n\n* Tetapkan waktu tidur dan bangun yang teratur\n* Ciptakan lingkungan tidur yang kondusif (gelap, tenang, dan sejuk)\n* Hindari kafein dan alkohol sebelum tidur\n* Lakukan aktivitas yang menenangkan sebelum tidur (misalnya, mandi air hangat atau membaca)\n* Tinggalkan kekhawatiran di luar kamar tidur\n* Bicarakan dengan dokter jika Anda kesulitan tidur",
+    "results": "**Fase-Fase Tidur**\n\nTidur terdiri dari dua fase utama:\n\n* **Tidur Non-REM (Rapid Eye Movement):**\n    * Tahap 1: Tidur ringan, disertai dengan gelombang otak cepat dan penurunan tonus otot.\n    * Tahap 2: Tidur lebih dalam, dengan gelombang otak yang lebih lambat dan penurunan aktivitas otot.\n    * Tahap 3: Tahap tidur paling dalam, dengan gelombang otak yang sangat lambat dan tidak ada aktivitas otot.\n* **Tidur REM (Rapid Eye Movement):**\n    * Tidur disertai dengan gerakan mata yang cepat, gelombang otak yang cepat, dan peningkatan aktivitas otak.\n    * Mimpi terjadi selama tidur REM.\n\n**Siklus Tidur**\n\nSiklus tidur berlangsung sekitar 90 menit dan mencakup empat tahap tidur Non-REM dan satu tahap tidur REM. Siklus ini berulang sepanjang malam.\n\n**Manfaat Tidur**\n\nTidur yang cukup sangat penting untuk kesehatan dan kesejahteraan secara keseluruhan. Manfaat tidur antara lain:\n\n* **Kesehatan fisik:** Memperbaiki sistem kekebalan tubuh, mengurangi risiko penyakit kronis, dan mendukung pemulihan fisik.\n* **Kesehatan mental:** Mengurangi stres, kecemasan, dan risiko depresi, serta meningkatkan suasana hati dan konsentrasi.\n* **Kinerja kognitif:** Meningkatkan memori, perhatian, dan pengambilan keputusan.\n* **Keamanan:** Mengurangi risiko kecelakaan dan meningkatkan kewaspadaan.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi pada setiap individu, tetapi umumnya direkomendasikan:\n\n* Orang dewasa: 7-9 jam\n* Remaja: 8-10 jam\n* Anak-anak: 10-16 jam\n\n**Gangguan Tidur**\n\nGangguan tidur adalah kondisi yang mengganggu tidur, seperti:\n\n* Insomnia: Kesulitan jatuh atau tetap tidur\n* Sleep apnea: Berhentinya pernapasan berulang kali saat tidur\n* Gangguan gerakan tungkai periodik: Gerakan kaki yang berulang-ulang saat tidur\n* Narkolepsi: Ngantuk berlebihan pada siang hari\n\nJika Anda mengalami gangguan tidur, penting untuk menemui dokter untuk diagnosis dan pengobatan yang tepat.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Princess Connect! Re:Dive",
-        "url": "https://nekos.best/api/v2/hug/f7246b64-e9ae-4ebd-a1d0-bb934fd1418e.gif"
+        "anime_name": "Ao Haru Ride",
+        "url": "https://nekos.best/api/v2/hug/2ebb7586-77d4-46d1-bc4a-649bdc8d7a4f.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (11 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (10 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-°ᴮᴸᴰ°нυsᴎιツ
+꧁●✮CENDEK✮●꧂
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-K|G]\D$/Z5#B
+W3S/s?\B!"bl
 ```
 
 ### 17. Pypi
@@ -539,9 +539,9 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Aku tidak bisa fokus karena terpana olehmu.**",
-    "\ud83c\udf39 **Character": "Fuutarou Uesugi**",
-    "\ud83c\udf41 **Anime": "Gotoubun no Hanayome**",
+    "\ud83c\udf81 **Quotes": "Melihat seorang murid yang menatap masa depannya itu begitu indah.**",
+    "\ud83c\udf39 **Character": "Souma**",
+    "\ud83c\udf41 **Anime": "Demi-chan wa Kataritai**",
     "\ud83c\udf41 **Episode": "Episode 10**"
 }
 ```
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Lawan dulu dan sekarang memiliki kelemahan esensial yang sama tentang mereka. Pertama mereka ingin menggunakan anda, kemudian ingin menjadi anda, kemudian mereka ingin menghabisi anda.**
+🃏 **Very smart people are often tricked by hackers, by phishing. I don't exclude myself from that. It's about being smarter than a hacker. Not about being smart.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Dalam mengejar rejeki Janganlah mengajar jumlahnya tetapi kejarlah berkahnya**
+📖 **Semut akan berkerumun di sekitar gula jika ingin mencari jodoh Shalih Carilah di kumpulan orang Shalih**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Belum saatnya tidur hingga chicken dinner**
+🏆 **Kami adalah Gamers PUBG. Tidak butuh beautiful, hanya butuh battery full**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kamu pernah mencuri sesuatu gak?
+Siapa nama orang yang kamu benci, tapi kamu rasa orang itu suka sama kamu (nggak harus beda gender)?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Engage Kiss",
-            "url": "https://nekos.best/api/v2/kiss/ac3013be-2c19-44b5-9b89-58cff9d96805.gif"
+            "anime_name": "School Days",
+            "url": "https://nekos.best/api/v2/kiss/eae5a6aa-8fb4-4390-9668-f23aa540d7dc.gif"
         }
     ]
 }
