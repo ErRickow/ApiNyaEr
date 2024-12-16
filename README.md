@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn.timesmedia.co.id/images/2019/08/21/anak-tidur.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Yw9H8Ehg.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_8slXJbcW.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/wu1YzlB9q.jpg
+https://cdn2.thecatapi.com/images/702.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Menyanyikan lagu Iwak Peyek dengan keras di ruang kelas.
+Menari ala Girls' Generation untuk cowok di depan kelas, atau menari ala Super Junior untuk cewek.
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/AchingAmbitiousBonobo.webm
+https://random.dog/6be64b1b-8925-40e2-83cd-9291efb6165b.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Pemogokan cahaya di bumi sekitar 6.000 kali per menit.**
+🌾 **Orang yang terlalu sering begadang memiliki performa otak seperti 7 tahun lebih tua dari usia aslinya. [dailymail]**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Fase-Fase Tidur**\n\nTidur terdiri dari dua fase utama:\n\n* **Tidur Non-REM (Rapid Eye Movement):**\n    * Tahap 1: Tidur ringan, disertai dengan gelombang otak cepat dan penurunan tonus otot.\n    * Tahap 2: Tidur lebih dalam, dengan gelombang otak yang lebih lambat dan penurunan aktivitas otot.\n    * Tahap 3: Tahap tidur paling dalam, dengan gelombang otak yang sangat lambat dan tidak ada aktivitas otot.\n* **Tidur REM (Rapid Eye Movement):**\n    * Tidur disertai dengan gerakan mata yang cepat, gelombang otak yang cepat, dan peningkatan aktivitas otak.\n    * Mimpi terjadi selama tidur REM.\n\n**Siklus Tidur**\n\nSiklus tidur berlangsung sekitar 90 menit dan mencakup empat tahap tidur Non-REM dan satu tahap tidur REM. Siklus ini berulang sepanjang malam.\n\n**Manfaat Tidur**\n\nTidur yang cukup sangat penting untuk kesehatan dan kesejahteraan secara keseluruhan. Manfaat tidur antara lain:\n\n* **Kesehatan fisik:** Memperbaiki sistem kekebalan tubuh, mengurangi risiko penyakit kronis, dan mendukung pemulihan fisik.\n* **Kesehatan mental:** Mengurangi stres, kecemasan, dan risiko depresi, serta meningkatkan suasana hati dan konsentrasi.\n* **Kinerja kognitif:** Meningkatkan memori, perhatian, dan pengambilan keputusan.\n* **Keamanan:** Mengurangi risiko kecelakaan dan meningkatkan kewaspadaan.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi pada setiap individu, tetapi umumnya direkomendasikan:\n\n* Orang dewasa: 7-9 jam\n* Remaja: 8-10 jam\n* Anak-anak: 10-16 jam\n\n**Gangguan Tidur**\n\nGangguan tidur adalah kondisi yang mengganggu tidur, seperti:\n\n* Insomnia: Kesulitan jatuh atau tetap tidur\n* Sleep apnea: Berhentinya pernapasan berulang kali saat tidur\n* Gangguan gerakan tungkai periodik: Gerakan kaki yang berulang-ulang saat tidur\n* Narkolepsi: Ngantuk berlebihan pada siang hari\n\nJika Anda mengalami gangguan tidur, penting untuk menemui dokter untuk diagnosis dan pengobatan yang tepat.",
+    "results": "**Tidur**\n\nTidur adalah keadaan fisiologis yang teratur dan reversibel yang ditandai dengan hilangnya kesadaran respons terhadap lingkungan sekitar. Ini merupakan kebutuhan dasar yang sangat penting bagi kesehatan dan kesejahteraan secara keseluruhan.\n\n**Manfaat Tidur**\n\nTidur memainkan peran penting dalam berbagai fungsi tubuh, di antaranya:\n\n* **Kesehatan kognitif:** Meningkatkan memori, perhatian, dan fungsi eksekutif.\n* **Kesehatan emosional:** Mengatur suasana hati, mengurangi stres, dan meningkatkan kesejahteraan.\n* **Kesehatan fisik:** Meng\u4fee\u5fa9 jaringan, memperkuat sistem kekebalan tubuh, dan mengatur nafsu makan.\n* **Kesehatan kardiovaskular:** Menurunkan risiko penyakit jantung, stroke, dan tekanan darah tinggi.\n* **Kesehatan metabolik:** Mengatur kadar gula darah dan mencegah diabetes tipe 2.\n\n**Siklus Tidur**\n\nSiklus tidur terdiri dari dua tahap utama: Non-Rapid Eye Movement (NREM) dan Rapid Eye Movement (REM).\n\n* **Tahap NREM:** Terdiri dari tiga subtahap (N1, N2, N3) dan ditandai dengan aktivitas otak yang lambat dan gerakan mata yang jarang terjadi. Tahap N3 adalah tahap tidur nyenyak yang paling sulit dibangunkan.\n* **Tahap REM:** Ditandai dengan aktivitas otak yang cepat dan mimpi yang jelas. Ini adalah tahap di mana sebagian besar pemulihan fisiologis terjadi.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia dan faktor individu. Kebanyakan orang dewasa membutuhkan 7-9 jam tidur per malam untuk kesehatan yang optimal.\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat mengganggu pola tidur normal, seperti:\n\n* **Insomnia:** Kesulitan jatuh atau tetap tertidur.\n* **Obstructive Sleep Apnea (OSA):** Jeda berulang dalam pernapasan saat tidur.\n* **Restless Legs Syndrome (RLS):** Sensasi tidak nyaman pada kaki yang memicu keinginan untuk menggerakkannya.\n* **Narcolepsy:** Kondisi yang menyebabkan kantuk berlebihan pada siang hari.\n\n**Tips untuk Tidur Nyenyak**\n\nUntuk meningkatkan kualitas tidur, pertimbangkan tips berikut:\n\n* Tetapkan jadwal tidur yang teratur, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Batasi penggunaan perangkat elektronik sebelum tidur.\n* Lakukan aktivitas santai sebelum tidur, seperti mandi air hangat atau membaca.\n* Jika Anda tidak bisa tidur setelah 20 menit, bangun dan lakukan sesuatu yang menenangkan sampai Anda merasa lelah.\n* Jika Anda mengalami gangguan tidur yang terus-menerus, konsultasikan dengan dokter.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Ao Haru Ride",
-        "url": "https://nekos.best/api/v2/hug/2ebb7586-77d4-46d1-bc4a-649bdc8d7a4f.gif"
+        "anime_name": "Hayate no Gotoku! Cuties",
+        "url": "https://nekos.best/api/v2/hug/e549230e-34a7-4834-86a9-c4c76df0531d.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (10 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (9 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁●✮CENDEK✮●꧂
+¢єℓ¢ιυѕ
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-W3S/s?\B!"bl
+Yl=@a]\DH(9P
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Melihat seorang murid yang menatap masa depannya itu begitu indah.**",
-    "\ud83c\udf39 **Character": "Souma**",
-    "\ud83c\udf41 **Anime": "Demi-chan wa Kataritai**",
-    "\ud83c\udf41 **Episode": "Episode 10**"
+    "\ud83c\udf81 **Quotes": "Mungkin ada kalanya (kau) merasa bingung dan merasa kesal karena kenyataan tidak berjalan sesuai dengan harapan. Tapi, hal yang kau pelajari tidak akan pernah mengkhianatimu.**",
+    "\ud83c\udf39 **Character": "Tooru Miyagishi**",
+    "\ud83c\udf41 **Anime": "Hanasaku Iroha**",
+    "\ud83c\udf41 **Episode": "Episode 21**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Very smart people are often tricked by hackers, by phishing. I don't exclude myself from that. It's about being smarter than a hacker. Not about being smart.**
+🃏 **Virality is not an accident. It is engineered. And that's why growth hackers beat traditional marketers.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Semut akan berkerumun di sekitar gula jika ingin mencari jodoh Shalih Carilah di kumpulan orang Shalih**
+📖 **Dalam mengejar rejeki Janganlah mengajar jumlahnya tetapi kejarlah berkahnya**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Kami adalah Gamers PUBG. Tidak butuh beautiful, hanya butuh battery full**
+🏆 **Prajurit sejati bertempur bukan karena dia membenci musuh di depannya. Tapi karena dia mencintai apa yang ada dibelakangnya**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa nama orang yang kamu benci, tapi kamu rasa orang itu suka sama kamu (nggak harus beda gender)?
+Apa hal pertama yang kamu lihat saat kamu melihat orang lain (beda gender)?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "School Days",
-            "url": "https://nekos.best/api/v2/kiss/eae5a6aa-8fb4-4390-9668-f23aa540d7dc.gif"
+            "anime_name": "Mayo Chiki!",
+            "url": "https://nekos.best/api/v2/kiss/f221be01-c182-4681-be25-1ecd5fc37ab9.gif"
         }
     ]
 }
