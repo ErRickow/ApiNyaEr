@@ -28,7 +28,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 
 | Function           | Status |
 |--------------------|--------|
-| [1. Ai](#1-ai) | ✅
+| [1. Ai](#1-ai) | ❌
 | [2. Bing Image](#2-bing-image) | ✅
 | [3. Blackbox](#3-blackbox) | ✅
 | [4. Carbon](#4-carbon) | ✅
@@ -78,7 +78,7 @@ print(result)
 #### Expected Output
 
 ```text
-Awal lagi ni.
+Expecting value: line 1 column 1 (char 0)
 ```
 
 ### 2. Bing Image
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_8slXJbcW.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_U8i6wxj0.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/702.jpg
+https://cdn2.thecatapi.com/images/dba.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Menari ala Girls' Generation untuk cowok di depan kelas, atau menari ala Super Junior untuk cewek.
+Teriak 'WOI GW JACK, DENGER NIH RAUNGAN GW, ROAAAAR!' ditempat rame
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/6be64b1b-8925-40e2-83cd-9291efb6165b.jpg
+https://random.dog/47b5f69d-0951-444d-b282-fc89e016bd6f.mp4
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Orang yang terlalu sering begadang memiliki performa otak seperti 7 tahun lebih tua dari usia aslinya. [dailymail]**
+🌾 **Lidah seekor Chameleon adalah dua kali panjang tubuhnya sendiri.**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Tidur**\n\nTidur adalah keadaan fisiologis yang teratur dan reversibel yang ditandai dengan hilangnya kesadaran respons terhadap lingkungan sekitar. Ini merupakan kebutuhan dasar yang sangat penting bagi kesehatan dan kesejahteraan secara keseluruhan.\n\n**Manfaat Tidur**\n\nTidur memainkan peran penting dalam berbagai fungsi tubuh, di antaranya:\n\n* **Kesehatan kognitif:** Meningkatkan memori, perhatian, dan fungsi eksekutif.\n* **Kesehatan emosional:** Mengatur suasana hati, mengurangi stres, dan meningkatkan kesejahteraan.\n* **Kesehatan fisik:** Meng\u4fee\u5fa9 jaringan, memperkuat sistem kekebalan tubuh, dan mengatur nafsu makan.\n* **Kesehatan kardiovaskular:** Menurunkan risiko penyakit jantung, stroke, dan tekanan darah tinggi.\n* **Kesehatan metabolik:** Mengatur kadar gula darah dan mencegah diabetes tipe 2.\n\n**Siklus Tidur**\n\nSiklus tidur terdiri dari dua tahap utama: Non-Rapid Eye Movement (NREM) dan Rapid Eye Movement (REM).\n\n* **Tahap NREM:** Terdiri dari tiga subtahap (N1, N2, N3) dan ditandai dengan aktivitas otak yang lambat dan gerakan mata yang jarang terjadi. Tahap N3 adalah tahap tidur nyenyak yang paling sulit dibangunkan.\n* **Tahap REM:** Ditandai dengan aktivitas otak yang cepat dan mimpi yang jelas. Ini adalah tahap di mana sebagian besar pemulihan fisiologis terjadi.\n\n**Kebutuhan Tidur**\n\nKebutuhan tidur bervariasi tergantung pada usia dan faktor individu. Kebanyakan orang dewasa membutuhkan 7-9 jam tidur per malam untuk kesehatan yang optimal.\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat mengganggu pola tidur normal, seperti:\n\n* **Insomnia:** Kesulitan jatuh atau tetap tertidur.\n* **Obstructive Sleep Apnea (OSA):** Jeda berulang dalam pernapasan saat tidur.\n* **Restless Legs Syndrome (RLS):** Sensasi tidak nyaman pada kaki yang memicu keinginan untuk menggerakkannya.\n* **Narcolepsy:** Kondisi yang menyebabkan kantuk berlebihan pada siang hari.\n\n**Tips untuk Tidur Nyenyak**\n\nUntuk meningkatkan kualitas tidur, pertimbangkan tips berikut:\n\n* Tetapkan jadwal tidur yang teratur, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang gelap, tenang, dan sejuk.\n* Hindari kafein dan alkohol sebelum tidur.\n* Batasi penggunaan perangkat elektronik sebelum tidur.\n* Lakukan aktivitas santai sebelum tidur, seperti mandi air hangat atau membaca.\n* Jika Anda tidak bisa tidur setelah 20 menit, bangun dan lakukan sesuatu yang menenangkan sampai Anda merasa lelah.\n* Jika Anda mengalami gangguan tidur yang terus-menerus, konsultasikan dengan dokter.",
+    "results": "**Tidur**\n\n**Definisi:**\n\nTidur adalah keadaan tidak sadarkan diri dan tidak reaktif yang terjadi secara teratur dan diselingi dengan periode terjaga. Ini adalah proses fisiologis penting yang sangat penting untuk kesehatan dan kesejahteraan kita.\n\n**Jenis Tidur:**\n\n* **Tidur NREM (Non-Rapid Eye Movement):**\n    * Terjadi dalam tiga tahap: tahap 1, 2, dan 3 (tidur gelombang lambat).\n    * Ditandai dengan aktivitas otak berfrekuensi rendah dan kurangnya gerakan mata.\n* **Tidur REM (Rapid Eye Movement):**\n    * Tahap tidur kelima.\n    * Ditandai dengan gerakan mata yang cepat, aktivitas otak yang tinggi, dan mimpi.\n\n**Manfaat Tidur:**\n\n* Pemulihan fisik dan mental\n* Regulasi hormon\n* Memperkuat memori dan konsentrasi\n* Meningkatkan sistem kekebalan\n* Mengurangi stres dan kecemasan\n* Mencegah penyakit kronis (misalnya penyakit jantung, diabetes tipe 2, stroke)\n\n**Kebutuhan Tidur:**\n\nJumlah tidur yang dibutuhkan bervariasi tergantung pada usia dan individu, tetapi kebanyakan orang dewasa membutuhkan sekitar 7-9 jam tidur per malam untuk mendapatkan manfaat optimal.\n\n**Gangguan Tidur Umum:**\n\n* Insomnia (kesulitan tidur)\n* Apnea tidur (berhenti bernapas saat tidur)\n* Narkolepsi (rasa kantuk yang berlebihan pada siang hari)\n* Sindrom kaki gelisah\n* Gangguan tidur parasomnia (misalnya berjalan dalam tidur, tidur sambil berbicara)\n\n**Cara Meningkatkan Kualitas Tidur:**\n\n* Tetapkan jadwal tidur yang teratur\n* Ciptakan lingkungan tidur yang kondusif (gelap, tenang, sejuk)\n* Hindari kafein dan alkohol sebelum tidur\n* Olahraga secara teratur, tetapi bukan sebelum tidur\n* Atasi stres dengan teknik relaksasi\n* Jika Anda mengalami kesulitan tidur, konsultasikan dengan dokter untuk menyingkirkan gangguan tidur mendasar\n\n**Kesimpulan:**\n\nTidur adalah proses penting yang sangat penting untuk kesehatan dan kesejahteraan kita secara keseluruhan. Memahami jenis tidur, manfaatnya, dan gangguan umum dapat membantu kita meningkatkan kualitas tidur dan memperoleh manfaatnya yang optimal.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Hayate no Gotoku! Cuties",
-        "url": "https://nekos.best/api/v2/hug/e549230e-34a7-4834-86a9-c4c76df0531d.gif"
+        "anime_name": "Umibe no Etranger",
+        "url": "https://nekos.best/api/v2/hug/4619bde0-9f22-4010-a58a-d6a4cb8d12a4.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (9 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (8 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-¢єℓ¢ιυѕ
+꧁þαšТΣĻ꧂௶ꣷ
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-Yl=@a]\DH(9P
+PRtyH!BOTNh+
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Mungkin ada kalanya (kau) merasa bingung dan merasa kesal karena kenyataan tidak berjalan sesuai dengan harapan. Tapi, hal yang kau pelajari tidak akan pernah mengkhianatimu.**",
-    "\ud83c\udf39 **Character": "Tooru Miyagishi**",
+    "\ud83c\udf81 **Quotes": "Pemandangan yang kurasa membosankan...Pemandangan di mana Kou-chan berada (ternyata) sangat indah.**",
+    "\ud83c\udf39 **Character": "Ohana Matsumae**",
     "\ud83c\udf41 **Anime": "Hanasaku Iroha**",
-    "\ud83c\udf41 **Episode": "Episode 21**"
+    "\ud83c\udf41 **Episode": "Episode 24**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Virality is not an accident. It is engineered. And that's why growth hackers beat traditional marketers.**
+🃏 **Bagi saya, komputer itu alat yang paling luar biasa yang pernah kita miliki. Ini setara dengan sepeda untuk pikiran kita.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Dalam mengejar rejeki Janganlah mengajar jumlahnya tetapi kejarlah berkahnya**
+📖 **Semua itu butuh pengorbanan dan keikhlasan apalagi memilih jalan kebaikan pasti akan ada selalu orang yang bertentangan tetapi Allah takkan pernah menutup Kerinduan bagi mereka yang rela melakukan perubahan**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Prajurit sejati bertempur bukan karena dia membenci musuh di depannya. Tapi karena dia mencintai apa yang ada dibelakangnya**
+🏆 **Cukup 15 menit untuk pertempuran karena kami tahu waktu adalah uang**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa hal pertama yang kamu lihat saat kamu melihat orang lain (beda gender)?
+Siapa nama orang yang pernah kamu ikutin diam-diam?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Mayo Chiki!",
-            "url": "https://nekos.best/api/v2/kiss/f221be01-c182-4681-be25-1ecd5fc37ab9.gif"
+            "anime_name": "Captain Earth",
+            "url": "https://nekos.best/api/v2/kiss/3eb02569-bc4d-4fcf-95c9-2d14cefd05ab.gif"
         }
     ]
 }
