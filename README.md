@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_U8i6wxj0.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_VBWVaEYb.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/dba.jpg
+https://cdn2.thecatapi.com/images/eaq.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Teriak 'WOI GW JACK, DENGER NIH RAUNGAN GW, ROAAAAR!' ditempat rame
+Ajak orang yg tidak kamu kenal itu selfie berdua dengan mu lalu upload ke snapgram
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/47b5f69d-0951-444d-b282-fc89e016bd6f.mp4
+https://random.dog/3c3f26ce-2a5e-4fe7-82d9-f9e02975597c.mp4
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Lidah seekor Chameleon adalah dua kali panjang tubuhnya sendiri.**
+🌾 **69% orang Amerika menggunakan internet dan hanya 5,5% dari India.**
 ```
 
 ### 10. Gemini
@@ -290,7 +290,7 @@ print(result)
 
 ```json
 {
-    "results": "**Tidur**\n\n**Definisi:**\n\nTidur adalah keadaan tidak sadarkan diri dan tidak reaktif yang terjadi secara teratur dan diselingi dengan periode terjaga. Ini adalah proses fisiologis penting yang sangat penting untuk kesehatan dan kesejahteraan kita.\n\n**Jenis Tidur:**\n\n* **Tidur NREM (Non-Rapid Eye Movement):**\n    * Terjadi dalam tiga tahap: tahap 1, 2, dan 3 (tidur gelombang lambat).\n    * Ditandai dengan aktivitas otak berfrekuensi rendah dan kurangnya gerakan mata.\n* **Tidur REM (Rapid Eye Movement):**\n    * Tahap tidur kelima.\n    * Ditandai dengan gerakan mata yang cepat, aktivitas otak yang tinggi, dan mimpi.\n\n**Manfaat Tidur:**\n\n* Pemulihan fisik dan mental\n* Regulasi hormon\n* Memperkuat memori dan konsentrasi\n* Meningkatkan sistem kekebalan\n* Mengurangi stres dan kecemasan\n* Mencegah penyakit kronis (misalnya penyakit jantung, diabetes tipe 2, stroke)\n\n**Kebutuhan Tidur:**\n\nJumlah tidur yang dibutuhkan bervariasi tergantung pada usia dan individu, tetapi kebanyakan orang dewasa membutuhkan sekitar 7-9 jam tidur per malam untuk mendapatkan manfaat optimal.\n\n**Gangguan Tidur Umum:**\n\n* Insomnia (kesulitan tidur)\n* Apnea tidur (berhenti bernapas saat tidur)\n* Narkolepsi (rasa kantuk yang berlebihan pada siang hari)\n* Sindrom kaki gelisah\n* Gangguan tidur parasomnia (misalnya berjalan dalam tidur, tidur sambil berbicara)\n\n**Cara Meningkatkan Kualitas Tidur:**\n\n* Tetapkan jadwal tidur yang teratur\n* Ciptakan lingkungan tidur yang kondusif (gelap, tenang, sejuk)\n* Hindari kafein dan alkohol sebelum tidur\n* Olahraga secara teratur, tetapi bukan sebelum tidur\n* Atasi stres dengan teknik relaksasi\n* Jika Anda mengalami kesulitan tidur, konsultasikan dengan dokter untuk menyingkirkan gangguan tidur mendasar\n\n**Kesimpulan:**\n\nTidur adalah proses penting yang sangat penting untuk kesehatan dan kesejahteraan kita secara keseluruhan. Memahami jenis tidur, manfaatnya, dan gangguan umum dapat membantu kita meningkatkan kualitas tidur dan memperoleh manfaatnya yang optimal.",
+    "results": "**Pengertian Tidur**\n\nTidur adalah keadaan fisiologis di mana individu mengalami berkurangnya kesadaran terhadap lingkungan sekitarnya, disertai dengan penurunan aktivitas motorik dan sensorik.\n\n**Fase-fase Tidur**\n\nTidur dibagi menjadi dua fase utama:\n\n* **Tidur NREM (Non-Rapid Eye Movement):** Terbagi menjadi tiga tahap (N1, N2, dan N3) yang ditandai dengan aktivitas gelombang otak yang berbeda-beda. Tahap N3, juga dikenal sebagai tidur gelombang lambat, adalah tahap tidur paling nyenyak.\n* **Tidur REM (Rapid Eye Movement):** Ditandai dengan gerakan mata yang cepat, mimpi yang jelas, dan aktivitas gelombang otak yang mirip dengan saat terjaga.\n\n**Manfaat Tidur**\n\nTidur sangat penting untuk kesehatan fisik dan mental yang optimal, antara lain:\n\n* Memperbaiki fungsi kognitif (misalnya memori, konsentrasi, pemecahan masalah)\n* Mengatur emosi dan suasana hati\n* Meningkatkan sistem kekebalan tubuh\n* Mencegah penyakit kronis (misalnya penyakit jantung, diabetes)\n* Mendukung pertumbuhan dan perkembangan fisik\n* Memperbaiki penampilan kulit dan rambut\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat mengganggu pola tidur normal, antara lain:\n\n* Insomnia (kesulitan tidur atau tetap tertidur)\n* Hipersomnia (tidur yang berlebihan)\n* Narkolepsi (serangan kantuk yang tiba-tiba)\n* Sleep apnea (gangguan pernapasan saat tidur)\n* Sindrom kaki gelisah\n* Jet lag\n\n**Tips Meningkatkan Kualitas Tidur**\n\nBerikut adalah beberapa tips untuk meningkatkan kualitas tidur:\n\n* Atur jadwal tidur yang teratur dan patuhi sebisa mungkin, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang nyaman dan bebas stres (misalnya ruangan yang gelap, tenang, dan sejuk).\n* Hindari kafein dan alkohol sebelum tidur.\n* Lakukan aktivitas yang menenangkan sebelum tidur (misalnya mandi air hangat, membaca).\n* Usahakan untuk berolahraga secara teratur, tetapi hindari olahraga berat menjelang tidur.\n* Pastikan kamar tidur Anda nyaman dan mendukung (misalnya matras yang nyaman, bantal yang sesuai).\n* Jika Anda mengalami gangguan tidur, konsultasikan dengan dokter untuk mengetahui penyebab dan pengobatan yang tepat.",
     "author": "@chakszzz",
     "success": true
 }
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Umibe no Etranger",
-        "url": "https://nekos.best/api/v2/hug/4619bde0-9f22-4010-a58a-d6a4cb8d12a4.gif"
+        "anime_name": "Code Geass: Hangyaku no Lelouch",
+        "url": "https://nekos.best/api/v2/hug/1606f27b-cc28-490b-9d1f-cb6d5f03dd15.gif"
     }
 ]
 ```
@@ -433,7 +433,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (8 hari lagi)
+Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (7 hari lagi)
 ```
 
 ### 15. Nama Epep
@@ -454,7 +454,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁þαšТΣĻ꧂௶ꣷ
+÷{k•Πt•£}÷
 ```
 
 ### 16. Password
@@ -479,7 +479,7 @@ print(result)
 #### Expected Output
 
 ```text
-PRtyH!BOTNh+
+YQGX("nCF9pc
 ```
 
 ### 17. Pypi
@@ -539,10 +539,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Pemandangan yang kurasa membosankan...Pemandangan di mana Kou-chan berada (ternyata) sangat indah.**",
-    "\ud83c\udf39 **Character": "Ohana Matsumae**",
-    "\ud83c\udf41 **Anime": "Hanasaku Iroha**",
-    "\ud83c\udf41 **Episode": "Episode 24**"
+    "\ud83c\udf81 **Quotes": "Melihat seorang murid yang menatap masa depannya itu begitu indah.**",
+    "\ud83c\udf39 **Character": "Souma**",
+    "\ud83c\udf41 **Anime": "Demi-chan wa Kataritai**",
+    "\ud83c\udf41 **Episode": "Episode 10**"
 }
 ```
 
@@ -564,7 +564,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Bagi saya, komputer itu alat yang paling luar biasa yang pernah kita miliki. Ini setara dengan sepeda untuk pikiran kita.**
+🃏 **Kebanyakan peretas masih muda, karena orang cenderung mudah beradaptasi. Selama anda tetap bisa beradaptasi, anda selalu bisa menjadi peretas yang baik.**
 ```
 
 ### 20. Qislam
@@ -585,7 +585,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Semua itu butuh pengorbanan dan keikhlasan apalagi memilih jalan kebaikan pasti akan ada selalu orang yang bertentangan tetapi Allah takkan pernah menutup Kerinduan bagi mereka yang rela melakukan perubahan**
+📖 **Mencintai dengan sungguh-sungguh memberikan kebahagiaan di hati kita mencintai karena Allah kita mendapat nilai ibadah dan kebahagiaan yang lebih**
 ```
 
 ### 21. Qpubg
@@ -606,7 +606,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Cukup 15 menit untuk pertempuran karena kami tahu waktu adalah uang**
+🏆 **Aku memang tidak seperti P18C yang siaga menjagamu dari dekat. Tapi biarkan aku menjadi seperti AWM yang siap menjagamu dari jauh**
 ```
 
 ### 22. Truth
@@ -627,7 +627,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa nama orang yang pernah kamu ikutin diam-diam?
+Kamu takut mati? kenapa?
 ```
 
 ### 23. Wibu
@@ -669,8 +669,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Captain Earth",
-            "url": "https://nekos.best/api/v2/kiss/3eb02569-bc4d-4fcf-95c9-2d14cefd05ab.gif"
+            "anime_name": "Akagami no Shirayuki-hime",
+            "url": "https://nekos.best/api/v2/kiss/779c5048-26fa-4ed2-96d4-2aa969f0b9f4.gif"
         }
     ]
 }
