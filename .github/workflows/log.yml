@@ -13,7 +13,7 @@ jobs:
           token: ${{ secrets.TOKEN_2 }}
           format: html
           message: |
-            <b>Si ${{ github.actor }}</b> di repo ${{ github.repository }}
+            <b>Si ${{ github.actor }}</b> di repo ${{ github.repo }}
 
             ${{ github.event.commits[0].message }}
           disable_web_page_preview: True
