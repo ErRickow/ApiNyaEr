@@ -11,4 +11,10 @@ jobs:
         with:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
-          message_file: ./ApiNyaEr/msg.txt
+          message: |
+            The ${{ github.event_name }} event triggered second step.
+            show the github variable ref: ${{ github.ref }}
+            show the github variable commit: ${{ github.sha }}
+            show the github variable ref: {{ commit.ref }}
+            show the github variable commit: {{ commit.sha }}
+            Commit Message: ${{ github.event.head_commit.message }}
