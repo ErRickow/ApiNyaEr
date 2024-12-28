@@ -11,12 +11,8 @@ jobs:
         with:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
-          message_file: ./msg.txt
           message: |
-            The ${{ github.event_name }} event triggered second step.
-            show the github variable ref: ${{ github.ref }}
-            show the github variable commit: ${{ github.sha }}
-            show the github variable ref: {{ commit.ref }}
-            show the github variable commit: {{ commit.sha }}
+            The ${{ github.action }} event triggered second step.
+
             Commit Message: ${{ github.event.head_commit.message }}
           disable_web_page_preview: True
