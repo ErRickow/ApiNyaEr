@@ -12,8 +12,8 @@ jobs:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
           format: html
-          document: ./photo/github-logo.png
-          photo: ./photo/github.png
+          document: "./photo/github-logo.png"
+          photo: "./photo/github.png"
           message: |
             <blockquote><b>📛Notifikasi📛</b></blockquote>
             <blockquote><b>Huh: ${{ github.sha }}</b></blockquote>
