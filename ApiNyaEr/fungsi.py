@@ -7,7 +7,7 @@ class FilePath(str):
 
     Methods:
         delete(): Attempts to delete the file at the specified path.
-                  If deletion fails, it handles the exception gracefully.
+                  If deletion fails, it handles the exception gracefuly.
     """
 
     def delete(self):
