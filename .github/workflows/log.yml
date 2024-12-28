@@ -11,3 +11,4 @@ jobs:
         with:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
+          args: The ${{ github.event_name }} event triggered first step.
