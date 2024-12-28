@@ -1,6 +1,6 @@
 class FilePath(str):
     """
-    A wrapper around a file path string that provides an additional delete method.
+    A wrapper around a file path string that provides an additional delete method. hm
 
     Attributes:
         path (str): The file path to the media file.
