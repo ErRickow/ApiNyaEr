@@ -18,6 +18,6 @@ jobs:
             <blockquote><b>Who?: <a href="tg://user?id=1448273246">${{ github.actor }}</a></b></blockquote>
 
             <b><blockquote>${{ github.event.commits[0].message }}</blockquote></b>
-          document: photo/github-logo.png
-          photo: photo/github.png
+          document: ./photo/github-logo.png
+          photo: ./photo/github.png
           disable_web_page_preview: True
