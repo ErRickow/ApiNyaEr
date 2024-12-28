@@ -11,11 +11,3 @@ jobs:
         with:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
-          message: |
-            ${{ github.actor }} created commit:
-            Commit message: ${{ github.event.commits[0].message }}
-            
-            Repository: ${{ github.repository }}
-            
-            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
-            
