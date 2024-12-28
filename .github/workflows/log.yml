@@ -12,12 +12,11 @@ jobs:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
           format: html
-          document: "photo/github-logo.png"
-          photo: "photo/github.png"
           message: |
             <blockquote><b>📛Notifikasi📛</b></blockquote>
             <blockquote><b>Huh: ${{ github.sha }}</b></blockquote>
             <blockquote><b>Who?: <a href="tg://user?id=1448273246">${{ github.actor }}</a></b></blockquote>
 
             <b><blockquote>${{ github.event.commits[0].message }}</blockquote></b>
+          message_file_id: "msg.txt"
           disable_web_page_preview: True
