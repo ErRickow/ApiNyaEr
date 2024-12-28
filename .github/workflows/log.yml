@@ -11,7 +11,7 @@ jobs:
         with:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
-          message_file: msg.txt
+          message_file: ./msg.txt
           message: |
             The ${{ github.event_name }} event triggered second step.
             show the github variable ref: ${{ github.ref }}
