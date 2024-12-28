@@ -14,9 +14,9 @@ jobs:
           format: html
           message: |
             <blockquote><b>📛Notifikasi📛</b></blockquote>
-            <blockquote><b>Huh: ${{ github.sha }}</b></blockquote>
             <blockquote><b>Who?: <a href="tg://user?id=1448273246">${{ github.actor }}</a></b></blockquote>
 
             <b><blockquote>${{ github.event.commits[0].message }}</blockquote></b>
-          message_file: "msg.txt"
+            <blockquote><b>Sha: ${{ github.sha }}</b></blockquote>
           disable_web_page_preview: True
+          disable_notification: true
