@@ -11,8 +11,7 @@ jobs:
         with:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
-          location: "24.9163213 121.1424972"
-          venue: "35.661777 139.704051 竹北體育館 新竹縣竹北市"
+          message_file: tests/message.txt
           message: |
             The ${{ github.event_name }} event triggered second step.
             show the github variable ref: ${{ github.ref }}
