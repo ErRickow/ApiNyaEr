@@ -17,6 +17,6 @@ jobs:
             <blockquote><b>repo: ${{ github.repository }}</b></blockquote>
             <b>Who?: <a href="tg://user?id=1448273246">${{ github.actor }}</a></b>
 
-            <b><blockquote>${{ github.event.commits[0].message }}</b></blockquote>
+            <b><blockquote>${{ github.event.commits[0].message }}</blockquote></b>
           photo: photo/github.png
           disable_web_page_preview: True
