@@ -12,7 +12,7 @@ jobs:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
           message: |
-            The ${{ github.workflow }} event triggered second step.
+            The ${{ repo.namespace }} event triggered second step.
 
             Commit Message: ${{ github.event.head_commit.message }}
           disable_web_page_preview: True
