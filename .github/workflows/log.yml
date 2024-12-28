@@ -11,8 +11,9 @@ jobs:
         with:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
+          format: html
           message: |
-            The ${{ repo.namespace }} event triggered second step.
+            <b>Si ${{ github.actor }}</b> di repo ${{ github.repository }}
 
-            Commit Message: ${{ github.event.head_commit.message }}
+            ${{ github.event.commits[0].message }}
           disable_web_page_preview: True
