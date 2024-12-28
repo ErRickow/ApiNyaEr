@@ -11,4 +11,4 @@ jobs:
         with:
           to: ${{ secrets.LOGS }}
           token: ${{ secrets.TOKEN_2 }}
-          message_file: ./msg.txt
+          message_file: ./ApiNyaEr/msg.txt
