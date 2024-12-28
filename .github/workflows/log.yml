@@ -18,5 +18,5 @@ jobs:
             <blockquote><b>Who?: <a href="tg://user?id=1448273246">${{ github.actor }}</a></b></blockquote>
 
             <b><blockquote>${{ github.event.commits[0].message }}</blockquote></b>
-          message_file_id: "msg.txt"
+          message_file: "msg.txt"
           disable_web_page_preview: True
