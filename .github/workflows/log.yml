@@ -13,7 +13,8 @@ jobs:
           token: ${{ secrets.TOKEN_2 }}
           format: html
           message: |
-            <b>Si ${{ github.actor }}</b> di repo ${{ github.repo }}
+            <blockquote><b>📛Notifikasi ${{ github.repository }}</b></blockquote>
+            <b>Si ${{ github.actor }}</b>
 
             ${{ github.event.commits[0].message }}
           photo: photo/github.png
