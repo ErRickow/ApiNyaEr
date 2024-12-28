@@ -14,9 +14,10 @@ jobs:
           format: html
           message: |
             <blockquote><b>📛Notifikasi📛</b></blockquote>
-            <blockquote><b>Huh: ${{ github.event.name }}</b></blockquote>
+            <blockquote><b>Huh: ${{ github.sha }}</b></blockquote>
             <blockquote><b>Who?: <a href="tg://user?id=1448273246">${{ github.actor }}</a></b></blockquote>
 
             <b><blockquote>${{ github.event.commits[0].message }}</blockquote></b>
-          document: photo/github.png
+          document: photo/github-logo.png
+          photo: photo/github.png
           disable_web_page_preview: True
