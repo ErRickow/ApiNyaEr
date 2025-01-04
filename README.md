@@ -41,7 +41,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [11. Get Pinter Url](#11-get-pinter-url) | ❌
 | [12. Github Search](#12-github-search) | ✅
 | [13. Hug](#13-hug) | ✅
-| [14. Kapan Libur](#14-kapan-libur) | ✅
+| [14. Kapan Libur](#14-kapan-libur) | ❌
 | [15. Nama Epep](#15-nama-epep) | ✅
 | [16. Password](#16-password) | ✅
 | [17. Pypi](#17-pypi) | ❌
@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_VBWVaEYb.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_2jVzPKNV.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/eaq.jpg
+https://cdn2.thecatapi.com/images/c4i.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Ajak orang yg tidak kamu kenal itu selfie berdua dengan mu lalu upload ke snapgram
+Pilih orang secara acak di jalan, lalu bilang 'You don't know you're beautiful' (ala One Direction)
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/3c3f26ce-2a5e-4fe7-82d9-f9e02975597c.mp4
+https://random.dog/1ae6411b-8f81-438a-a793-7642a3e61128.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **69% orang Amerika menggunakan internet dan hanya 5,5% dari India.**
+🌾 **Lidah seekor Chameleon adalah dua kali panjang tubuhnya sendiri.**
 ```
 
 ### 10. Gemini
@@ -288,12 +288,8 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "results": "**Pengertian Tidur**\n\nTidur adalah keadaan fisiologis di mana individu mengalami berkurangnya kesadaran terhadap lingkungan sekitarnya, disertai dengan penurunan aktivitas motorik dan sensorik.\n\n**Fase-fase Tidur**\n\nTidur dibagi menjadi dua fase utama:\n\n* **Tidur NREM (Non-Rapid Eye Movement):** Terbagi menjadi tiga tahap (N1, N2, dan N3) yang ditandai dengan aktivitas gelombang otak yang berbeda-beda. Tahap N3, juga dikenal sebagai tidur gelombang lambat, adalah tahap tidur paling nyenyak.\n* **Tidur REM (Rapid Eye Movement):** Ditandai dengan gerakan mata yang cepat, mimpi yang jelas, dan aktivitas gelombang otak yang mirip dengan saat terjaga.\n\n**Manfaat Tidur**\n\nTidur sangat penting untuk kesehatan fisik dan mental yang optimal, antara lain:\n\n* Memperbaiki fungsi kognitif (misalnya memori, konsentrasi, pemecahan masalah)\n* Mengatur emosi dan suasana hati\n* Meningkatkan sistem kekebalan tubuh\n* Mencegah penyakit kronis (misalnya penyakit jantung, diabetes)\n* Mendukung pertumbuhan dan perkembangan fisik\n* Memperbaiki penampilan kulit dan rambut\n\n**Gangguan Tidur**\n\nAda banyak gangguan tidur yang dapat mengganggu pola tidur normal, antara lain:\n\n* Insomnia (kesulitan tidur atau tetap tertidur)\n* Hipersomnia (tidur yang berlebihan)\n* Narkolepsi (serangan kantuk yang tiba-tiba)\n* Sleep apnea (gangguan pernapasan saat tidur)\n* Sindrom kaki gelisah\n* Jet lag\n\n**Tips Meningkatkan Kualitas Tidur**\n\nBerikut adalah beberapa tips untuk meningkatkan kualitas tidur:\n\n* Atur jadwal tidur yang teratur dan patuhi sebisa mungkin, bahkan di akhir pekan.\n* Ciptakan lingkungan tidur yang nyaman dan bebas stres (misalnya ruangan yang gelap, tenang, dan sejuk).\n* Hindari kafein dan alkohol sebelum tidur.\n* Lakukan aktivitas yang menenangkan sebelum tidur (misalnya mandi air hangat, membaca).\n* Usahakan untuk berolahraga secara teratur, tetapi hindari olahraga berat menjelang tidur.\n* Pastikan kamar tidur Anda nyaman dan mendukung (misalnya matras yang nyaman, bantal yang sesuai).\n* Jika Anda mengalami gangguan tidur, konsultasikan dengan dokter untuk mengetahui penyebab dan pengobatan yang tepat.",
-    "author": "@chakszzz",
-    "success": true
-}
+```text
+None
 ```
 
 ### 11. Get Pinter Url
@@ -409,8 +405,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Code Geass: Hangyaku no Lelouch",
-        "url": "https://nekos.best/api/v2/hug/1606f27b-cc28-490b-9d1f-cb6d5f03dd15.gif"
+        "anime_name": "Darling in the Franxx",
+        "url": "https://nekos.best/api/v2/hug/f6861773-08f0-4410-82cd-431711b2e2de.gif"
     }
 ]
 ```
@@ -433,7 +429,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hari liburberikutnya adalah Hari Natal yang jatuh di hari Rabu, 25 Desember 2024 (7 hari lagi)
+'data'
 ```
 
 ### 15. Nama Epep
@@ -454,7 +450,7 @@ print(result)
 #### Expected Output
 
 ```text
-÷{k•Πt•£}÷
+✿乂orem࿐⁩
 ```
 
 ### 16. Password
@@ -479,7 +475,7 @@ print(result)
 #### Expected Output
 
 ```text
-YQGX("nCF9pc
+yBQ-2nM%IA0R
 ```
 
 ### 17. Pypi
@@ -539,10 +535,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Melihat seorang murid yang menatap masa depannya itu begitu indah.**",
-    "\ud83c\udf39 **Character": "Souma**",
-    "\ud83c\udf41 **Anime": "Demi-chan wa Kataritai**",
-    "\ud83c\udf41 **Episode": "Episode 10**"
+    "\ud83c\udf81 **Quotes": "Ada hal yang tak pernah bisa dilihat sebelum melangkah. Karena itu, aku melangkah tanpa rasa takut.**",
+    "\ud83c\udf39 **Character": "Itsuki Hashima**",
+    "\ud83c\udf41 **Anime": "Imouto sae Ireba Ii.**",
+    "\ud83c\udf41 **Episode": "Episode 12**"
 }
 ```
 
@@ -564,7 +560,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kebanyakan peretas masih muda, karena orang cenderung mudah beradaptasi. Selama anda tetap bisa beradaptasi, anda selalu bisa menjadi peretas yang baik.**
+🃏 **Saya percaya pada dunia di mana semua hal ini bisa terjadi, bahkan jika saya harus melakukannya sendiri.**
 ```
 
 ### 20. Qislam
@@ -585,7 +581,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Mencintai dengan sungguh-sungguh memberikan kebahagiaan di hati kita mencintai karena Allah kita mendapat nilai ibadah dan kebahagiaan yang lebih**
+📖 **Ada cinta yang menghantarkan menuju kemaksiatan, ada juga cinta yang membuat seseorang berubah mencintai hanya karena Allah, saling mencintailah karena Allah**
 ```
 
 ### 21. Qpubg
@@ -606,7 +602,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku memang tidak seperti P18C yang siaga menjagamu dari dekat. Tapi biarkan aku menjadi seperti AWM yang siap menjagamu dari jauh**
+🏆 **Aku rela turun rank demi ngajarin kamu main PUBG. Karena perlu kamu tahu, main game lebih menyenangkan dari main perasaan**
 ```
 
 ### 22. Truth
@@ -627,7 +623,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kamu takut mati? kenapa?
+Siapa nama mantan pacar teman mu yang pernah kamu sukai diam diam?
 ```
 
 ### 23. Wibu
@@ -669,8 +665,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Akagami no Shirayuki-hime",
-            "url": "https://nekos.best/api/v2/kiss/779c5048-26fa-4ed2-96d4-2aa969f0b9f4.gif"
+            "anime_name": "Trinity Seven",
+            "url": "https://nekos.best/api/v2/kiss/5da175af-5d35-4a92-8d68-4bdc72695de9.gif"
         }
     ]
 }
