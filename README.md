@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_2jVzPKNV.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_479Kjv8Y.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/c4i.jpg
+https://cdn2.thecatapi.com/images/VT9NOyJqk.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Pilih orang secara acak di jalan, lalu bilang 'You don't know you're beautiful' (ala One Direction)
+Menggombali orang yang ditaksir, sahabat terdekat, lawan jenis yang tidak dikenal sama sekali dan  sejenisnya.
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/1ae6411b-8f81-438a-a793-7642a3e61128.jpg
+https://random.dog/aa4277d4-ffdc-45f5-b87e-2b28b7f23f2e.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Lidah seekor Chameleon adalah dua kali panjang tubuhnya sendiri.**
+🌾 **Unta punya 3 kelopak mata.**
 ```
 
 ### 10. Gemini
@@ -405,8 +405,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Darling in the Franxx",
-        "url": "https://nekos.best/api/v2/hug/f6861773-08f0-4410-82cd-431711b2e2de.gif"
+        "anime_name": "Shinmai Maou no Testament",
+        "url": "https://nekos.best/api/v2/hug/77ddc5f7-d8b8-44e9-9aee-a88532c4b051.gif"
     }
 ]
 ```
@@ -450,7 +450,7 @@ print(result)
 #### Expected Output
 
 ```text
-✿乂orem࿐⁩
+GPS×UJANG√
 ```
 
 ### 16. Password
@@ -475,7 +475,7 @@ print(result)
 #### Expected Output
 
 ```text
-yBQ-2nM%IA0R
+P1R,863(}#pE
 ```
 
 ### 17. Pypi
@@ -535,10 +535,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Ada hal yang tak pernah bisa dilihat sebelum melangkah. Karena itu, aku melangkah tanpa rasa takut.**",
-    "\ud83c\udf39 **Character": "Itsuki Hashima**",
-    "\ud83c\udf41 **Anime": "Imouto sae Ireba Ii.**",
-    "\ud83c\udf41 **Episode": "Episode 12**"
+    "\ud83c\udf81 **Quotes": "Semua hal yang terjadi di depanku adalah masalah yang hanya bisa diselesaikan oleh diriku sendiri.**",
+    "\ud83c\udf39 **Character": "Hachiman Hikigaya**",
+    "\ud83c\udf41 **Anime": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku**",
+    "\ud83c\udf41 **Episode": "Episode 4**"
 }
 ```
 
@@ -560,7 +560,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Saya percaya pada dunia di mana semua hal ini bisa terjadi, bahkan jika saya harus melakukannya sendiri.**
+🃏 **Menjadi seorang kriminal bukanlah hal yang memalukan. Sedangkan untuk tetap menjadi penjahat adalah aib.**
 ```
 
 ### 20. Qislam
@@ -581,7 +581,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Ada cinta yang menghantarkan menuju kemaksiatan, ada juga cinta yang membuat seseorang berubah mencintai hanya karena Allah, saling mencintailah karena Allah**
+📖 **Bila hijrahmu karena Allah, kamu akan terus melangkah walaupun sudah lelah**
 ```
 
 ### 21. Qpubg
@@ -602,7 +602,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku rela turun rank demi ngajarin kamu main PUBG. Karena perlu kamu tahu, main game lebih menyenangkan dari main perasaan**
+🏆 **Aku memang tidak seperti P18C yang siaga menjagamu dari dekat. Tapi biarkan aku menjadi seperti AWM yang siap menjagamu dari jauh**
 ```
 
 ### 22. Truth
@@ -623,7 +623,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa nama mantan pacar teman mu yang pernah kamu sukai diam diam?
+Acara tv apa yang paling memuakkan? Berikan alasannya!
 ```
 
 ### 23. Wibu
@@ -665,8 +665,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Trinity Seven",
-            "url": "https://nekos.best/api/v2/kiss/5da175af-5d35-4a92-8d68-4bdc72695de9.gif"
+            "anime_name": "Akagami no Shirayuki-hime",
+            "url": "https://nekos.best/api/v2/kiss/779c5048-26fa-4ed2-96d4-2aa969f0b9f4.gif"
         }
     ]
 }
