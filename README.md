@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://www.educenter.id/wp-content/uploads/2018/06/Tips-Mudah-Agar-Anak-Tidur-Tepat-Waktu.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_479Kjv8Y.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_DpGokNsy.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/VT9NOyJqk.jpg
+https://cdn2.thecatapi.com/images/cme.gif
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Menggombali orang yang ditaksir, sahabat terdekat, lawan jenis yang tidak dikenal sama sekali dan  sejenisnya.
+Marah-marah ketemen kamu yang gak dateng padahal udah janjian mau main 'truth or dare' bareng-bareng
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/aa4277d4-ffdc-45f5-b87e-2b28b7f23f2e.jpg
+https://random.dog/8b0f55b1-317d-49e4-b849-35df7c17ff2a.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Unta punya 3 kelopak mata.**
+🌾 **Ubur-ubur terdiri dari 95% air**
 ```
 
 ### 10. Gemini
@@ -405,8 +405,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Shinmai Maou no Testament",
-        "url": "https://nekos.best/api/v2/hug/77ddc5f7-d8b8-44e9-9aee-a88532c4b051.gif"
+        "anime_name": "Clannad",
+        "url": "https://nekos.best/api/v2/hug/b979d171-f9ab-4eda-a002-6da7371ddd6b.gif"
     }
 ]
 ```
@@ -450,7 +450,7 @@ print(result)
 #### Expected Output
 
 ```text
-GPS×UJANG√
+【YWS】 Ꮓϵɾzxᴬᶜ 戈心
 ```
 
 ### 16. Password
@@ -475,7 +475,7 @@ print(result)
 #### Expected Output
 
 ```text
-P1R,863(}#pE
+imlD)}Q~|tb.
 ```
 
 ### 17. Pypi
@@ -535,10 +535,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Semua hal yang terjadi di depanku adalah masalah yang hanya bisa diselesaikan oleh diriku sendiri.**",
-    "\ud83c\udf39 **Character": "Hachiman Hikigaya**",
-    "\ud83c\udf41 **Anime": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku**",
-    "\ud83c\udf41 **Episode": "Episode 4**"
+    "\ud83c\udf81 **Quotes": "Bermuka dua? Aku rasa lebih dari itu. Dia sangat terburu-buru mencari apa yang telah dicuri darinya, lalu dia berhenti menolongku. Malahan dia kepikiran alasan yang tidak masuk akal untuk memonta tolong agar aku tak merasa berhutang kepadanya, meskipun aku adalah orang asing. Siapapun yang hidup seperti itu akhirnya akan menyia-nyiakan seluruh hidupnya!**",
+    "\ud83c\udf39 **Character": "Subaru Natsuki**",
+    "\ud83c\udf41 **Anime": "Re:Zero kara Hajimeru Isekai Seikatsu**",
+    "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
 
@@ -560,7 +560,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Menjadi seorang kriminal bukanlah hal yang memalukan. Sedangkan untuk tetap menjadi penjahat adalah aib.**
+🃏 **Hackers are seen as shadowy figures with superhuman powers that threaten civilization.**
 ```
 
 ### 20. Qislam
@@ -581,7 +581,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Bila hijrahmu karena Allah, kamu akan terus melangkah walaupun sudah lelah**
+📖 **Semoga dalam kesendirian ini bisa bisa betul-betul lolos dalam ujian menahan diri dari lawan jenis**
 ```
 
 ### 21. Qpubg
@@ -602,7 +602,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku memang tidak seperti P18C yang siaga menjagamu dari dekat. Tapi biarkan aku menjadi seperti AWM yang siap menjagamu dari jauh**
+🏆 **Bermain PUBG tidak melulu bareng kawan. Justru main random bisa ningkatin skill-mu**
 ```
 
 ### 22. Truth
@@ -623,7 +623,7 @@ print(result)
 #### Expected Output
 
 ```text
-Acara tv apa yang paling memuakkan? Berikan alasannya!
+Kamu pernah mencuri sesuatu gak?
 ```
 
 ### 23. Wibu
@@ -665,8 +665,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Akagami no Shirayuki-hime",
-            "url": "https://nekos.best/api/v2/kiss/779c5048-26fa-4ed2-96d4-2aa969f0b9f4.gif"
+            "anime_name": "Citrus",
+            "url": "https://nekos.best/api/v2/kiss/fcc26655-b606-477f-948a-7fae5435a4e1.gif"
         }
     ]
 }
