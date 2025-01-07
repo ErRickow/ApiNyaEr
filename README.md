@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://www.educenter.id/wp-content/uploads/2018/06/Tips-Mudah-Agar-Anak-Tidur-Tepat-Waktu.jpg
+https://cdn.hellosehat.com/wp-content/uploads/2016/09/455596dc-shutterstock_1099629617.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_DpGokNsy.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_giJba8RQ.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/cme.gif
+https://cdn2.thecatapi.com/images/19j.gif
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Marah-marah ketemen kamu yang gak dateng padahal udah janjian mau main 'truth or dare' bareng-bareng
+Minum tiga teguk teh atau coke (coca-cola atau sprite) yang dicampur sambal.
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/8b0f55b1-317d-49e4-b849-35df7c17ff2a.jpg
+https://random.dog/95427440-b1d9-489c-87eb-05ffccba89a0.png
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Ubur-ubur terdiri dari 95% air**
+🌾 **Hanya dengan mengurangi brightness dari televisi, anda mampu berhemat lebih dari Rp 1,5 juta setahun. [kompas]**
 ```
 
 ### 10. Gemini
@@ -405,8 +405,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Clannad",
-        "url": "https://nekos.best/api/v2/hug/b979d171-f9ab-4eda-a002-6da7371ddd6b.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
     }
 ]
 ```
@@ -450,7 +450,7 @@ print(result)
 #### Expected Output
 
 ```text
-【YWS】 Ꮓϵɾzxᴬᶜ 戈心
+Lᴬ•K o u r u y a m a🌸
 ```
 
 ### 16. Password
@@ -475,7 +475,7 @@ print(result)
 #### Expected Output
 
 ```text
-imlD)}Q~|tb.
+:tS'TXo^.u<3
 ```
 
 ### 17. Pypi
@@ -535,10 +535,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Bermuka dua? Aku rasa lebih dari itu. Dia sangat terburu-buru mencari apa yang telah dicuri darinya, lalu dia berhenti menolongku. Malahan dia kepikiran alasan yang tidak masuk akal untuk memonta tolong agar aku tak merasa berhutang kepadanya, meskipun aku adalah orang asing. Siapapun yang hidup seperti itu akhirnya akan menyia-nyiakan seluruh hidupnya!**",
-    "\ud83c\udf39 **Character": "Subaru Natsuki**",
-    "\ud83c\udf41 **Anime": "Re:Zero kara Hajimeru Isekai Seikatsu**",
-    "\ud83c\udf41 **Episode": "Episode 1**"
+    "\ud83c\udf81 **Quotes": "Ketika ada sesuatu yang populer, itu artinya yang lainnya tidak populer.**",
+    "\ud83c\udf39 **Character": "Deishuu Kaiki**",
+    "\ud83c\udf41 **Anime": "Koyomimonogatari**",
+    "\ud83c\udf41 **Episode": "Episode 5**"
 }
 ```
 
@@ -560,7 +560,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Hackers are seen as shadowy figures with superhuman powers that threaten civilization.**
+🃏 **Menjadi seorang kriminal bukanlah hal yang memalukan. Sedangkan untuk tetap menjadi penjahat adalah aib.**
 ```
 
 ### 20. Qislam
@@ -581,7 +581,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Semoga dalam kesendirian ini bisa bisa betul-betul lolos dalam ujian menahan diri dari lawan jenis**
+📖 **Semua itu butuh pengorbanan dan keikhlasan apalagi memilih jalan kebaikan pasti akan ada selalu orang yang bertentangan tetapi Allah takkan pernah menutup Kerinduan bagi mereka yang rela melakukan perubahan**
 ```
 
 ### 21. Qpubg
@@ -602,7 +602,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Bermain PUBG tidak melulu bareng kawan. Justru main random bisa ningkatin skill-mu**
+🏆 **Bukannya tak ingin membalas chat darimu,. Tapi mengertilah kalau game PUBG tidak ada opsi pause**
 ```
 
 ### 22. Truth
@@ -623,7 +623,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kamu pernah mencuri sesuatu gak?
+Quote apa yang paling kamu ingat dan kamu suka?
 ```
 
 ### 23. Wibu
@@ -665,8 +665,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Citrus",
-            "url": "https://nekos.best/api/v2/kiss/fcc26655-b606-477f-948a-7fae5435a4e1.gif"
+            "anime_name": "Golden Time",
+            "url": "https://nekos.best/api/v2/kiss/739e8b8b-34a5-4190-ae78-74e1af15b905.gif"
         }
     ]
 }
