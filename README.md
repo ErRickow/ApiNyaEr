@@ -103,7 +103,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn.hellosehat.com/wp-content/uploads/2016/09/455596dc-shutterstock_1099629617.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_giJba8RQ.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_PHa5z2uv.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/19j.gif
+https://cdn2.thecatapi.com/images/9tl.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Minum tiga teguk teh atau coke (coca-cola atau sprite) yang dicampur sambal.
+Ambil minuman apa saja yg ada didekat mu lalu campurkan dengan cabai dan minum!
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/95427440-b1d9-489c-87eb-05ffccba89a0.png
+https://random.dog/382f720b-bfbe-4e3c-95d0-7aa2b00f4f4f.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Hanya dengan mengurangi brightness dari televisi, anda mampu berhemat lebih dari Rp 1,5 juta setahun. [kompas]**
+🌾 **Ikan mas yang bunting disebut ‘twit’.**
 ```
 
 ### 10. Gemini
@@ -355,7 +355,7 @@ print(result)
         "description": "API ketersediaan rumah sakit dan tempat tidur rumah sakit untuk pasien covid-19 ataupun non-covid yang berada di Indonesia",
         "url": "https://github.com/satyawikananda/rs-bed-covid-indo-api",
         "language": "TypeScript",
-        "stargazers_count": 112,
+        "stargazers_count": 113,
         "forks_count": 25
     },
     {
@@ -405,8 +405,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Princess Connect! Re:Dive",
-        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
+        "anime_name": "Shinmai Maou no Testament",
+        "url": "https://nekos.best/api/v2/hug/77ddc5f7-d8b8-44e9-9aee-a88532c4b051.gif"
     }
 ]
 ```
@@ -450,7 +450,7 @@ print(result)
 #### Expected Output
 
 ```text
-Lᴬ•K o u r u y a m a🌸
+〖₩Ā₩〗 ↬ℳѦδØŊ↫  1  0
 ```
 
 ### 16. Password
@@ -475,7 +475,7 @@ print(result)
 #### Expected Output
 
 ```text
-:tS'TXo^.u<3
+7YC*dP|9J6IR
 ```
 
 ### 17. Pypi
@@ -535,10 +535,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Ketika ada sesuatu yang populer, itu artinya yang lainnya tidak populer.**",
-    "\ud83c\udf39 **Character": "Deishuu Kaiki**",
-    "\ud83c\udf41 **Anime": "Koyomimonogatari**",
-    "\ud83c\udf41 **Episode": "Episode 5**"
+    "\ud83c\udf81 **Quotes": "Melihat seorang murid yang menatap masa depannya itu begitu indah.**",
+    "\ud83c\udf39 **Character": "Souma**",
+    "\ud83c\udf41 **Anime": "Demi-chan wa Kataritai**",
+    "\ud83c\udf41 **Episode": "Episode 10**"
 }
 ```
 
@@ -560,7 +560,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Menjadi seorang kriminal bukanlah hal yang memalukan. Sedangkan untuk tetap menjadi penjahat adalah aib.**
+🃏 **Lawan dulu dan sekarang memiliki kelemahan esensial yang sama tentang mereka. Pertama mereka ingin menggunakan Anda, kemudian ingin menjadi Anda, kemudian mereka ingin menghabisi Anda.**
 ```
 
 ### 20. Qislam
@@ -581,7 +581,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Semua itu butuh pengorbanan dan keikhlasan apalagi memilih jalan kebaikan pasti akan ada selalu orang yang bertentangan tetapi Allah takkan pernah menutup Kerinduan bagi mereka yang rela melakukan perubahan**
+📖 **Ada cinta yang menghantarkan menuju kemaksiatan, ada juga cinta yang membuat seseorang berubah mencintai hanya karena Allah, saling mencintailah karena Allah**
 ```
 
 ### 21. Qpubg
@@ -602,7 +602,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Bukannya tak ingin membalas chat darimu,. Tapi mengertilah kalau game PUBG tidak ada opsi pause**
+🏆 **Aku menembak di PUBG aja belum tentu On Target, apalagi nembak kamu. Pasti Mission Failed**
 ```
 
 ### 22. Truth
@@ -623,7 +623,7 @@ print(result)
 #### Expected Output
 
 ```text
-Quote apa yang paling kamu ingat dan kamu suka?
+Film dan lagu apa yang pernah bikin kamu nangis?
 ```
 
 ### 23. Wibu
@@ -665,8 +665,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Golden Time",
-            "url": "https://nekos.best/api/v2/kiss/739e8b8b-34a5-4190-ae78-74e1af15b905.gif"
+            "anime_name": "Sakura Trick",
+            "url": "https://nekos.best/api/v2/kiss/724dd374-8424-4015-8d99-a0187c6debcd.gif"
         }
     ]
 }
