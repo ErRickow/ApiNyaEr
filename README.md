@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_PHa5z2uv.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_3UqxXugx.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/9tl.jpg
+https://cdn2.thecatapi.com/images/5n8.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Ambil minuman apa saja yg ada didekat mu lalu campurkan dengan cabai dan minum!
+Teriak 'WOI GW JACK, DENGER NIH RAUNGAN GW, ROAAAAR!' ditempat rame
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/382f720b-bfbe-4e3c-95d0-7aa2b00f4f4f.jpg
+https://random.dog/d7dd199b-8672-497d-b770-a31f242271a1.jpeg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Ikan mas yang bunting disebut ‘twit’.**
+🌾 **Kulit Zebra adalah putih yang bergaris hitam**
 ```
 
 ### 10. Gemini
@@ -405,8 +405,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Shinmai Maou no Testament",
-        "url": "https://nekos.best/api/v2/hug/77ddc5f7-d8b8-44e9-9aee-a88532c4b051.gif"
+        "anime_name": "Blend S",
+        "url": "https://nekos.best/api/v2/hug/5c28c686-38d7-4588-a259-23cf1669c07a.gif"
     }
 ]
 ```
@@ -450,7 +450,7 @@ print(result)
 #### Expected Output
 
 ```text
-〖₩Ā₩〗 ↬ℳѦδØŊ↫  1  0
+¢єℓ¢ιυѕ
 ```
 
 ### 16. Password
@@ -475,7 +475,7 @@ print(result)
 #### Expected Output
 
 ```text
-7YC*dP|9J6IR
+C/TQ=s;bV`vn
 ```
 
 ### 17. Pypi
@@ -535,10 +535,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Melihat seorang murid yang menatap masa depannya itu begitu indah.**",
-    "\ud83c\udf39 **Character": "Souma**",
-    "\ud83c\udf41 **Anime": "Demi-chan wa Kataritai**",
-    "\ud83c\udf41 **Episode": "Episode 10**"
+    "\ud83c\udf81 **Quotes": "Kita tidak akan bisa berbuat apa-apa jika kita terpisah. (Tapi) ketika seseorang bertemu dengan yang lainnya (semua akan berubah).Sekarang, di suatu tempat mungkin sedang terjadi suatu pertemuan yang dapat mengubah dunia.Mungkin hal itu terjadi di suatu negara yang sangat jauh. Mungkin juga berada di sisi planet ini.Atau mungkin itu berada di klub voli kecil, di sebuah SMA biasa, di sebuah negara kepulauan kecil di timur.Kupikir pertemuan itu terjadi di sini, di Karasuno. Aku tahu aku tak bisa membuktikan apa yang kukatakan, tapi aku sangat yakin. Aku yakin mulai dari sekarang, kalian akan menjadi lebih kuat lagi!**",
+    "\ud83c\udf39 **Character": "Ittetsu Takeda**",
+    "\ud83c\udf41 **Anime": "Haikyuu!!**",
+    "\ud83c\udf41 **Episode": "Episode 7**"
 }
 ```
 
@@ -560,7 +560,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Lawan dulu dan sekarang memiliki kelemahan esensial yang sama tentang mereka. Pertama mereka ingin menggunakan Anda, kemudian ingin menjadi Anda, kemudian mereka ingin menghabisi Anda.**
+🃏 **Pelajari hari Ini, terapkan hari Ini.**
 ```
 
 ### 20. Qislam
@@ -581,7 +581,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Ada cinta yang menghantarkan menuju kemaksiatan, ada juga cinta yang membuat seseorang berubah mencintai hanya karena Allah, saling mencintailah karena Allah**
+📖 **Allah maha kuasa dan Allah maha tahu, jadi meskipun aku dan kamu tidak menjadi kita, insyaallah ini yang terbaik**
 ```
 
 ### 21. Qpubg
@@ -602,7 +602,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku menembak di PUBG aja belum tentu On Target, apalagi nembak kamu. Pasti Mission Failed**
+🏆 **Tetap tenang dan dapatkan chicken dinner**
 ```
 
 ### 22. Truth
@@ -623,7 +623,7 @@ print(result)
 #### Expected Output
 
 ```text
-Film dan lagu apa yang pernah bikin kamu nangis?
+Apa yg kamu fikirkan sebelum kamu tidur ? ex: menghayal tentang jodoh,dll.
 ```
 
 ### 23. Wibu
@@ -665,8 +665,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Sakura Trick",
-            "url": "https://nekos.best/api/v2/kiss/724dd374-8424-4015-8d99-a0187c6debcd.gif"
+            "anime_name": "Darling in the Franxx",
+            "url": "https://nekos.best/api/v2/kiss/c2f81599-98de-41b5-bcb9-c2bc7c7f6542.gif"
         }
     ]
 }
