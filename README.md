@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_3UqxXugx.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_IFziHAuV.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/5n8.jpg
+https://cdn2.thecatapi.com/images/d4v.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Teriak 'WOI GW JACK, DENGER NIH RAUNGAN GW, ROAAAAR!' ditempat rame
+Update status di BBM, Line, WA, atau apapun itu dengan kata kata yang semuanya berawalan 'T'
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/d7dd199b-8672-497d-b770-a31f242271a1.jpeg
+https://random.dog/fa14cf36-4f3e-4e88-a512-a10f1d4f1be5.JPG
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Kulit Zebra adalah putih yang bergaris hitam**
+🌾 **Orang yang menggunakan tangan kanan, kira-kira, 9 tahun lebih panjang umur dari orang kidal**
 ```
 
 ### 10. Gemini
@@ -405,8 +405,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Blend S",
-        "url": "https://nekos.best/api/v2/hug/5c28c686-38d7-4588-a259-23cf1669c07a.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
     }
 ]
 ```
@@ -450,7 +450,7 @@ print(result)
 #### Expected Output
 
 ```text
-¢єℓ¢ιυѕ
+꧁༺ɳεאѵαµℓµร☆࿐
 ```
 
 ### 16. Password
@@ -475,7 +475,7 @@ print(result)
 #### Expected Output
 
 ```text
-C/TQ=s;bV`vn
+7^c':,&@%?vt
 ```
 
 ### 17. Pypi
@@ -535,10 +535,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Kita tidak akan bisa berbuat apa-apa jika kita terpisah. (Tapi) ketika seseorang bertemu dengan yang lainnya (semua akan berubah).Sekarang, di suatu tempat mungkin sedang terjadi suatu pertemuan yang dapat mengubah dunia.Mungkin hal itu terjadi di suatu negara yang sangat jauh. Mungkin juga berada di sisi planet ini.Atau mungkin itu berada di klub voli kecil, di sebuah SMA biasa, di sebuah negara kepulauan kecil di timur.Kupikir pertemuan itu terjadi di sini, di Karasuno. Aku tahu aku tak bisa membuktikan apa yang kukatakan, tapi aku sangat yakin. Aku yakin mulai dari sekarang, kalian akan menjadi lebih kuat lagi!**",
-    "\ud83c\udf39 **Character": "Ittetsu Takeda**",
-    "\ud83c\udf41 **Anime": "Haikyuu!!**",
-    "\ud83c\udf41 **Episode": "Episode 7**"
+    "\ud83c\udf81 **Quotes": "Tidur itu sangat penting. Kurang tidur bisa berdampak buruk pada pekerjaan, dan kesehatanmu. Tidur di kursi bisa menghilangkan rasa penatmu untuk sementara, tapi tidak baik untuk punggungmu.**",
+    "\ud83c\udf39 **Character": "Umiko Ahagon**",
+    "\ud83c\udf41 **Anime": "New Game!!**",
+    "\ud83c\udf41 **Episode": "Episode 4**"
 }
 ```
 
@@ -560,7 +560,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Pelajari hari Ini, terapkan hari Ini.**
+🃏 **We face cyber threats from state-sponsored hackers, hackers for hire, global cyber syndicates, and terrorists. They seek our state secrets, our trade secrets, our technology, and our ideas - things of incredible value to all of us. They seek to strike our critical infrastructure and to harm our economy.**
 ```
 
 ### 20. Qislam
@@ -581,7 +581,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Allah maha kuasa dan Allah maha tahu, jadi meskipun aku dan kamu tidak menjadi kita, insyaallah ini yang terbaik**
+📖 **Ku rindu padamu ya rasul Kuingin jumpa Sekedar Saja walau hanya dalam mimpi**
 ```
 
 ### 21. Qpubg
@@ -602,7 +602,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Tetap tenang dan dapatkan chicken dinner**
+🏆 **Dari PUBG aku belajar bahwa aku harus memusnahkan musuh-musuhku. Namun disisi lain, aku belajar untuk melindungi teman-temanku**
 ```
 
 ### 22. Truth
@@ -623,7 +623,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa yg kamu fikirkan sebelum kamu tidur ? ex: menghayal tentang jodoh,dll.
+Apa hal terbodoh yg pernah kamu lakukan ?
 ```
 
 ### 23. Wibu
@@ -665,8 +665,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Darling in the Franxx",
-            "url": "https://nekos.best/api/v2/kiss/c2f81599-98de-41b5-bcb9-c2bc7c7f6542.gif"
+            "anime_name": "Kuzu no Honkai",
+            "url": "https://nekos.best/api/v2/kiss/b0a0d6f8-129a-46b7-9824-4b9a35723f17.gif"
         }
     ]
 }
