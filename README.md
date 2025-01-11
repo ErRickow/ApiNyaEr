@@ -104,7 +104,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_QxUdapqX.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_3gUhSkMh.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/3ZLqhbgiw.jpg
+https://cdn2.thecatapi.com/images/MTgzOTMyNQ.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Minjem sesuatu ke tetangga
+Beri hormat pada seseorang di kelas, lalu bilang 'Hamba siap melayani Anda, Yang Mulia.'
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/1d4a9a05-1faa-4305-815e-33b06669dbca.JPG
+https://random.dog/0508da24-5cbb-487c-815d-9c555e244c21.jpg
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **pohon kelapa entah kenapa disebut “Tree of Life”**
+🌾 **Unta punya 3 kelopak mata.**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kantai Collection: KanColle",
-        "url": "https://nekos.best/api/v2/hug/56886a54-ef3f-4947-b069-494af839f70c.gif"
+        "anime_name": "Blend S",
+        "url": "https://nekos.best/api/v2/hug/5c28c686-38d7-4588-a259-23cf1669c07a.gif"
     }
 ]
 ```
@@ -477,7 +477,7 @@ print(result)
 #### Expected Output
 
 ```text
-INT•ঔৣÐâřҟŦﺂℜêঔৣ
+ঔ•ᗪένιใ⎠° Vɪя͢ʊ͋S͚ •ঔ
 ```
 
 ### 17. Password
@@ -502,7 +502,7 @@ print(result)
 #### Expected Output
 
 ```text
-M`$JxfzpILo'
+".!Rk1qM$0hY
 ```
 
 ### 18. Pypi
@@ -562,10 +562,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Seekor ikan, baik yang tinggal di air jernih atau kotor, selama ikan itu terus berenang ke depan, dia akan tumbuh dengan indah.**",
-    "\ud83c\udf39 **Character": "Koro-sensei**",
-    "\ud83c\udf41 **Anime": "Ansatsu Kyoushitsu**",
-    "\ud83c\udf41 **Episode": "Episode 7**"
+    "\ud83c\udf81 **Quotes": "Cinta sejati adalah cinta yang tak dipengaruhi oleh penampilan. Jika penampilan orang bisa mempengaruhi perasaanmu, maka cintamu itu palsu.**",
+    "\ud83c\udf39 **Character": "Chika Fujiwara**",
+    "\ud83c\udf41 **Anime": "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen**",
+    "\ud83c\udf41 **Episode": "Episode 5**"
 }
 ```
 
@@ -587,7 +587,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Bukan monster yang harus kita takuti; itu adalah orang-orang yang tidak mengenali monster yang sama di dalam diri mereka.**
+🃏 **Kami melakukan hal-hal yang kami lakukan untuk rakyat, bukan untuk kepentingan kita sendiri seperti sebuah ketenaran.**
 ```
 
 ### 21. Qislam
@@ -608,7 +608,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Harus disadari oleh wanita muslimah bahwa yang telah menyaksikan Kecantikan adalah suaminya dan para mahromnya**
+📖 **Terkadang bukan karena kita tahu caranya memuntahkan amarah tapi kita tahu jika makin marah tak akan menyelesaikan masalah**
 ```
 
 ### 22. Qpubg
@@ -629,7 +629,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Skill dewa yang sebenarnya adalah yang membunuh lawan tanpa berperang**
+🏆 **Aku tidak pernah menyukai chicken, tapi tidak dengan chicken di PUBG**
 ```
 
 ### 23. Truth
@@ -650,7 +650,7 @@ print(result)
 #### Expected Output
 
 ```text
-Pekerjaan paling ngenes apa yang menurutmu cocok untuk teman di sebelah kananmu?
+Apa ketakutan terbesar kamu?
 ```
 
 ### 24. Wibu
@@ -692,8 +692,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Bakuman",
-            "url": "https://nekos.best/api/v2/kiss/650d229e-5ddc-48d5-9868-63c6e4bcb1d7.gif"
+            "anime_name": "Toradora!",
+            "url": "https://nekos.best/api/v2/kiss/1bd3a817-bb88-4a08-8c95-97a1793f86d2.gif"
         }
     ]
 }
