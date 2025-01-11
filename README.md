@@ -152,7 +152,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_IFziHAuV.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_uljeJFzN.png
 ```
 
 ### 5. Cat
@@ -174,7 +174,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/d4v.jpg
+https://cdn2.thecatapi.com/images/7pc.gif
 ```
 
 ### 6. Dare
@@ -195,7 +195,7 @@ print(result)
 #### Expected Output
 
 ```text
-Update status di BBM, Line, WA, atau apapun itu dengan kata kata yang semuanya berawalan 'T'
+Bilang 'KAMU CANTIK BANGET NGGAK BOHONG' sama cewek yang menurutmu paling cantik di kelas ini
 ```
 
 ### 7. Doa
@@ -244,7 +244,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/fa14cf36-4f3e-4e88-a512-a10f1d4f1be5.JPG
+https://random.dog/deb832f8-e3df-46f9-aa6c-b08fcf69db2d.jpg
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +265,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Orang yang menggunakan tangan kanan, kira-kira, 9 tahun lebih panjang umur dari orang kidal**
+🌾 **Kalajengking bisa dibunuh dengan menyiramnya dengan cuka,mereka akan murka dan menyengat dirinya sendir**
 ```
 
 ### 10. Gemini
@@ -405,8 +405,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Princess Connect! Re:Dive",
-        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
+        "anime_name": "Sword Art Online",
+        "url": "https://nekos.best/api/v2/hug/548daa04-3dff-4524-bb28-c229e5542e9f.gif"
     }
 ]
 ```
@@ -450,7 +450,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁༺ɳεאѵαµℓµร☆࿐
+EXO•SHOOᵀᴱᴿ࿐
 ```
 
 ### 16. Password
@@ -475,7 +475,7 @@ print(result)
 #### Expected Output
 
 ```text
-7^c':,&@%?vt
+c*2$5)QZ`?DT
 ```
 
 ### 17. Pypi
@@ -535,10 +535,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Tidur itu sangat penting. Kurang tidur bisa berdampak buruk pada pekerjaan, dan kesehatanmu. Tidur di kursi bisa menghilangkan rasa penatmu untuk sementara, tapi tidak baik untuk punggungmu.**",
-    "\ud83c\udf39 **Character": "Umiko Ahagon**",
-    "\ud83c\udf41 **Anime": "New Game!!**",
-    "\ud83c\udf41 **Episode": "Episode 4**"
+    "\ud83c\udf81 **Quotes": "Yakinlah pada dirimu sendiri! Semuanya akan baik baik saja! Semakin keras kau berusaha, kau pasti akan semakin beruntung!**",
+    "\ud83c\udf39 **Character": "Miyano**",
+    "\ud83c\udf41 **Anime": "Tanaka-kun wa Itsumo Kedaruge**",
+    "\ud83c\udf41 **Episode": "Episode 12**"
 }
 ```
 
@@ -560,7 +560,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **We face cyber threats from state-sponsored hackers, hackers for hire, global cyber syndicates, and terrorists. They seek our state secrets, our trade secrets, our technology, and our ideas - things of incredible value to all of us. They seek to strike our critical infrastructure and to harm our economy.**
+🃏 **Hackers are seen as shadowy figures with superhuman powers that threaten civilization.**
 ```
 
 ### 20. Qislam
@@ -581,7 +581,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Ku rindu padamu ya rasul Kuingin jumpa Sekedar Saja walau hanya dalam mimpi**
+📖 **Maka aku ucapkan selamat engkau sukses membuat perasaannya sedikit terluka**
 ```
 
 ### 21. Qpubg
@@ -602,7 +602,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Dari PUBG aku belajar bahwa aku harus memusnahkan musuh-musuhku. Namun disisi lain, aku belajar untuk melindungi teman-temanku**
+🏆 **Tidak ada kemenangan sejati tanpa chicken dinner**
 ```
 
 ### 22. Truth
@@ -623,7 +623,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa hal terbodoh yg pernah kamu lakukan ?
+Apa yang akan kamu lakuin bila pacarmu bilang hidung atau jarimu jelek?
 ```
 
 ### 23. Wibu
@@ -665,8 +665,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Kuzu no Honkai",
-            "url": "https://nekos.best/api/v2/kiss/b0a0d6f8-129a-46b7-9824-4b9a35723f17.gif"
+            "anime_name": "Death Note",
+            "url": "https://nekos.best/api/v2/kiss/de8b5bde-dba5-437e-98a4-a48123f9809c.gif"
         }
     ]
 }
