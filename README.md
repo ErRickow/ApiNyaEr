@@ -104,7 +104,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://t4.ftcdn.net/jpg/04/60/72/67/360_F_460726770_XFNB9Wx4VmXk2RRLBQDOz1gfy5kV5gBq.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_9aCEkE1d.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_0yjgezTf.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/QMpc9tBAG.jpg
+https://cdn2.thecatapi.com/images/51j.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Berdiri deket kulkas, tutup mata, pilih makanan secara acak didalemnya, pas makanpun mata harus tetep ditutup.
+Upload video dia nyanyi ke youtube yang lagi nyanyiin lagu-lagu populer
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/4c0e3972-6c56-4124-8e37-7dad81291da4.mp4
+https://random.dog/e1aaa91a-e9f4-4490-b8cf-ad195ffd88c9.gif
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Umur dari capung adalah 24 jam**
+🌾 **Sapi tidak punya gigi atas**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kamisama Hajimemashita",
-        "url": "https://nekos.best/api/v2/hug/6729fa94-442a-4f75-bfae-4ab5ad644d39.gif"
+        "anime_name": "Wotaku ni Koi wa Muzukashii",
+        "url": "https://nekos.best/api/v2/hug/47e30b67-b979-4dd5-9b06-720e5118f088.gif"
     }
 ]
 ```
@@ -450,8 +450,14 @@ print(result)
 
 #### Expected Output
 
-```text
-'dict' object has no attribute 'text'
+```json
+{
+    "results": {
+        "result": "Wah, tidur itu penting banget! \ud83d\ude34 Bikin badan fresh dan siap buat aktivitas lagi. Udah siap tidur atau mau nanya-nanya dulu? \ud83c\udf19\u2728"
+    },
+    "join": "@Er_Support_Group",
+    "success": true
+}
 ```
 
 ### 16. Nama Epep
@@ -472,7 +478,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁༺J꙰O꙰K꙰E꙰R꙰༻꧂
+꧁ঔৣ☠︎$aπ$❦☠︎ঔৣ꧂
 ```
 
 ### 17. Password
@@ -497,7 +503,7 @@ print(result)
 #### Expected Output
 
 ```text
-XjL{T3rlqb[$
+RYcpAl>F40^M
 ```
 
 ### 18. Pypi
@@ -557,10 +563,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Sesedih apapun suatu ingatan, setelah diceritakan semuanya hanya akan jadi suatu cerita.**",
-    "\ud83c\udf39 **Character": "Ougi Oshino**",
-    "\ud83c\udf41 **Anime": "Owarimonogatari**",
-    "\ud83c\udf41 **Episode": "Episode 1**"
+    "\ud83c\udf81 **Quotes": "Bagi yang berusaha maka Tuhan akan tersenyum padamu, itu adalah bohong.Tapi, takdir Tuhan akan berkedip padamu.**",
+    "\ud83c\udf39 **Character": "Kumiko Oumae**",
+    "\ud83c\udf41 **Anime": "Hibike! Euphonium**",
+    "\ud83c\udf41 **Episode": "Episode 12**"
 }
 ```
 
@@ -582,7 +588,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kita tidak perlu pemimpin. Kita punya ide. Ide adalah anti peluru.**
+🃏 **Ingat, ketika Anda terhubung dengan komputer lain, Anda terhubung ke setiap komputer yang terhubung dengan komputer.**
 ```
 
 ### 21. Qislam
@@ -603,7 +609,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Jodoh bukan siapa cepat pasti dapt tapu jika Allah telah tetapkan sudah pasti dapat**
+📖 **Sungguh tak terhitung banyaknya nikmat yang sudah engkau berikan kepada kami ya Allah**
 ```
 
 ### 22. Qpubg
@@ -624,7 +630,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Belajar dari game PUBG. Bukan tentang siapa yang datang duluan, tapi siapa yang bertahan sampai akhir**
+🏆 **Jangan takut memulai pertempuran karna mereka PRO. Dulunya mereka juga hanya seorang pemula**
 ```
 
 ### 23. Truth
@@ -645,7 +651,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa hal terbodoh yg pernah kamu lakukan ?
+Siapa di antara temanmu yang kamu pikir matre?
 ```
 
 ### 24. Wibu
@@ -687,8 +693,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Campione! Matsurowanu Kamigami to Kamigoroshi no Maou",
-            "url": "https://nekos.best/api/v2/kiss/070a49db-777a-4152-8601-159fae6fc797.gif"
+            "anime_name": "Higashi no Eden",
+            "url": "https://nekos.best/api/v2/kiss/83b0c890-2ee6-4939-ac95-179c4982e7cf.gif"
         }
     ]
 }
