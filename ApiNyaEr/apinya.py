@@ -20,7 +20,7 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "luminai": "https://rest-er-api.vercel.app/luminai?text=",
+            "luminai": "https://rest-er-api.vercel.app/luminai?",
             "pinter": "https://api.ryzendesu.vip/api/search/pinterest?query={query}",
             "neko_url": apainier(
                 "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ=="
@@ -401,7 +401,7 @@ class ErApi:
         Returns:
             response.
         """
-        params = {"pertanyaan": tanya}
+        params = {"teks": tanya}
         response = await self._make_request(self.base_urls["luminai"], params=params)
         return response if response else []
 
