@@ -104,7 +104,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://t4.ftcdn.net/jpg/04/60/72/67/360_F_460726770_XFNB9Wx4VmXk2RRLBQDOz1gfy5kV5gBq.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_8GZMvhew.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_K2PVNZwE.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/2vk.jpg
+https://cdn2.thecatapi.com/images/2ph.gif
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Suruh jadi pelayan buat ngelayanin kamu sama temen-temen kamu buat makan siang.
+Upload video dia nyanyi ke youtube yang lagi nyanyiin lagu-lagu populer
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/fbfd8076-63b3-4a59-8461-7e869f89ddb7.png
+https://random.dog/1af28623-ff64-4970-b62c-dc900c8bc924.jpg
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Lidah seekor Chameleon adalah dua kali panjang tubuhnya sendiri.**
+🌾 **Di Bumi, satu tahun adalah 365 hari. Di planet Merkurius satu tahun adalah 2 hari**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Engage Kiss",
-        "url": "https://nekos.best/api/v2/hug/c968b89d-494e-453d-95b7-bd5f3d238e4e.gif"
+        "anime_name": "Princess Connect! Re:Dive",
+        "url": "https://nekos.best/api/v2/hug/f7246b64-e9ae-4ebd-a1d0-bb934fd1418e.gif"
     }
 ]
 ```
@@ -451,7 +451,7 @@ print(result)
 #### Expected Output
 
 ```text
-Request failed: 400, message='Bad Request', url='https://rest-er-api.vercel.app/luminai?teks=Tidur'
+'dict' object has no attribute 'json'
 ```
 
 ### 16. Nama Epep
@@ -472,7 +472,7 @@ print(result)
 #### Expected Output
 
 ```text
-Lᴬ•K o u r u y a m a🌸
+ঔ•ᗪένιใ⎠° Vɪя͢ʊ͋S͚ •ঔ
 ```
 
 ### 17. Password
@@ -497,7 +497,7 @@ print(result)
 #### Expected Output
 
 ```text
-#i_(P}YWJn'>
+L{SuD5a>-Z|^
 ```
 
 ### 18. Pypi
@@ -557,10 +557,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Mengabdikan diri untuk pendidikan adalah suatu bentuk kerja keras.**",
-    "\ud83c\udf39 **Character": "Mayoi Hachikuji**",
-    "\ud83c\udf41 **Anime": "Monogatari Series: Second Season**",
-    "\ud83c\udf41 **Episode": "Episode 1**"
+    "\ud83c\udf81 **Quotes": "Apa kalian menyukai sekolah?Aku sangat menyukainya. Kalian mungkin menganggapnya aneh, tapi sekolah adalah tempat yang hebat.**",
+    "\ud83c\udf39 **Character": "Yuki Takeya**",
+    "\ud83c\udf41 **Anime": "Gakkou Gurashi!**",
+    "\ud83c\udf41 **Episode": "Episode 12**"
 }
 ```
 
@@ -582,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Hackers are seen as shadowy figures with superhuman powers that threaten civilization.**
+🃏 **Faktanya ya, mereka sangat mudah. Masalahnya adalah anda tidak harus melindungi diri dari orang bodoh. Anda harus melindungi diri terhadap orang seperti saya.**
 ```
 
 ### 21. Qislam
@@ -603,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Semoga dalam kesendirian ini bisa bisa betul-betul lolos dalam ujian menahan diri dari lawan jenis**
+📖 **Balaslah keburukan dengan kebaikan**
 ```
 
 ### 22. Qpubg
@@ -624,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Bermain solo vs squad hanya untuk melatih skill setelah lama off**
+🏆 **Kerjasama membuat chicken dinner menjadi nyata**
 ```
 
 ### 23. Truth
@@ -645,7 +645,7 @@ print(result)
 #### Expected Output
 
 ```text
-Film dan lagu apa yang pernah bikin kamu nangis?
+Siapa diantara temen-temenmu yang paling NGGAK fotogenik dan kalo difoto lagi ketawa mukanya kaya kuda?
 ```
 
 ### 24. Wibu
@@ -687,8 +687,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Kuzu no Honkai",
-            "url": "https://nekos.best/api/v2/kiss/99e10428-a7cf-4037-9fc2-0b24b190c2ed.gif"
+            "anime_name": "Infinite Stratos",
+            "url": "https://nekos.best/api/v2/kiss/e6e811ae-c828-419b-a503-ef7a7bed228e.gif"
         }
     ]
 }
