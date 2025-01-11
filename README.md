@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_3gUhSkMh.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_uJLLGwx3.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTgzOTMyNQ.jpg
+https://cdn2.thecatapi.com/images/aMcspzvtg.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Beri hormat pada seseorang di kelas, lalu bilang 'Hamba siap melayani Anda, Yang Mulia.'
+Bikin hiasan kepala absurd dari tisu, apapun itu, terus suruh pose didepan kamera, terus upload
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/0508da24-5cbb-487c-815d-9c555e244c21.jpg
+https://random.dog/18dd2465-d00c-4d1c-8123-7338670f6b24.mp4
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Unta punya 3 kelopak mata.**
+🌾 **Gazzarella adalah keju mozzarella yang terbuat dari susu kucing. 61. Rata-rata orang melihat / mengecek ponselnya sekitar 150 kali sehari. (Laporan Nokia pada MindTrek 2010)**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Blend S",
-        "url": "https://nekos.best/api/v2/hug/5c28c686-38d7-4588-a259-23cf1669c07a.gif"
+        "anime_name": "Kaijin Kaihatsubu no Kuroitsu-san",
+        "url": "https://nekos.best/api/v2/hug/4151b575-c780-4dd4-ab7c-eaa25bfe5200.gif"
     }
 ]
 ```
@@ -435,16 +435,11 @@ print(result)
 
 ### 15. Luminai
 
-**Description**:
-Interaksi dengan AI Basis Text.
-
 **Args:**
-**Description**:
-tanya (str): Text inputnya.
+  - **tanya (str)**: Teks query
 
 **Returns:**
-**Description**:
-str: Respon chatbotnya.
+    response.
 
 ```python
 from ApiNyaEr import apinya
@@ -456,7 +451,7 @@ print(result)
 #### Expected Output
 
 ```text
-name 'self' is not defined
+Request failed: 400, message='Bad Request', url='https://rest-er-api.vercel.app/luminai?text=&pertanyaan=Tidur'
 ```
 
 ### 16. Nama Epep
@@ -477,7 +472,7 @@ print(result)
 #### Expected Output
 
 ```text
-ঔ•ᗪένιใ⎠° Vɪя͢ʊ͋S͚ •ঔ
+『TG』 ཌĐʀᴀɢᴏƝད°ᴵᴰᴹ°ツ
 ```
 
 ### 17. Password
@@ -502,7 +497,7 @@ print(result)
 #### Expected Output
 
 ```text
-".!Rk1qM$0hY
+_d9H^yasf<x@
 ```
 
 ### 18. Pypi
@@ -562,10 +557,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Cinta sejati adalah cinta yang tak dipengaruhi oleh penampilan. Jika penampilan orang bisa mempengaruhi perasaanmu, maka cintamu itu palsu.**",
-    "\ud83c\udf39 **Character": "Chika Fujiwara**",
-    "\ud83c\udf41 **Anime": "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen**",
-    "\ud83c\udf41 **Episode": "Episode 5**"
+    "\ud83c\udf81 **Quotes": "Aku sangat menyukai kerendahan hatimu yang bahkan tak kausadari telah menjadi daya tarikmu.**",
+    "\ud83c\udf39 **Character": "Neko Fujinomiya**",
+    "\ud83c\udf41 **Anime": "Masamune-kun no Revenge**",
+    "\ud83c\udf41 **Episode": "Episode 6**"
 }
 ```
 
@@ -587,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kami melakukan hal-hal yang kami lakukan untuk rakyat, bukan untuk kepentingan kita sendiri seperti sebuah ketenaran.**
+🃏 **Kebodohan manusia, itulah sebabnya peretas selalu menang.**
 ```
 
 ### 21. Qislam
@@ -608,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Terkadang bukan karena kita tahu caranya memuntahkan amarah tapi kita tahu jika makin marah tak akan menyelesaikan masalah**
+📖 **Tak harus kamu yang sempurna, setidaknya kamu yang selalu berusaha istiqpmah di setiap waktu yang kamu punya. Karena kita akan berkerjasama membangun rumah di surga**
 ```
 
 ### 22. Qpubg
@@ -629,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku tidak pernah menyukai chicken, tapi tidak dengan chicken di PUBG**
+🏆 **Lari mengejar airdrop saja aku mau, apa lagi lari mengejar cintamu**
 ```
 
 ### 23. Truth
@@ -650,7 +645,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa ketakutan terbesar kamu?
+Apakah hal yang menurutmu paling menonjol dari dirimu?
 ```
 
 ### 24. Wibu
@@ -692,8 +687,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Toradora!",
-            "url": "https://nekos.best/api/v2/kiss/1bd3a817-bb88-4a08-8c95-97a1793f86d2.gif"
+            "anime_name": "No Game No Life",
+            "url": "https://nekos.best/api/v2/kiss/a92eb6f1-b0b6-4e1e-a66d-93edd7f776ff.gif"
         }
     ]
 }
