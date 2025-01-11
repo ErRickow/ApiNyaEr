@@ -396,7 +396,7 @@ class ErApi:
         """
         Args:
             tanya (str): Teks query
-    
+
         Returns:
             response.
         """
