@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_XIsQRRdI.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_kYwVWqum.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTkxNTU2MA.jpg
+https://cdn2.thecatapi.com/images/eh4.png
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Upload video dia nyanyi ke youtube yang lagi nyanyiin lagu-lagu populer
+Minum tiga teguk teh atau coke (coca-cola atau sprite) yang dicampur sambal.
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/fea951f8-40ed-4114-8e22-387f3d189f9f.JPG
+https://random.dog/c903c61e-1f02-4d03-b6e4-a4d286f2f717.jpg
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Saat kita bertahan hidup dan tidak ada bahan makanan, sabuk kulit dan sepatu keds adalah makanan terbaik untuk dimakan karena mengandung cukup gizi untuk hidup sementara.**
+🌾 **Di Perancis, jajanan Arum Manis (Rambut Nenek) disebut “Barbe á Papa” yang berarti “Jenggot Ayah”.**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Wotaku ni Koi wa Muzukashii",
-        "url": "https://nekos.best/api/v2/hug/47e30b67-b979-4dd5-9b06-720e5118f088.gif"
+        "anime_name": "Sora no Method",
+        "url": "https://nekos.best/api/v2/hug/53acd7c7-b1f8-4717-baa0-734753ac7c79.gif"
     }
 ]
 ```
@@ -450,10 +450,8 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "result": "Tidur itu penting, bro! \ud83d\ude34 Biar badan segar, pikiran juga jernih. Kapan terakhir kali kamu tidur nyenyak? \ud83c\udf19\u2728"
-}
+```text
+'dict' object has no attribute 'status_code'
 ```
 
 ### 16. Nama Epep
@@ -474,7 +472,7 @@ print(result)
 #### Expected Output
 
 ```text
-『ηя』M͢A͢S͢_tϵr
+꧁ ༺ HM•GAMING ༻ ꧂
 ```
 
 ### 17. Password
@@ -499,7 +497,7 @@ print(result)
 #### Expected Output
 
 ```text
-BMDYet;/[K|\
+#l[Ws]z@a>Rq
 ```
 
 ### 18. Pypi
@@ -559,10 +557,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Seseorang tidak akan berjuang sekeras itu jika dia tidak menyukainya.**",
-    "\ud83c\udf39 **Character": "Keiko Ayano**",
-    "\ud83c\udf41 **Anime": "Sword Art Online**",
-    "\ud83c\udf41 **Episode": "Episode 4**"
+    "\ud83c\udf81 **Quotes": "Mengabdikan diri untuk pendidikan adalah suatu bentuk kerja keras.**",
+    "\ud83c\udf39 **Character": "Mayoi Hachikuji**",
+    "\ud83c\udf41 **Anime": "Monogatari Series: Second Season**",
+    "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
 
@@ -584,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Tak ada yang tahu identitas kami.**
+🃏 **Tidak ada yang tidak baik atau buruk tentang pengetahuan itu sendiri; moralitas terletak pada penerapan pengetahuan.**
 ```
 
 ### 21. Qislam
@@ -605,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Gak usah bingung seperti apa jodohmu kelak, Insyaallah dia tidak akan jauh daripada sifatmu saat ini**
+📖 **Jangan mati-matian menghias diri untuk menjadi seperfect mungkin. Padahal yang kamu harus selalu jaga dan perbaiki adalah kualitas diri bukan kualitas fisik**
 ```
 
 ### 22. Qpubg
@@ -626,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Pelajaran yang didapatkan dari bermain PUBG adalah: bahwa kemenangan membutuhkan kerjasama, keegoisan individu akan membawa pada kekalahan**
+🏆 **Berpikir seperti sebuah gelas yang selalu kosong, maka dunia ini akan sangat terbuka bagimu**
 ```
 
 ### 23. Truth
@@ -647,7 +645,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa hal paling memalukan dari temanmu?
+Siapa nama artis yang pernah kamu cium fotonya diam-diam?
 ```
 
 ### 24. Wibu
@@ -689,8 +687,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Citrus",
-            "url": "https://nekos.best/api/v2/kiss/fcc26655-b606-477f-948a-7fae5435a4e1.gif"
+            "anime_name": "Strike the Blood",
+            "url": "https://nekos.best/api/v2/kiss/54baecd4-6959-4cb0-9dda-abbf3d55450b.gif"
         }
     ]
 }
