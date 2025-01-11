@@ -104,7 +104,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://t4.ftcdn.net/jpg/04/60/72/67/360_F_460726770_XFNB9Wx4VmXk2RRLBQDOz1gfy5kV5gBq.jpg
 ```
 
 ### 3. Blackbox
@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Cgnt9jVM.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_qJ1RFAIA.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/7kd.jpg
+https://cdn2.thecatapi.com/images/b7f.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Cabut bulu kaki mu sendiri sebanyak 3x
+Nyanyi-nyanyi lagu favorit difilm disney diluar rumah sambil teriak-teriak.
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/8a522bb9-318c-4cd5-a7e8-39eb5821f8a7.png
+https://random.dog/c8b7083a-66cd-4178-b98f-871db254b9cb.mp4
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Orang yang terlalu sering begadang memiliki performa otak seperti 7 tahun lebih tua dari usia aslinya. [dailymail]**
+🌾 **Julius Caesar tewas dengan 23 tikaman**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Darling in the Franxx",
-        "url": "https://nekos.best/api/v2/hug/f6861773-08f0-4410-82cd-431711b2e2de.gif"
+        "anime_name": "Elfen Lied",
+        "url": "https://nekos.best/api/v2/hug/09a0b73f-4a7d-49f2-a528-0b1c408d6c5e.gif"
     }
 ]
 ```
@@ -472,7 +472,7 @@ print(result)
 #### Expected Output
 
 ```text
-♛Phaňţøm♛
+°ᴮᴸᴰ°нυsᴎιツ
 ```
 
 ### 17. Password
@@ -497,7 +497,7 @@ print(result)
 #### Expected Output
 
 ```text
-v98<G3bU"X=O
+FV?f%yI|W=t@
 ```
 
 ### 18. Pypi
@@ -557,10 +557,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Kata-kata dapat menyakiti seseorang. Meskipun kau menyesalinya, kau takkan pernah bisa menarik kembali (kata-kata yang telah kau ucapkan).**",
-    "\ud83c\udf39 **Character": "Jun Naruse**",
-    "\ud83c\udf41 **Anime": "Kokoro ga Sakebitagatterunda.**",
-    "\ud83c\udf41 **Episode": "Episode 1**"
+    "\ud83c\udf81 **Quotes": "Cinta adalah kekonyolan dan tak ada gunanya jika dibandingkan dengan belajar.**",
+    "\ud83c\udf39 **Character": "Fuutarou Uesugi**",
+    "\ud83c\udf41 **Anime": "Gotoubun no Hanayome**",
+    "\ud83c\udf41 **Episode": "Episode 2**"
 }
 ```
 
@@ -582,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **I don't hate technology, I don't hate hackers, because that's just what comes with it, without those hackers we wouldn't solve the problems we need to solve, especially security.**
+🃏 **Faktanya ya, mereka sangat mudah. Masalahnya adalah anda tidak harus melindungi diri dari orang bodoh. Anda harus melindungi diri terhadap orang seperti saya.**
 ```
 
 ### 21. Qislam
@@ -603,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Sedekah tidak sama dengan matematika bisa ditambah, dikurang, dibagi dan dikali. Karena sedekah itu akan berlimpah dan berkalilipa kembali kepada kita**
+📖 **Salah satu ciri lellaki setia adalah berani menikahi di dia, bukan memacarinya. Apalagi meninggalkannya di kala semua sudah diserahkan**
 ```
 
 ### 22. Qpubg
@@ -624,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Tempat Favoritku untuk berkendara adalah Miramar**
+🏆 **Belum saatnya tidur hingga chicken dinner**
 ```
 
 ### 23. Truth
@@ -645,7 +645,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa orang yg paling menjengkelkan di antara teman teman mu ? alasannya!
+Pekerjaan paling ngenes apa yang menurutmu cocok untuk teman di sebelah kananmu?
 ```
 
 ### 24. Wibu
@@ -687,8 +687,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "School Days",
-            "url": "https://nekos.best/api/v2/kiss/eae5a6aa-8fb4-4390-9668-f23aa540d7dc.gif"
+            "anime_name": "Darling in the Franxx",
+            "url": "https://nekos.best/api/v2/kiss/c2f81599-98de-41b5-bcb9-c2bc7c7f6542.gif"
         }
     ]
 }
