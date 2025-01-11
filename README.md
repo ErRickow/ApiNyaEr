@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_qJ1RFAIA.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_8GZMvhew.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/b7f.jpg
+https://cdn2.thecatapi.com/images/2vk.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Nyanyi-nyanyi lagu favorit difilm disney diluar rumah sambil teriak-teriak.
+Suruh jadi pelayan buat ngelayanin kamu sama temen-temen kamu buat makan siang.
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/c8b7083a-66cd-4178-b98f-871db254b9cb.mp4
+https://random.dog/fbfd8076-63b3-4a59-8461-7e869f89ddb7.png
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Julius Caesar tewas dengan 23 tikaman**
+🌾 **Lidah seekor Chameleon adalah dua kali panjang tubuhnya sendiri.**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Elfen Lied",
-        "url": "https://nekos.best/api/v2/hug/09a0b73f-4a7d-49f2-a528-0b1c408d6c5e.gif"
+        "anime_name": "Engage Kiss",
+        "url": "https://nekos.best/api/v2/hug/c968b89d-494e-453d-95b7-bd5f3d238e4e.gif"
     }
 ]
 ```
@@ -472,7 +472,7 @@ print(result)
 #### Expected Output
 
 ```text
-°ᴮᴸᴰ°нυsᴎιツ
+Lᴬ•K o u r u y a m a🌸
 ```
 
 ### 17. Password
@@ -497,7 +497,7 @@ print(result)
 #### Expected Output
 
 ```text
-FV?f%yI|W=t@
+#i_(P}YWJn'>
 ```
 
 ### 18. Pypi
@@ -557,10 +557,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Cinta adalah kekonyolan dan tak ada gunanya jika dibandingkan dengan belajar.**",
-    "\ud83c\udf39 **Character": "Fuutarou Uesugi**",
-    "\ud83c\udf41 **Anime": "Gotoubun no Hanayome**",
-    "\ud83c\udf41 **Episode": "Episode 2**"
+    "\ud83c\udf81 **Quotes": "Mengabdikan diri untuk pendidikan adalah suatu bentuk kerja keras.**",
+    "\ud83c\udf39 **Character": "Mayoi Hachikuji**",
+    "\ud83c\udf41 **Anime": "Monogatari Series: Second Season**",
+    "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
 
@@ -582,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Faktanya ya, mereka sangat mudah. Masalahnya adalah anda tidak harus melindungi diri dari orang bodoh. Anda harus melindungi diri terhadap orang seperti saya.**
+🃏 **Hackers are seen as shadowy figures with superhuman powers that threaten civilization.**
 ```
 
 ### 21. Qislam
@@ -603,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Salah satu ciri lellaki setia adalah berani menikahi di dia, bukan memacarinya. Apalagi meninggalkannya di kala semua sudah diserahkan**
+📖 **Semoga dalam kesendirian ini bisa bisa betul-betul lolos dalam ujian menahan diri dari lawan jenis**
 ```
 
 ### 22. Qpubg
@@ -624,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Belum saatnya tidur hingga chicken dinner**
+🏆 **Bermain solo vs squad hanya untuk melatih skill setelah lama off**
 ```
 
 ### 23. Truth
@@ -645,7 +645,7 @@ print(result)
 #### Expected Output
 
 ```text
-Pekerjaan paling ngenes apa yang menurutmu cocok untuk teman di sebelah kananmu?
+Film dan lagu apa yang pernah bikin kamu nangis?
 ```
 
 ### 24. Wibu
@@ -687,8 +687,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Darling in the Franxx",
-            "url": "https://nekos.best/api/v2/kiss/c2f81599-98de-41b5-bcb9-c2bc7c7f6542.gif"
+            "anime_name": "Kuzu no Honkai",
+            "url": "https://nekos.best/api/v2/kiss/99e10428-a7cf-4037-9fc2-0b24b190c2ed.gif"
         }
     ]
 }
