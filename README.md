@@ -42,15 +42,16 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [12. Github Search](#12-github-search) | ✅
 | [13. Hug](#13-hug) | ✅
 | [14. Kapan Libur](#14-kapan-libur) | ❌
-| [15. Nama Epep](#15-nama-epep) | ✅
-| [16. Password](#16-password) | ✅
-| [17. Pypi](#17-pypi) | ❌
-| [18. Qanime](#18-qanime) | ✅
-| [19. Qhacker](#19-qhacker) | ✅
-| [20. Qislam](#20-qislam) | ✅
-| [21. Qpubg](#21-qpubg) | ✅
-| [22. Truth](#22-truth) | ✅
-| [23. Wibu](#23-wibu) | ✅
+| [15. Luminai](#15-luminai) | ❌
+| [16. Nama Epep](#16-nama-epep) | ✅
+| [17. Password](#17-password) | ✅
+| [18. Pypi](#18-pypi) | ❌
+| [19. Qanime](#19-qanime) | ✅
+| [20. Qhacker](#20-qhacker) | ✅
+| [21. Qislam](#21-qislam) | ✅
+| [22. Qpubg](#22-qpubg) | ✅
+| [23. Truth](#23-truth) | ✅
+| [24. Wibu](#24-wibu) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -103,7 +104,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
 ```
 
 ### 3. Blackbox
@@ -152,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_uljeJFzN.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_QxUdapqX.png
 ```
 
 ### 5. Cat
@@ -174,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/7pc.gif
+https://cdn2.thecatapi.com/images/3ZLqhbgiw.jpg
 ```
 
 ### 6. Dare
@@ -195,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Bilang 'KAMU CANTIK BANGET NGGAK BOHONG' sama cewek yang menurutmu paling cantik di kelas ini
+Minjem sesuatu ke tetangga
 ```
 
 ### 7. Doa
@@ -244,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/deb832f8-e3df-46f9-aa6c-b08fcf69db2d.jpg
+https://random.dog/1d4a9a05-1faa-4305-815e-33b06669dbca.JPG
 ```
 
 ### 9. Fakta Unik
@@ -265,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Kalajengking bisa dibunuh dengan menyiramnya dengan cuka,mereka akan murka dan menyengat dirinya sendir**
+🌾 **pohon kelapa entah kenapa disebut “Tree of Life”**
 ```
 
 ### 10. Gemini
@@ -405,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Sword Art Online",
-        "url": "https://nekos.best/api/v2/hug/548daa04-3dff-4524-bb28-c229e5542e9f.gif"
+        "anime_name": "Kantai Collection: KanColle",
+        "url": "https://nekos.best/api/v2/hug/56886a54-ef3f-4947-b069-494af839f70c.gif"
     }
 ]
 ```
@@ -432,7 +433,33 @@ print(result)
 'data'
 ```
 
-### 15. Nama Epep
+### 15. Luminai
+
+**Description**:
+Interaksi dengan AI Basis Text.
+
+**Args:**
+**Description**:
+tanya (str): Text inputnya.
+
+**Returns:**
+**Description**:
+str: Respon chatbotnya.
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.luminai(tanya='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+name 'self' is not defined
+```
+
+### 16. Nama Epep
 
 **Description**:
 Dapatkan random nama ep ep
@@ -450,10 +477,10 @@ print(result)
 #### Expected Output
 
 ```text
-EXO•SHOOᵀᴱᴿ࿐
+INT•ঔৣÐâřҟŦﺂℜêঔৣ
 ```
 
-### 16. Password
+### 17. Password
 
 **Description**:
 Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
@@ -475,10 +502,10 @@ print(result)
 #### Expected Output
 
 ```text
-c*2$5)QZ`?DT
+M`$JxfzpILo'
 ```
 
-### 17. Pypi
+### 18. Pypi
 
 **Description**:
 Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
@@ -516,7 +543,7 @@ print(result)
 Request failed: 404, message='Not Found', url='https://pypi.org/pypi/Tidur/json'
 ```
 
-### 18. Qanime
+### 19. Qanime
 
 **Description**:
 Dapatkan Kata kata anime
@@ -535,14 +562,14 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Yakinlah pada dirimu sendiri! Semuanya akan baik baik saja! Semakin keras kau berusaha, kau pasti akan semakin beruntung!**",
-    "\ud83c\udf39 **Character": "Miyano**",
-    "\ud83c\udf41 **Anime": "Tanaka-kun wa Itsumo Kedaruge**",
-    "\ud83c\udf41 **Episode": "Episode 12**"
+    "\ud83c\udf81 **Quotes": "Seekor ikan, baik yang tinggal di air jernih atau kotor, selama ikan itu terus berenang ke depan, dia akan tumbuh dengan indah.**",
+    "\ud83c\udf39 **Character": "Koro-sensei**",
+    "\ud83c\udf41 **Anime": "Ansatsu Kyoushitsu**",
+    "\ud83c\udf41 **Episode": "Episode 7**"
 }
 ```
 
-### 19. Qhacker
+### 20. Qhacker
 
 **Description**:
 Dapatkan random Quotes Hacker
@@ -560,10 +587,10 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Hackers are seen as shadowy figures with superhuman powers that threaten civilization.**
+🃏 **Bukan monster yang harus kita takuti; itu adalah orang-orang yang tidak mengenali monster yang sama di dalam diri mereka.**
 ```
 
-### 20. Qislam
+### 21. Qislam
 
 **Description**:
 Dapatkan random Quotes Islamic
@@ -581,10 +608,10 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Maka aku ucapkan selamat engkau sukses membuat perasaannya sedikit terluka**
+📖 **Harus disadari oleh wanita muslimah bahwa yang telah menyaksikan Kecantikan adalah suaminya dan para mahromnya**
 ```
 
-### 21. Qpubg
+### 22. Qpubg
 
 **Description**:
 Dapatkan random Quotes pubg
@@ -602,10 +629,10 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Tidak ada kemenangan sejati tanpa chicken dinner**
+🏆 **Skill dewa yang sebenarnya adalah yang membunuh lawan tanpa berperang**
 ```
 
-### 22. Truth
+### 23. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -623,10 +650,10 @@ print(result)
 #### Expected Output
 
 ```text
-Apa yang akan kamu lakuin bila pacarmu bilang hidung atau jarimu jelek?
+Pekerjaan paling ngenes apa yang menurutmu cocok untuk teman di sebelah kananmu?
 ```
 
-### 23. Wibu
+### 24. Wibu
 
 **Description**:
 Fetch spesifik Gambar/Gif Anime.
@@ -665,8 +692,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Death Note",
-            "url": "https://nekos.best/api/v2/kiss/de8b5bde-dba5-437e-98a4-a48123f9809c.gif"
+            "anime_name": "Bakuman",
+            "url": "https://nekos.best/api/v2/kiss/650d229e-5ddc-48d5-9868-63c6e4bcb1d7.gif"
         }
     ]
 }
