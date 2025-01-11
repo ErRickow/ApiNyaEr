@@ -104,7 +104,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://www.educenter.id/wp-content/uploads/2018/06/Tips-Mudah-Agar-Anak-Tidur-Tepat-Waktu.jpg
+https://t4.ftcdn.net/jpg/04/60/72/67/360_F_460726770_XFNB9Wx4VmXk2RRLBQDOz1gfy5kV5gBq.jpg
 ```
 
 ### 3. Blackbox
@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_kYwVWqum.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_9aCEkE1d.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/eh4.png
+https://cdn2.thecatapi.com/images/QMpc9tBAG.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Minum tiga teguk teh atau coke (coca-cola atau sprite) yang dicampur sambal.
+Berdiri deket kulkas, tutup mata, pilih makanan secara acak didalemnya, pas makanpun mata harus tetep ditutup.
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/c903c61e-1f02-4d03-b6e4-a4d286f2f717.jpg
+https://random.dog/4c0e3972-6c56-4124-8e37-7dad81291da4.mp4
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Di Perancis, jajanan Arum Manis (Rambut Nenek) disebut “Barbe á Papa” yang berarti “Jenggot Ayah”.**
+🌾 **Umur dari capung adalah 24 jam**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Sora no Method",
-        "url": "https://nekos.best/api/v2/hug/53acd7c7-b1f8-4717-baa0-734753ac7c79.gif"
+        "anime_name": "Kamisama Hajimemashita",
+        "url": "https://nekos.best/api/v2/hug/6729fa94-442a-4f75-bfae-4ab5ad644d39.gif"
     }
 ]
 ```
@@ -451,7 +451,7 @@ print(result)
 #### Expected Output
 
 ```text
-'dict' object has no attribute 'status_code'
+'dict' object has no attribute 'text'
 ```
 
 ### 16. Nama Epep
@@ -472,7 +472,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁ ༺ HM•GAMING ༻ ꧂
+꧁༺J꙰O꙰K꙰E꙰R꙰༻꧂
 ```
 
 ### 17. Password
@@ -497,7 +497,7 @@ print(result)
 #### Expected Output
 
 ```text
-#l[Ws]z@a>Rq
+XjL{T3rlqb[$
 ```
 
 ### 18. Pypi
@@ -557,9 +557,9 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Mengabdikan diri untuk pendidikan adalah suatu bentuk kerja keras.**",
-    "\ud83c\udf39 **Character": "Mayoi Hachikuji**",
-    "\ud83c\udf41 **Anime": "Monogatari Series: Second Season**",
+    "\ud83c\udf81 **Quotes": "Sesedih apapun suatu ingatan, setelah diceritakan semuanya hanya akan jadi suatu cerita.**",
+    "\ud83c\udf39 **Character": "Ougi Oshino**",
+    "\ud83c\udf41 **Anime": "Owarimonogatari**",
     "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
@@ -582,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Tidak ada yang tidak baik atau buruk tentang pengetahuan itu sendiri; moralitas terletak pada penerapan pengetahuan.**
+🃏 **Kita tidak perlu pemimpin. Kita punya ide. Ide adalah anti peluru.**
 ```
 
 ### 21. Qislam
@@ -603,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Jangan mati-matian menghias diri untuk menjadi seperfect mungkin. Padahal yang kamu harus selalu jaga dan perbaiki adalah kualitas diri bukan kualitas fisik**
+📖 **Jodoh bukan siapa cepat pasti dapt tapu jika Allah telah tetapkan sudah pasti dapat**
 ```
 
 ### 22. Qpubg
@@ -624,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Berpikir seperti sebuah gelas yang selalu kosong, maka dunia ini akan sangat terbuka bagimu**
+🏆 **Belajar dari game PUBG. Bukan tentang siapa yang datang duluan, tapi siapa yang bertahan sampai akhir**
 ```
 
 ### 23. Truth
@@ -645,7 +645,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa nama artis yang pernah kamu cium fotonya diam-diam?
+Apa hal terbodoh yg pernah kamu lakukan ?
 ```
 
 ### 24. Wibu
@@ -687,8 +687,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Strike the Blood",
-            "url": "https://nekos.best/api/v2/kiss/54baecd4-6959-4cb0-9dda-abbf3d55450b.gif"
+            "anime_name": "Campione! Matsurowanu Kamigami to Kamigoroshi no Maou",
+            "url": "https://nekos.best/api/v2/kiss/070a49db-777a-4152-8601-159fae6fc797.gif"
         }
     ]
 }
