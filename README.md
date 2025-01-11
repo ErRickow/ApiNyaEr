@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_0yjgezTf.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_WYHFOxLg.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/51j.jpg
+https://cdn2.thecatapi.com/images/b20.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Upload video dia nyanyi ke youtube yang lagi nyanyiin lagu-lagu populer
+Petik 1 bunga lalu tancapkan bunga itu ke orang yg tidak kamu kenal (harus lawan jenis ya)
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/e1aaa91a-e9f4-4490-b8cf-ad195ffd88c9.gif
+https://random.dog/b1e63fd1-1136-4aec-8b21-3d6e60d6134f.jpg
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Sapi tidak punya gigi atas**
+🌾 **Topeng tokoh Michael Myers di film horor ‘Helloween’ sebenernya topeng tokoh Captain Kirk (Star Trek) yang di cat putih, karena kurang dana**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Wotaku ni Koi wa Muzukashii",
-        "url": "https://nekos.best/api/v2/hug/47e30b67-b979-4dd5-9b06-720e5118f088.gif"
+        "anime_name": "Naruto",
+        "url": "https://nekos.best/api/v2/hug/28ba71e1-376d-4d4d-af5b-3aa3ba70943e.gif"
     }
 ]
 ```
@@ -430,7 +430,7 @@ print(result)
 #### Expected Output
 
 ```text
-'data'
+Expecting value: line 1 column 1 (char 0)
 ```
 
 ### 15. Luminai
@@ -439,7 +439,7 @@ print(result)
   - **tanya (str)**: Teks query
 
 **Returns:**
-    response.
+    resultnya
 
 ```python
 from ApiNyaEr import apinya
@@ -452,9 +452,7 @@ print(result)
 
 ```json
 {
-    "results": {
-        "result": "Wah, tidur itu penting banget! \ud83d\ude34 Bikin badan fresh dan siap buat aktivitas lagi. Udah siap tidur atau mau nanya-nanya dulu? \ud83c\udf19\u2728"
-    },
+    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan fresh dan siap buat aktivitas besok. Selamat tidur, semoga mimpi indah! \ud83c\udf19\u2728",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -478,7 +476,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁ঔৣ☠︎$aπ$❦☠︎ঔৣ꧂
+꧁Ms. ★๖ۣۜƤriͥภcͣeͫss★꧂
 ```
 
 ### 17. Password
@@ -503,7 +501,7 @@ print(result)
 #### Expected Output
 
 ```text
-RYcpAl>F40^M
+yG$w\cbu:AM{
 ```
 
 ### 18. Pypi
@@ -563,10 +561,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Bagi yang berusaha maka Tuhan akan tersenyum padamu, itu adalah bohong.Tapi, takdir Tuhan akan berkedip padamu.**",
-    "\ud83c\udf39 **Character": "Kumiko Oumae**",
-    "\ud83c\udf41 **Anime": "Hibike! Euphonium**",
-    "\ud83c\udf41 **Episode": "Episode 12**"
+    "\ud83c\udf81 **Quotes": "Bermuka dua? Aku rasa lebih dari itu. Dia sangat terburu-buru mencari apa yang telah dicuri darinya, lalu dia berhenti menolongku. Malahan dia kepikiran alasan yang tidak masuk akal untuk memonta tolong agar aku tak merasa berhutang kepadanya, meskipun aku adalah orang asing. Siapapun yang hidup seperti itu akhirnya akan menyia-nyiakan seluruh hidupnya!**",
+    "\ud83c\udf39 **Character": "Subaru Natsuki**",
+    "\ud83c\udf41 **Anime": "Re:Zero kara Hajimeru Isekai Seikatsu**",
+    "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
 
@@ -588,7 +586,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Ingat, ketika Anda terhubung dengan komputer lain, Anda terhubung ke setiap komputer yang terhubung dengan komputer.**
+🃏 **I'm a hacker, but I'm the good kind of hackers. And I've never been a criminal.**
 ```
 
 ### 21. Qislam
@@ -609,7 +607,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Sungguh tak terhitung banyaknya nikmat yang sudah engkau berikan kepada kami ya Allah**
+📖 **Terkadang bukan karena kita tahu caranya memuntahkan amarah tapi kita tahu jika makin marah tak akan menyelesaikan masalah**
 ```
 
 ### 22. Qpubg
@@ -630,7 +628,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Jangan takut memulai pertempuran karna mereka PRO. Dulunya mereka juga hanya seorang pemula**
+🏆 **Izinkan aku mencintaimu tanpa harus menghapus PUBG ku**
 ```
 
 ### 23. Truth
@@ -651,7 +649,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa di antara temanmu yang kamu pikir matre?
+Siapa nama artis yang pernah kamu cium fotonya diam-diam?
 ```
 
 ### 24. Wibu
@@ -693,8 +691,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Higashi no Eden",
-            "url": "https://nekos.best/api/v2/kiss/83b0c890-2ee6-4939-ac95-179c4982e7cf.gif"
+            "anime_name": "Sword Art Online",
+            "url": "https://nekos.best/api/v2/kiss/2a4527e5-a123-43aa-ac09-ba6fda2a3985.gif"
         }
     ]
 }
