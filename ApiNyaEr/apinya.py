@@ -20,9 +20,7 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "luminai": apainier(
-                "aHR0cHM6Ly9yZXN0LWVyLWFwaS52ZXJjZWwuYXBwL2x1bWluYWk="
-            ).decode("utf-8"),
+            "luminai": apainier("aHR0cHM6Ly9yZXN0LWVyLWFwaS52ZXJjZWwuYXBwL2x1bWluYWk=").decode("utf-8"),
             "pinter": "https://api.ryzendesu.vip/api/search/pinterest?query={query}",
             "neko_url": apainier(
                 "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ=="
@@ -345,7 +343,7 @@ class ErApi:
             requests.Response: Objek respons dari permintaan API.
         """
 
-        url = apainier("aHR0cHM6Ly93d3cuYmxhY2tib3guYWkvYXBpL2NoYXQ=").decode("utf-8")
+        url = apainier("aHR0cHM6Ly9hcGkuYmxhY2tib3guYWk=").decode("utf-8")
 
         payload = {
             "agentMode": {},
@@ -369,7 +367,7 @@ class ErApi:
         headers = {
             "Content-Type": "application/json",
             "Cookie": "sessionId=f77a91e1-cbe1-47d0-b138-c2e23eeb5dcf; intercom-id-jlmqxicb=4cf07dd8-742e-4e3f-81de-38669816d300; intercom-device-id-jlmqxicb=1eafaacb-f18d-402a-8255-b763cf390df6; intercom-session-jlmqxicb=",
-            "Origin": apainier("aHR0cHM6Ly93d3cuYmxhY2tib3guYWk=").decode("utf-8"),
+            "Origin": apainier("aHR0cHM6Ly9hcGkuYmxhY2tib3guYWk=").decode("utf-8"),
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
         }
         try:
@@ -398,15 +396,13 @@ class ErApi:
         """
         Args:
             tanya (str): Teks query
-
+    
         Returns:
             resultnya
         """
         params = {"text": tanya}
         try:
-            response = await self._make_request(
-                self.base_urls["luminai"], params=params
-            )
+            response = await self._make_request(self.base_urls["luminai"], params=params)
             if response["data"]:
                 return {
                     "resultnya": response["data"]["result"],
