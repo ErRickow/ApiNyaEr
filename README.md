@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_uJLLGwx3.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Cgnt9jVM.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/aMcspzvtg.jpg
+https://cdn2.thecatapi.com/images/7kd.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Bikin hiasan kepala absurd dari tisu, apapun itu, terus suruh pose didepan kamera, terus upload
+Cabut bulu kaki mu sendiri sebanyak 3x
 ```
 
 ### 7. Doa
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/18dd2465-d00c-4d1c-8123-7338670f6b24.mp4
+https://random.dog/8a522bb9-318c-4cd5-a7e8-39eb5821f8a7.png
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Gazzarella adalah keju mozzarella yang terbuat dari susu kucing. 61. Rata-rata orang melihat / mengecek ponselnya sekitar 150 kali sehari. (Laporan Nokia pada MindTrek 2010)**
+🌾 **Orang yang terlalu sering begadang memiliki performa otak seperti 7 tahun lebih tua dari usia aslinya. [dailymail]**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kaijin Kaihatsubu no Kuroitsu-san",
-        "url": "https://nekos.best/api/v2/hug/4151b575-c780-4dd4-ab7c-eaa25bfe5200.gif"
+        "anime_name": "Darling in the Franxx",
+        "url": "https://nekos.best/api/v2/hug/f6861773-08f0-4410-82cd-431711b2e2de.gif"
     }
 ]
 ```
@@ -451,7 +451,7 @@ print(result)
 #### Expected Output
 
 ```text
-Request failed: 400, message='Bad Request', url='https://rest-er-api.vercel.app/luminai?text=&pertanyaan=Tidur'
+Request failed: 400, message='Bad Request', url='https://rest-er-api.vercel.app/luminai?teks=Tidur'
 ```
 
 ### 16. Nama Epep
@@ -472,7 +472,7 @@ print(result)
 #### Expected Output
 
 ```text
-『TG』 ཌĐʀᴀɢᴏƝད°ᴵᴰᴹ°ツ
+♛Phaňţøm♛
 ```
 
 ### 17. Password
@@ -497,7 +497,7 @@ print(result)
 #### Expected Output
 
 ```text
-_d9H^yasf<x@
+v98<G3bU"X=O
 ```
 
 ### 18. Pypi
@@ -557,10 +557,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Aku sangat menyukai kerendahan hatimu yang bahkan tak kausadari telah menjadi daya tarikmu.**",
-    "\ud83c\udf39 **Character": "Neko Fujinomiya**",
-    "\ud83c\udf41 **Anime": "Masamune-kun no Revenge**",
-    "\ud83c\udf41 **Episode": "Episode 6**"
+    "\ud83c\udf81 **Quotes": "Kata-kata dapat menyakiti seseorang. Meskipun kau menyesalinya, kau takkan pernah bisa menarik kembali (kata-kata yang telah kau ucapkan).**",
+    "\ud83c\udf39 **Character": "Jun Naruse**",
+    "\ud83c\udf41 **Anime": "Kokoro ga Sakebitagatterunda.**",
+    "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
 
@@ -582,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kebodohan manusia, itulah sebabnya peretas selalu menang.**
+🃏 **I don't hate technology, I don't hate hackers, because that's just what comes with it, without those hackers we wouldn't solve the problems we need to solve, especially security.**
 ```
 
 ### 21. Qislam
@@ -603,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Tak harus kamu yang sempurna, setidaknya kamu yang selalu berusaha istiqpmah di setiap waktu yang kamu punya. Karena kita akan berkerjasama membangun rumah di surga**
+📖 **Sedekah tidak sama dengan matematika bisa ditambah, dikurang, dibagi dan dikali. Karena sedekah itu akan berlimpah dan berkalilipa kembali kepada kita**
 ```
 
 ### 22. Qpubg
@@ -624,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Lari mengejar airdrop saja aku mau, apa lagi lari mengejar cintamu**
+🏆 **Tempat Favoritku untuk berkendara adalah Miramar**
 ```
 
 ### 23. Truth
@@ -645,7 +645,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apakah hal yang menurutmu paling menonjol dari dirimu?
+Siapa orang yg paling menjengkelkan di antara teman teman mu ? alasannya!
 ```
 
 ### 24. Wibu
@@ -687,8 +687,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "No Game No Life",
-            "url": "https://nekos.best/api/v2/kiss/a92eb6f1-b0b6-4e1e-a66d-93edd7f776ff.gif"
+            "anime_name": "School Days",
+            "url": "https://nekos.best/api/v2/kiss/eae5a6aa-8fb4-4390-9668-f23aa540d7dc.gif"
         }
     ]
 }
