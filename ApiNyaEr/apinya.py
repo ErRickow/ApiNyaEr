@@ -396,16 +396,14 @@ class ErApi:
         """
         Args:
             tanya (str): Teks query
-
+    
         Returns:
             response.
         """
         params = {"text": tanya}
         try:
-            response = await self._make_request(
-                self.base_urls["luminai"], params=params
-            )
-            if response.status_code == 200:
+            response = await self._make_request(self.base_urls["luminai"], params=params)
+            if response["data"]:
                 return {
                     "results": response.text,
                     "join": "@Er_Support_Group",
