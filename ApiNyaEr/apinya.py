@@ -392,21 +392,18 @@ class ErApi:
         next_libur = response["data"]["nextLibur"]
         return next_libur
 
-    @staticmethod
-    def luminai(tanya: str) -> str:
+    async def luminai(self, tanya: str):
         """
-        Interaksi dengan AI Basis Text.
 
         Args:
-        tanya (str): Text inputnya.
+            tanya (str): Teks query
 
         Returns:
-        str: Respon chatbotnya.
+            response.
         """
-        full_url = self.base_urls["luminai"]
-        nyah = f"{full_url}{tanya}"
-        response = requests.get(nyah).json()
-        return response
+        params = {"pertanyaan": tanya}
+        response = await self._make_request(self.base_urls["luminai"], params=params)
+        return response if response else []
 
     @staticmethod
     def ai(tanya: str) -> str:
