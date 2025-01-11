@@ -403,7 +403,8 @@ class ErApi:
         """
         params = {"teks": tanya}
         response = await self._make_request(self.base_urls["luminai"], params=params)
-        return response if response else []
+        res = response.json()
+        return res["data"] if res["data"] else []
 
     @staticmethod
     def ai(tanya: str) -> str:
