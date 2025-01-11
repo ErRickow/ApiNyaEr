@@ -396,13 +396,21 @@ class ErApi:
         """
         Args:
             tanya (str): Teks query
-
+    
         Returns:
             response.
         """
         params = {"text": tanya}
-        response = await self._make_request(self.base_urls["luminai"], params=params)
-        return response["data"] if "data" in response else []
+        try:
+            response = await self._make_request(self.base_urls["luminai"], params=params)
+            if response.status_code == 200:
+                return {
+                    "results": response.text,
+                    "join": "@Er_Support_Group",
+                    "success": True,
+                }
+        except Exception as e:
+            return e
 
     @staticmethod
     def ai(tanya: str) -> str:
