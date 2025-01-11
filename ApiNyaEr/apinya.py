@@ -20,6 +20,7 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
+            "luminai": "https://rest-er-api.vercel.app/luminai?text="
             "pinter": "https://api.ryzendesu.vip/api/search/pinterest?query={query}",
             "neko_url": apainier(
                 "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ=="
@@ -390,6 +391,21 @@ class ErApi:
         response = requests.get(self.base_urls["libur"]).json()
         next_libur = response["data"]["nextLibur"]
         return next_libur
+
+    @staticmethod
+    def luminai(tanya: str) -> str:
+        """
+        Interaksi dengan AI Basis Text.
+
+        Args:
+        tanya (str): Text inputnya.
+
+        Returns:
+        str: Respon chatbotnya.
+        """
+        full_url = f"{self.base_urls["luminai"]}{tanya}"
+        response = requests.get(full_url).json()
+        return response
 
     @staticmethod
     def ai(tanya: str) -> str:
