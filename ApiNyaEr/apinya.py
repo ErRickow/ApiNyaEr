@@ -403,8 +403,9 @@ class ErApi:
         Returns:
         str: Respon chatbotnya.
         """
-        full_url = f"{self.base_urls["luminai"]}{tanya}"
-        response = requests.get(full_url).json()
+        full_url = self.base_urls["luminai"]
+        nyah = f"{full_url}{tanya}"
+        response = requests.get(nyah).json()
         return response
 
     @staticmethod
