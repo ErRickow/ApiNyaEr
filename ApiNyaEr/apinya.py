@@ -396,14 +396,13 @@ class ErApi:
         """
         Args:
             tanya (str): Teks query
-
+    
         Returns:
             response.
         """
         params = {"text": tanya}
         response = await self._make_request(self.base_urls["luminai"], params=params)
-        res = await response.json()
-        return res["data"] if "data" in res else []
+        return response["data"] if "data" in response else []
 
     @staticmethod
     def ai(tanya: str) -> str:
