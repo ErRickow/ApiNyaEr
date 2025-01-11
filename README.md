@@ -42,7 +42,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [12. Github Search](#12-github-search) | ✅
 | [13. Hug](#13-hug) | ✅
 | [14. Kapan Libur](#14-kapan-libur) | ❌
-| [15. Luminai](#15-luminai) | ❌
+| [15. Luminai](#15-luminai) | ✅
 | [16. Nama Epep](#16-nama-epep) | ✅
 | [17. Password](#17-password) | ✅
 | [18. Pypi](#18-pypi) | ❌
@@ -104,7 +104,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://www.educenter.id/wp-content/uploads/2018/06/Tips-Mudah-Agar-Anak-Tidur-Tepat-Waktu.jpg
 ```
 
 ### 3. Blackbox
@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_K2PVNZwE.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_XIsQRRdI.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/2ph.gif
+https://cdn2.thecatapi.com/images/MTkxNTU2MA.jpg
 ```
 
 ### 6. Dare
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/1af28623-ff64-4970-b62c-dc900c8bc924.jpg
+https://random.dog/fea951f8-40ed-4114-8e22-387f3d189f9f.JPG
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Di Bumi, satu tahun adalah 365 hari. Di planet Merkurius satu tahun adalah 2 hari**
+🌾 **Saat kita bertahan hidup dan tidak ada bahan makanan, sabuk kulit dan sepatu keds adalah makanan terbaik untuk dimakan karena mengandung cukup gizi untuk hidup sementara.**
 ```
 
 ### 10. Gemini
@@ -406,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Princess Connect! Re:Dive",
-        "url": "https://nekos.best/api/v2/hug/f7246b64-e9ae-4ebd-a1d0-bb934fd1418e.gif"
+        "anime_name": "Wotaku ni Koi wa Muzukashii",
+        "url": "https://nekos.best/api/v2/hug/47e30b67-b979-4dd5-9b06-720e5118f088.gif"
     }
 ]
 ```
@@ -450,8 +450,10 @@ print(result)
 
 #### Expected Output
 
-```text
-'dict' object has no attribute 'json'
+```json
+{
+    "result": "Tidur itu penting, bro! \ud83d\ude34 Biar badan segar, pikiran juga jernih. Kapan terakhir kali kamu tidur nyenyak? \ud83c\udf19\u2728"
+}
 ```
 
 ### 16. Nama Epep
@@ -472,7 +474,7 @@ print(result)
 #### Expected Output
 
 ```text
-ঔ•ᗪένιใ⎠° Vɪя͢ʊ͋S͚ •ঔ
+『ηя』M͢A͢S͢_tϵr
 ```
 
 ### 17. Password
@@ -497,7 +499,7 @@ print(result)
 #### Expected Output
 
 ```text
-L{SuD5a>-Z|^
+BMDYet;/[K|\
 ```
 
 ### 18. Pypi
@@ -557,10 +559,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Apa kalian menyukai sekolah?Aku sangat menyukainya. Kalian mungkin menganggapnya aneh, tapi sekolah adalah tempat yang hebat.**",
-    "\ud83c\udf39 **Character": "Yuki Takeya**",
-    "\ud83c\udf41 **Anime": "Gakkou Gurashi!**",
-    "\ud83c\udf41 **Episode": "Episode 12**"
+    "\ud83c\udf81 **Quotes": "Seseorang tidak akan berjuang sekeras itu jika dia tidak menyukainya.**",
+    "\ud83c\udf39 **Character": "Keiko Ayano**",
+    "\ud83c\udf41 **Anime": "Sword Art Online**",
+    "\ud83c\udf41 **Episode": "Episode 4**"
 }
 ```
 
@@ -582,7 +584,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Faktanya ya, mereka sangat mudah. Masalahnya adalah anda tidak harus melindungi diri dari orang bodoh. Anda harus melindungi diri terhadap orang seperti saya.**
+🃏 **Tak ada yang tahu identitas kami.**
 ```
 
 ### 21. Qislam
@@ -603,7 +605,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Balaslah keburukan dengan kebaikan**
+📖 **Gak usah bingung seperti apa jodohmu kelak, Insyaallah dia tidak akan jauh daripada sifatmu saat ini**
 ```
 
 ### 22. Qpubg
@@ -624,7 +626,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Kerjasama membuat chicken dinner menjadi nyata**
+🏆 **Pelajaran yang didapatkan dari bermain PUBG adalah: bahwa kemenangan membutuhkan kerjasama, keegoisan individu akan membawa pada kekalahan**
 ```
 
 ### 23. Truth
@@ -645,7 +647,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa diantara temen-temenmu yang paling NGGAK fotogenik dan kalo difoto lagi ketawa mukanya kaya kuda?
+Apa hal paling memalukan dari temanmu?
 ```
 
 ### 24. Wibu
@@ -687,8 +689,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Infinite Stratos",
-            "url": "https://nekos.best/api/v2/kiss/e6e811ae-c828-419b-a503-ef7a7bed228e.gif"
+            "anime_name": "Citrus",
+            "url": "https://nekos.best/api/v2/kiss/fcc26655-b606-477f-948a-7fae5435a4e1.gif"
         }
     ]
 }
