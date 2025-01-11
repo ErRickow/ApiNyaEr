@@ -20,7 +20,9 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "luminai": apainier("aHR0cHM6Ly9yZXN0LWVyLWFwaS52ZXJjZWwuYXBwL2x1bWluYWk=").decode("utf-8"),
+            "luminai": apainier(
+                "aHR0cHM6Ly9yZXN0LWVyLWFwaS52ZXJjZWwuYXBwL2x1bWluYWk="
+            ).decode("utf-8"),
             "pinter": "https://api.ryzendesu.vip/api/search/pinterest?query={query}",
             "neko_url": apainier(
                 "aHR0cHM6Ly9uZWtvcy5iZXN0L2FwaS92Mi97ZW5kcG9pbnR9P2Ftb3VudD17YW1vdW50fQ=="
@@ -396,13 +398,15 @@ class ErApi:
         """
         Args:
             tanya (str): Teks query
-    
+
         Returns:
             resultnya
         """
         params = {"text": tanya}
         try:
-            response = await self._make_request(self.base_urls["luminai"], params=params)
+            response = await self._make_request(
+                self.base_urls["luminai"], params=params
+            )
             if response["data"]:
                 return {
                     "resultnya": response["data"]["result"],
