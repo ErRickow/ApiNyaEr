@@ -34,7 +34,7 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [4. Carbon](#4-carbon) | ✅
 | [5. Cat](#5-cat) | ✅
 | [6. Dare](#6-dare) | ✅
-| [7. Doa](#7-doa) | ❌
+| [7. Doa](#7-doa) | ✅
 | [8. Dog](#8-dog) | ✅
 | [9. Fakta Unik](#9-fakta-unik) | ✅
 | [10. Gemini](#10-gemini) | ✅
@@ -104,7 +104,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -153,7 +153,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_6kmCi6LN.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_CsWgW6Kz.png
 ```
 
 ### 5. Cat
@@ -175,7 +175,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/6vk.jpg
+https://cdn2.thecatapi.com/images/an3.gif
 ```
 
 ### 6. Dare
@@ -196,7 +196,7 @@ print(result)
 #### Expected Output
 
 ```text
-Berlutut satu kaki dan bilang 'Marry me?' sama orang pertama yang masuk ke ruangan.
+Suruh bersiul pas mulutnya lagi penuh dijejelin makanan.
 ```
 
 ### 7. Doa
@@ -220,7 +220,10 @@ print(result)
 #### Expected Output
 
 ```text
-Request failed: 504, message='Gateway Time-out', url='https://itzpire.com/religion/islamic/doa?doaName=Tidur'
+Doa sebelum tidur
+Ayat: بِسْمِكَ االلّٰهُمَّ اَحْيَا وَبِاسْمِكَ اَمُوْتُ
+Latin: Bismikallaahumma ahyaa wa ammuut
+Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
 ```
 
 ### 8. Dog
@@ -242,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/d7ae7fc7-e254-45da-8ac4-6afb898b6cc2.png
+https://random.dog/32467-30239-4163.jpg
 ```
 
 ### 9. Fakta Unik
@@ -263,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Radiasi dari 1 batang rokok sama dgn radiasi 2000x X-ray**
+🌾 **Hanya 3 malaikat, Gabriel, Michael dan Lucifer yang disebut dalam injil.**
 ```
 
 ### 10. Gemini
@@ -403,8 +406,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kawaii Dake ja Nai Shikimori-san",
-        "url": "https://nekos.best/api/v2/hug/929963f4-0d6d-4d75-b93f-03f4d25c7419.gif"
+        "anime_name": "Code Geass: Hangyaku no Lelouch",
+        "url": "https://nekos.best/api/v2/hug/1606f27b-cc28-490b-9d1f-cb6d5f03dd15.gif"
     }
 ]
 ```
@@ -427,7 +430,7 @@ print(result)
 #### Expected Output
 
 ```text
-Expecting value: line 1 column 1 (char 0)
+'data'
 ```
 
 ### 15. Luminai
@@ -447,12 +450,8 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan sama otak kita fresh lagi. Kapan terakhir kamu tidur nyenyak? \u2728",
-    "join": "@Er_Support_Group",
-    "success": true
-}
+```text
+Request failed: 504, message='Gateway Timeout', url='https://rest-er-api.vercel.app/luminai?text=Tidur'
 ```
 
 ### 16. Nama Epep
@@ -473,7 +472,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁༺J꙰O꙰K꙰E꙰R꙰༻꧂
+꧁ ༺ HM•GAMING ༻ ꧂
 ```
 
 ### 17. Password
@@ -498,7 +497,7 @@ print(result)
 #### Expected Output
 
 ```text
-70@p"Z1R{cFg
+b9QriyY7p[-g
 ```
 
 ### 18. Pypi
@@ -558,10 +557,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Entah itu jalan yang lurus ataupun jalan yang menyesatkan, selama kami masih bisa berjalan di sampingmu, kami tak peduli ke manapun kami pergi.**",
-    "\ud83c\udf39 **Character": "Toushirou Hijikata**",
-    "\ud83c\udf41 **Anime": "Gintama\u00b0**",
-    "\ud83c\udf41 **Episode": "Episode 48**"
+    "\ud83c\udf81 **Quotes": "Setiap jomblo yang punya hewan peliharaan pasti merasakan kebahagiaan palsu**",
+    "\ud83c\udf39 **Character": "Mayumi Nishikino**",
+    "\ud83c\udf41 **Anime": "Bokura wa Minna Kawaisou**",
+    "\ud83c\udf41 **Episode": "Episode 11**"
 }
 ```
 
@@ -604,7 +603,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Ada cinta yang menghantarkan menuju kemaksiatan, ada juga cinta yang membuat seseorang berubah mencintai hanya karena Allah, saling mencintailah karena Allah**
+📖 **Jangan pernah merasa lebih baik daripada orang lain karena kita tidak tahu seberapa banyak amal kebaikan yang ia tutupi**
 ```
 
 ### 22. Qpubg
@@ -625,7 +624,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Bermain solo vs squad hanya untuk melatih skill setelah lama off**
+🏆 **Aku menembak di PUBG aja belum tentu On Target, apalagi nembak kamu. Pasti Mission Failed**
 ```
 
 ### 23. Truth
@@ -646,7 +645,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa di antara teman-temanmu yang menurutmu potongan rambutnya paling ngenes (paling nggak banget)?
+Film dan lagu apa yang pernah bikin kamu nangis?
 ```
 
 ### 24. Wibu
@@ -688,8 +687,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Sakura Trick",
-            "url": "https://nekos.best/api/v2/kiss/724dd374-8424-4015-8d99-a0187c6debcd.gif"
+            "anime_name": "Citrus",
+            "url": "https://nekos.best/api/v2/kiss/fcc26655-b606-477f-948a-7fae5435a4e1.gif"
         }
     ]
 }
