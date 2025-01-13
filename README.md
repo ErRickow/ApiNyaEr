@@ -43,17 +43,18 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [13. Hug](#13-hug) | ✅
 | [14. Islam Ai](#14-islam-ai) | ✅
 | [15. Kapan Libur](#15-kapan-libur) | ❌
-| [16. Luminai](#16-luminai) | ✅
-| [17. Nama Epep](#17-nama-epep) | ✅
-| [18. Password](#18-password) | ✅
-| [19. Pypi](#19-pypi) | ❌
-| [20. Qanime](#20-qanime) | ✅
-| [21. Qhacker](#21-qhacker) | ✅
-| [22. Qislam](#22-qislam) | ✅
-| [23. Qpubg](#23-qpubg) | ✅
-| [24. Terabox Dl](#24-terabox-dl) | ✅
-| [25. Truth](#25-truth) | ✅
-| [26. Wibu](#26-wibu) | ✅
+| [16. Logo Maker](#16-logo-maker) | ❌
+| [17. Luminai](#17-luminai) | ✅
+| [18. Nama Epep](#18-nama-epep) | ✅
+| [19. Password](#19-password) | ✅
+| [20. Pypi](#20-pypi) | ❌
+| [21. Qanime](#21-qanime) | ✅
+| [22. Qhacker](#22-qhacker) | ✅
+| [23. Qislam](#23-qislam) | ✅
+| [24. Qpubg](#24-qpubg) | ✅
+| [25. Terabox Dl](#25-terabox-dl) | ✅
+| [26. Truth](#26-truth) | ✅
+| [27. Wibu](#27-wibu) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -155,7 +156,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_e67pdPKA.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_86pSBN8S.png
 ```
 
 ### 5. Cat
@@ -177,7 +178,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/dqt.jpg
+https://cdn2.thecatapi.com/images/4ie.gif
 ```
 
 ### 6. Dare
@@ -198,7 +199,7 @@ print(result)
 #### Expected Output
 
 ```text
-Berjalan sambil bertepuk tangan dan menyanyi lagu 'Selamat Ulang Tahun' dari kelas ke koridor.
+Chat kedua orangtuamu, katakan bahwa kamu kangen dengan mereka lengkap dengan emoticon sedih.
 ```
 
 ### 7. Doa
@@ -247,7 +248,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/46b52bd5-a56c-4c0b-a881-46581ffe556f.mp4
+https://random.dog/1b5d7726-f401-4f35-aff5-3ec47f0bf47b.mp4
 ```
 
 ### 9. Fakta Unik
@@ -268,7 +269,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Mangunyah permen karet saat mengupas bawang mencegah kita menangis**
+🌾 **Ubur-ubur terdiri dari 95% air**
 ```
 
 ### 10. Gemini
@@ -408,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Hibike! Euphonium",
-        "url": "https://nekos.best/api/v2/hug/b30aa74d-5d1c-4225-a242-30c5ed0f09f2.gif"
+        "anime_name": "Akatsuki no Yona: The Girl Standing in the Blush of Dawn",
+        "url": "https://nekos.best/api/v2/hug/2838c749-cbf0-407c-b727-ceb1ca517463.gif"
     }
 ]
 ```
@@ -433,7 +434,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur adalah salah satu nikmat yang diberikan oleh Allah SWT kepada manusia. Al-Quran menyebutkan hal ini dalam Surah An-Naba' ayat 9:\n\n\"\u0648\u064e\u062c\u064e\u0639\u064e\u0644\u0652\u0646\u064e\u0627 \u0646\u064e\u0648\u0652\u0645\u064e\u0643\u064f\u0645\u0652 \u0633\u064f\u0628\u064e\u0627\u062a\u064b\u0627\"\n\"Dan Kami jadikan tidurmu untuk istirahat\"\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Ibnu Majah)\n\nIslam mengajarkan agar kita tidur dan beristirahat dengan niat yang baik, seperti untuk menjaga kesehatan dan mempersiapkan diri untuk beribadah. Rasulullah SAW bersabda:\n\n\"Sesungguhnya tidurmu adalah sedekah bagimu.\" (HR. Tirmidzi)\n\nJadi, dalam Islam, tidur dipandang sebagai nikmat dan ibadah jika dilakukan dengan niat yang baik. Saya sarankan agar Anda mempelajari lebih lanjut mengenai ajaran Islam tentang tidur dan istirahat dari sumber-sumber yang terpercaya.",
+    "resultnya": "Maaf, saya tidak dapat membahas topik di luar bidang Islam. Sebagai asisten yang berfokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan Quran, Hadits, dan sejarah Islam. Jika Anda memiliki pertanyaan terkait dengan ajaran Islam, saya akan berusaha menjawabnya dengan merujuk pada sumber-sumber otoritatif. Namun, jika pertanyaan Anda di luar cakupan saya, saya sarankan Anda untuk berkonsultasi dengan ulama atau ahli agama Islam yang kompeten.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -461,7 +462,30 @@ print(result)
 'data'
 ```
 
-### 16. Luminai
+### 16. Logo Maker
+
+**Description**:
+Membuat Logo Dari Input yang di masukkan
+
+**Args:**
+  - **input**: teks yang akan di buat Logo
+**Returns:**
+    resultnya else str(eror)
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.logo_maker(input='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+'method' object is not subscriptable
+```
+
+### 17. Luminai
 
 **Args:**
   - **tanya (str)**: Teks query
@@ -480,13 +504,13 @@ print(result)
 
 ```json
 {
-    "resultnya": "Wah, tidur itu penting banget! \ud83d\ude34 Biar tubuh kita recharge dan siap buat aktivitas lagi. Kapan terakhir kali kamu tidur nyenyak? \ud83d\ude04",
+    "resultnya": "Tidur? Wah, itu kegiatan yang asik banget! \ud83d\ude34 Kapan terakhir kali kamu tidur nyenyak? Jangan lupa, tidur yang cukup itu penting loh! \ud83c\udf19\u2728",
     "join": "@Er_Support_Group",
     "success": true
 }
 ```
 
-### 17. Nama Epep
+### 18. Nama Epep
 
 **Description**:
 Dapatkan random nama ep ep
@@ -504,10 +528,10 @@ print(result)
 #### Expected Output
 
 ```text
-꧁Ms. ★๖ۣۜƤriͥภcͣeͫss★꧂
+『Ｗｏｌｆ』•Ｚｅｒｏツ
 ```
 
-### 18. Password
+### 19. Password
 
 **Description**:
 Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
@@ -529,10 +553,10 @@ print(result)
 #### Expected Output
 
 ```text
-uxb$CKEH:z,R
+sx;f`azhkYG-
 ```
 
-### 19. Pypi
+### 20. Pypi
 
 **Description**:
 Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
@@ -570,7 +594,7 @@ print(result)
 Request failed: 404, message='Not Found', url='https://pypi.org/pypi/Tidur/json'
 ```
 
-### 20. Qanime
+### 21. Qanime
 
 **Description**:
 Dapatkan Kata kata anime
@@ -589,14 +613,14 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Walau dunia ini memusuhimu, aku akan tetap di sampingmu.**",
-    "\ud83c\udf39 **Character": "Miyabi Azumaya**",
-    "\ud83c\udf41 **Anime": "Dimension W**",
-    "\ud83c\udf41 **Episode": "Episode 7**"
+    "\ud83c\udf81 **Quotes": "Pemandangan yang kurasa membosankan...Pemandangan di mana Kou-chan berada (ternyata) sangat indah.**",
+    "\ud83c\udf39 **Character": "Ohana Matsumae**",
+    "\ud83c\udf41 **Anime": "Hanasaku Iroha**",
+    "\ud83c\udf41 **Episode": "Episode 24**"
 }
 ```
 
-### 21. Qhacker
+### 22. Qhacker
 
 **Description**:
 Dapatkan random Quotes Hacker
@@ -614,10 +638,10 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **In the aftermath of the oh-so-predictable crash, the Bitcoin fanatics have begun marshaling out excuse after excuse for why this non-investment investment lost so much of its value so fast. One was that hackers attacked some of the exchanges for Bitcoins and crippled it. Really? A hacker can wreck an entire market?**
+🃏 **Di balik layar monitor ini aku dapat melihat dunia.**
 ```
 
-### 22. Qislam
+### 23. Qislam
 
 **Description**:
 Dapatkan random Quotes Islamic
@@ -635,10 +659,10 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Semoga dalam kesendirian ini bisa bisa betul-betul lolos dalam ujian menahan diri dari lawan jenis**
+📖 **Ada cinta yang menghantarkan menuju kemaksiatan, ada juga cinta yang membuat seseorang berubah mencintai hanya karena Allah, saling mencintailah karena Allah**
 ```
 
-### 23. Qpubg
+### 24. Qpubg
 
 **Description**:
 Dapatkan random Quotes pubg
@@ -656,10 +680,10 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Kami bukanlah player nob, kami hanya baru mulai**
+🏆 **Legenda PUBG selalu bermain lewat tengah malam**
 ```
 
-### 24. Terabox Dl
+### 25. Terabox Dl
 
 **Args:**
   - **link (str)**: Teks query
@@ -680,7 +704,7 @@ print(result)
 Request failed: 500, message='Internal Server Error', url='https://vapis.my.id/api/terabox?url=Tidur'
 ```
 
-### 25. Truth
+### 26. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -698,10 +722,10 @@ print(result)
 #### Expected Output
 
 ```text
-Apa baju yang (menurutmu) paling jelek yang pernah kamu pakai, dan kapan kamu memakainya?
+Kapan terakhir kali menangis dan mengapa?
 ```
 
-### 26. Wibu
+### 27. Wibu
 
 **Description**:
 Fetch spesifik Gambar/Gif Anime.
@@ -740,8 +764,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Darling in the Franxx",
-            "url": "https://nekos.best/api/v2/kiss/c2f81599-98de-41b5-bcb9-c2bc7c7f6542.gif"
+            "anime_name": "Captain Earth",
+            "url": "https://nekos.best/api/v2/kiss/3eb02569-bc4d-4fcf-95c9-2d14cefd05ab.gif"
         }
     ]
 }
