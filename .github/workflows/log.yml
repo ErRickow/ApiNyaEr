@@ -13,8 +13,8 @@ jobs:
           token: ${{ secrets.token_tel }}
           format: html
           message: |
-            <blockquote><b>😱New Commits ApinyaEr</b></blockquote>
-            <b><blockquote>☺️${{ github.event.commits[0].message }}</blockquote></b>
-            <blockquote><b>😤Sha: ${{ github.sha }}</b></blockquote>
+            <blockquote><b>🤭New Commits ApinyaEr</b></blockquote>
+            <b><blockquote>😱${{ github.event.commits[0].message }}</blockquote></b>
+            <blockquote><b>me web: <a href="https://errickow.github.io/>Click Me</a></b></blockquote>
           disable_web_page_preview: True
           disable_notification: True
