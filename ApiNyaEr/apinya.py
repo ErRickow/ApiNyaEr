@@ -20,9 +20,15 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "hehe": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvbG9nb21ha2Vy").decode("utf-8"),
-            "whe": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvaXNsYW1haQ==").decode("utf-8"),
-            "njir": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvdGVyYWJveA==").decode("utf-8"),
+            "hehe": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvbG9nb21ha2Vy").decode(
+                "utf-8"
+            ),
+            "whe": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvaXNsYW1haQ==").decode(
+                "utf-8"
+            ),
+            "njir": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvdGVyYWJveA==").decode(
+                "utf-8"
+            ),
             "luminai": apainier(
                 "aHR0cHM6Ly9yZXN0LWVyLWFwaS52ZXJjZWwuYXBwL2x1bWluYWk="
             ).decode("utf-8"),
@@ -407,9 +413,7 @@ class ErApi:
         """
         params = {"url": link}
         try:
-            response = await self._make_request(
-                self.base_urls["njir"], params=params
-            )
+            response = await self._make_request(self.base_urls["njir"], params=params)
             if response["data"]:
                 return {
                     "judul": response["data"]["filename"],
@@ -425,14 +429,13 @@ class ErApi:
         """
         args:
             tanya (str): teks pertanyaan
-            
+
         Returns:
             resultnya
         """
         paman = {"q": tanya}
         try:
-            res = await self._make_request(self.base_urls["whe"], params=paman
-            )
+            res = await self._make_request(self.base_urls["whe"], params=paman)
             if res["status"] == True:
                 return {
                     "resultnya": res["result"],
@@ -446,7 +449,7 @@ class ErApi:
     async def logo_maker(self, input: str):
         """
         Membuat Logo Dari Input yang di masukkan
-        
+
         Args:
             input: teks yang akan di buat Logo
         Returns:
@@ -458,7 +461,7 @@ class ErApi:
             res = await self._make_request(url, params=parang)
             return res
         except Exception as r:
-          return r
+            return r
 
     async def luminai(self, tanya: str):
         """
