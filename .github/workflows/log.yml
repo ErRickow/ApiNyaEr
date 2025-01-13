@@ -9,13 +9,13 @@ jobs:
       - name: send telegram message on push
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.LOGS }}
+          to: ${{ secrets.loh_anjing }}
           token: ${{ secrets.TOKEN_2 }}
           format: html
           message: |
-            <blockquote><b>📛Notifikasi📛</b></blockquote>
-            <blockquote><b>Who?: <a href="tg://user?id=1448273246">${{ github.actor }}</a></b></blockquote>
-            <b><blockquote>${{ github.event.commits[0].message }}</blockquote></b>
-            <blockquote><b>Sha: ${{ github.sha }}</b></blockquote>
+            <blockquote><b>🤭New Commits ApiNyaEr</b></blockquote>
+            <b><blockquote>😱${{ github.event.commits[0].message }}</blockquote></b>
+            <blockquote><b>😤Sha: ${{ github.sha }}</b></blockquote>\n
+            <b>me web: <a href="https://errickow.github.io">Click Me</a>
           disable_web_page_preview: True
           disable_notification: true
