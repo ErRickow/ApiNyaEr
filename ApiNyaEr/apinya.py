@@ -20,7 +20,9 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "njir": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvdGVyYWJveA==").decode("utf-8"),
+            "njir": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvdGVyYWJveA==").decode(
+                "utf-8"
+            ),
             "luminai": apainier(
                 "aHR0cHM6Ly9yZXN0LWVyLWFwaS52ZXJjZWwuYXBwL2x1bWluYWk="
             ).decode("utf-8"),
@@ -405,9 +407,7 @@ class ErApi:
         """
         params = {"url": link}
         try:
-            response = await self._make_request(
-                self.base_urls["njir"], params=params
-            )
+            response = await self._make_request(self.base_urls["njir"], params=params)
             if response["data"]:
                 return {
                     "judul": response["data"]["filename"],
