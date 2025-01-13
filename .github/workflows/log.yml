@@ -1,4 +1,4 @@
-name: telegram message
+nme: telegram message
 on: [push]
 jobs:
 
@@ -9,7 +9,7 @@ jobs:
       - name: send telegram message on push
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.loh_anjing }}
+          to: ${{ secrets.loh_anjng }}
           token: ${{ secrets.token_tel }}
           format: html
           message: |
