@@ -156,7 +156,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_86pSBN8S.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_A6yL4ywa.png
 ```
 
 ### 5. Cat
@@ -178,7 +178,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/4ie.gif
+https://cdn2.thecatapi.com/images/b4s.jpg
 ```
 
 ### 6. Dare
@@ -199,7 +199,7 @@ print(result)
 #### Expected Output
 
 ```text
-Chat kedua orangtuamu, katakan bahwa kamu kangen dengan mereka lengkap dengan emoticon sedih.
+Coba searcing google mengenai hal-hal yang mengerikan atau menggelikan seperti trypophobia, dll.
 ```
 
 ### 7. Doa
@@ -248,7 +248,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/1b5d7726-f401-4f35-aff5-3ec47f0bf47b.mp4
+https://random.dog/0ced6461-bfc4-4987-bf41-638f23ce21c2.jpg
 ```
 
 ### 9. Fakta Unik
@@ -269,7 +269,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Ubur-ubur terdiri dari 95% air**
+🌾 **Orang yang menggunakan tangan kanan, kira-kira, 9 tahun lebih panjang umur dari orang kidal**
 ```
 
 ### 10. Gemini
@@ -409,8 +409,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Akatsuki no Yona: The Girl Standing in the Blush of Dawn",
-        "url": "https://nekos.best/api/v2/hug/2838c749-cbf0-407c-b727-ceb1ca517463.gif"
+        "anime_name": "Yuru Yuri",
+        "url": "https://nekos.best/api/v2/hug/6ffba377-796c-4157-88a1-82e4b1198340.gif"
     }
 ]
 ```
@@ -434,7 +434,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat membahas topik di luar bidang Islam. Sebagai asisten yang berfokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan Quran, Hadits, dan sejarah Islam. Jika Anda memiliki pertanyaan terkait dengan ajaran Islam, saya akan berusaha menjawabnya dengan merujuk pada sumber-sumber otoritatif. Namun, jika pertanyaan Anda di luar cakupan saya, saya sarankan Anda untuk berkonsultasi dengan ulama atau ahli agama Islam yang kompeten.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur. Saya adalah asisten AI yang khusus membahas tentang Islam, Alquran, Hadits, dan peristiwa sejarah Islam. Saya tidak dapat membahas topik di luar ruang lingkup ini. Jika Anda memiliki pertanyaan terkait Islam, saya akan dengan senang hati membantu Anda semampu saya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -504,7 +504,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur? Wah, itu kegiatan yang asik banget! \ud83d\ude34 Kapan terakhir kali kamu tidur nyenyak? Jangan lupa, tidur yang cukup itu penting loh! \ud83c\udf19\u2728",
+    "resultnya": "Wah, tidur itu penting banget, bro! \ud83d\ude34 Kalo udah ngantuk, mendingan langsung bobo aja. Nanti bangun-bangun bisa fresh lagi! Selamat tidur ya! \ud83c\udf19\u2728",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -528,7 +528,7 @@ print(result)
 #### Expected Output
 
 ```text
-『Ｗｏｌｆ』•Ｚｅｒｏツ
+꧁༺J꙰O꙰K꙰E꙰R꙰༻꧂
 ```
 
 ### 19. Password
@@ -553,7 +553,7 @@ print(result)
 #### Expected Output
 
 ```text
-sx;f`azhkYG-
+:x+]&*8L/SY=
 ```
 
 ### 20. Pypi
@@ -613,10 +613,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Pemandangan yang kurasa membosankan...Pemandangan di mana Kou-chan berada (ternyata) sangat indah.**",
-    "\ud83c\udf39 **Character": "Ohana Matsumae**",
-    "\ud83c\udf41 **Anime": "Hanasaku Iroha**",
-    "\ud83c\udf41 **Episode": "Episode 24**"
+    "\ud83c\udf81 **Quotes": "Kau adalah seorang profesional, tapi jika kau tak bisa menyeimbangkan antara pembunuh (profesi) dan guru (tuntutan peran dalam profesi), maka ini (sekolah) adalah tempat terburuk bagi orang profesional sepertimu.**",
+    "\ud83c\udf39 **Character": "Tadaomi Karasuma**",
+    "\ud83c\udf41 **Anime": "Ansatsu Kyoushitsu**",
+    "\ud83c\udf41 **Episode": "Episode 4**"
 }
 ```
 
@@ -638,7 +638,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Di balik layar monitor ini aku dapat melihat dunia.**
+🃏 **Bukan monster yang harus kita takuti; itu adalah orang-orang yang tidak mengenali monster yang sama di dalam diri mereka.**
 ```
 
 ### 23. Qislam
@@ -659,7 +659,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Ada cinta yang menghantarkan menuju kemaksiatan, ada juga cinta yang membuat seseorang berubah mencintai hanya karena Allah, saling mencintailah karena Allah**
+📖 **Tambahkan pasangan itu dia bisa membimbing bukan hanya di dunia tapi juga di akhirat**
 ```
 
 ### 24. Qpubg
@@ -680,7 +680,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Legenda PUBG selalu bermain lewat tengah malam**
+🏆 **Di dalam game PUBG kita diajarkan untuk tidak terus menerus berperang. Tapi bagaimana kita bertarung dan menjaga kawan untuk mendapatkan Winner Winner Chicken Dinner**
 ```
 
 ### 25. Terabox Dl
@@ -722,7 +722,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kapan terakhir kali menangis dan mengapa?
+Apakah hal yang menurutmu paling menonjol dari dirimu?
 ```
 
 ### 27. Wibu
@@ -764,8 +764,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Captain Earth",
-            "url": "https://nekos.best/api/v2/kiss/3eb02569-bc4d-4fcf-95c9-2d14cefd05ab.gif"
+            "anime_name": "High School DxD Born",
+            "url": "https://nekos.best/api/v2/kiss/505eb2bb-04f4-4bc9-9cdc-3421711b47a1.gif"
         }
     ]
 }
