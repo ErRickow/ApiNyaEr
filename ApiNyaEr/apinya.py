@@ -20,6 +20,7 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
+            "njir": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvdGVyYWJveA==").decode("utf-8"),
             "luminai": apainier(
                 "aHR0cHM6Ly9yZXN0LWVyLWFwaS52ZXJjZWwuYXBwL2x1bWluYWk="
             ).decode("utf-8"),
@@ -393,6 +394,30 @@ class ErApi:
         response = requests.get(self.base_urls["libur"]).json()
         next_libur = response["data"]["nextLibur"]
         return next_libur
+
+    async def terabox_dl(self, link: str):
+        """
+        Args:
+            link (str): Teks query
+
+        Returns:
+            resultnya
+        """
+        params = {"url": link}
+        try:
+            response = await self._make_request(
+                self.base_urls["njir"], params=params
+            )
+            if response["data"]:
+                return {
+                    "judul": response["data"]["filename"],
+                    "ukuran": response["data"]["size"],
+                    "url": response["data"]["download"],
+                    "join": "@Er_Support_Group",
+                    "success": True,
+                }
+        except Exception as e:
+            return e
 
     async def luminai(self, tanya: str):
         """
