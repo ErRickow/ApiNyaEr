@@ -105,7 +105,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=932408067949551&amp;get_thumbnail=1
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -154,7 +154,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_YA9nyC7z.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ZxIcqrPT.png
 ```
 
 ### 5. Cat
@@ -176,7 +176,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/ds9.jpg
+https://cdn2.thecatapi.com/images/8kj.jpg
 ```
 
 ### 6. Dare
@@ -197,7 +197,7 @@ print(result)
 #### Expected Output
 
 ```text
-Berlutut satu kaki dan bilang 'Marry me?' sama orang pertama yang masuk ke ruangan.
+Bikin hiasan kepala absurd dari tisu, apapun itu, terus suruh pose didepan kamera, terus upload
 ```
 
 ### 7. Doa
@@ -246,7 +246,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/bfb9e165-c643-4993-9b3a-7e73571672a6.jpg
+https://random.dog/a0125c04-2a94-486c-a76c-3ed443eb9822.mp4
 ```
 
 ### 9. Fakta Unik
@@ -267,7 +267,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Kebiasaan sibuk memotret dan mengunggah foto makanan di sosial media, beresiko seseorang menjadi gendut. [Dr. Valerie Taylor]**
+🌾 **IBM mengatakan bahwa dalam kurun waktu 5 tahun ke depan, komputer bakal mirip manusia yang bisa melihat, mendengar, mencium dan merasakan.**
 ```
 
 ### 10. Gemini
@@ -407,8 +407,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Darker Than Black: Ryuusei no Gemini",
-        "url": "https://nekos.best/api/v2/hug/1dcc8b20-6420-476f-888e-17c7e09a11fb.gif"
+        "anime_name": "Happy Sugar Life",
+        "url": "https://nekos.best/api/v2/hug/1613322e-52e3-44a6-8dd7-a57b6dac48ba.gif"
     }
 ]
 ```
@@ -453,7 +453,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan dan otak kita fresh lagi. Kapan terakhir kali kamu tidur nyenyak? \ud83d\ude0a",
+    "resultnya": "Wah, tidur itu penting banget! \ud83d\ude34 Biar badan dan otak kita bisa istirahat. Lagi ngantuk ya? Atau mau tips biar tidur nyenyak? \ud83d\udca4",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -477,7 +477,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁Ms. ★๖ۣۜƤriͥภcͣeͫss★꧂
+꧁ঔৣ☬☬ঔৣ꧂
 ```
 
 ### 17. Password
@@ -502,7 +502,7 @@ print(result)
 #### Expected Output
 
 ```text
-[9o1x`5}"y?(
+c47gXy`#KY8J
 ```
 
 ### 18. Pypi
@@ -562,9 +562,9 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Entah itu orang suci ataupun pendosa, semua orang punya hak untuk menegakkan keadilan mereka. Menolak keadilan mereka dan membunuhnya adalah hal tabu bagiku.**",
-    "\ud83c\udf39 **Character": "Brad Blackstone**",
-    "\ud83c\udf41 **Anime": "Taboo Tattoo**",
+    "\ud83c\udf81 **Quotes": "Mereka bilang orang itu bisa berubah, tapi apa yang seperti itu bisa terjadi? Jika mereka (manusia) memutuskan untuk terbang, pasti akan tumbuh sayap? Aku tak berpikir seperti itu. Kau tak perlu merubah dirimu, (tapi) rubahlah cara berfikirmu. Kau harus menjadi dirimu sendiri. Kau harus membuat cara terbangmu sendiri, meskipun kau masih tetap menjadi dirimu sendiri.**",
+    "\ud83c\udf39 **Character": "Sora**",
+    "\ud83c\udf41 **Anime": "No Game No Life**",
     "\ud83c\udf41 **Episode": "Episode 9**"
 }
 ```
@@ -587,7 +587,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Hackers rarely have full knowledge of the technology stack of a target.**
+🃏 **Tak ada yang tahu identitas kami.**
 ```
 
 ### 21. Qislam
@@ -608,7 +608,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Yakinlah masalah yang menimpamu saat ini merupakan cara Allah untuk mengingatkanmu agar lebih dekat dengan Allah**
+📖 **Kalau lagi hujan kini biasanya sahabat berdoa minta apa**
 ```
 
 ### 22. Qpubg
@@ -629,7 +629,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku memang tidak seperti P18C yang siaga menjagamu dari dekat. Tapi biarkan aku menjadi seperti AWM yang siap menjagamu dari jauh**
+🏆 **Legenda PUBG selalu bermain lewat tengah malam**
 ```
 
 ### 23. Terabox Dl
@@ -671,7 +671,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kamu pernah mencuri sesuatu gak?
+Siapa di antara temanmu yang kamu pikir matre?
 ```
 
 ### 25. Wibu
@@ -713,8 +713,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Kuzu no Honkai",
-            "url": "https://nekos.best/api/v2/kiss/b0a0d6f8-129a-46b7-9824-4b9a35723f17.gif"
+            "anime_name": "Bakuman",
+            "url": "https://nekos.best/api/v2/kiss/5a0e8e01-8992-4b7a-91ed-2bbf3ac7e5b9.gif"
         }
     ]
 }
