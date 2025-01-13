@@ -50,8 +50,9 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [20. Qhacker](#20-qhacker) | ✅
 | [21. Qislam](#21-qislam) | ✅
 | [22. Qpubg](#22-qpubg) | ✅
-| [23. Truth](#23-truth) | ✅
-| [24. Wibu](#24-wibu) | ✅
+| [23. Terabox Dl](#23-terabox-dl) | ✅
+| [24. Truth](#24-truth) | ✅
+| [25. Wibu](#25-wibu) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -104,7 +105,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=932408067949551&amp;get_thumbnail=1
 ```
 
 ### 3. Blackbox
@@ -153,7 +154,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_CsWgW6Kz.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_YA9nyC7z.png
 ```
 
 ### 5. Cat
@@ -175,7 +176,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/an3.gif
+https://cdn2.thecatapi.com/images/ds9.jpg
 ```
 
 ### 6. Dare
@@ -196,7 +197,7 @@ print(result)
 #### Expected Output
 
 ```text
-Suruh bersiul pas mulutnya lagi penuh dijejelin makanan.
+Berlutut satu kaki dan bilang 'Marry me?' sama orang pertama yang masuk ke ruangan.
 ```
 
 ### 7. Doa
@@ -245,7 +246,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/32467-30239-4163.jpg
+https://random.dog/bfb9e165-c643-4993-9b3a-7e73571672a6.jpg
 ```
 
 ### 9. Fakta Unik
@@ -266,7 +267,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Hanya 3 malaikat, Gabriel, Michael dan Lucifer yang disebut dalam injil.**
+🌾 **Kebiasaan sibuk memotret dan mengunggah foto makanan di sosial media, beresiko seseorang menjadi gendut. [Dr. Valerie Taylor]**
 ```
 
 ### 10. Gemini
@@ -406,8 +407,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Code Geass: Hangyaku no Lelouch",
-        "url": "https://nekos.best/api/v2/hug/1606f27b-cc28-490b-9d1f-cb6d5f03dd15.gif"
+        "anime_name": "Darker Than Black: Ryuusei no Gemini",
+        "url": "https://nekos.best/api/v2/hug/1dcc8b20-6420-476f-888e-17c7e09a11fb.gif"
     }
 ]
 ```
@@ -450,8 +451,12 @@ print(result)
 
 #### Expected Output
 
-```text
-Request failed: 504, message='Gateway Timeout', url='https://rest-er-api.vercel.app/luminai?text=Tidur'
+```json
+{
+    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan dan otak kita fresh lagi. Kapan terakhir kali kamu tidur nyenyak? \ud83d\ude0a",
+    "join": "@Er_Support_Group",
+    "success": true
+}
 ```
 
 ### 16. Nama Epep
@@ -472,7 +477,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁ ༺ HM•GAMING ༻ ꧂
+꧁Ms. ★๖ۣۜƤriͥภcͣeͫss★꧂
 ```
 
 ### 17. Password
@@ -497,7 +502,7 @@ print(result)
 #### Expected Output
 
 ```text
-b9QriyY7p[-g
+[9o1x`5}"y?(
 ```
 
 ### 18. Pypi
@@ -557,10 +562,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Setiap jomblo yang punya hewan peliharaan pasti merasakan kebahagiaan palsu**",
-    "\ud83c\udf39 **Character": "Mayumi Nishikino**",
-    "\ud83c\udf41 **Anime": "Bokura wa Minna Kawaisou**",
-    "\ud83c\udf41 **Episode": "Episode 11**"
+    "\ud83c\udf81 **Quotes": "Entah itu orang suci ataupun pendosa, semua orang punya hak untuk menegakkan keadilan mereka. Menolak keadilan mereka dan membunuhnya adalah hal tabu bagiku.**",
+    "\ud83c\udf39 **Character": "Brad Blackstone**",
+    "\ud83c\udf41 **Anime": "Taboo Tattoo**",
+    "\ud83c\udf41 **Episode": "Episode 9**"
 }
 ```
 
@@ -582,7 +587,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kami tumbuh untuk percaya bahwa kami tidak bersalah sampai terbukti bersalah, tapi kenyataannya kami selalu divonis bersalah.**
+🃏 **Hackers rarely have full knowledge of the technology stack of a target.**
 ```
 
 ### 21. Qislam
@@ -603,7 +608,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Jangan pernah merasa lebih baik daripada orang lain karena kita tidak tahu seberapa banyak amal kebaikan yang ia tutupi**
+📖 **Yakinlah masalah yang menimpamu saat ini merupakan cara Allah untuk mengingatkanmu agar lebih dekat dengan Allah**
 ```
 
 ### 22. Qpubg
@@ -624,10 +629,31 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Aku menembak di PUBG aja belum tentu On Target, apalagi nembak kamu. Pasti Mission Failed**
+🏆 **Aku memang tidak seperti P18C yang siaga menjagamu dari dekat. Tapi biarkan aku menjadi seperti AWM yang siap menjagamu dari jauh**
 ```
 
-### 23. Truth
+### 23. Terabox Dl
+
+**Args:**
+  - **link (str)**: Teks query
+
+**Returns:**
+    resultnya
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.terabox_dl(link='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+Request failed: 500, message='Internal Server Error', url='https://vapis.my.id/api/terabox?url=Tidur'
+```
+
+### 24. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -645,10 +671,10 @@ print(result)
 #### Expected Output
 
 ```text
-Film dan lagu apa yang pernah bikin kamu nangis?
+Kamu pernah mencuri sesuatu gak?
 ```
 
-### 24. Wibu
+### 25. Wibu
 
 **Description**:
 Fetch spesifik Gambar/Gif Anime.
@@ -687,8 +713,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Citrus",
-            "url": "https://nekos.best/api/v2/kiss/fcc26655-b606-477f-948a-7fae5435a4e1.gif"
+            "anime_name": "Kuzu no Honkai",
+            "url": "https://nekos.best/api/v2/kiss/b0a0d6f8-129a-46b7-9824-4b9a35723f17.gif"
         }
     ]
 }
