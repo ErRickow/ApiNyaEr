@@ -9,8 +9,8 @@ jobs:
       - name: send telegram message on push
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.loh_anjng }}
-          token: ${{ secrets.token_tel }}
+          to: ${{ secrets.LOH_ANJG }}
+          token: ${{ secrets.TOKEN_TEL }}
           format: html
           message: |
             <blockquote><b>🤭New Commits ApiNyaEr</b></blockquote>
