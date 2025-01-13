@@ -457,7 +457,7 @@ class ErApi:
         try:
             res = await self._make_request(url, params=parang)
             return res
-        except Exception as r
+        except Exception as r:
           return r
 
     async def luminai(self, tanya: str):
