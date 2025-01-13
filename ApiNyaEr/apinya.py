@@ -20,9 +20,8 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "njir": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvdGVyYWJveA==").decode(
-                "utf-8"
-            ),
+            "whe": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvaXNsYW1haQ==").decode("utf-8"),
+            "njir": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvdGVyYWJveA==").decode("utf-8"),
             "luminai": apainier(
                 "aHR0cHM6Ly9yZXN0LWVyLWFwaS52ZXJjZWwuYXBwL2x1bWluYWk="
             ).decode("utf-8"),
@@ -407,7 +406,9 @@ class ErApi:
         """
         params = {"url": link}
         try:
-            response = await self._make_request(self.base_urls["njir"], params=params)
+            response = await self._make_request(
+                self.base_urls["njir"], params=params
+            )
             if response["data"]:
                 return {
                     "judul": response["data"]["filename"],
@@ -418,6 +419,28 @@ class ErApi:
                 }
         except Exception as e:
             return e
+
+    async def islam_ai(self, tanya: str):
+        """
+        args:
+            tanya (str): teks pertanyaan
+            
+        Returns:
+            resultnya
+        """
+        paman = {"q": tanya}
+        try:
+            res = await self._make_request(self.base_urls["whe"], params=paman
+            )
+            if res["status"] == True:
+                return {
+                    "resultnya": res["result"],
+                    "from": "ApiNyaEr",
+                    "join": "@Er_Support_Group",
+                    "success": True,
+                }
+        except Exception as r:
+            return str(e)
 
     async def luminai(self, tanya: str):
         """
