@@ -9,8 +9,8 @@ jobs:
       - name: kirim
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.CHAT }}
-          token: ${{ secrets.TOKEN_TEL }}
+          to: ${{ secrets.loh_anjg }}
+          token: ${{ secrets.token_tel }}
           format: html
           message: |
             <blockquote><b>😱New Commits ApinyaEr</b></blockquote>
