@@ -440,7 +440,7 @@ class ErApi:
                     "success": True,
                 }
         except Exception as r:
-            return str(e)
+            return str(r)
 
     async def luminai(self, tanya: str):
         """
