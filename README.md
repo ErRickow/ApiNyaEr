@@ -41,18 +41,19 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [11. Get Pinter Url](#11-get-pinter-url) | ❌
 | [12. Github Search](#12-github-search) | ✅
 | [13. Hug](#13-hug) | ✅
-| [14. Kapan Libur](#14-kapan-libur) | ❌
-| [15. Luminai](#15-luminai) | ✅
-| [16. Nama Epep](#16-nama-epep) | ✅
-| [17. Password](#17-password) | ✅
-| [18. Pypi](#18-pypi) | ❌
-| [19. Qanime](#19-qanime) | ✅
-| [20. Qhacker](#20-qhacker) | ✅
-| [21. Qislam](#21-qislam) | ✅
-| [22. Qpubg](#22-qpubg) | ✅
-| [23. Terabox Dl](#23-terabox-dl) | ✅
-| [24. Truth](#24-truth) | ✅
-| [25. Wibu](#25-wibu) | ✅
+| [14. Islam Ai](#14-islam-ai) | ✅
+| [15. Kapan Libur](#15-kapan-libur) | ❌
+| [16. Luminai](#16-luminai) | ✅
+| [17. Nama Epep](#17-nama-epep) | ✅
+| [18. Password](#18-password) | ✅
+| [19. Pypi](#19-pypi) | ❌
+| [20. Qanime](#20-qanime) | ✅
+| [21. Qhacker](#21-qhacker) | ✅
+| [22. Qislam](#22-qislam) | ✅
+| [23. Qpubg](#23-qpubg) | ✅
+| [24. Terabox Dl](#24-terabox-dl) | ✅
+| [25. Truth](#25-truth) | ✅
+| [26. Wibu](#26-wibu) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -154,7 +155,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_ZxIcqrPT.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_e67pdPKA.png
 ```
 
 ### 5. Cat
@@ -176,7 +177,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/8kj.jpg
+https://cdn2.thecatapi.com/images/dqt.jpg
 ```
 
 ### 6. Dare
@@ -197,7 +198,7 @@ print(result)
 #### Expected Output
 
 ```text
-Bikin hiasan kepala absurd dari tisu, apapun itu, terus suruh pose didepan kamera, terus upload
+Berjalan sambil bertepuk tangan dan menyanyi lagu 'Selamat Ulang Tahun' dari kelas ke koridor.
 ```
 
 ### 7. Doa
@@ -246,7 +247,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/a0125c04-2a94-486c-a76c-3ed443eb9822.mp4
+https://random.dog/46b52bd5-a56c-4c0b-a881-46581ffe556f.mp4
 ```
 
 ### 9. Fakta Unik
@@ -267,7 +268,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **IBM mengatakan bahwa dalam kurun waktu 5 tahun ke depan, komputer bakal mirip manusia yang bisa melihat, mendengar, mencium dan merasakan.**
+🌾 **Mangunyah permen karet saat mengupas bawang mencegah kita menangis**
 ```
 
 ### 10. Gemini
@@ -407,13 +408,39 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Happy Sugar Life",
-        "url": "https://nekos.best/api/v2/hug/1613322e-52e3-44a6-8dd7-a57b6dac48ba.gif"
+        "anime_name": "Hibike! Euphonium",
+        "url": "https://nekos.best/api/v2/hug/b30aa74d-5d1c-4225-a242-30c5ed0f09f2.gif"
     }
 ]
 ```
 
-### 14. Kapan Libur
+### 14. Islam Ai
+
+**Description**:
+args: tanya (str): teks pertanyaan
+
+**Returns:**
+    resultnya
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.islam_ai(tanya='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```json
+{
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur adalah salah satu nikmat yang diberikan oleh Allah SWT kepada manusia. Al-Quran menyebutkan hal ini dalam Surah An-Naba' ayat 9:\n\n\"\u0648\u064e\u062c\u064e\u0639\u064e\u0644\u0652\u0646\u064e\u0627 \u0646\u064e\u0648\u0652\u0645\u064e\u0643\u064f\u0645\u0652 \u0633\u064f\u0628\u064e\u0627\u062a\u064b\u0627\"\n\"Dan Kami jadikan tidurmu untuk istirahat\"\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Ibnu Majah)\n\nIslam mengajarkan agar kita tidur dan beristirahat dengan niat yang baik, seperti untuk menjaga kesehatan dan mempersiapkan diri untuk beribadah. Rasulullah SAW bersabda:\n\n\"Sesungguhnya tidurmu adalah sedekah bagimu.\" (HR. Tirmidzi)\n\nJadi, dalam Islam, tidur dipandang sebagai nikmat dan ibadah jika dilakukan dengan niat yang baik. Saya sarankan agar Anda mempelajari lebih lanjut mengenai ajaran Islam tentang tidur dan istirahat dari sumber-sumber yang terpercaya.",
+    "from": "ApiNyaEr",
+    "join": "@Er_Support_Group",
+    "success": true
+}
+```
+
+### 15. Kapan Libur
 
 **Description**:
 Dapatkan informasi Hari libur kedepan.
@@ -434,7 +461,7 @@ print(result)
 'data'
 ```
 
-### 15. Luminai
+### 16. Luminai
 
 **Args:**
   - **tanya (str)**: Teks query
@@ -453,13 +480,13 @@ print(result)
 
 ```json
 {
-    "resultnya": "Wah, tidur itu penting banget! \ud83d\ude34 Biar badan dan otak kita bisa istirahat. Lagi ngantuk ya? Atau mau tips biar tidur nyenyak? \ud83d\udca4",
+    "resultnya": "Wah, tidur itu penting banget! \ud83d\ude34 Biar tubuh kita recharge dan siap buat aktivitas lagi. Kapan terakhir kali kamu tidur nyenyak? \ud83d\ude04",
     "join": "@Er_Support_Group",
     "success": true
 }
 ```
 
-### 16. Nama Epep
+### 17. Nama Epep
 
 **Description**:
 Dapatkan random nama ep ep
@@ -477,10 +504,10 @@ print(result)
 #### Expected Output
 
 ```text
-꧁ঔৣ☬☬ঔৣ꧂
+꧁Ms. ★๖ۣۜƤriͥภcͣeͫss★꧂
 ```
 
-### 17. Password
+### 18. Password
 
 **Description**:
 Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
@@ -502,10 +529,10 @@ print(result)
 #### Expected Output
 
 ```text
-c47gXy`#KY8J
+uxb$CKEH:z,R
 ```
 
-### 18. Pypi
+### 19. Pypi
 
 **Description**:
 Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
@@ -543,7 +570,7 @@ print(result)
 Request failed: 404, message='Not Found', url='https://pypi.org/pypi/Tidur/json'
 ```
 
-### 19. Qanime
+### 20. Qanime
 
 **Description**:
 Dapatkan Kata kata anime
@@ -562,14 +589,14 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Mereka bilang orang itu bisa berubah, tapi apa yang seperti itu bisa terjadi? Jika mereka (manusia) memutuskan untuk terbang, pasti akan tumbuh sayap? Aku tak berpikir seperti itu. Kau tak perlu merubah dirimu, (tapi) rubahlah cara berfikirmu. Kau harus menjadi dirimu sendiri. Kau harus membuat cara terbangmu sendiri, meskipun kau masih tetap menjadi dirimu sendiri.**",
-    "\ud83c\udf39 **Character": "Sora**",
-    "\ud83c\udf41 **Anime": "No Game No Life**",
-    "\ud83c\udf41 **Episode": "Episode 9**"
+    "\ud83c\udf81 **Quotes": "Walau dunia ini memusuhimu, aku akan tetap di sampingmu.**",
+    "\ud83c\udf39 **Character": "Miyabi Azumaya**",
+    "\ud83c\udf41 **Anime": "Dimension W**",
+    "\ud83c\udf41 **Episode": "Episode 7**"
 }
 ```
 
-### 20. Qhacker
+### 21. Qhacker
 
 **Description**:
 Dapatkan random Quotes Hacker
@@ -587,10 +614,10 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Tak ada yang tahu identitas kami.**
+🃏 **In the aftermath of the oh-so-predictable crash, the Bitcoin fanatics have begun marshaling out excuse after excuse for why this non-investment investment lost so much of its value so fast. One was that hackers attacked some of the exchanges for Bitcoins and crippled it. Really? A hacker can wreck an entire market?**
 ```
 
-### 21. Qislam
+### 22. Qislam
 
 **Description**:
 Dapatkan random Quotes Islamic
@@ -608,10 +635,10 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Kalau lagi hujan kini biasanya sahabat berdoa minta apa**
+📖 **Semoga dalam kesendirian ini bisa bisa betul-betul lolos dalam ujian menahan diri dari lawan jenis**
 ```
 
-### 22. Qpubg
+### 23. Qpubg
 
 **Description**:
 Dapatkan random Quotes pubg
@@ -629,10 +656,10 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Legenda PUBG selalu bermain lewat tengah malam**
+🏆 **Kami bukanlah player nob, kami hanya baru mulai**
 ```
 
-### 23. Terabox Dl
+### 24. Terabox Dl
 
 **Args:**
   - **link (str)**: Teks query
@@ -653,7 +680,7 @@ print(result)
 Request failed: 500, message='Internal Server Error', url='https://vapis.my.id/api/terabox?url=Tidur'
 ```
 
-### 24. Truth
+### 25. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -671,10 +698,10 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa di antara temanmu yang kamu pikir matre?
+Apa baju yang (menurutmu) paling jelek yang pernah kamu pakai, dan kapan kamu memakainya?
 ```
 
-### 25. Wibu
+### 26. Wibu
 
 **Description**:
 Fetch spesifik Gambar/Gif Anime.
@@ -713,8 +740,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Bakuman",
-            "url": "https://nekos.best/api/v2/kiss/5a0e8e01-8992-4b7a-91ed-2bbf3ac7e5b9.gif"
+            "anime_name": "Darling in the Franxx",
+            "url": "https://nekos.best/api/v2/kiss/c2f81599-98de-41b5-bcb9-c2bc7c7f6542.gif"
         }
     ]
 }
