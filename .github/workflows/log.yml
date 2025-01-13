@@ -10,7 +10,7 @@ jobs:
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.loh_anjing }}
-          token: ${{ secrets.TOKEN_2 }}
+          token: ${{ secrets.token_tel }}
           format: html
           message: |
             <blockquote><b>🤭New Commits ApiNyaEr</b></blockquote>
