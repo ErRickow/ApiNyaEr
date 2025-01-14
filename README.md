@@ -83,7 +83,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, termasuk perbaikan jaringan, penguatan sistem kekebalan tubuh, dan pemrosesan informasi yang telah diperoleh selama hari. Tidur yang cukup sangat penting untuk kesehatan fisik dan mental.\n\nAda beberapa fase tidur, termasuk tidur ringan, tidur dalam, dan tidur REM (Rapid Eye Movement), yang semuanya memiliki peran penting dalam kesehatan. Durasi tidur yang dibutuhkan bervariasi berdasarkan usia, tetapi umumnya, orang dewasa disarankan untuk tidur antara 7 hingga 9 jam per malam.\n\nJika Anda memiliki pertanyaan lebih lanjut tentang tidur, manfaatnya, atau tips untuk tidur yang lebih baik, silakan tanyakan!",
+    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, termasuk perbaikan jaringan, penguatan sistem kekebalan tubuh, dan pemrosesan informasi yang telah dipelajari sebelumnya. Tidur yang cukup sangat penting untuk kesehatan fisik dan mental.\n\nAda beberapa fase tidur, termasuk tidur ringan, tidur dalam, dan tidur REM (Rapid Eye Movement), yang semuanya memiliki peran penting dalam kualitas tidur secara keseluruhan. Kurang tidur dapat menyebabkan berbagai masalah kesehatan, termasuk gangguan konsentrasi, stres, dan masalah kesehatan jangka panjang.\n\nJika Anda memiliki pertanyaan lebih spesifik tentang tidur, seperti tips untuk tidur yang lebih baik, dampak kurang tidur, atau lainnya, silakan tanya!",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group"
 }
@@ -111,7 +111,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg.webp
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 3. Blackbox
@@ -160,7 +160,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_99vBYgVa.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Yj6xNugt.png
 ```
 
 ### 5. Cat
@@ -182,7 +182,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/6up.jpg
+https://cdn2.thecatapi.com/images/584.gif
 ```
 
 ### 6. Dare
@@ -203,7 +203,7 @@ print(result)
 #### Expected Output
 
 ```text
-Buang buku catatan seseorang ke tempat sampah, di depan matanya, sambil bilang 'Buku ini isinya tidak ada yang bisa memahami'
+Warnain kuku kaki dan tangan tapi dengan warna berbeda-beda buat seminggu
 ```
 
 ### 7. Doa
@@ -252,7 +252,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/ec0b2aba-4aa0-4982-a54d-80994fced5c2.mp4
+https://random.dog/14df227c-0861-4a5e-8d39-401239b9a3f1.png
 ```
 
 ### 9. Fakta Unik
@@ -273,7 +273,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Jika kita terkunci diruang yang kedap udara, kita aka lebih dulu mati keracunan co2 dari pada kekerangan o2**
+🌾 **Riset membuktikan, memakan pisang bisa menambah daya ingat**
 ```
 
 ### 10. Gemini
@@ -413,8 +413,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Princess Connect! Re:Dive",
-        "url": "https://nekos.best/api/v2/hug/7aadc12d-90e2-4e2e-933b-aa72313ccc10.gif"
+        "anime_name": "Ao Haru Ride",
+        "url": "https://nekos.best/api/v2/hug/2ebb7586-77d4-46d1-bc4a-649bdc8d7a4f.gif"
     }
 ]
 ```
@@ -438,7 +438,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nIslam mengajarkan agar kita beristirahat secukupnya dan tidak berlebihan. Rasulullah SAW biasanya tidur sekitar sepertiga malam. Beliau juga menganjurkan untuk tidur dalam keadaan suci dan membaca doa sebelum tidur.\n\nSaya sarankan agar Anda merujuk pada sumber-sumber Islam yang otoritatif untuk memperoleh pemahaman yang lebih mendalam mengenai tidur dalam perspektif Islam. Jangan ragu untuk bertanya kepada ulama atau ahli agama jika membutuhkan penjelasan lebih lanjut.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang fokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan pandangan Islam tentang tidur.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur juga dianggap sebagai salah satu bentuk ibadah dan penyegaran bagi tubuh dan jiwa. Rasulullah SAW bersabda:\n\n\"Sesungguhnya dalam tidurmu ada hak bagi Tuhanmu atasmu.\" (HR. Tirmidzi)\n\nJadi, dalam pandangan Islam, tidur merupakan anugerah dari Allah SWT yang harus disyukuri dan dimanfaatkan dengan baik. Saya sarankan untuk mempelajari lebih lanjut tentang pandangan Islam mengenai tidur dari sumber-sumber yang terpercaya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -508,7 +508,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Biar badan dan otak kita bisa recharge. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4",
+    "resultnya": "Tidur? Ah, itu waktu yang asyik buat recharge energi! \ud83d\ude34 Kapan nih terakhir kali kamu tidur nyenyak?",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -532,7 +532,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁༺ɳεאѵαµℓµร☆࿐
+꧁▄▄︻̷̿┻̿═━一꧂
 ```
 
 ### 19. Password
@@ -557,7 +557,7 @@ print(result)
 #### Expected Output
 
 ```text
-No5yA;TU:4#~
+j,g3:P0eLAx+
 ```
 
 ### 20. Pypi
@@ -617,10 +617,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Kecantikan seorang makhluk itu akan terlihat indah saat mereka masih alami.**",
-    "\ud83c\udf39 **Character": "Itsuki Hashima**",
-    "\ud83c\udf41 **Anime": "Imouto sae Ireba Ii.**",
-    "\ud83c\udf41 **Episode": "Episode 9**"
+    "\ud83c\udf81 **Quotes": "Ketika ada sesuatu yang populer, itu artinya yang lainnya tidak populer.**",
+    "\ud83c\udf39 **Character": "Deishuu Kaiki**",
+    "\ud83c\udf41 **Anime": "Koyomimonogatari**",
+    "\ud83c\udf41 **Episode": "Episode 5**"
 }
 ```
 
@@ -642,7 +642,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **In the aftermath of the oh-so-predictable crash, the Bitcoin fanatics have begun marshaling out excuse after excuse for why this non-investment investment lost so much of its value so fast. One was that hackers attacked some of the exchanges for Bitcoins and crippled it. Really? A hacker can wreck an entire market?**
+🃏 **Pemerintah dunia tidak bisa terus menerus menekan Anonymous untuk selamanya, karena jumlah mereka terus berkembang setiap hari.**
 ```
 
 ### 23. Qislam
@@ -663,7 +663,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Musibah yang membuatmu kembali kepada Allah lebih baik dari nikmat yang membuatmu lupa kepada Allah**
+📖 **Sedekah tidak sama dengan matematika bisa ditambah, dikurang, dibagi dan dikali. Karena sedekah itu akan berlimpah dan berkalilipa kembali kepada kita**
 ```
 
 ### 24. Qpubg
@@ -684,7 +684,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Pacaran sama pemain PUBG itu gampang. Lagi nggak ngedate, push rank pun jadi**
+🏆 **Bilang ke dilan. Yang berat itu bukan rindu, tapi solo versus squad**
 ```
 
 ### 25. Terabox Dl
@@ -726,7 +726,7 @@ print(result)
 #### Expected Output
 
 ```text
-Menurutmu, apa sifat baik teman terdekatmu yang nggak dia sadari?
+Apa hal paling memalukan dari temanmu?
 ```
 
 ### 27. Wibu
@@ -768,8 +768,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Golden Time",
-            "url": "https://nekos.best/api/v2/kiss/fcbd5fb4-0a8c-4c62-8493-ef896e51358a.gif"
+            "anime_name": "Steins;Gate",
+            "url": "https://nekos.best/api/v2/kiss/30435bec-1eb5-4018-b4dc-685731298f13.gif"
         }
     ]
 }
