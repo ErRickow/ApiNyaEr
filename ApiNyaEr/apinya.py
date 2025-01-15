@@ -395,17 +395,80 @@ class ErApi:
         except Exception as e:
             return e
 
+    async def zodiak(self, input: str):
+        """
+        Mengambil informasi zodiak berdasarkan input.
+    
+        Args:
+            input (str): Nama zodiak.
+    
+        Returns:
+            dict: Informasi lengkap zodiak atau pesan kesalahan.
+        """
+        url = f"{self.base_urls['siputx']}/primbon/zodiak"
+        par = {"zodiak": input}
+        try:
+            res = await self._make_request(url, params=par)
+            if res["status"] is True:
+                data = res["data"]
+                return {
+                    "zodiak": data["zodiak"],
+                    "nomor_keberuntungan": data["nomor_keberuntungan"],
+                    "aroma_keberuntungan": data["aroma_keberuntungan"],
+                    "planet_yang_mengitari": data["planet_yang_mengitari"],
+                    "bunga_keberuntungan": data["bunga_keberuntungan"],
+                    "warna_keberuntungan": data["warna_keberuntungan"],
+                    "batu_keberuntungan": data["batu_keberuntungan"],
+                    "elemen_keberuntungan": data["elemen_keberuntungan"],
+                    "pasangan_zodiak": data["pasangan_zodiak"],
+                    "success": True,
+                    "from": "ApiNyaEr"
+                }
+            else:
+                return {
+                    "message": "Gagal mendapatkan data zodiak.",
+                    "success": False,
+                    "from": "ApiNyaEr"
+                }
+        except Exception as r:
+            return {
+                "message": f"Terjadi kesalahan: {str(r)}",
+                "success": False,
+                "from": "ApiNyaEr"
+            }
+
+    async def read_image(self, url: str):
+        """
+        Bertanya gambar melalui url
+        
+        Returns:
+            url(str): string url
+        """
+        url = f"{self.base_urls['siputx']}/ai/image2text"
+        par = {"url": url}
+        try:
+            res = await self._make_request(url, params=par)
+            if res["status"] is True:
+                return {
+                    "resultnya": res["data"],
+                    "from": "ApiNyaEr",
+                    "success": True,
+                }
+        except Exception as r:
+            return str(r)
+
     async def meta_ai(self, tanya: str):
         """
         Bertanya pada meta AI
         
         Returns:
-            tanya(str): teks yang akan di tanyakan
+            tanya(str): teks yang akan ditanyakan
         """
+        url = f"{self.base_urls['siputx']}/ai/metaai"
         par = {"query": tanya}
         try:
-            res = await self._make_request(f"{self.base_urls["siputx"]}/ai/metaai", params=par)
-            if res["status"] == True:
+            res = await self._make_request(url, params=par)
+            if res["status"] is True:
                 return {
                     "resultnya": res["data"],
                     "from": "ApiNyaEr",
