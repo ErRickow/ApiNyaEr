@@ -37,24 +37,25 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [7. Doa](#7-doa) | ✅
 | [8. Dog](#8-dog) | ✅
 | [9. Fakta Unik](#9-fakta-unik) | ✅
-| [10. Gemini](#10-gemini) | ✅
-| [11. Get Pinter Url](#11-get-pinter-url) | ❌
-| [12. Github Search](#12-github-search) | ✅
-| [13. Hug](#13-hug) | ✅
-| [14. Islam Ai](#14-islam-ai) | ✅
-| [15. Kapan Libur](#15-kapan-libur) | ❌
-| [16. Logo Maker](#16-logo-maker) | ❌
-| [17. Luminai](#17-luminai) | ✅
-| [18. Nama Epep](#18-nama-epep) | ✅
-| [19. Password](#19-password) | ✅
-| [20. Pypi](#20-pypi) | ❌
-| [21. Qanime](#21-qanime) | ✅
-| [22. Qhacker](#22-qhacker) | ✅
-| [23. Qislam](#23-qislam) | ✅
-| [24. Qpubg](#24-qpubg) | ✅
-| [25. Terabox Dl](#25-terabox-dl) | ✅
-| [26. Truth](#26-truth) | ✅
-| [27. Wibu](#27-wibu) | ✅
+| [10. Fluxai](#10-fluxai) | ✅
+| [11. Gemini](#11-gemini) | ✅
+| [12. Get Pinter Url](#12-get-pinter-url) | ❌
+| [13. Github Search](#13-github-search) | ✅
+| [14. Hug](#14-hug) | ✅
+| [15. Islam Ai](#15-islam-ai) | ✅
+| [16. Kapan Libur](#16-kapan-libur) | ❌
+| [17. Logo Maker](#17-logo-maker) | ❌
+| [18. Luminai](#18-luminai) | ✅
+| [19. Nama Epep](#19-nama-epep) | ✅
+| [20. Password](#20-password) | ✅
+| [21. Pypi](#21-pypi) | ❌
+| [22. Qanime](#22-qanime) | ✅
+| [23. Qhacker](#23-qhacker) | ✅
+| [24. Qislam](#24-qislam) | ✅
+| [25. Qpubg](#25-qpubg) | ✅
+| [26. Terabox Dl](#26-terabox-dl) | ✅
+| [27. Truth](#27-truth) | ✅
+| [28. Wibu](#28-wibu) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -83,7 +84,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, termasuk perbaikan jaringan, penguatan sistem kekebalan tubuh, dan pemrosesan informasi yang telah dipelajari sebelumnya. Tidur yang cukup sangat penting untuk kesehatan fisik dan mental.\n\nAda beberapa fase tidur, termasuk tidur ringan, tidur dalam, dan tidur REM (Rapid Eye Movement), yang semuanya memiliki peran penting dalam kualitas tidur secara keseluruhan. Kurang tidur dapat menyebabkan berbagai masalah kesehatan, termasuk gangguan konsentrasi, stres, dan masalah kesehatan jangka panjang.\n\nJika Anda memiliki pertanyaan lebih spesifik tentang tidur, seperti tips untuk tidur yang lebih baik, dampak kurang tidur, atau lainnya, silakan tanya!",
+    "resultnya": "Tidur adalah proses fisiologis yang penting bagi kesehatan dan kesejahteraan tubuh. Selama tidur, tubuh melakukan berbagai proses pemulihan, memperbaiki sel-sel, dan memulihkan energi. Tidur yang cukup dan berkualitas juga berpengaruh pada konsentrasi, suasana hati, serta kesehatan mental dan fisik.\n\nJika Anda memiliki pertanyaan lebih spesifik tentang tidur, seperti tips untuk tidur yang lebih baik, durasi tidur yang dianjurkan, atau masalah tidur tertentu, jangan ragu untuk bertanya!",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group"
 }
@@ -160,7 +161,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Yj6xNugt.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_rUguD0Rr.png
 ```
 
 ### 5. Cat
@@ -182,7 +183,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/584.gif
+https://cdn2.thecatapi.com/images/30i.jpg
 ```
 
 ### 6. Dare
@@ -203,7 +204,7 @@ print(result)
 #### Expected Output
 
 ```text
-Warnain kuku kaki dan tangan tapi dengan warna berbeda-beda buat seminggu
+Minta uang pada seseorang (random/acak) di jalan sambil bilang 'Saya tidak punya uang untuk naik angkot.'
 ```
 
 ### 7. Doa
@@ -252,7 +253,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/14df227c-0861-4a5e-8d39-401239b9a3f1.png
+https://random.dog/f9177ec7-b2e4-43b8-a8c7-06f59af327a2.jpg
 ```
 
 ### 9. Fakta Unik
@@ -273,10 +274,31 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Riset membuktikan, memakan pisang bisa menambah daya ingat**
+🌾 **Tikus dan kuda tidak bisa muntah**
 ```
 
-### 10. Gemini
+### 10. Fluxai
+
+**Description**:
+Generate image from Teks
+
+**Returns:**
+  - **input**: teks yang akan dijadikan image
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.fluxai(input='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+```
+
+### 11. Gemini
 
 **Description**:
 Berinteraksi dengan Gemini AI. ✨
@@ -300,7 +322,7 @@ print(result)
 None
 ```
 
-### 11. Get Pinter Url
+### 12. Get Pinter Url
 
 **Description**:
 Mengembalikan hasil request Pinterest berdasarkan query yang diberikan.
@@ -324,7 +346,7 @@ print(result)
 Request failed: 403, message='Forbidden', url='https://api.ryzendesu.vip/api/search/pinterest?query=Tidur'
 ```
 
-### 12. Github Search
+### 13. Github Search
 
 **Description**:
 Pencarian GitHub untuk beberapa tipe konten.
@@ -387,7 +409,7 @@ print(result)
 ]
 ```
 
-### 13. Hug
+### 14. Hug
 
 **Description**:
 Dapatkan gif Random pelukan dari Nekos.Best API.
@@ -413,13 +435,13 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Ao Haru Ride",
-        "url": "https://nekos.best/api/v2/hug/2ebb7586-77d4-46d1-bc4a-649bdc8d7a4f.gif"
+        "anime_name": "Kawaii Dake ja Nai Shikimori-san",
+        "url": "https://nekos.best/api/v2/hug/929963f4-0d6d-4d75-b93f-03f4d25c7419.gif"
     }
 ]
 ```
 
-### 14. Islam Ai
+### 15. Islam Ai
 
 **Description**:
 args: tanya (str): teks pertanyaan
@@ -438,14 +460,14 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang fokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan pandangan Islam tentang tidur.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur juga dianggap sebagai salah satu bentuk ibadah dan penyegaran bagi tubuh dan jiwa. Rasulullah SAW bersabda:\n\n\"Sesungguhnya dalam tidurmu ada hak bagi Tuhanmu atasmu.\" (HR. Tirmidzi)\n\nJadi, dalam pandangan Islam, tidur merupakan anugerah dari Allah SWT yang harus disyukuri dan dimanfaatkan dengan baik. Saya sarankan untuk mempelajari lebih lanjut tentang pandangan Islam mengenai tidur dari sumber-sumber yang terpercaya.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dipandang sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan istirahat yang baik dianggap sebagai hal yang penting bagi kesehatan fisik dan mental. Namun, tidur yang berlebihan juga dilarang, sebagaimana dijelaskan dalam hadits:\n\n\"Sesungguhnya tubuhmu memiliki hak atasmu.\" (HR. Bukhari)\n\nJadi, Islam mengajarkan untuk menjaga keseimbangan dalam hal tidur dan istirahat, sesuai dengan kebutuhan masing-masing individu. Saya sarankan untuk merujuk pada sumber-sumber Islam yang otoritatif untuk memperoleh pemahaman yang lebih mendalam mengenai pandangan Islam tentang tidur dan istirahat.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
 }
 ```
 
-### 15. Kapan Libur
+### 16. Kapan Libur
 
 **Description**:
 Dapatkan informasi Hari libur kedepan.
@@ -466,7 +488,7 @@ print(result)
 'data'
 ```
 
-### 16. Logo Maker
+### 17. Logo Maker
 
 **Description**:
 Membuat Logo Dari Input yang di masukkan
@@ -489,7 +511,7 @@ print(result)
 'method' object is not subscriptable
 ```
 
-### 17. Luminai
+### 18. Luminai
 
 **Args:**
   - **tanya (str)**: Teks query
@@ -508,13 +530,13 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur? Ah, itu waktu yang asyik buat recharge energi! \ud83d\ude34 Kapan nih terakhir kali kamu tidur nyenyak?",
+    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Biar badan sama otak kita fresh lagi. Kapan terakhir kali kamu tidur nyenyak?",
     "join": "@Er_Support_Group",
     "success": true
 }
 ```
 
-### 18. Nama Epep
+### 19. Nama Epep
 
 **Description**:
 Dapatkan random nama ep ep
@@ -532,10 +554,10 @@ print(result)
 #### Expected Output
 
 ```text
-꧁▄▄︻̷̿┻̿═━一꧂
+『NOB』вαℓα∂σяヅ™
 ```
 
-### 19. Password
+### 20. Password
 
 **Description**:
 Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
@@ -557,10 +579,10 @@ print(result)
 #### Expected Output
 
 ```text
-j,g3:P0eLAx+
+$y2<_KT.l(@U
 ```
 
-### 20. Pypi
+### 21. Pypi
 
 **Description**:
 Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
@@ -598,7 +620,7 @@ print(result)
 Request failed: 404, message='Not Found', url='https://pypi.org/pypi/Tidur/json'
 ```
 
-### 21. Qanime
+### 22. Qanime
 
 **Description**:
 Dapatkan Kata kata anime
@@ -617,14 +639,14 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Ketika ada sesuatu yang populer, itu artinya yang lainnya tidak populer.**",
-    "\ud83c\udf39 **Character": "Deishuu Kaiki**",
-    "\ud83c\udf41 **Anime": "Koyomimonogatari**",
-    "\ud83c\udf41 **Episode": "Episode 5**"
+    "\ud83c\udf81 **Quotes": "Entah itu jalan yang lurus ataupun jalan yang menyesatkan, selama kami masih bisa berjalan di sampingmu, kami tak peduli ke manapun kami pergi.**",
+    "\ud83c\udf39 **Character": "Toushirou Hijikata**",
+    "\ud83c\udf41 **Anime": "Gintama\u00b0**",
+    "\ud83c\udf41 **Episode": "Episode 48**"
 }
 ```
 
-### 22. Qhacker
+### 23. Qhacker
 
 **Description**:
 Dapatkan random Quotes Hacker
@@ -642,10 +664,10 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Pemerintah dunia tidak bisa terus menerus menekan Anonymous untuk selamanya, karena jumlah mereka terus berkembang setiap hari.**
+🃏 **Kami dimulai sebagai sekelompok orang yang dikendalikan tanpa sebuah alasan.**
 ```
 
-### 23. Qislam
+### 24. Qislam
 
 **Description**:
 Dapatkan random Quotes Islamic
@@ -663,10 +685,10 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Sedekah tidak sama dengan matematika bisa ditambah, dikurang, dibagi dan dikali. Karena sedekah itu akan berlimpah dan berkalilipa kembali kepada kita**
+📖 **Terkadang bukan karena kita tahu caranya memuntahkan amarah tapi kita tahu jika makin marah tak akan menyelesaikan masalah**
 ```
 
-### 24. Qpubg
+### 25. Qpubg
 
 **Description**:
 Dapatkan random Quotes pubg
@@ -684,10 +706,10 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Bilang ke dilan. Yang berat itu bukan rindu, tapi solo versus squad**
+🏆 **Jangan takut memulai pertempuran karna mereka PRO. Dulunya mereka juga hanya seorang pemula**
 ```
 
-### 25. Terabox Dl
+### 26. Terabox Dl
 
 **Args:**
   - **link (str)**: Teks query
@@ -708,7 +730,7 @@ print(result)
 Request failed: 500, message='Internal Server Error', url='https://vapis.my.id/api/terabox?url=Tidur'
 ```
 
-### 26. Truth
+### 27. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -726,10 +748,10 @@ print(result)
 #### Expected Output
 
 ```text
-Apa hal paling memalukan dari temanmu?
+Pernahkah kamu diam-diam berharap hubungan seseorang dengan pacarnya putus? Siapa?
 ```
 
-### 27. Wibu
+### 28. Wibu
 
 **Description**:
 Fetch spesifik Gambar/Gif Anime.
@@ -768,8 +790,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Steins;Gate",
-            "url": "https://nekos.best/api/v2/kiss/30435bec-1eb5-4018-b4dc-685731298f13.gif"
+            "anime_name": "Engage Kiss",
+            "url": "https://nekos.best/api/v2/kiss/ac3013be-2c19-44b5-9b89-58cff9d96805.gif"
         }
     ]
 }
