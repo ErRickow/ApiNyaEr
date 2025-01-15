@@ -15,13 +15,7 @@ jobs:
           message: |
             <blockquote><b>🤭New Commits ApinyaEr</b></blockquote>
             <b><blockquote>😱${{ github.event.commits[0].message }}</blockquote></b>
-            <blockquote><b>me web: <a href="https://errickow.github.io/">Click Me</a></b></blockquote>
+            <blockquote><b>me web: <a href="https://errickow.github.io/profile">Click Me</a></b></blockquote>
           disable_web_page_preview: True
           disable_notification: True
           
-      - uses: yanzay/notify-telegram@master
-        if: always()
-        with:
-          chat: ${{ secrets.loh_anjg }}
-          token: ${{ secrets.token_tel }}
-          status: ${{ job.status }}
