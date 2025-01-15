@@ -20,9 +20,8 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "flux": apainier(
-                "aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGkvYWkvZmx1eA=="
-            ).decode("utf-8"),
+            "siputx": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGk=").decode("utf-8"),
+            "flux": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGkvYWkvZmx1eA==").decode("utf-8"),
             "ai": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvb3BlbmFp").decode("utf-8"),
             "hehe": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvbG9nb21ha2Vy").decode(
                 "utf-8"
@@ -396,10 +395,29 @@ class ErApi:
         except Exception as e:
             return e
 
+    async def meta_ai(self, tanya: str):
+        """
+        Bertanya pada meta AI
+        
+        Returns:
+            tanya(str): teks yang akan di tanyakan
+        """
+        par = {"query": tanya}
+        try:
+            res = await self._make_request(self.base_urls["siputx"]/ai/metaai, params=par)
+            if res["status"] == True:
+                return {
+                    "resultnya": res["data"],
+                    "from": "ApiNyaEr",
+                    "success": True,
+                }
+        except Exception as r:
+            return str(r)
+
     async def fluxai(self, input: str):
         """
         Generate image from Teks
-
+        
         Returns:
             input: teks yang akan dijadikan image
         """
