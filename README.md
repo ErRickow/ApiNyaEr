@@ -193,7 +193,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Xt7fATmL.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_w9bEjFW8.png
 ```
 
 ### 6. Cat
@@ -215,7 +215,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/e5r.jpg
+https://cdn2.thecatapi.com/images/333.gif
 ```
 
 ### 7. Dare
@@ -236,7 +236,7 @@ print(result)
 #### Expected Output
 
 ```text
-Suruh bersiul pas mulutnya lagi penuh dijejelin makanan.
+Pakai mahkota tiruan dari kertas buku dan bilang sama setiap orang di ruangan 'BERI PENGHORMATAN PADA YANG MULIA RAJA' sambil menunjuk setiap orang dengan penggaris.
 ```
 
 ### 8. Doa
@@ -285,7 +285,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/e82e125b-94c4-4313-852d-6be6ae41da41.jpg
+https://random.dog/70201403-a7de-4524-879f-d42ae4f42e14.JPG
 ```
 
 ### 10. Fakta Unik
@@ -306,7 +306,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Kuda Nil kentut lewat mulut.**
+🌾 **Wanita yang sedang stres selama kehamilannya cenderung melahirkan anak-anak yang pemarah. [Institute of Psychiatry, King College London]**
 ```
 
 ### 11. Fluxai
@@ -467,8 +467,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Mononoke Hime",
-        "url": "https://nekos.best/api/v2/hug/1e872929-e623-46ba-b5dc-fe05dfc61990.gif"
+        "anime_name": "Suisei no Gargantia",
+        "url": "https://nekos.best/api/v2/hug/40142a6f-83c4-450e-a477-ca7c89787623.gif"
     }
 ]
 ```
@@ -492,7 +492,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan penjelasan tentang tidur dari perspektif ajaran Islam. Berikut adalah beberapa ayat Al-Quran dan hadits terkait dengan tidur:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\n\"Dan Dialah yang menjadikan malam bagimu supaya kamu beristirahat padanya, dan (menjadikan) siang terang benderang (supaya kamu mencari karunia-Nya).\" (Quran 25:47)\n\nRasulullah SAW bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Ibnu Majah)\n\n\"Apabila salah seorang di antara kalian tidur, maka setan akan mengikatkan tiga simpul di atas kepalanya. Pada setiap simpul itu, setan akan mengucapkan, 'Bagimu malam yang panjang, maka tidurlah.' Apabila ia bangun dan mengingat Allah, maka satu simpul akan terlepas. Apabila ia berwudu, maka simpul yang lain akan terlepas. Dan apabila ia shalat, maka semua simpul itu akan terlepas, sehingga ia akan bangun di pagi hari dalam keadaan segar bugar.\" (HR. Bukhari)\n\nSaya sarankan untuk merujuk pada sumber-sumber Islam yang otoritatif untuk memahami lebih lanjut tentang tidur dari perspektif agama. Jika ada pertanyaan lain terkait Islam, saya akan berusaha menjawabnya dengan sebaik-baiknya.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang fokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan pandangan Islam tentang tidur.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan berkualitas dianggap sebagai sesuatu yang penting bagi kesehatan fisik dan mental. Namun, Islam juga mengajarkan agar tidak berlebihan dalam tidur dan menyia-nyiakan waktu.\n\nJika Anda ingin informasi lebih lanjut mengenai pandangan Islam tentang tidur, saya sarankan untuk berkonsultasi dengan ulama atau sumber-sumber Islam yang terpercaya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -562,7 +562,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Bikin badan fresh dan siap buat ngegas lagi besok. Kalo lagi ngantuk, mending tidur aja deh. Jangan dipaksa, ya! \ud83d\ude04\u2728",
+    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan dan otak kita bisa recharge. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4\u2728",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -587,7 +587,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah kegiatan yang sangat penting bagi manusia. Tidur membantu kita untuk:\n\n\n## Fungsi Tidur\n\n1. Mengembalikan energi dan kekuatan tubuh\n2. Meningkatkan kesehatan mental dan emosional\n3. Membantu proses penyembuhan luka dan penyakit\n4. Meningkatkan konsentrasi dan produktivitas\n5. Mengatur hormon dan metabolisme tubuh\n\n\n## Manfaat Tidur yang Cukup\n\n1. Meningkatkan kualitas hidup\n2. Mengurangi risiko penyakit kronis (diabetes, hipertensi, jantung)\n3. Meningkatkan sistem imun\n4. Membantu mengatur berat badan\n5. Meningkatkan kesadaran dan kewaspadaan\n\n\n## Tips untuk Tidur yang Nyenyak\n\n1. Atur jam tidur secara teratur\n2. Buat suasana tidur nyaman (gelap, tenang, sejuk)\n3. Hindari kafein dan alkohol sebelum tidur\n4. Lakukan relaksasi (meditasi, yoga)\n5. Batasi penggunaan gadget sebelum tidur\n\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
+    "resultnya": "Tidur adalah kegiatan alami yang sangat penting bagi kesehatan dan kesegaran tubuh. Selama tidur, tubuh melakukan beberapa fungsi penting, seperti:\n\n\n## Fungsi Tidur\n\n1. **Pemulihan dan Perbaikan Sel**: Tidur membantu memperbaiki dan memulihkan sel-sel tubuh yang rusak.\n2. **Pengolahan Informasi**: Otak mengolah dan menyimpan informasi yang diterima selama hari.\n3. **Pengaturan Emosi**: Tidur membantu mengatur emosi dan mengurangi stres.\n4. **Pengembangan Otak**: Tidur penting untuk perkembangan otak pada anak-anak dan remaja.\n5. **Pengaturan Hormon**: Tidur membantu mengatur hormon yang terkait dengan pertumbuhan, metabolisme, dan reproduksi.\n\n\n## Manfaat Tidur\n\n1. Meningkatkan konsentrasi dan produktivitas.\n2. Membantu mengurangi stres dan kecemasan.\n3. Meningkatkan sistem imun.\n4. Membantu mengatur berat badan.\n5. Meningkatkan kesehatan kulit.\n\n\n## Tips Tidur Nyenyak\n\n1. Tentukan jam tidur yang teratur.\n2. Buatlah lingkungan tidur nyaman.\n3. Hindari kafein dan alkohol sebelum tidur.\n4. Matikan perangkat elektronik sebelum tidur.\n5. Lakukan relaksasi sebelum tidur.\n\n\nApakah Anda memiliki pertanyaan lebih lanjut tentang tidur?",
     "from": "ApiNyaEr",
     "success": true
 }
@@ -611,7 +611,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁༺J꙰O꙰K꙰E꙰R꙰༻꧂
+▄︻̷̿┻̿═━一ØV₵Ⱨ₳Ɽ₭₳⸕şťªİҝερ
 ```
 
 ### 22. Password
@@ -636,7 +636,7 @@ print(result)
 #### Expected Output
 
 ```text
-3.0\U{1#]nJ-
+Hg7+d*l]$,'w
 ```
 
 ### 23. Pypi
@@ -696,10 +696,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Saling menerima cinta satu sama lain adalah hal yang wajar. Jika dunia melarangnya, aku akan mengubah dunia ini meskipun harus menghancurkannya.**",
-    "\ud83c\udf39 **Character": "Theo Cornaro**",
-    "\ud83c\udf41 **Anime": "Grancrest Senki**",
-    "\ud83c\udf41 **Episode": "Episode 20**"
+    "\ud83c\udf81 **Quotes": "Aku tidak bisa fokus karena terpana olehmu.**",
+    "\ud83c\udf39 **Character": "Fuutarou Uesugi**",
+    "\ud83c\udf41 **Anime": "Gotoubun no Hanayome**",
+    "\ud83c\udf41 **Episode": "Episode 10**"
 }
 ```
 
@@ -721,7 +721,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Saat berjudi, seseorang harus tahu lawan mereka, dan kelemahan mereka. Terutama, jika lawan itu adalah mesin.**
+🃏 **Kami dimulai sebagai sekelompok orang yang dikendalikan tanpa sebuah alasan.**
 ```
 
 ### 26. Qislam
@@ -742,7 +742,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Gak usah bingung seperti apa jodohmu kelak, Insyaallah dia tidak akan jauh daripada sifatmu saat ini**
+📖 **Tak harus kamu yang sempurna, setidaknya kamu yang selalu berusaha istiqpmah di setiap waktu yang kamu punya. Karena kita akan berkerjasama membangun rumah di surga**
 ```
 
 ### 27. Qpubg
@@ -763,7 +763,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Kita tidak dilahirkan sebagai pemenang. Kita harus meraihnya sendiri dengan usaha dan kerja keras**
+🏆 **Semoga senantiasa panjang umur buat teman yang kalau diajak join mabar langsung login**
 ```
 
 ### 28. Read Image
@@ -777,14 +777,18 @@ Bertanya gambar melalui url
 ```python
 from ApiNyaEr import apinya
 
-result = await apinya.read_image(url='Tidur')
+result = await apinya.read_image(urlnya='Tidur')
 print(result)
 ```
 
 #### Expected Output
 
-```text
-Request failed: 500, message='Internal Server Error', url='https://api.siputzx.my.id/api/ai/image2text?url=https://api.siputzx.my.id/api/ai/image2text'
+```json
+{
+    "resultnya": " A black cat is sitting on a person's shoulder, looking directly into the camera. The person is wearing a white shirt. The cat appears to be staring at the camera with a surprised or curious expression. The scene is set indoors, with the person and the cat being the main subjects of the image. The lighting is soft and natural, creating a warm and inviting atmosphere. The colors in the image are predominantly black and white, with the cat being black and the person wearing a white shirt. The textures in the image are smooth and soft, with the cat's fur and the person's shirt providing a sense of warmth and comfort.",
+    "from": "ApiNyaEr",
+    "success": true
+}
 ```
 
 ### 29. Terabox Dl
@@ -826,7 +830,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hal apa yang kamu rahasiakan sampe, sekarang dan gak ada satu orangpun yang tau?
+Apa hal terbodoh yg pernah kamu lakukan ?
 ```
 
 ### 31. Wibu
@@ -868,8 +872,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Sukitte Ii na yo",
-            "url": "https://nekos.best/api/v2/kiss/ff5b70d7-f3c5-4c90-b10c-69c2ea1d90c5.gif"
+            "anime_name": "Darling in the Franxx",
+            "url": "https://nekos.best/api/v2/kiss/c2f81599-98de-41b5-bcb9-c2bc7c7f6542.gif"
         }
     ]
 }
