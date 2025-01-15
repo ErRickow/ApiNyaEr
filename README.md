@@ -54,9 +54,11 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [24. Qhacker](#24-qhacker) | ✅
 | [25. Qislam](#25-qislam) | ✅
 | [26. Qpubg](#26-qpubg) | ✅
-| [27. Terabox Dl](#27-terabox-dl) | ✅
-| [28. Truth](#28-truth) | ✅
-| [29. Wibu](#29-wibu) | ✅
+| [27. Read Image](#27-read-image) | ✅
+| [28. Terabox Dl](#28-terabox-dl) | ✅
+| [29. Truth](#29-truth) | ✅
+| [30. Wibu](#30-wibu) | ✅
+| [31. Zodiak](#31-zodiak) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -85,7 +87,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah proses fisiologis yang penting bagi kesehatan dan kesejahteraan tubuh. Selama tidur, tubuh melakukan berbagai proses pemulihan, memperbaiki sel-sel, dan memulihkan energi. Tidur yang cukup dan berkualitas juga berpengaruh pada konsentrasi, suasana hati, serta kesehatan mental dan fisik.\n\nJika Anda memiliki pertanyaan lebih spesifik tentang tidur, seperti tips untuk tidur yang lebih baik, durasi tidur yang dianjurkan, atau masalah tidur tertentu, jangan ragu untuk bertanya!",
+    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, memperkuat sistem kekebalan, dan menyimpan memori. Tidur yang cukup dan berkualitas diperlukan untuk kesehatan fisik dan mental. \n\nBerbagai faktor dapat memengaruhi kualitas tidur, seperti stres, lingkungan, dan kebiasaan tidur. Penting untuk menciptakan rutinitas tidur yang baik, seperti menjadwalkan waktu tidur dan bangun yang konsisten, serta menciptakan lingkungan tidur yang nyaman.\n\nJika Anda memiliki pertanyaan lebih lanjut mengenai tidur atau tips untuk tidur yang lebih baik, silakan tanya!",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group"
 }
@@ -162,7 +164,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_2Q0AxSE6.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_68ymGQtZ.png
 ```
 
 ### 5. Cat
@@ -184,7 +186,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MTY4OTA3OQ.jpg
+https://cdn2.thecatapi.com/images/96j.jpg
 ```
 
 ### 6. Dare
@@ -205,7 +207,7 @@ print(result)
 #### Expected Output
 
 ```text
-Cabut bulu kaki mu sendiri sebanyak 3x
+Mecahin telur pake kepala.
 ```
 
 ### 7. Doa
@@ -254,7 +256,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/1f3fcc44-3b7c-4268-92a9-a6faa6f75547.jpg
+https://random.dog/05f4b372-d8ff-42f0-8c11-b78c45d9eaa1.jpg
 ```
 
 ### 9. Fakta Unik
@@ -275,7 +277,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **13% orang di dunia adalah kidal**
+🌾 **Ada lebih dari 300 bakteri pembentuk karang gigi**
 ```
 
 ### 10. Fluxai
@@ -436,8 +438,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Engage Kiss",
-        "url": "https://nekos.best/api/v2/hug/c968b89d-494e-453d-95b7-bd5f3d238e4e.gif"
+        "anime_name": "Date a Live",
+        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
     }
 ]
 ```
@@ -461,7 +463,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur dalam konteks umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan istirahat yang teratur dianggap sebagai hal yang penting bagi kesehatan fisik dan mental. Rasulullah SAW sendiri menganjurkan umatnya untuk tidur dan beristirahat secukupnya.\n\nJika Anda membutuhkan informasi lebih lanjut mengenai pandangan Islam tentang tidur dan istirahat, saya sarankan untuk berkonsultasi dengan ulama atau sumber-sumber Islam yang terpercaya.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan pandangan Islam tentang tidur.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur dianggap sebagai salah satu bentuk ibadah dan istirahat bagi tubuh. Rasulullah SAW mengajarkan umatnya untuk tidur dengan niat yang baik dan mengucapkan doa sebelum tidur.\n\nJika Anda ingin informasi lebih lanjut tentang pandangan Islam mengenai tidur, saya sarankan untuk berkonsultasi dengan ulama atau sumber-sumber Islam yang terpercaya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -531,7 +533,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan kita recharge dan siap buat aktivitas besok. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4\u2728",
+    "resultnya": "Wah, tidur itu penting banget, bro! \ud83d\ude34 Kalo udah ngantuk, mendingan langsung bobo aja. Nanti bangun-bangun, badan jadi segar lagi! Kapan terakhir kali kamu tidur nyenyak? \ud83c\udf19\u2728",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -543,7 +545,7 @@ print(result)
 Bertanya pada meta AI
 
 **Returns:**
-  - **tanya(str)**: teks yang akan di tanyakan
+  - **tanya(str)**: teks yang akan ditanyakan
 
 ```python
 from ApiNyaEr import apinya
@@ -556,7 +558,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah kegiatan alami yang sangat penting bagi kesehatan dan kesegaran tubuh. Selama tidur, tubuh melakukan beberapa fungsi penting, seperti:\n\n\n## Fungsi Tidur\n\n1. **Pemulihan dan Perbaikan Sel**: Tidur membantu memperbaiki dan memulihkan sel-sel tubuh yang rusak.\n2. **Pengolahan Informasi**: Otak mengolah dan menyimpan informasi yang diterima selama hari.\n3. **Pengaturan Emosi**: Tidur membantu mengatur emosi dan mengurangi stres.\n4. **Pengaturan Hormon**: Tidur membantu mengatur hormon yang terkait dengan pertumbuhan, metabolisme, dan reproduksi.\n5. **Peningkatan Kekebalan Tubuh**: Tidur membantu meningkatkan kekebalan tubuh terhadap penyakit.\n\n\n## Manfaat Tidur yang Cukup\n\n1. Meningkatkan konsentrasi dan produktivitas.\n2. Meningkatkan kesehatan mental dan emosional.\n3. Meningkatkan kesehatan fisik dan kekebalan tubuh.\n4. Membantu mengurangi stres dan kecemasan.\n5. Meningkatkan kualitas hidup.\n\n\n## Tips untuk Tidur yang Nyenyak\n\n1. Atur jam tidur secara teratur.\n2. Buat suasana tidur yang nyaman.\n3. Hindari konsumsi kafein dan alkohol sebelum tidur.\n4. Lakukan aktivitas relaksasi sebelum tidur.\n5. Batasi penggunaan perangkat elektronik sebelum tidur.\n\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
+    "resultnya": "Tidur adalah kegiatan yang sangat penting bagi manusia. Tidur membantu tubuh kita untuk beristirahat, memulihkan diri, dan mengembalikan energi. Selama tidur, tubuh kita melakukan beberapa proses penting seperti:\n\n\n## Proses Fisiologis\n\n1. **Pemulihan Otot**: Otot-otot yang lelah selama aktivitas sehari-hari diperbaiki dan dikembalikan ke kondisi normal.\n2. **Pengembalian Energi**: Tubuh mengisi kembali cadangan energi yang terkuras selama aktivitas.\n3. **Pembersihan Toksin**: Otak membersihkan diri dari toksin dan zat berbahaya yang menumpuk selama aktivitas.\n4. **Pengaturan Hormon**: Hormon-hormon seperti insulin, hormon pertumbuhan, dan hormon tiroid diatur dan diseimbangkan.\n\n\n## Manfaat Tidur\n\n1. **Meningkatkan Kesehatan Fisik**: Tidur yang cukup membantu mencegah penyakit kronis seperti diabetes, hipertensi, dan penyakit jantung.\n2. **Meningkatkan Kesehatan Mental**: Tidur yang cukup membantu mengurangi stres, kecemasan, dan depresi.\n3. **Meningkatkan Kinerja Otak**: Tidur yang cukup membantu meningkatkan konsentrasi, memori, dan kemampuan belajar.\n4. **Meningkatkan Kualitas Hidup**: Tidur yang cukup membantu meningkatkan kualitas hidup secara keseluruhan.\n\n\n## Tips untuk Tidur yang Nyenyak\n\n1. **Atur Waktu Tidur**: Pastikan waktu tidur yang konsisten setiap hari.\n2. **Ciptakan Lingkungan Nyaman**: Pastikan kamar tidur nyaman, gelap, dan sunyi.\n3. **Hindari Kafein dan Alkohol**: Hindari konsumsi kafein dan alkohol sebelum tidur.\n4. **Lakukan Relaksasi**: Lakukan aktivitas relaksasi seperti membaca buku atau mendengarkan musik sebelum tidur.\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
     "from": "ApiNyaEr",
     "success": true
 }
@@ -580,7 +582,7 @@ print(result)
 #### Expected Output
 
 ```text
-『TG』 ཌĐʀᴀɢᴏƝད°ᴵᴰᴹ°ツ
+꧁༺༻꧂
 ```
 
 ### 21. Password
@@ -605,7 +607,7 @@ print(result)
 #### Expected Output
 
 ```text
-pS95l)=RG^|m
+DHi6OQfxz[]3
 ```
 
 ### 22. Pypi
@@ -665,10 +667,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Jangan buang rasa kesalmu. Karena itu akan jadi bukti kalau kau masih belum menyerah pada dirimu sendiri.**",
-    "\ud83c\udf39 **Character": "Ryouma Kurogane**",
-    "\ud83c\udf41 **Anime": "Rakudai Kishi no Cavalry**",
-    "\ud83c\udf41 **Episode": "Episode 2**"
+    "\ud83c\udf81 **Quotes": "Cinta sejati adalah cinta yang tak dipengaruhi oleh penampilan. Jika penampilan orang bisa mempengaruhi perasaanmu, maka cintamu itu palsu.**",
+    "\ud83c\udf39 **Character": "Chika Fujiwara**",
+    "\ud83c\udf41 **Anime": "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen**",
+    "\ud83c\udf41 **Episode": "Episode 5**"
 }
 ```
 
@@ -690,7 +692,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Peretas adalah bakat. Anda tidak akan mempelajarinya di sekolah. Ini seperti menjadi Messi atau C. Ronaldo. Jika Anda dilahirkan untuk menjadi seorang peretas, itu adalah takdir Anda. Jika tidak, Anda akan diretas.**
+🃏 **Hackers rarely have full knowledge of the technology stack of a target.**
 ```
 
 ### 25. Qislam
@@ -711,7 +713,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Bila hijrahmu karena Allah, kamu akan terus melangkah walaupun sudah lelah**
+📖 **Terkadang bukan karena kita tahu caranya memuntahkan amarah tapi kita tahu jika makin marah tak akan menyelesaikan masalah**
 ```
 
 ### 26. Qpubg
@@ -732,10 +734,31 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Kita tidak dilahirkan sebagai pemenang. Kita harus meraihnya sendiri dengan usaha dan kerja keras**
+🏆 **Skill individu boleh mumpuni. Tapi tanpa Kerja sama, tidak akan mencapai apa-apa**
 ```
 
-### 27. Terabox Dl
+### 27. Read Image
+
+**Description**:
+Bertanya gambar melalui url
+
+**Returns:**
+  - **url(str)**: string url
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.read_image(url='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+Request failed: 500, message='Internal Server Error', url='https://api.siputzx.my.id/api/ai/image2text?url=https://api.siputzx.my.id/api/ai/image2text'
+```
+
+### 28. Terabox Dl
 
 **Args:**
   - **link (str)**: Teks query
@@ -756,7 +779,7 @@ print(result)
 Request failed: 500, message='Internal Server Error', url='https://vapis.my.id/api/terabox?url=Tidur'
 ```
 
-### 28. Truth
+### 29. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -774,10 +797,10 @@ print(result)
 #### Expected Output
 
 ```text
-Jika punya kekuatan super/ super power ingin melakukan apa
+Siapa di antara teman-temanmu yang menurutmu potongan rambutnya paling ngenes (paling nggak banget)?
 ```
 
-### 29. Wibu
+### 30. Wibu
 
 **Description**:
 Fetch spesifik Gambar/Gif Anime.
@@ -816,10 +839,38 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Golden Time",
-            "url": "https://nekos.best/api/v2/kiss/739e8b8b-34a5-4190-ae78-74e1af15b905.gif"
+            "anime_name": "Infinite Stratos",
+            "url": "https://nekos.best/api/v2/kiss/e6e811ae-c828-419b-a503-ef7a7bed228e.gif"
         }
     ]
+}
+```
+
+### 31. Zodiak
+
+**Description**:
+Mengambil informasi zodiak berdasarkan input.
+
+**Args:**
+  - **input (str)**: Nama zodiak.
+
+**Returns:**
+  - **dict**: Informasi lengkap zodiak atau pesan kesalahan.
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.zodiak(input='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```json
+{
+    "message": "Terjadi kesalahan: Request failed: 500, message='Internal Server Error', url='https://api.siputzx.my.id/api/primbon/zodiak?zodiak=Tidur'",
+    "success": false,
+    "from": "ApiNyaEr"
 }
 ```
 
