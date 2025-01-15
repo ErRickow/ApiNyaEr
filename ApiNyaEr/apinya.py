@@ -20,7 +20,9 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "flux": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGkvYWkvZmx1eA==").decode("utf-8"),
+            "flux": apainier(
+                "aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGkvYWkvZmx1eA=="
+            ).decode("utf-8"),
             "ai": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvb3BlbmFp").decode("utf-8"),
             "hehe": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvbG9nb21ha2Vy").decode(
                 "utf-8"
@@ -397,7 +399,7 @@ class ErApi:
     async def fluxai(self, input: str):
         """
         Generate image from Teks
-        
+
         Returns:
             input: teks yang akan dijadikan image
         """
