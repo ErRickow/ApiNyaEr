@@ -46,16 +46,17 @@ Below, we’ll cover each function, providing examples and expected results so y
 | [16. Kapan Libur](#16-kapan-libur) | ❌
 | [17. Logo Maker](#17-logo-maker) | ❌
 | [18. Luminai](#18-luminai) | ✅
-| [19. Nama Epep](#19-nama-epep) | ✅
-| [20. Password](#20-password) | ✅
-| [21. Pypi](#21-pypi) | ❌
-| [22. Qanime](#22-qanime) | ✅
-| [23. Qhacker](#23-qhacker) | ✅
-| [24. Qislam](#24-qislam) | ✅
-| [25. Qpubg](#25-qpubg) | ✅
-| [26. Terabox Dl](#26-terabox-dl) | ✅
-| [27. Truth](#27-truth) | ✅
-| [28. Wibu](#28-wibu) | ✅
+| [19. Meta Ai](#19-meta-ai) | ✅
+| [20. Nama Epep](#20-nama-epep) | ✅
+| [21. Password](#21-password) | ✅
+| [22. Pypi](#22-pypi) | ❌
+| [23. Qanime](#23-qanime) | ✅
+| [24. Qhacker](#24-qhacker) | ✅
+| [25. Qislam](#25-qislam) | ✅
+| [26. Qpubg](#26-qpubg) | ✅
+| [27. Terabox Dl](#27-terabox-dl) | ✅
+| [28. Truth](#28-truth) | ✅
+| [29. Wibu](#29-wibu) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -84,7 +85,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, termasuk memperbaiki jaringan, memproses informasi, dan mengatur suasana hati. Tidur yang cukup dan berkualitas sangat diperlukan untuk menjaga kesehatan fisik dan mental. Jika ada yang spesifik tentang tidur yang ingin Anda ketahui, silakan beri tahu!",
+    "resultnya": "Tidur adalah proses fisiologis yang penting bagi kesehatan dan kesejahteraan tubuh. Selama tidur, tubuh melakukan berbagai proses pemulihan, memperbaiki sel-sel, dan memulihkan energi. Tidur yang cukup dan berkualitas juga berpengaruh pada konsentrasi, suasana hati, serta kesehatan mental dan fisik.\n\nJika Anda memiliki pertanyaan lebih spesifik tentang tidur, seperti tips untuk tidur yang lebih baik, durasi tidur yang dianjurkan, atau masalah tidur tertentu, jangan ragu untuk bertanya!",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group"
 }
@@ -112,7 +113,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
+https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=932408067949551&amp;get_thumbnail=1
 ```
 
 ### 3. Blackbox
@@ -161,7 +162,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_RhBXc497.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_K4nBUnyM.png
 ```
 
 ### 5. Cat
@@ -183,7 +184,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MjA3NzYxNQ.jpg
+https://cdn2.thecatapi.com/images/MjA0NzcwNA.jpg
 ```
 
 ### 6. Dare
@@ -204,7 +205,7 @@ print(result)
 #### Expected Output
 
 ```text
-Beli satu botol coca cola dan siram bunga dengan coca cola itu di depan orang banyak.
+Nyebutin 1 biru sampai 10 biru dengan cepat dan tidak boleh melakukan kesalahan. Jika salah maka harus diulang dari awal.
 ```
 
 ### 7. Doa
@@ -253,7 +254,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/cb0e48cd-2ffa-457c-99ad-cb95722bdde8.gif
+https://random.dog/fffc1d21-d5a4-4706-bbe0-d60e62d92bec.jpg
 ```
 
 ### 9. Fakta Unik
@@ -274,7 +275,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Di Bumi, satu tahun adalah 365 hari. Di planet Merkurius satu tahun adalah 2 hari**
+🌾 **salah satu spesies markisa yang buahnya berwarna ungu bisa melakukan fertilisasi sendiri**
 ```
 
 ### 10. Fluxai
@@ -435,8 +436,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Wotaku ni Koi wa Muzukashii",
-        "url": "https://nekos.best/api/v2/hug/47e30b67-b979-4dd5-9b06-720e5118f088.gif"
+        "anime_name": "Sword Art Online",
+        "url": "https://nekos.best/api/v2/hug/f33d03b0-fb25-4592-b48c-4de029596488.gif"
     }
 ]
 ```
@@ -460,7 +461,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi yang spesifik tentang \"tidur\" karena itu bukan topik yang terkait dengan Islam. Sebagai asisten yang berfokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan Quran, Hadits, dan sejarah Islam. Jika Anda memiliki pertanyaan yang berkaitan dengan Islam, saya akan berusaha menjawabnya dengan merujuk pada sumber-sumber otoritatif. Namun, jika pertanyaan Anda tidak terkait dengan Islam, saya sarankan untuk mencari informasi dari sumber lain yang lebih sesuai. Semoga saya dapat membantu Anda dalam hal-hal yang berkaitan dengan ajaran Islam.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi yang spesifik tentang tidur. Sebagai asisten yang fokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan pandangan Islam tentang tidur.\n\nDalam Islam, tidur dipandang sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan berkualitas dipandang sebagai sesuatu yang penting bagi kesehatan fisik dan mental. Namun, Islam juga mengajarkan agar kita tidak berlebihan dalam tidur dan tetap menjaga ibadah dan produktivitas.\n\nSaya sarankan agar Anda merujuk pada sumber-sumber Islam yang otoritatif untuk mendapatkan pemahaman yang lebih mendalam tentang pandangan Islam terhadap tidur. Jika Anda memiliki pertanyaan lain yang berkaitan dengan ajaran Islam, saya akan berusaha menjawabnya dengan sebaik-baiknya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -530,13 +531,34 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Kayak ngecas baterai, biar besok bisa fresh lagi. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4",
+    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan dan otak kita bisa recharge. Kapan terakhir kali kamu tidur nyenyak? \ud83d\ude0a",
     "join": "@Er_Support_Group",
     "success": true
 }
 ```
 
-### 19. Nama Epep
+### 19. Meta Ai
+
+**Description**:
+Bertanya pada meta AI
+
+**Returns:**
+  - **tanya(str)**: teks yang akan di tanyakan
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.meta_ai(tanya='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```text
+name 'ai' is not defined
+```
+
+### 20. Nama Epep
 
 **Description**:
 Dapatkan random nama ep ep
@@ -554,10 +576,10 @@ print(result)
 #### Expected Output
 
 ```text
-°ᴮᴸᴰ°нυsᴎιツ
+Ｋｏｋ ｍａｔｉ ｃｕｋ
 ```
 
-### 20. Password
+### 21. Password
 
 **Description**:
 Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
@@ -579,10 +601,10 @@ print(result)
 #### Expected Output
 
 ```text
-^;(8W\HVOi]>
+5s`Hr-Vl,Q#"
 ```
 
-### 21. Pypi
+### 22. Pypi
 
 **Description**:
 Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
@@ -620,7 +642,7 @@ print(result)
 Request failed: 404, message='Not Found', url='https://pypi.org/pypi/Tidur/json'
 ```
 
-### 22. Qanime
+### 23. Qanime
 
 **Description**:
 Dapatkan Kata kata anime
@@ -639,14 +661,14 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Melihat seorang murid yang menatap masa depannya itu begitu indah.**",
-    "\ud83c\udf39 **Character": "Souma**",
-    "\ud83c\udf41 **Anime": "Demi-chan wa Kataritai**",
-    "\ud83c\udf41 **Episode": "Episode 10**"
+    "\ud83c\udf81 **Quotes": "Kita tidak akan bisa berbuat apa-apa jika kita terpisah. (Tapi) ketika seseorang bertemu dengan yang lainnya (semua akan berubah).Sekarang, di suatu tempat mungkin sedang terjadi suatu pertemuan yang dapat mengubah dunia.Mungkin hal itu terjadi di suatu negara yang sangat jauh. Mungkin juga berada di sisi planet ini.Atau mungkin itu berada di klub voli kecil, di sebuah SMA biasa, di sebuah negara kepulauan kecil di timur.Kupikir pertemuan itu terjadi di sini, di Karasuno. Aku tahu aku tak bisa membuktikan apa yang kukatakan, tapi aku sangat yakin. Aku yakin mulai dari sekarang, kalian akan menjadi lebih kuat lagi!**",
+    "\ud83c\udf39 **Character": "Ittetsu Takeda**",
+    "\ud83c\udf41 **Anime": "Haikyuu!!**",
+    "\ud83c\udf41 **Episode": "Episode 7**"
 }
 ```
 
-### 23. Qhacker
+### 24. Qhacker
 
 **Description**:
 Dapatkan random Quotes Hacker
@@ -664,10 +686,10 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **I'm a hacker, but I'm the good kind of hackers. And I've never been a criminal.**
+🃏 **Bukan tanpa alasan hal ini kami lakukan, ini semua untuk kebebasan yang dikekang pemerintah.**
 ```
 
-### 24. Qislam
+### 25. Qislam
 
 **Description**:
 Dapatkan random Quotes Islamic
@@ -685,10 +707,10 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Jangan salahkan orang ketika kamu kecewa, tapi salahkan dirimu sendiri karena terlalu berharap sesuatu yang belum pasti**
+📖 **Musibah yang membuatmu kembali kepada Allah lebih baik dari nikmat yang membuatmu lupa kepada Allah**
 ```
 
-### 25. Qpubg
+### 26. Qpubg
 
 **Description**:
 Dapatkan random Quotes pubg
@@ -706,10 +728,10 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Izinkan aku mencintaimu tanpa harus menghapus PUBG ku**
+🏆 **Di dalam game PUBG kita diajarkan untuk tidak terus menerus berperang. Tapi bagaimana kita bertarung dan menjaga kawan untuk mendapatkan Winner Winner Chicken Dinner**
 ```
 
-### 26. Terabox Dl
+### 27. Terabox Dl
 
 **Args:**
   - **link (str)**: Teks query
@@ -730,7 +752,7 @@ print(result)
 Request failed: 500, message='Internal Server Error', url='https://vapis.my.id/api/terabox?url=Tidur'
 ```
 
-### 27. Truth
+### 28. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -748,10 +770,10 @@ print(result)
 #### Expected Output
 
 ```text
-Apa binatang patronus yang cocok untuk kamu?
+Kok bisa suka sama orang yang kamu sukai?
 ```
 
-### 28. Wibu
+### 29. Wibu
 
 **Description**:
 Fetch spesifik Gambar/Gif Anime.
@@ -790,8 +812,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Sukitte Ii na yo",
-            "url": "https://nekos.best/api/v2/kiss/ff5b70d7-f3c5-4c90-b10c-69c2ea1d90c5.gif"
+            "anime_name": "Higashi no Eden",
+            "url": "https://nekos.best/api/v2/kiss/83b0c890-2ee6-4939-ac95-179c4982e7cf.gif"
         }
     ]
 }
