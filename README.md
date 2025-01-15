@@ -84,7 +84,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah proses fisiologis yang penting bagi kesehatan dan kesejahteraan tubuh. Selama tidur, tubuh melakukan berbagai proses pemulihan, memperbaiki sel-sel, dan memulihkan energi. Tidur yang cukup dan berkualitas juga berpengaruh pada konsentrasi, suasana hati, serta kesehatan mental dan fisik.\n\nJika Anda memiliki pertanyaan lebih spesifik tentang tidur, seperti tips untuk tidur yang lebih baik, durasi tidur yang dianjurkan, atau masalah tidur tertentu, jangan ragu untuk bertanya!",
+    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, termasuk memperbaiki jaringan, memproses informasi, dan mengatur suasana hati. Tidur yang cukup dan berkualitas sangat diperlukan untuk menjaga kesehatan fisik dan mental. Jika ada yang spesifik tentang tidur yang ingin Anda ketahui, silakan beri tahu!",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group"
 }
@@ -161,7 +161,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_rUguD0Rr.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_RhBXc497.png
 ```
 
 ### 5. Cat
@@ -183,7 +183,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/30i.jpg
+https://cdn2.thecatapi.com/images/MjA3NzYxNQ.jpg
 ```
 
 ### 6. Dare
@@ -204,7 +204,7 @@ print(result)
 #### Expected Output
 
 ```text
-Minta uang pada seseorang (random/acak) di jalan sambil bilang 'Saya tidak punya uang untuk naik angkot.'
+Beli satu botol coca cola dan siram bunga dengan coca cola itu di depan orang banyak.
 ```
 
 ### 7. Doa
@@ -253,7 +253,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/f9177ec7-b2e4-43b8-a8c7-06f59af327a2.jpg
+https://random.dog/cb0e48cd-2ffa-457c-99ad-cb95722bdde8.gif
 ```
 
 ### 9. Fakta Unik
@@ -274,7 +274,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Tikus dan kuda tidak bisa muntah**
+🌾 **Di Bumi, satu tahun adalah 365 hari. Di planet Merkurius satu tahun adalah 2 hari**
 ```
 
 ### 10. Fluxai
@@ -435,8 +435,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Kawaii Dake ja Nai Shikimori-san",
-        "url": "https://nekos.best/api/v2/hug/929963f4-0d6d-4d75-b93f-03f4d25c7419.gif"
+        "anime_name": "Wotaku ni Koi wa Muzukashii",
+        "url": "https://nekos.best/api/v2/hug/47e30b67-b979-4dd5-9b06-720e5118f088.gif"
     }
 ]
 ```
@@ -460,7 +460,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dipandang sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan istirahat yang baik dianggap sebagai hal yang penting bagi kesehatan fisik dan mental. Namun, tidur yang berlebihan juga dilarang, sebagaimana dijelaskan dalam hadits:\n\n\"Sesungguhnya tubuhmu memiliki hak atasmu.\" (HR. Bukhari)\n\nJadi, Islam mengajarkan untuk menjaga keseimbangan dalam hal tidur dan istirahat, sesuai dengan kebutuhan masing-masing individu. Saya sarankan untuk merujuk pada sumber-sumber Islam yang otoritatif untuk memperoleh pemahaman yang lebih mendalam mengenai pandangan Islam tentang tidur dan istirahat.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi yang spesifik tentang \"tidur\" karena itu bukan topik yang terkait dengan Islam. Sebagai asisten yang berfokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan Quran, Hadits, dan sejarah Islam. Jika Anda memiliki pertanyaan yang berkaitan dengan Islam, saya akan berusaha menjawabnya dengan merujuk pada sumber-sumber otoritatif. Namun, jika pertanyaan Anda tidak terkait dengan Islam, saya sarankan untuk mencari informasi dari sumber lain yang lebih sesuai. Semoga saya dapat membantu Anda dalam hal-hal yang berkaitan dengan ajaran Islam.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -530,7 +530,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Biar badan sama otak kita fresh lagi. Kapan terakhir kali kamu tidur nyenyak?",
+    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Kayak ngecas baterai, biar besok bisa fresh lagi. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -554,7 +554,7 @@ print(result)
 #### Expected Output
 
 ```text
-『NOB』вαℓα∂σяヅ™
+°ᴮᴸᴰ°нυsᴎιツ
 ```
 
 ### 20. Password
@@ -579,7 +579,7 @@ print(result)
 #### Expected Output
 
 ```text
-$y2<_KT.l(@U
+^;(8W\HVOi]>
 ```
 
 ### 21. Pypi
@@ -639,10 +639,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Entah itu jalan yang lurus ataupun jalan yang menyesatkan, selama kami masih bisa berjalan di sampingmu, kami tak peduli ke manapun kami pergi.**",
-    "\ud83c\udf39 **Character": "Toushirou Hijikata**",
-    "\ud83c\udf41 **Anime": "Gintama\u00b0**",
-    "\ud83c\udf41 **Episode": "Episode 48**"
+    "\ud83c\udf81 **Quotes": "Melihat seorang murid yang menatap masa depannya itu begitu indah.**",
+    "\ud83c\udf39 **Character": "Souma**",
+    "\ud83c\udf41 **Anime": "Demi-chan wa Kataritai**",
+    "\ud83c\udf41 **Episode": "Episode 10**"
 }
 ```
 
@@ -664,7 +664,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kami dimulai sebagai sekelompok orang yang dikendalikan tanpa sebuah alasan.**
+🃏 **I'm a hacker, but I'm the good kind of hackers. And I've never been a criminal.**
 ```
 
 ### 24. Qislam
@@ -685,7 +685,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Terkadang bukan karena kita tahu caranya memuntahkan amarah tapi kita tahu jika makin marah tak akan menyelesaikan masalah**
+📖 **Jangan salahkan orang ketika kamu kecewa, tapi salahkan dirimu sendiri karena terlalu berharap sesuatu yang belum pasti**
 ```
 
 ### 25. Qpubg
@@ -706,7 +706,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Jangan takut memulai pertempuran karna mereka PRO. Dulunya mereka juga hanya seorang pemula**
+🏆 **Izinkan aku mencintaimu tanpa harus menghapus PUBG ku**
 ```
 
 ### 26. Terabox Dl
@@ -748,7 +748,7 @@ print(result)
 #### Expected Output
 
 ```text
-Pernahkah kamu diam-diam berharap hubungan seseorang dengan pacarnya putus? Siapa?
+Apa binatang patronus yang cocok untuk kamu?
 ```
 
 ### 28. Wibu
@@ -790,8 +790,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Engage Kiss",
-            "url": "https://nekos.best/api/v2/kiss/ac3013be-2c19-44b5-9b89-58cff9d96805.gif"
+            "anime_name": "Sukitte Ii na yo",
+            "url": "https://nekos.best/api/v2/kiss/ff5b70d7-f3c5-4c90-b10c-69c2ea1d90c5.gif"
         }
     ]
 }
