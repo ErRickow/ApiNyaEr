@@ -29,36 +29,37 @@ Below, we’ll cover each function, providing examples and expected results so y
 | Function           | Status |
 |--------------------|--------|
 | [1. Ai](#1-ai) | ✅
-| [2. Bing Image](#2-bing-image) | ✅
-| [3. Blackbox](#3-blackbox) | ✅
-| [4. Carbon](#4-carbon) | ✅
-| [5. Cat](#5-cat) | ✅
-| [6. Dare](#6-dare) | ✅
-| [7. Doa](#7-doa) | ✅
-| [8. Dog](#8-dog) | ✅
-| [9. Fakta Unik](#9-fakta-unik) | ✅
-| [10. Fluxai](#10-fluxai) | ✅
-| [11. Gemini](#11-gemini) | ✅
-| [12. Get Pinter Url](#12-get-pinter-url) | ❌
-| [13. Github Search](#13-github-search) | ✅
-| [14. Hug](#14-hug) | ✅
-| [15. Islam Ai](#15-islam-ai) | ✅
-| [16. Kapan Libur](#16-kapan-libur) | ❌
-| [17. Logo Maker](#17-logo-maker) | ❌
-| [18. Luminai](#18-luminai) | ✅
-| [19. Meta Ai](#19-meta-ai) | ✅
-| [20. Nama Epep](#20-nama-epep) | ✅
-| [21. Password](#21-password) | ✅
-| [22. Pypi](#22-pypi) | ❌
-| [23. Qanime](#23-qanime) | ✅
-| [24. Qhacker](#24-qhacker) | ✅
-| [25. Qislam](#25-qislam) | ✅
-| [26. Qpubg](#26-qpubg) | ✅
-| [27. Read Image](#27-read-image) | ✅
-| [28. Terabox Dl](#28-terabox-dl) | ✅
-| [29. Truth](#29-truth) | ✅
-| [30. Wibu](#30-wibu) | ✅
-| [31. Zodiak](#31-zodiak) | ✅
+| [2. Arti Nama](#2-arti-nama) | ✅
+| [3. Bing Image](#3-bing-image) | ✅
+| [4. Blackbox](#4-blackbox) | ✅
+| [5. Carbon](#5-carbon) | ✅
+| [6. Cat](#6-cat) | ✅
+| [7. Dare](#7-dare) | ✅
+| [8. Doa](#8-doa) | ✅
+| [9. Dog](#9-dog) | ✅
+| [10. Fakta Unik](#10-fakta-unik) | ✅
+| [11. Fluxai](#11-fluxai) | ✅
+| [12. Gemini](#12-gemini) | ✅
+| [13. Get Pinter Url](#13-get-pinter-url) | ❌
+| [14. Github Search](#14-github-search) | ✅
+| [15. Hug](#15-hug) | ✅
+| [16. Islam Ai](#16-islam-ai) | ✅
+| [17. Kapan Libur](#17-kapan-libur) | ❌
+| [18. Logo Maker](#18-logo-maker) | ❌
+| [19. Luminai](#19-luminai) | ✅
+| [20. Meta Ai](#20-meta-ai) | ✅
+| [21. Nama Epep](#21-nama-epep) | ✅
+| [22. Password](#22-password) | ✅
+| [23. Pypi](#23-pypi) | ❌
+| [24. Qanime](#24-qanime) | ✅
+| [25. Qhacker](#25-qhacker) | ✅
+| [26. Qislam](#26-qislam) | ✅
+| [27. Qpubg](#27-qpubg) | ✅
+| [28. Read Image](#28-read-image) | ✅
+| [29. Terabox Dl](#29-terabox-dl) | ✅
+| [30. Truth](#30-truth) | ✅
+| [31. Wibu](#31-wibu) | ✅
+| [32. Zodiak](#32-zodiak) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -87,13 +88,41 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, memperkuat sistem kekebalan, dan menyimpan memori. Tidur yang cukup dan berkualitas diperlukan untuk kesehatan fisik dan mental. \n\nBerbagai faktor dapat memengaruhi kualitas tidur, seperti stres, lingkungan, dan kebiasaan tidur. Penting untuk menciptakan rutinitas tidur yang baik, seperti menjadwalkan waktu tidur dan bangun yang konsisten, serta menciptakan lingkungan tidur yang nyaman.\n\nJika Anda memiliki pertanyaan lebih lanjut mengenai tidur atau tips untuk tidur yang lebih baik, silakan tanya!",
+    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, seperti memperbaiki jaringan, memproses informasi, dan mengatur suasana hati. Tidur yang cukup dan berkualitas sangat diperlukan untuk menjaga kesehatan fisik dan mental. Jika ada yang ingin kamu ketahui lebih lanjut tentang tidur, seperti tips untuk tidur yang lebih baik atau dampak kurang tidur, silakan tanya!",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group"
 }
 ```
 
-### 2. Bing Image
+### 2. Arti Nama
+
+**Description**:
+Mendapatkan arti nama dari string
+
+**Args:**
+  - **namanya (str)**: Nama Kamu
+**Returns:**
+  - **dict**: Informasi Arti Nama Kamu or Eror Msg
+
+```python
+from ApiNyaEr import apinya
+
+result = await apinya.arti_nama(namanya='Tidur')
+print(result)
+```
+
+#### Expected Output
+
+```json
+{
+    "namanya": "Tidur",
+    "artinya": "Peduli sesama, dermawan, tidak mementingkan diri sendiri, patuh terhadap kewajiban, ekspresi kreatif.\n\nAnda bukan tipe orang yang sombong. Anda menjadi bijaksana melalui berbagai macam pengalaman hidup yang sungguh-sungguh mengajarkan pelajaran untuk lebih mendekatkan diri kepada Tuhan dan berbuat baik bagi semua orang. Itu telah anda sadari betul, sehingga anda merasa tidak perlu untuk berbuat semena-mena atau menyombongkan diri. Anda orang yang sangat romantis dan dapat berkata-kata dengan indah. Anda juga menyukai bahasa dan kultur negara asing. Anda suka memberikan inspirasi kepada banyak orang. Sikap anda yang penuh dengan empati, keceriaan, dan penuh perhatian membuat anda manjadi tamu istimewa dalam setiap undangan. Anda orang yang cukup populer ditengah-tengah teman karena kebaikan yang mereka rasakan. Anda akan jauh lebih sukses apabila berkarir dalam hal-hal kemanusiaan, diplomat, translator, atau petinggi agama. Akan tetapi, apapun karir atau bisis yang anda pilih, itu semua akan berujung pada nilai-nilai kemanusiaan yang anda pegang tinggi karena sikap anda yang dermawan.",
+    "from": "ApiNyaEr",
+    "success": true
+}
+```
+
+### 3. Bing Image
 
 **Description**:
 Cari bing images based om teks.
@@ -118,7 +147,7 @@ print(result)
 https://t4.ftcdn.net/jpg/04/60/72/67/360_F_460726770_XFNB9Wx4VmXk2RRLBQDOz1gfy5kV5gBq.jpg
 ```
 
-### 3. Blackbox
+### 4. Blackbox
 
 **Description**:
 Berinteraksi dengan Blackbox AI untuk menghasilkan konten. 🧠
@@ -146,7 +175,7 @@ print(result)
 }
 ```
 
-### 4. Carbon
+### 5. Carbon
 
 **Args:**
   - **query (str)**: Potongan kode yang akan dirender sebagai gambar.
@@ -164,10 +193,10 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_68ymGQtZ.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_Xt7fATmL.png
 ```
 
-### 5. Cat
+### 6. Cat
 
 **Description**:
 Generate random gambar kucing.
@@ -186,10 +215,10 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/96j.jpg
+https://cdn2.thecatapi.com/images/e5r.jpg
 ```
 
-### 6. Dare
+### 7. Dare
 
 **Description**:
 Dapatkan Kata kata dare
@@ -207,10 +236,10 @@ print(result)
 #### Expected Output
 
 ```text
-Mecahin telur pake kepala.
+Suruh bersiul pas mulutnya lagi penuh dijejelin makanan.
 ```
 
-### 7. Doa
+### 8. Doa
 
 **Description**:
 Mengambil data doa dari API ItzPire berdasarkan nama doa.
@@ -237,7 +266,7 @@ Latin: Bismikallaahumma ahyaa wa ammuut
 Artinya: Dengan menyebut nama Allah, aku hidup dan aku mati
 ```
 
-### 8. Dog
+### 9. Dog
 
 **Description**:
 Dapatkan random foto anjing.
@@ -256,10 +285,10 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/05f4b372-d8ff-42f0-8c11-b78c45d9eaa1.jpg
+https://random.dog/e82e125b-94c4-4313-852d-6be6ae41da41.jpg
 ```
 
-### 9. Fakta Unik
+### 10. Fakta Unik
 
 **Description**:
 Dapatkan random Seputar Fakta Unik
@@ -277,10 +306,10 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Ada lebih dari 300 bakteri pembentuk karang gigi**
+🌾 **Kuda Nil kentut lewat mulut.**
 ```
 
-### 10. Fluxai
+### 11. Fluxai
 
 **Description**:
 Generate image from Teks
@@ -301,7 +330,7 @@ print(result)
 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
 ```
 
-### 11. Gemini
+### 12. Gemini
 
 **Description**:
 Berinteraksi dengan Gemini AI. ✨
@@ -325,7 +354,7 @@ print(result)
 None
 ```
 
-### 12. Get Pinter Url
+### 13. Get Pinter Url
 
 **Description**:
 Mengembalikan hasil request Pinterest berdasarkan query yang diberikan.
@@ -349,7 +378,7 @@ print(result)
 Request failed: 403, message='Forbidden', url='https://api.ryzendesu.vip/api/search/pinterest?query=Tidur'
 ```
 
-### 13. Github Search
+### 14. Github Search
 
 **Description**:
 Pencarian GitHub untuk beberapa tipe konten.
@@ -412,7 +441,7 @@ print(result)
 ]
 ```
 
-### 14. Hug
+### 15. Hug
 
 **Description**:
 Dapatkan gif Random pelukan dari Nekos.Best API.
@@ -438,13 +467,13 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Date a Live",
-        "url": "https://nekos.best/api/v2/hug/a0fc88c6-a820-40b9-aa46-3ee273430ccc.gif"
+        "anime_name": "Mononoke Hime",
+        "url": "https://nekos.best/api/v2/hug/1e872929-e623-46ba-b5dc-fe05dfc61990.gif"
     }
 ]
 ```
 
-### 15. Islam Ai
+### 16. Islam Ai
 
 **Description**:
 args: tanya (str): teks pertanyaan
@@ -463,14 +492,14 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan pandangan Islam tentang tidur.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur dianggap sebagai salah satu bentuk ibadah dan istirahat bagi tubuh. Rasulullah SAW mengajarkan umatnya untuk tidur dengan niat yang baik dan mengucapkan doa sebelum tidur.\n\nJika Anda ingin informasi lebih lanjut tentang pandangan Islam mengenai tidur, saya sarankan untuk berkonsultasi dengan ulama atau sumber-sumber Islam yang terpercaya.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan penjelasan tentang tidur dari perspektif ajaran Islam. Berikut adalah beberapa ayat Al-Quran dan hadits terkait dengan tidur:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\n\"Dan Dialah yang menjadikan malam bagimu supaya kamu beristirahat padanya, dan (menjadikan) siang terang benderang (supaya kamu mencari karunia-Nya).\" (Quran 25:47)\n\nRasulullah SAW bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Ibnu Majah)\n\n\"Apabila salah seorang di antara kalian tidur, maka setan akan mengikatkan tiga simpul di atas kepalanya. Pada setiap simpul itu, setan akan mengucapkan, 'Bagimu malam yang panjang, maka tidurlah.' Apabila ia bangun dan mengingat Allah, maka satu simpul akan terlepas. Apabila ia berwudu, maka simpul yang lain akan terlepas. Dan apabila ia shalat, maka semua simpul itu akan terlepas, sehingga ia akan bangun di pagi hari dalam keadaan segar bugar.\" (HR. Bukhari)\n\nSaya sarankan untuk merujuk pada sumber-sumber Islam yang otoritatif untuk memahami lebih lanjut tentang tidur dari perspektif agama. Jika ada pertanyaan lain terkait Islam, saya akan berusaha menjawabnya dengan sebaik-baiknya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
 }
 ```
 
-### 16. Kapan Libur
+### 17. Kapan Libur
 
 **Description**:
 Dapatkan informasi Hari libur kedepan.
@@ -491,7 +520,7 @@ print(result)
 'data'
 ```
 
-### 17. Logo Maker
+### 18. Logo Maker
 
 **Description**:
 Membuat Logo Dari Input yang di masukkan
@@ -514,7 +543,7 @@ print(result)
 'method' object is not subscriptable
 ```
 
-### 18. Luminai
+### 19. Luminai
 
 **Args:**
   - **tanya (str)**: Teks query
@@ -533,13 +562,13 @@ print(result)
 
 ```json
 {
-    "resultnya": "Wah, tidur itu penting banget, bro! \ud83d\ude34 Kalo udah ngantuk, mendingan langsung bobo aja. Nanti bangun-bangun, badan jadi segar lagi! Kapan terakhir kali kamu tidur nyenyak? \ud83c\udf19\u2728",
+    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Bikin badan fresh dan siap buat ngegas lagi besok. Kalo lagi ngantuk, mending tidur aja deh. Jangan dipaksa, ya! \ud83d\ude04\u2728",
     "join": "@Er_Support_Group",
     "success": true
 }
 ```
 
-### 19. Meta Ai
+### 20. Meta Ai
 
 **Description**:
 Bertanya pada meta AI
@@ -558,13 +587,13 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah kegiatan yang sangat penting bagi manusia. Tidur membantu tubuh kita untuk beristirahat, memulihkan diri, dan mengembalikan energi. Selama tidur, tubuh kita melakukan beberapa proses penting seperti:\n\n\n## Proses Fisiologis\n\n1. **Pemulihan Otot**: Otot-otot yang lelah selama aktivitas sehari-hari diperbaiki dan dikembalikan ke kondisi normal.\n2. **Pengembalian Energi**: Tubuh mengisi kembali cadangan energi yang terkuras selama aktivitas.\n3. **Pembersihan Toksin**: Otak membersihkan diri dari toksin dan zat berbahaya yang menumpuk selama aktivitas.\n4. **Pengaturan Hormon**: Hormon-hormon seperti insulin, hormon pertumbuhan, dan hormon tiroid diatur dan diseimbangkan.\n\n\n## Manfaat Tidur\n\n1. **Meningkatkan Kesehatan Fisik**: Tidur yang cukup membantu mencegah penyakit kronis seperti diabetes, hipertensi, dan penyakit jantung.\n2. **Meningkatkan Kesehatan Mental**: Tidur yang cukup membantu mengurangi stres, kecemasan, dan depresi.\n3. **Meningkatkan Kinerja Otak**: Tidur yang cukup membantu meningkatkan konsentrasi, memori, dan kemampuan belajar.\n4. **Meningkatkan Kualitas Hidup**: Tidur yang cukup membantu meningkatkan kualitas hidup secara keseluruhan.\n\n\n## Tips untuk Tidur yang Nyenyak\n\n1. **Atur Waktu Tidur**: Pastikan waktu tidur yang konsisten setiap hari.\n2. **Ciptakan Lingkungan Nyaman**: Pastikan kamar tidur nyaman, gelap, dan sunyi.\n3. **Hindari Kafein dan Alkohol**: Hindari konsumsi kafein dan alkohol sebelum tidur.\n4. **Lakukan Relaksasi**: Lakukan aktivitas relaksasi seperti membaca buku atau mendengarkan musik sebelum tidur.\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
+    "resultnya": "Tidur adalah kegiatan yang sangat penting bagi manusia. Tidur membantu kita untuk:\n\n\n## Fungsi Tidur\n\n1. Mengembalikan energi dan kekuatan tubuh\n2. Meningkatkan kesehatan mental dan emosional\n3. Membantu proses penyembuhan luka dan penyakit\n4. Meningkatkan konsentrasi dan produktivitas\n5. Mengatur hormon dan metabolisme tubuh\n\n\n## Manfaat Tidur yang Cukup\n\n1. Meningkatkan kualitas hidup\n2. Mengurangi risiko penyakit kronis (diabetes, hipertensi, jantung)\n3. Meningkatkan sistem imun\n4. Membantu mengatur berat badan\n5. Meningkatkan kesadaran dan kewaspadaan\n\n\n## Tips untuk Tidur yang Nyenyak\n\n1. Atur jam tidur secara teratur\n2. Buat suasana tidur nyaman (gelap, tenang, sejuk)\n3. Hindari kafein dan alkohol sebelum tidur\n4. Lakukan relaksasi (meditasi, yoga)\n5. Batasi penggunaan gadget sebelum tidur\n\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
     "from": "ApiNyaEr",
     "success": true
 }
 ```
 
-### 20. Nama Epep
+### 21. Nama Epep
 
 **Description**:
 Dapatkan random nama ep ep
@@ -582,10 +611,10 @@ print(result)
 #### Expected Output
 
 ```text
-꧁༺༻꧂
+꧁༺J꙰O꙰K꙰E꙰R꙰༻꧂
 ```
 
-### 21. Password
+### 22. Password
 
 **Description**:
 Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
@@ -607,10 +636,10 @@ print(result)
 #### Expected Output
 
 ```text
-DHi6OQfxz[]3
+3.0\U{1#]nJ-
 ```
 
-### 22. Pypi
+### 23. Pypi
 
 **Description**:
 Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
@@ -648,7 +677,7 @@ print(result)
 Request failed: 404, message='Not Found', url='https://pypi.org/pypi/Tidur/json'
 ```
 
-### 23. Qanime
+### 24. Qanime
 
 **Description**:
 Dapatkan Kata kata anime
@@ -667,14 +696,14 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Cinta sejati adalah cinta yang tak dipengaruhi oleh penampilan. Jika penampilan orang bisa mempengaruhi perasaanmu, maka cintamu itu palsu.**",
-    "\ud83c\udf39 **Character": "Chika Fujiwara**",
-    "\ud83c\udf41 **Anime": "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen**",
-    "\ud83c\udf41 **Episode": "Episode 5**"
+    "\ud83c\udf81 **Quotes": "Saling menerima cinta satu sama lain adalah hal yang wajar. Jika dunia melarangnya, aku akan mengubah dunia ini meskipun harus menghancurkannya.**",
+    "\ud83c\udf39 **Character": "Theo Cornaro**",
+    "\ud83c\udf41 **Anime": "Grancrest Senki**",
+    "\ud83c\udf41 **Episode": "Episode 20**"
 }
 ```
 
-### 24. Qhacker
+### 25. Qhacker
 
 **Description**:
 Dapatkan random Quotes Hacker
@@ -692,10 +721,10 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Hackers rarely have full knowledge of the technology stack of a target.**
+🃏 **Saat berjudi, seseorang harus tahu lawan mereka, dan kelemahan mereka. Terutama, jika lawan itu adalah mesin.**
 ```
 
-### 25. Qislam
+### 26. Qislam
 
 **Description**:
 Dapatkan random Quotes Islamic
@@ -713,10 +742,10 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Terkadang bukan karena kita tahu caranya memuntahkan amarah tapi kita tahu jika makin marah tak akan menyelesaikan masalah**
+📖 **Gak usah bingung seperti apa jodohmu kelak, Insyaallah dia tidak akan jauh daripada sifatmu saat ini**
 ```
 
-### 26. Qpubg
+### 27. Qpubg
 
 **Description**:
 Dapatkan random Quotes pubg
@@ -734,10 +763,10 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Skill individu boleh mumpuni. Tapi tanpa Kerja sama, tidak akan mencapai apa-apa**
+🏆 **Kita tidak dilahirkan sebagai pemenang. Kita harus meraihnya sendiri dengan usaha dan kerja keras**
 ```
 
-### 27. Read Image
+### 28. Read Image
 
 **Description**:
 Bertanya gambar melalui url
@@ -758,7 +787,7 @@ print(result)
 Request failed: 500, message='Internal Server Error', url='https://api.siputzx.my.id/api/ai/image2text?url=https://api.siputzx.my.id/api/ai/image2text'
 ```
 
-### 28. Terabox Dl
+### 29. Terabox Dl
 
 **Args:**
   - **link (str)**: Teks query
@@ -779,7 +808,7 @@ print(result)
 Request failed: 500, message='Internal Server Error', url='https://vapis.my.id/api/terabox?url=Tidur'
 ```
 
-### 29. Truth
+### 30. Truth
 
 **Description**:
 Dapatkan Kata kata truth
@@ -797,10 +826,10 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa di antara teman-temanmu yang menurutmu potongan rambutnya paling ngenes (paling nggak banget)?
+Hal apa yang kamu rahasiakan sampe, sekarang dan gak ada satu orangpun yang tau?
 ```
 
-### 30. Wibu
+### 31. Wibu
 
 **Description**:
 Fetch spesifik Gambar/Gif Anime.
@@ -839,14 +868,14 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Infinite Stratos",
-            "url": "https://nekos.best/api/v2/kiss/e6e811ae-c828-419b-a503-ef7a7bed228e.gif"
+            "anime_name": "Sukitte Ii na yo",
+            "url": "https://nekos.best/api/v2/kiss/ff5b70d7-f3c5-4c90-b10c-69c2ea1d90c5.gif"
         }
     ]
 }
 ```
 
-### 31. Zodiak
+### 32. Zodiak
 
 **Description**:
 Mengambil informasi zodiak berdasarkan input.
@@ -868,9 +897,9 @@ print(result)
 
 ```json
 {
-    "message": "Terjadi kesalahan: Request failed: 500, message='Internal Server Error', url='https://api.siputzx.my.id/api/primbon/zodiak?zodiak=Tidur'",
+    "Why?": "Terjadi kesalahan: Request failed: 500, message='Internal Server Error', url='https://api.siputzx.my.id/api/primbon/zodiak?zodiak=Tidur'",
     "success": false,
-    "from": "ApiNyaEr"
+    "report": "@Er_Support_Group"
 }
 ```
 
