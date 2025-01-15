@@ -405,6 +405,8 @@ class ErApi:
         try:
             res = await self._make_request(self.base_urls["flux"], params=params)
             return res
+        except Exception as r:
+            return str(r)
 
     async def kapan_libur(self):
         """
