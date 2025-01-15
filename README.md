@@ -113,7 +113,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=932408067949551&amp;get_thumbnail=1
+https://t4.ftcdn.net/jpg/04/60/72/67/360_F_460726770_XFNB9Wx4VmXk2RRLBQDOz1gfy5kV5gBq.jpg
 ```
 
 ### 3. Blackbox
@@ -162,7 +162,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_K4nBUnyM.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_2Q0AxSE6.png
 ```
 
 ### 5. Cat
@@ -184,7 +184,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/MjA0NzcwNA.jpg
+https://cdn2.thecatapi.com/images/MTY4OTA3OQ.jpg
 ```
 
 ### 6. Dare
@@ -205,7 +205,7 @@ print(result)
 #### Expected Output
 
 ```text
-Nyebutin 1 biru sampai 10 biru dengan cepat dan tidak boleh melakukan kesalahan. Jika salah maka harus diulang dari awal.
+Cabut bulu kaki mu sendiri sebanyak 3x
 ```
 
 ### 7. Doa
@@ -254,7 +254,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/fffc1d21-d5a4-4706-bbe0-d60e62d92bec.jpg
+https://random.dog/1f3fcc44-3b7c-4268-92a9-a6faa6f75547.jpg
 ```
 
 ### 9. Fakta Unik
@@ -275,7 +275,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **salah satu spesies markisa yang buahnya berwarna ungu bisa melakukan fertilisasi sendiri**
+🌾 **13% orang di dunia adalah kidal**
 ```
 
 ### 10. Fluxai
@@ -436,8 +436,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Sword Art Online",
-        "url": "https://nekos.best/api/v2/hug/f33d03b0-fb25-4592-b48c-4de029596488.gif"
+        "anime_name": "Engage Kiss",
+        "url": "https://nekos.best/api/v2/hug/c968b89d-494e-453d-95b7-bd5f3d238e4e.gif"
     }
 ]
 ```
@@ -461,7 +461,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi yang spesifik tentang tidur. Sebagai asisten yang fokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan pandangan Islam tentang tidur.\n\nDalam Islam, tidur dipandang sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan berkualitas dipandang sebagai sesuatu yang penting bagi kesehatan fisik dan mental. Namun, Islam juga mengajarkan agar kita tidak berlebihan dalam tidur dan tetap menjaga ibadah dan produktivitas.\n\nSaya sarankan agar Anda merujuk pada sumber-sumber Islam yang otoritatif untuk mendapatkan pemahaman yang lebih mendalam tentang pandangan Islam terhadap tidur. Jika Anda memiliki pertanyaan lain yang berkaitan dengan ajaran Islam, saya akan berusaha menjawabnya dengan sebaik-baiknya.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur dalam konteks umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan istirahat yang teratur dianggap sebagai hal yang penting bagi kesehatan fisik dan mental. Rasulullah SAW sendiri menganjurkan umatnya untuk tidur dan beristirahat secukupnya.\n\nJika Anda membutuhkan informasi lebih lanjut mengenai pandangan Islam tentang tidur dan istirahat, saya sarankan untuk berkonsultasi dengan ulama atau sumber-sumber Islam yang terpercaya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -531,7 +531,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan dan otak kita bisa recharge. Kapan terakhir kali kamu tidur nyenyak? \ud83d\ude0a",
+    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan kita recharge dan siap buat aktivitas besok. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4\u2728",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -554,8 +554,12 @@ print(result)
 
 #### Expected Output
 
-```text
-name 'ai' is not defined
+```json
+{
+    "resultnya": "Tidur adalah kegiatan alami yang sangat penting bagi kesehatan dan kesegaran tubuh. Selama tidur, tubuh melakukan beberapa fungsi penting, seperti:\n\n\n## Fungsi Tidur\n\n1. **Pemulihan dan Perbaikan Sel**: Tidur membantu memperbaiki dan memulihkan sel-sel tubuh yang rusak.\n2. **Pengolahan Informasi**: Otak mengolah dan menyimpan informasi yang diterima selama hari.\n3. **Pengaturan Emosi**: Tidur membantu mengatur emosi dan mengurangi stres.\n4. **Pengaturan Hormon**: Tidur membantu mengatur hormon yang terkait dengan pertumbuhan, metabolisme, dan reproduksi.\n5. **Peningkatan Kekebalan Tubuh**: Tidur membantu meningkatkan kekebalan tubuh terhadap penyakit.\n\n\n## Manfaat Tidur yang Cukup\n\n1. Meningkatkan konsentrasi dan produktivitas.\n2. Meningkatkan kesehatan mental dan emosional.\n3. Meningkatkan kesehatan fisik dan kekebalan tubuh.\n4. Membantu mengurangi stres dan kecemasan.\n5. Meningkatkan kualitas hidup.\n\n\n## Tips untuk Tidur yang Nyenyak\n\n1. Atur jam tidur secara teratur.\n2. Buat suasana tidur yang nyaman.\n3. Hindari konsumsi kafein dan alkohol sebelum tidur.\n4. Lakukan aktivitas relaksasi sebelum tidur.\n5. Batasi penggunaan perangkat elektronik sebelum tidur.\n\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
+    "from": "ApiNyaEr",
+    "success": true
+}
 ```
 
 ### 20. Nama Epep
@@ -576,7 +580,7 @@ print(result)
 #### Expected Output
 
 ```text
-Ｋｏｋ ｍａｔｉ ｃｕｋ
+『TG』 ཌĐʀᴀɢᴏƝད°ᴵᴰᴹ°ツ
 ```
 
 ### 21. Password
@@ -601,7 +605,7 @@ print(result)
 #### Expected Output
 
 ```text
-5s`Hr-Vl,Q#"
+pS95l)=RG^|m
 ```
 
 ### 22. Pypi
@@ -661,10 +665,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Kita tidak akan bisa berbuat apa-apa jika kita terpisah. (Tapi) ketika seseorang bertemu dengan yang lainnya (semua akan berubah).Sekarang, di suatu tempat mungkin sedang terjadi suatu pertemuan yang dapat mengubah dunia.Mungkin hal itu terjadi di suatu negara yang sangat jauh. Mungkin juga berada di sisi planet ini.Atau mungkin itu berada di klub voli kecil, di sebuah SMA biasa, di sebuah negara kepulauan kecil di timur.Kupikir pertemuan itu terjadi di sini, di Karasuno. Aku tahu aku tak bisa membuktikan apa yang kukatakan, tapi aku sangat yakin. Aku yakin mulai dari sekarang, kalian akan menjadi lebih kuat lagi!**",
-    "\ud83c\udf39 **Character": "Ittetsu Takeda**",
-    "\ud83c\udf41 **Anime": "Haikyuu!!**",
-    "\ud83c\udf41 **Episode": "Episode 7**"
+    "\ud83c\udf81 **Quotes": "Jangan buang rasa kesalmu. Karena itu akan jadi bukti kalau kau masih belum menyerah pada dirimu sendiri.**",
+    "\ud83c\udf39 **Character": "Ryouma Kurogane**",
+    "\ud83c\udf41 **Anime": "Rakudai Kishi no Cavalry**",
+    "\ud83c\udf41 **Episode": "Episode 2**"
 }
 ```
 
@@ -686,7 +690,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Bukan tanpa alasan hal ini kami lakukan, ini semua untuk kebebasan yang dikekang pemerintah.**
+🃏 **Peretas adalah bakat. Anda tidak akan mempelajarinya di sekolah. Ini seperti menjadi Messi atau C. Ronaldo. Jika Anda dilahirkan untuk menjadi seorang peretas, itu adalah takdir Anda. Jika tidak, Anda akan diretas.**
 ```
 
 ### 25. Qislam
@@ -707,7 +711,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Musibah yang membuatmu kembali kepada Allah lebih baik dari nikmat yang membuatmu lupa kepada Allah**
+📖 **Bila hijrahmu karena Allah, kamu akan terus melangkah walaupun sudah lelah**
 ```
 
 ### 26. Qpubg
@@ -728,7 +732,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Di dalam game PUBG kita diajarkan untuk tidak terus menerus berperang. Tapi bagaimana kita bertarung dan menjaga kawan untuk mendapatkan Winner Winner Chicken Dinner**
+🏆 **Kita tidak dilahirkan sebagai pemenang. Kita harus meraihnya sendiri dengan usaha dan kerja keras**
 ```
 
 ### 27. Terabox Dl
@@ -770,7 +774,7 @@ print(result)
 #### Expected Output
 
 ```text
-Kok bisa suka sama orang yang kamu sukai?
+Jika punya kekuatan super/ super power ingin melakukan apa
 ```
 
 ### 29. Wibu
@@ -812,8 +816,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Higashi no Eden",
-            "url": "https://nekos.best/api/v2/kiss/83b0c890-2ee6-4939-ac95-179c4982e7cf.gif"
+            "anime_name": "Golden Time",
+            "url": "https://nekos.best/api/v2/kiss/739e8b8b-34a5-4190-ae78-74e1af15b905.gif"
         }
     ]
 }
