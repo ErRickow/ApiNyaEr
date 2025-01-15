@@ -20,12 +20,8 @@ from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 class ErApi:
     def __init__(self):
         self.base_urls = {
-            "siputx": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGk=").decode(
-                "utf-8"
-            ),
-            "flux": apainier(
-                "aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGkvYWkvZmx1eA=="
-            ).decode("utf-8"),
+            "siputx": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGk=").decode("utf-8"),
+            "flux": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGkvYWkvZmx1eA==").decode("utf-8"),
             "ai": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvb3BlbmFp").decode("utf-8"),
             "hehe": apainier("aHR0cHM6Ly92YXBpcy5teS5pZC9hcGkvbG9nb21ha2Vy").decode(
                 "utf-8"
@@ -399,13 +395,46 @@ class ErApi:
         except Exception as e:
             return e
 
+    async def arti_nama(self, namanya: str):
+        """
+        Mendapatkan arti nama dari string
+        
+        Args:
+            namanya (str): Nama Kamu
+        Returns:
+            dict: Informasi Arti Nama Kamu or Eror Msg
+        """
+        url = f"{self.base_urls['siputx']}/primbon/artinama"
+        par = {"nama": namanya}
+        try:
+            res = await self._make_request(url, params=par)
+            if res["status"] is True:
+                return {
+                    "namanya": res["data"]["nama"],
+                    "artinya": res["data"]["arti"],
+                    "from": "ApiNyaEr",
+                    "success": True
+                }
+            else:
+                return {
+                    "Why?": "gagal mendapatkan arti nama.",
+                    "success": False,
+                    "report": "@Er_Support_Group"
+                }
+        except Exception as r:
+            return {
+                "Why?": f"Terjadi kesalahan: {str(r)}",
+                "success": False,
+                "report": "@Er_Support_Group"
+            }
+
     async def zodiak(self, input: str):
         """
         Mengambil informasi zodiak berdasarkan input.
-
+    
         Args:
             input (str): Nama zodiak.
-
+    
         Returns:
             dict: Informasi lengkap zodiak atau pesan kesalahan.
         """
@@ -426,25 +455,25 @@ class ErApi:
                     "elemen_keberuntungan": data["elemen_keberuntungan"],
                     "pasangan_zodiak": data["pasangan_zodiak"],
                     "success": True,
-                    "from": "ApiNyaEr",
+                    "from": "ApiNyaEr"
                 }
             else:
                 return {
-                    "message": "Gagal mendapatkan data zodiak.",
+                    "Why?": "Gagal mendapatkan data zodiak.",
                     "success": False,
-                    "from": "ApiNyaEr",
+                    "report": "@Er_Support_Group"
                 }
         except Exception as r:
             return {
-                "message": f"Terjadi kesalahan: {str(r)}",
+                "Why?": f"Terjadi kesalahan: {str(r)}",
                 "success": False,
-                "from": "ApiNyaEr",
+                "report": "@Er_Support_Group"
             }
 
     async def read_image(self, url: str):
         """
         Bertanya gambar melalui url
-
+        
         Returns:
             url(str): string url
         """
@@ -464,7 +493,7 @@ class ErApi:
     async def meta_ai(self, tanya: str):
         """
         Bertanya pada meta AI
-
+        
         Returns:
             tanya(str): teks yang akan ditanyakan
         """
@@ -484,7 +513,7 @@ class ErApi:
     async def fluxai(self, input: str):
         """
         Generate image from Teks
-
+        
         Returns:
             input: teks yang akan dijadikan image
         """
