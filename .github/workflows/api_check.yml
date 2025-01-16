@@ -44,9 +44,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           
-      - uses: yanzay/notify-telegram@master
-        if: always()
-        with:
-          chat: ${{ secrets.loh_anjg }}
-          token: ${{ secrets.token_tel }}
-          status: ${{ job.status }}
+      # - uses: yanzay/notify-telegram@master
+      #   if: always()
+      #   with:
+      #     chat: ${{ secrets.loh_anjg }}
+      #     token: ${{ secrets.token_tel }}
+      #     status: ${{ job.status }}
