@@ -14,7 +14,6 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
     "sphinx.ext.autodoc",
-    "sphinx_copybutton",
     "sphinx_rtd_dark_mode",
 ]
 
@@ -36,4 +35,3 @@ html_static_path = ["_static"]
 html_logo = "logo.png"
 html_show_sphinx = False
 html_show_copyright = False
-copybutton_prompt_text = ">>> "
