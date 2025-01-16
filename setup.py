@@ -19,7 +19,7 @@ def read(fname, version=False):
 
 setup(
     name="ApiNyaEr",
-    version="1.3",
+    version="1.4",
     description="An Api Compile for another source",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
