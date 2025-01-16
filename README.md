@@ -144,7 +144,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://t4.ftcdn.net/jpg/04/60/72/67/360_F_460726770_XFNB9Wx4VmXk2RRLBQDOz1gfy5kV5gBq.jpg
+https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/03/14044059/Kenali-Pola-Tidur-yang-Baik-untuk-Kesehatan.jpg
 ```
 
 ### 4. Blackbox
@@ -193,7 +193,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_w9bEjFW8.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_iZDIsoeW.png
 ```
 
 ### 6. Cat
@@ -215,7 +215,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/333.gif
+https://cdn2.thecatapi.com/images/dj3.jpg
 ```
 
 ### 7. Dare
@@ -236,7 +236,7 @@ print(result)
 #### Expected Output
 
 ```text
-Pakai mahkota tiruan dari kertas buku dan bilang sama setiap orang di ruangan 'BERI PENGHORMATAN PADA YANG MULIA RAJA' sambil menunjuk setiap orang dengan penggaris.
+Nyebutin 1 biru sampai 10 biru dengan cepat dan tidak boleh melakukan kesalahan. Jika salah maka harus diulang dari awal.
 ```
 
 ### 8. Doa
@@ -285,7 +285,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/70201403-a7de-4524-879f-d42ae4f42e14.JPG
+https://random.dog/27ee3890-8eca-4038-b77e-b6630ebd3b74.jpg
 ```
 
 ### 10. Fakta Unik
@@ -306,7 +306,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Wanita yang sedang stres selama kehamilannya cenderung melahirkan anak-anak yang pemarah. [Institute of Psychiatry, King College London]**
+🌾 **Kulit Zebra adalah putih yang bergaris hitam**
 ```
 
 ### 11. Fluxai
@@ -467,8 +467,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Suisei no Gargantia",
-        "url": "https://nekos.best/api/v2/hug/40142a6f-83c4-450e-a477-ca7c89787623.gif"
+        "anime_name": "Inu x Boku Secret Service",
+        "url": "https://nekos.best/api/v2/hug/e868c5a9-a440-491a-a96b-fda4953202f7.gif"
     }
 ]
 ```
@@ -492,7 +492,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang fokus pada ajaran Islam, saya hanya dapat memberikan informasi yang berkaitan dengan pandangan Islam tentang tidur.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan berkualitas dianggap sebagai sesuatu yang penting bagi kesehatan fisik dan mental. Namun, Islam juga mengajarkan agar tidak berlebihan dalam tidur dan menyia-nyiakan waktu.\n\nJika Anda ingin informasi lebih lanjut mengenai pandangan Islam tentang tidur, saya sarankan untuk berkonsultasi dengan ulama atau sumber-sumber Islam yang terpercaya.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dipandang sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nIslam mengajarkan agar kita memperhatikan etika dan adab dalam tidur, seperti:\n\n1. Membaca doa sebelum tidur.\n2. Tidur dalam posisi yang disukai Rasulullah SAW, yaitu berbaring miring ke kanan.\n3. Menjaga kebersihan dan kesucian tempat tidur.\n4. Tidak berlebihan dalam tidur.\n\nSaya sarankan agar Anda merujuk pada sumber-sumber Islam yang otoritatif untuk mendapatkan pemahaman yang lebih mendalam mengenai tidur dalam perspektif Islam. Jangan ragu untuk bertanya kepada ulama atau ahli agama jika membutuhkan penjelasan lebih lanjut.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -562,7 +562,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Biar badan dan otak kita bisa recharge. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4\u2728",
+    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Kalo udah capek, jangan ragu buat tidur yang nyenyak. Mimpi indah ya! \ud83c\udf19\u2728 Ada yang mau dibahas tentang tidur?",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -587,7 +587,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah kegiatan alami yang sangat penting bagi kesehatan dan kesegaran tubuh. Selama tidur, tubuh melakukan beberapa fungsi penting, seperti:\n\n\n## Fungsi Tidur\n\n1. **Pemulihan dan Perbaikan Sel**: Tidur membantu memperbaiki dan memulihkan sel-sel tubuh yang rusak.\n2. **Pengolahan Informasi**: Otak mengolah dan menyimpan informasi yang diterima selama hari.\n3. **Pengaturan Emosi**: Tidur membantu mengatur emosi dan mengurangi stres.\n4. **Pengembangan Otak**: Tidur penting untuk perkembangan otak pada anak-anak dan remaja.\n5. **Pengaturan Hormon**: Tidur membantu mengatur hormon yang terkait dengan pertumbuhan, metabolisme, dan reproduksi.\n\n\n## Manfaat Tidur\n\n1. Meningkatkan konsentrasi dan produktivitas.\n2. Membantu mengurangi stres dan kecemasan.\n3. Meningkatkan sistem imun.\n4. Membantu mengatur berat badan.\n5. Meningkatkan kesehatan kulit.\n\n\n## Tips Tidur Nyenyak\n\n1. Tentukan jam tidur yang teratur.\n2. Buatlah lingkungan tidur nyaman.\n3. Hindari kafein dan alkohol sebelum tidur.\n4. Matikan perangkat elektronik sebelum tidur.\n5. Lakukan relaksasi sebelum tidur.\n\n\nApakah Anda memiliki pertanyaan lebih lanjut tentang tidur?",
+    "resultnya": "Tidur adalah aktivitas yang sangat penting bagi manusia. Selama tidur, tubuh melakukan berbagai proses penting seperti:\n\n* Memulihkan energi\n* Memperbaiki jaringan tubuh\n* Mengolah informasi dan memori\n* Mengatur emosi dan stres\n\nTidur yang cukup juga dapat membantu meningkatkan kesehatan fisik dan mental, serta meningkatkan produktivitas dan konsentrasi.\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
     "from": "ApiNyaEr",
     "success": true
 }
@@ -611,7 +611,7 @@ print(result)
 #### Expected Output
 
 ```text
-▄︻̷̿┻̿═━一ØV₵Ⱨ₳Ɽ₭₳⸕şťªİҝερ
+꧁ ༺ HM•GAMING ༻ ꧂
 ```
 
 ### 22. Password
@@ -636,7 +636,7 @@ print(result)
 #### Expected Output
 
 ```text
-Hg7+d*l]$,'w
+!:hqM7f*\`&]
 ```
 
 ### 23. Pypi
@@ -696,10 +696,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Aku tidak bisa fokus karena terpana olehmu.**",
-    "\ud83c\udf39 **Character": "Fuutarou Uesugi**",
-    "\ud83c\udf41 **Anime": "Gotoubun no Hanayome**",
-    "\ud83c\udf41 **Episode": "Episode 10**"
+    "\ud83c\udf81 **Quotes": "Setiap jomblo yang punya hewan peliharaan pasti merasakan kebahagiaan palsu**",
+    "\ud83c\udf39 **Character": "Mayumi Nishikino**",
+    "\ud83c\udf41 **Anime": "Bokura wa Minna Kawaisou**",
+    "\ud83c\udf41 **Episode": "Episode 11**"
 }
 ```
 
@@ -721,7 +721,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kami dimulai sebagai sekelompok orang yang dikendalikan tanpa sebuah alasan.**
+🃏 **Bukan tanpa alasan hal ini kami lakukan, ini semua untuk kebebasan yang dikekang pemerintah.**
 ```
 
 ### 26. Qislam
@@ -742,7 +742,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Tak harus kamu yang sempurna, setidaknya kamu yang selalu berusaha istiqpmah di setiap waktu yang kamu punya. Karena kita akan berkerjasama membangun rumah di surga**
+📖 **Bila hijrahmu karena Allah, kamu akan terus melangkah walaupun sudah lelah**
 ```
 
 ### 27. Qpubg
@@ -763,7 +763,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Semoga senantiasa panjang umur buat teman yang kalau diajak join mabar langsung login**
+🏆 **Skill individu boleh mumpuni. Tapi tanpa Kerja sama, tidak akan mencapai apa-apa**
 ```
 
 ### 28. Read Image
@@ -783,12 +783,8 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "resultnya": " A black cat is sitting on a person's shoulder, looking directly into the camera. The person is wearing a white shirt. The cat appears to be staring at the camera with a surprised or curious expression. The scene is set indoors, with the person and the cat being the main subjects of the image. The lighting is soft and natural, creating a warm and inviting atmosphere. The colors in the image are predominantly black and white, with the cat being black and the person wearing a white shirt. The textures in the image are smooth and soft, with the cat's fur and the person's shirt providing a sense of warmth and comfort.",
-    "from": "ApiNyaEr",
-    "success": true
-}
+```text
+Request failed: 524, message='', url='https://api.siputzx.my.id/api/ai/image2text?url=https://cataas.com/cat'
 ```
 
 ### 29. Terabox Dl
@@ -830,7 +826,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa hal terbodoh yg pernah kamu lakukan ?
+Apa yang akan kamu lakuin bila pacarmu bilang hidung atau jarimu jelek?
 ```
 
 ### 31. Wibu
@@ -872,8 +868,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Darling in the Franxx",
-            "url": "https://nekos.best/api/v2/kiss/c2f81599-98de-41b5-bcb9-c2bc7c7f6542.gif"
+            "anime_name": "Guilty Crown",
+            "url": "https://nekos.best/api/v2/kiss/cfde096f-37ae-4ad2-8371-d0dd33710f8e.gif"
         }
     ]
 }
