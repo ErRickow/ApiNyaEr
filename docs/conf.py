@@ -2,7 +2,7 @@ import os
 import sys
 
 # Tambahkan jalur ke modul proyek utama
-sys.path.insert(0, os.path.abspath("ApiNyaEr"))
+sys.path.insert(0, os.path.abspath(".."))
 
 # Informasi proyek
 project = "ApiNyaEr"
@@ -12,14 +12,14 @@ release = "1.4"
 
 # -- Konfigurasi Umum -----------------------------------------------------
 extensions = [
-    "sphinx.ext.duration",  # Menunjukkan waktu kompilasi
-    "sphinx.ext.doctest",  # Menyertakan pengujian dokumentasi
-    "sphinx.ext.autodoc",  # Mendokumentasikan kode secara otomatis
-    "sphinx.ext.autosummary",  # Membuat ringkasan otomatis
-    "sphinx.ext.intersphinx",  # Menghubungkan dengan dokumentasi eksternal
-    "sphinx.ext.napoleon",  # Mendukung Google-style docstrings
-    "sphinx_autodoc_typehints",  # Menambahkan tipe anotasi Python
-    "sphinx.ext.viewcode",  # Menyertakan tautan ke kode sumber
+    "sphinx.ext.duration",         # Menunjukkan waktu kompilasi
+    "sphinx.ext.doctest",          # Menyertakan pengujian dokumentasi
+    "sphinx.ext.autodoc",          # Mendokumentasikan kode secara otomatis
+    "sphinx.ext.autosummary",      # Membuat ringkasan otomatis
+    "sphinx.ext.intersphinx",      # Menghubungkan dengan dokumentasi eksternal
+    "sphinx.ext.napoleon",         # Mendukung Google-style docstrings
+    "sphinx_autodoc_typehints",    # Menambahkan tipe anotasi Python
+    "sphinx.ext.viewcode",         # Menyertakan tautan ke kode sumber
 ]
 
 # Pola file yang akan diabaikan
@@ -36,8 +36,8 @@ html_theme = "sphinx_rtd_theme"
 html_logo = None
 
 # Opsi tambahan untuk HTML
-html_show_sphinx = False  # Sembunyikan tautan "Built with Sphinx"
-html_show_copyright = False  # Sembunyikan teks hak cipta default
+html_show_sphinx = False            # Sembunyikan tautan "Built with Sphinx"
+html_show_copyright = False         # Sembunyikan teks hak cipta default
 
 # Autosectionlabel (untuk referensi antar dokumen)
 autosectionlabel_prefix_document = True
