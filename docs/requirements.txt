@@ -1,0 +1,15 @@
+sphinx-autorun
+sphinx-jinja2
+sphinx-rtd-theme
+sphinx-notfound-page
+sphinx-hoverxref
+sphinx-tabs
+shot-scraper
+Setuptools
+ApiNyaEr
+sphinx-js
+sphinx-copybutton
+markupsafe==2.0.1
+sphinx-rtd-dark-mode
+cloudscraper
+git+https://github.com/shawalli/pygments-lexer-apex.git#egg=pygments-lexer-apex
