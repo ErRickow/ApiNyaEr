@@ -2,7 +2,7 @@
 Module contents
 ---------------
 
-.. automodule:: ApiNyaEr
+.. automodule:: apinya
    :members:
    :undoc-members:
    :show-inheritance:
