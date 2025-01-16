@@ -1,4 +1,4 @@
 .. autosummary::
    :toctree: generated
 
-   lumache.py
+   lumache
