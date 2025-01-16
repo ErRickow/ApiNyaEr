@@ -1,5 +1,12 @@
-.. toctree::
+.. ApiNyaEr documentation master file
 
-   Home <self>
-   usage
-   api
+Welcome to ApiNyaEr's documentation!
+=====================================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   modules
