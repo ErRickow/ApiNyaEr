@@ -725,7 +725,7 @@ class ErApi:
 
             return FilePath(realpath(file_path))
 
-async def github_search(self, cari, tipe="repositories", max_results=3):
+    async def github_search(self, cari, tipe="repositories", max_results=3):
         """
         Pencarian GitHub untuk beberapa tipe konten.
 
@@ -739,7 +739,7 @@ async def github_search(self, cari, tipe="repositories", max_results=3):
                 - "pull_requests"
                 - "commits"
                 - "topics"
-            Defaults ke "repositories".
+                Defaults ke "repositories".
             max_results (int, optional): Maximum nomor dari results untuk return. Defaultnya 3.
 
         Returns:
