@@ -18,8 +18,6 @@ __version__ = "0.1.0"
 class InvalidKindError(Exception):
     """Raised if the kind is invalid."""
 
-    pass
-
 
 def get_random_ingredients(kind=None):
     """
