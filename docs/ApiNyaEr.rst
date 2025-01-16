@@ -1,3 +1,5 @@
+.. module:: apinya
+
 Class documentation
 --------------------
 .. autoclass:: ErApi
