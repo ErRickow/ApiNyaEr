@@ -124,86 +124,84 @@ class ErApi:
         return anunya if anunya else None
 
     async def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
-        """Fetch spesifik Gambar/Gif Anime.
-
-        Args:
-            endpoint (str): Kategori endpoin gambar/Gif animenya. Defaultnya
-            "kiss".
-                Valid Format endpoints:
-                - "husbando", "kitsune", "neko", "waifu"
-                Valid GIF endpoints:
-                - "baka", "bite", "blush", "bored", "cry", "cuddle", "dance", "facepalm",
-                  "feed", "handhold", "handshake", "happy", "highfive", "hug", "kick",
-                  "kiss", "laugh", "lurk", "nod", "nom", "nope", "pat", "peck", "poke",
-                  "pout", "punch", "shoot", "shrug", "slap", "sleep", "smile", "smug",
-                  "stare", "think", "thumbsup", "tickle", "wave", "wink", "yawn", "yeet"
-            amount (int): jumlah item gambarnya. Default 1.
-
-        Returns:
-            dict: Dictionary konten yang di request. Dictionarynya memiliki kata
-            kunci`"results"`,
-                  yang menampung limit.
-
-        Raises:
-            ValueError: Jika endpoint tidak valid.
-        """
-        valid_categories = [
-            "husbando",
-            "kitsune",
-            "neko",
-            "waifu",  # Images
-            "baka",
-            "bite",
-            "blush",
-            "bored",
-            "cry",
-            "cuddle",
-            "dance",
-            "facepalm",
-            "feed",
-            "handhold",
-            "handshake",
-            "happy",
-            "highfive",
-            "hug",
-            "kick",
-            "kiss",
-            "laugh",
-            "lurk",
-            "nod",
-            "nom",
-            "nope",
-            "pat",
-            "peck",
-            "poke",
-            "pout",
-            "punch",
-            "shoot",
-            "shrug",
-            "slap",
-            "sleep",
-            "smile",
-            "smug",
-            "stare",
-            "think",
-            "thumbsup",
-            "tickle",
-            "wave",
-            "wink",
-            "yawn",
-            "yeet",  # GIFs
-        ]
-
-        if endpoint not in valid_categories:
-            raise ValueError(
-                f"SALAH GUOBLOK'{endpoint}'. Harus yang kek gini: {', '.join(valid_categories)}"
-            )
-
-        url = self.base_urls["neko_url"].format(endpoint=endpoint, amount=amount)
-
-        response = await self._make_request(url)
-
-        return response
+            """
+            Fetch spesifik Gambar/Gif Anime.
+    
+            Args:
+                endpoint (str): Kategori endpoin gambar/Gif animenya. Defaultnya "kiss".
+                    Valid Format endpoints:
+                    - "husbando", "kitsune", "neko", "waifu"
+                    Valid GIF endpoints:
+                    - "baka", "bite", "blush", "bored", "cry", "cuddle", "dance", "facepalm",
+                      "feed", "handhold", "handshake", "happy", "highfive", "hug", "kick",
+                      "kiss", "laugh", "lurk", "nod", "nom", "nope", "pat", "peck", "poke",
+                      "pout", "punch", "shoot", "shrug", "slap", "sleep", "smile", "smug",
+                      "stare", "think", "thumbsup", "tickle", "wave", "wink", "yawn", "yeet"
+                amount (int): jumlah item gambarnya. Default 1.
+    
+            Returns:
+                dict: Dictionary konten yang di request. Dictionarynya memiliki kata kunci `"results"`, yang menampung limit.
+    
+            Raises:
+                ValueError: Jika endpoint tidak valid.
+            """
+            valid_categories = [
+                "husbando",
+                "kitsune",
+                "neko",
+                "waifu",  # Images
+                "baka",
+                "bite",
+                "blush",
+                "bored",
+                "cry",
+                "cuddle",
+                "dance",
+                "facepalm",
+                "feed",
+                "handhold",
+                "handshake",
+                "happy",
+                "highfive",
+                "hug",
+                "kick",
+                "kiss",
+                "laugh",
+                "lurk",
+                "nod",
+                "nom",
+                "nope",
+                "pat",
+                "peck",
+                "poke",
+                "pout",
+                "punch",
+                "shoot",
+                "shrug",
+                "slap",
+                "sleep",
+                "smile",
+                "smug",
+                "stare",
+                "think",
+                "thumbsup",
+                "tickle",
+                "wave",
+                "wink",
+                "yawn",
+                "yeet",  # GIFs
+            ]
+    
+            if endpoint not in valid_categories:
+                raise ValueError(
+                    f"SALAH GUOBLOK '{endpoint}'. Harus yang kek gini: {', '.join(valid_categories)}"
+                )
+    
+            url = self.base_urls["neko_url"].format(endpoint=endpoint, amount=amount)
+    
+            response = await self._make_request(url)
+    
+            return response
 
     @staticmethod
     def password(num: int = 12) -> str:
@@ -741,10 +739,8 @@ class ErApi:
                 - "pull_requests"
                 - "commits"
                 - "topics"
-
                 Defaults ke "repositories".
-            max_results (int, optional): Maximum nomor dari results untuk
-            return. Defaultnya 3.
+            max_results (int, optional): Maximum nomor dari results untuk return. Defaultnya 3.
 
         Returns:
             list: List dari pencarian results atau pesan error.
