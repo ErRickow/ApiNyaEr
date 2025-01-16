@@ -14,14 +14,14 @@ release = "1.4"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "sphinx.ext.duration",         # Menunjukkan waktu kompilasi
-    "sphinx.ext.doctest",          # Menyertakan pengujian dokumentasi
-    "sphinx.ext.autodoc",          # Mendokumentasikan kode secara otomatis
-    "sphinx.ext.autosummary",      # Membuat ringkasan otomatis
-    "sphinx.ext.intersphinx",      # Menghubungkan dengan dokumentasi eksternal
-    "sphinx.ext.napoleon",         # Mendukung Google-style docstrings
-    "sphinx_autodoc_typehints",    # Menambahkan tipe anotasi Python
-    "sphinx.ext.viewcode",         # Menyertakan tautan ke kode sumber
+    "sphinx.ext.duration",  # Menunjukkan waktu kompilasi
+    "sphinx.ext.doctest",  # Menyertakan pengujian dokumentasi
+    "sphinx.ext.autodoc",  # Mendokumentasikan kode secara otomatis
+    "sphinx.ext.autosummary",  # Membuat ringkasan otomatis
+    "sphinx.ext.intersphinx",  # Menghubungkan dengan dokumentasi eksternal
+    "sphinx.ext.napoleon",  # Mendukung Google-style docstrings
+    "sphinx_autodoc_typehints",  # Menambahkan tipe anotasi Python
+    "sphinx.ext.viewcode",  # Menyertakan tautan ke kode sumber
 ]
 
 # Gunakan mode gelap secara default jika tema mendukung
@@ -49,8 +49,8 @@ html_static_path = ["_static"]
 html_logo = "logo.png"
 
 # Opsi tambahan untuk HTML
-html_show_sphinx = False            # Sembunyikan tautan "Built with Sphinx"
-html_show_copyright = False         # Sembunyikan teks hak cipta default
+html_show_sphinx = False  # Sembunyikan tautan "Built with Sphinx"
+html_show_copyright = False  # Sembunyikan teks hak cipta default
 
 # Autosectionlabel (untuk referensi antar dokumen)
 autosectionlabel_prefix_document = True
