@@ -1,6 +1,7 @@
-ApiNyaEr Documentation
-======================
+Module Documentation
+====================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. automodule:: ApiNyaEr
+   :members:
+   :undoc-members:
+   :show-inheritance:
