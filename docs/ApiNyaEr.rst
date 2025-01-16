@@ -1,4 +1,4 @@
-.. module:: apinya
+.. module:: ApiNyaEr.apinya
 
 Module contents
 ---------------
@@ -9,7 +9,7 @@ Module contents
 
 Class documentation
 --------------------
-.. autoclass:: ApiNyaEr
+.. autoclass:: ErApi
    :members:
    :undoc-members:
    :show-inheritance:
