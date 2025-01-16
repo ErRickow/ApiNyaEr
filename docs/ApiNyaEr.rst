@@ -1,8 +1,8 @@
-.. module:: apinya.ApiNyaEr
+.. module:: apinya
 
 Module contents
 ---------------
-.. automodule:: apinya.ApiNyaEr
+.. automodule:: apinya
    :members:
    :undoc-members:
    :show-inheritance:
