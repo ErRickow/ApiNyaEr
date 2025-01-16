@@ -123,7 +123,7 @@ class ErApi:
         anunya = await self._make_request(url)
         return anunya if anunya else None
 
-    def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
+    async def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
         """Fetch spesifik Gambar/Gif Anime.
 
         Args:
