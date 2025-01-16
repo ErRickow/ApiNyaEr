@@ -6,11 +6,3 @@ ApiNyaEr Documentation
    :caption: Contents:
 
    modules
-
-Modules
-=======
-
-.. automodule:: apinya
-   :members:
-   :undoc-members:
-   :show-inheritance:
