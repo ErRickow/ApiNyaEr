@@ -1,4 +1,4 @@
-.. module:: ApiNyaEr.apinya
+.. module:: apinya
 
 Module contents
 ---------------
