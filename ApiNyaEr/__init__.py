@@ -1,1 +1,1 @@
-from .apinya import apinya
+from ApiNyaEr.apinya import apinya
