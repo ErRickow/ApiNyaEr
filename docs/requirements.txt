@@ -11,7 +11,7 @@ sphinx-hoverxref
 sphinx-tabs
 shot-scraper
 Setuptools
-ApiNyaEr
+git+https://github.com/ErRickow/ApiNyaEr@docs
 sphinx-js
 sphinx-copybutton
 markupsafe==2.0.1
