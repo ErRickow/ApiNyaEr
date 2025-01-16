@@ -16,6 +16,7 @@ def read(fname, version=False):
     text = open(os.path.join(os.path.dirname(__file__), fname), encoding="utf8").read()
     return text
 
+
 with open("README.md", encoding="utf8") as readme:
     long_desc = readme.read()
 
