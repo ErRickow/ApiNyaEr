@@ -1,5 +1,10 @@
 sphinx-autorun
 sphinx-jinja2
+aiohttp
+aiofiles
+requests
+pillow
+Flask
 sphinx-rtd-theme
 sphinx-notfound-page
 sphinx-hoverxref
