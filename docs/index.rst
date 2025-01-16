@@ -1,12 +1,6 @@
-.. ApiNyaEr documentation master file
-
-Welcome to ApiNyaEr's documentation!
-=====================================
-
-Contents:
+ApiNyaEr Documentation
+======================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-   modules
