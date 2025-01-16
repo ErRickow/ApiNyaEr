@@ -16,13 +16,15 @@ def read(fname, version=False):
     text = open(os.path.join(os.path.dirname(__file__), fname), encoding="utf8").read()
     return text
 
+with open("README.md", encoding="utf8") as readme:
+    long_desc = readme.read()
 
 setup(
     name="ApiNyaEr",
     version="1.4",
     description="An Api Compile for another source",
-    long_description=read("README.md"),
     long_description_content_type="text/markdown",
+    long_description=long_desc,
     author="Er",
     url="https://pypi.org/project/ApiNyaEr",
     packages=find_packages(),
