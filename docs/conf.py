@@ -37,14 +37,3 @@ html_logo = "logo.png"
 html_show_sphinx = False
 html_show_copyright = False
 copybutton_prompt_text = ">>> "
-
-
-# Add the setup function at the end of the file
-def skip_member(app, what, name, obj, skip, options):
-    if what == "module" or what == "class":
-        return False  # Include all modules and classes but exclude indexing
-    return skip
-
-
-def setup(app):
-    app.connect("autodoc-skip-member", skip_member)
