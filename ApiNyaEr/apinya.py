@@ -146,63 +146,63 @@ class ErApi:
         Raises:
           ValueError: Jika endpoint tidak valid.
         """
-            valid_categories = [
-                "husbando",
-                "kitsune",
-                "neko",
-                "waifu",  # Images
-                "baka",
-                "bite",
-                "blush",
-                "bored",
-                "cry",
-                "cuddle",
-                "dance",
-                "facepalm",
-                "feed",
-                "handhold",
-                "handshake",
-                "happy",
-                "highfive",
-                "hug",
-                "kick",
-                "kiss",
-                "laugh",
-                "lurk",
-                "nod",
-                "nom",
-                "nope",
-                "pat",
-                "peck",
-                "poke",
-                "pout",
-                "punch",
-                "shoot",
-                "shrug",
-                "slap",
-                "sleep",
-                "smile",
-                "smug",
-                "stare",
-                "think",
-                "thumbsup",
-                "tickle",
-                "wave",
-                "wink",
-                "yawn",
-                "yeet",  # GIFs
-            ]
-    
-            if endpoint not in valid_categories:
-                raise ValueError(
-                    f"SALAH GUOBLOK '{endpoint}'. Harus yang kek gini: {', '.join(valid_categories)}"
-                )
-    
-            url = self.base_urls["neko_url"].format(endpoint=endpoint, amount=amount)
-    
-            response = await self._make_request(url)
-    
-            return response
+        valid_categories = [
+            "husbando",
+            "kitsune",
+            "neko",
+            "waifu",  # Images
+            "baka",
+            "bite",
+            "blush",
+            "bored",
+            "cry",
+            "cuddle",
+            "dance",
+            "facepalm",
+            "feed",
+            "handhold",
+            "handshake",
+            "happy",
+            "highfive",
+            "hug",
+            "kick",
+            "kiss",
+            "laugh",
+            "lurk",
+            "nod",
+            "nom",
+            "nope",
+            "pat",
+            "peck",
+            "poke",
+            "pout",
+            "punch",
+            "shoot",
+            "shrug",
+            "slap",
+            "sleep",
+            "smile",
+            "smug",
+            "stare",
+            "think",
+            "thumbsup",
+            "tickle",
+            "wave",
+            "wink",
+            "yawn",
+            "yeet",  # GIFs
+        ]
+
+        if endpoint not in valid_categories:
+            raise ValueError(
+                f"SALAH GUOBLOK '{endpoint}'. Harus yang kek gini: {', '.join(valid_categories)}"
+            )
+
+        url = self.base_urls["neko_url"].format(endpoint=endpoint, amount=amount)
+
+        response = await self._make_request(url)
+
+        return response
 
     @staticmethod
     def password(num: int = 12) -> str:
