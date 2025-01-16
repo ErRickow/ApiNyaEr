@@ -1,7 +1,7 @@
 ApiNyaEr Module Documentation
 =============================
 
-.. automodule:: ApiNyaEr.apinya
+.. automodule:: ApiNyaEr
    :members:
    :undoc-members:
    :show-inheritance:
