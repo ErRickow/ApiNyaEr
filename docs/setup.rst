@@ -1,3 +1,5 @@
+.. module:: setup
+
 setup module
 ============
 
