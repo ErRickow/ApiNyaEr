@@ -729,7 +729,7 @@ class ErApi:
     async def github_search(self, cari, tipe="repositories", max_results=3):
         """
         Pencarian GitHub untuk beberapa tipe konten.
-    
+
         Args:
             cari (str): untuk Pencarian.
             tipe (str, optional): Type pencarian, terdiri dari:
@@ -742,7 +742,7 @@ class ErApi:
                 - "topics"
                 Defaults ke "repositories".
             max_results (int, optional): Maximum nomor dari results untuk return. Defaultnya 3.
-    
+
         Returns:
             list: List dari pencarian results atau pesan error.
         """
@@ -755,18 +755,18 @@ class ErApi:
             "commits",
             "topics",
         ]
-    
+
         if tipe not in tipe_yang_valid:
             return {
                 "error": f"Type pencarian salah guoblok. Tipe validnya kek gini: {tipe_yang_valid}"
             }
-    
+
         url_mapping = {
             "pull_requests": "https://api.github.com/search/issues",
             "organizations": "https://api.github.com/search/users",
             "topics": "https://api.github.com/search/topics",
         }
-    
+
         if tipe in url_mapping:
             url = url_mapping[tipe]
             if tipe == "pull_requests":
@@ -775,18 +775,18 @@ class ErApi:
                 cari += " type:org"
         else:
             url = f"https://api.github.com/search/{tipe}"
-    
+
         headers = {"Accept": "application/vnd.github.v3+json"}
         params = {"q": cari, "per_page": max_results}
-    
+
         try:
             response = requests.get(url, headers=headers, params=params)
             response.raise_for_status()
             results = response.json()
             items = results.get("items", [])
-    
+
             result_list = []
-    
+
             for item in items:
                 item_info = {}
                 if tipe == "repositories":
@@ -846,11 +846,11 @@ class ErApi:
                         "created_by": item.get("created_by"),
                         "url": item.get("url") if "url" in item else None,
                     }
-    
+
                 result_list.append(item_info)
-    
+
             return result_list
-    
+
         except requests.exceptions.RequestException as e:
             return {"error": f"Requestnya Error: {e}"}
         except requests.exceptions.HTTPError as e:
