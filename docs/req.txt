@@ -1,0 +1,8 @@
+sphinx
+furo
+sphinx-copybutton
+sphinx-exec-code
+
+
+git+https://github.com/ErRickow/ApiNyaEr@Er
+# docstring_parser
