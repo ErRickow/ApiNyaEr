@@ -31,6 +31,7 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx_copybutton",
     "sphinx_exec_code",
+    "sphinx.ext.intersphinx",
 ]
 
 
@@ -97,7 +98,7 @@ napoleon_use_param = True
 html_show_copyright = False
 
 # Example configuration for intersphinx: refer to the Python standard library.
-on_rtd = os.environ.get("READTHEDOCS", None) == "True"
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 # if on_rtd:
 #     intersphinx_mapping = {
 #         'sphinx': ('/Users/eric/checkouts/sphinx/doc/_build/html/', None),
