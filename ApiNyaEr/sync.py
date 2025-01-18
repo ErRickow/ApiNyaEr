@@ -1,5 +1,5 @@
-import asyncio
 import sys
+import asyncio
 from functools import wraps
 
 from .apinya import ErApi

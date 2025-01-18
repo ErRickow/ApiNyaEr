@@ -1,15 +1,15 @@
 import os
-import random
 import re
+import random
 import string
-from typing import Optional, Union
+from typing import Union, Optional
 
 import aiofiles
 from bs4 import b64decode as apainier
 
-from ._req import Reqnya
 from .td import DARE, TRUTH
-from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
+from ._req import Reqnya
+from .teks import EPEP, PUBG, FAKTA, ANIMEK, HECKER, ISLAMIC
 
 
 class ErApi:
