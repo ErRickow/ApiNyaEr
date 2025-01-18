@@ -88,7 +88,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, termasuk perbaikan jaringan, penguatan sistem kekebalan tubuh, dan pemrosesan informasi yang telah didapatkan sebelumnya. Tidur yang cukup sangat penting untuk kesehatan fisik dan mental.\n\nAda beberapa fase tidur, termasuk tidur ringan, tidur dalam, dan tidur REM (Rapid Eye Movement), yang semuanya memiliki peran penting dalam kualitas tidur secara keseluruhan. Kurang tidur dapat menyebabkan berbagai masalah kesehatan, termasuk gangguan konsentrasi, stres, dan masalah kesehatan jangka panjang.\n\nJika Anda memiliki pertanyaan lebih spesifik tentang tidur, seperti tips untuk tidur yang lebih baik, dampak kurang tidur, atau lainnya, silakan tanya!",
+    "resultnya": "Tidur adalah proses penting bagi tubuh dan pikiran manusia. Selama tidur, tubuh melakukan berbagai pemulihan, termasuk perbaikan jaringan, penguatan sistem kekebalan tubuh, dan pemrosesan informasi yang telah diperoleh selama hari. Tidur yang cukup sangat penting untuk kesehatan fisik dan mental.\n\nAda beberapa fase tidur, termasuk tidur ringan, tidur dalam, dan tidur REM (Rapid Eye Movement), yang semuanya memiliki peran penting dalam kesehatan. Durasi tidur yang dibutuhkan bervariasi menurut usia, tetapi umumnya, orang dewasa disarankan untuk tidur antara 7 hingga 9 jam per malam.\n\nJika Anda memiliki pertanyaan lebih lanjut tentang tidur, manfaatnya, atau tips untuk tidur yang lebih baik, silakan tanyakan!",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group"
 }
@@ -193,7 +193,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_HbPR9dXG.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_cFOI0fMz.png
 ```
 
 ### 6. Cat
@@ -215,7 +215,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/9r6.jpg
+https://cdn2.thecatapi.com/images/4lt.gif
 ```
 
 ### 7. Dare
@@ -236,7 +236,7 @@ print(result)
 #### Expected Output
 
 ```text
-Upload video dia nyanyi ke youtube yang lagi nyanyiin lagu-lagu populer
+Makan 1 Sendok makan kecap manis dan kecap asin!
 ```
 
 ### 8. Doa
@@ -285,7 +285,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/1af28623-ff64-4970-b62c-dc900c8bc924.jpg
+https://random.dog/81f989da-c722-4122-b73c-f18c89530276.JPG
 ```
 
 ### 10. Fakta Unik
@@ -306,7 +306,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Nama “Gorila” berasal dari kata Yunani “Gorillai” yang berarti “perempuan berbulu”.**
+🌾 **Pisang mengandung vitamin B6 yang bisa mengontrol kadar gula dalam darah, dan membangkitkan mood**
 ```
 
 ### 11. Fluxai
@@ -467,8 +467,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Cuckoo no Iinazuke",
-        "url": "https://nekos.best/api/v2/hug/f45aad5e-e82f-4cac-b071-9b6f67752e0e.gif"
+        "anime_name": "Ao Haru Ride",
+        "url": "https://nekos.best/api/v2/hug/2ebb7586-77d4-46d1-bc4a-649bdc8d7a4f.gif"
     }
 ]
 ```
@@ -492,7 +492,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi yang spesifik tentang tidur. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam, Alquran, dan Hadits. Jika Anda memiliki pertanyaan terkait dengan pandangan Islam mengenai tidur atau hal-hal yang berkaitan dengan kehidupan seorang Muslim, saya akan berusaha untuk menjawabnya dengan merujuk pada sumber-sumber Islam yang otentik. Namun, jika pertanyaan Anda tidak berkaitan dengan Islam, saya sarankan untuk mencari informasi dari sumber lain yang lebih sesuai.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Al-Bukhari)\n\nDalam Islam, tidur yang cukup dan berkualitas dianggap sebagai salah satu bentuk ibadah dan penting bagi kesehatan fisik maupun mental. Namun, Islam juga mengajarkan agar tidak berlebihan dalam tidur dan tetap menjaga produktivitas.\n\nJika Anda membutuhkan informasi lebih lanjut mengenai pandangan Islam tentang tidur, saya sarankan untuk berkonsultasi dengan ulama atau sumber-sumber Islam yang terpercaya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -562,7 +562,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Biar badan dan otak kita recharge. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4\u2728",
+    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Bikin badan fresh dan siap beraksi lagi. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4\u2728",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -587,7 +587,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah kegiatan alami yang sangat penting bagi kesehatan dan kesegaran tubuh. Selama tidur, tubuh melakukan beberapa fungsi penting, seperti:\n\n\n## Fungsi Tidur\n\n1. **Pemulihan dan perbaikan sel**: Tidur membantu memperbaiki dan memulihkan sel-sel tubuh yang rusak.\n2. **Pengolahan memori**: Tidur membantu mengolah dan menyimpan memori.\n3. **Pengaturan emosi**: Tidur membantu mengatur emosi dan mengurangi stres.\n4. **Pengaturan hormon**: Tidur membantu mengatur hormon yang terkait dengan pertumbuhan, metabolisme, dan reproduksi.\n5. **Peningkatan kekebalan tubuh**: Tidur membantu meningkatkan kekebalan tubuh.\n\n\n## Manfaat Tidur yang Cukup\n\n1. Meningkatkan konsentrasi dan produktivitas.\n2. Meningkatkan kesehatan kulit.\n3. Membantu mengurangi berat badan.\n4. Meningkatkan kesehatan jantung.\n5. Membantu mengurangi risiko penyakit kronis.\n\n\n## Tips untuk Tidur yang Nyenyak\n\n1. Tetapkan jadwal tidur yang teratur.\n2. Buatlah lingkungan tidur yang nyaman.\n3. Hindari konsumsi kafein dan alkohol sebelum tidur.\n4. Lakukan aktivitas relaksasi sebelum tidur.\n5. Batasi penggunaan perangkat elektronik sebelum tidur.\n\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
+    "resultnya": "Tidur adalah kegiatan alami yang sangat penting bagi manusia. Selama tidur, tubuh melakukan berbagai proses penting seperti:\n\n\n## Proses Fisik\n1. **Pemulihan Otot**: Otot-otot yang lelah selama aktivitas sehari-hari diperbaiki dan dikembalikan ke kondisi normal.\n2. **Pengembalian Energi**: Energi yang terkuras selama aktivitas sehari-hari dikembalikan.\n3. **Pembersihan Racun**: Otak membersihkan racun dan zat berbahaya yang menumpuk selama aktivitas.\n\n\n## Proses Mental\n1. **Pengolahan Memori**: Otak mengolah dan menyimpan memori.\n2. **Pengaturan Emosi**: Emosi yang tidak stabil selama hari dapat stabil kembali.\n3. **Pengembangan Kognitif**: Kemampuan kognitif seperti belajar dan berpikir ditingkatkan.\n\n\n## Manfaat Tidur\n1. Meningkatkan kesehatan fisik dan mental.\n2. Meningkatkan produktivitas dan konsentrasi.\n3. Membantu mengurangi stres dan kecemasan.\n4. Meningkatkan sistem imun.\n5. Membantu mengatur berat badan.\n\n\n## Tips Tidur yang Sehat\n1. Tidur pada jam yang sama setiap hari.\n2. Buatlah lingkungan tidur nyaman dan gelap.\n3. Hindari konsumsi kafein dan alkohol sebelum tidur.\n4. Batasi penggunaan perangkat elektronik sebelum tidur.\n5. Lakukan aktivitas santai sebelum tidur.\n\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
     "from": "ApiNyaEr",
     "success": true
 }
@@ -611,7 +611,7 @@ print(result)
 #### Expected Output
 
 ```text
-NicK naMe » Leͥgeͣnͫd    ☂️
+꧁Ms. ★๖ۣۜƤriͥภcͣeͫss★꧂
 ```
 
 ### 22. Password
@@ -636,7 +636,7 @@ print(result)
 #### Expected Output
 
 ```text
-p:EXD|"I9qaC
+IU>'"ew;1^$?
 ```
 
 ### 23. Pypi
@@ -696,10 +696,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Wanita itu orang yang realistis. Kami tidak percaya hanya pada kata-kata.**",
-    "\ud83c\udf39 **Character": "Aiza Nagi**",
-    "\ud83c\udf41 **Anime": "Shigatsu wa Kimi no Uso**",
-    "\ud83c\udf41 **Episode": "Episode 17**"
+    "\ud83c\udf81 **Quotes": "Kami (berdua) yang telah terluka saling mengharapkan hal yang sama.Jika besok kau mati, maka aku tidak keberatan jika besok hidupku juga berakhir.Jika hari ini kau tetap hidup, aku pun juga akan hidup.**",
+    "\ud83c\udf39 **Character": "Koyomi Araragi**",
+    "\ud83c\udf41 **Anime": "Kizumonogatari III: Reiketsu-hen**",
+    "\ud83c\udf41 **Episode": "Episode 1**"
 }
 ```
 
@@ -721,7 +721,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Very smart people are often tricked by hackers, by phishing. I don't exclude myself from that. It's about being smarter than a hacker. Not about being smart.**
+🃏 **Kami dimulai sebagai sekelompok orang yang dikendalikan tanpa sebuah alasan.**
 ```
 
 ### 26. Qislam
@@ -742,7 +742,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Terkadang bukan karena kita tahu caranya memuntahkan amarah tapi kita tahu jika makin marah tak akan menyelesaikan masalah**
+📖 **Aku berharap bisa hidup mendampingimu namun apa daya ternyata diriku tidaklah baik untuk mendampingi dirimu**
 ```
 
 ### 27. Qpubg
@@ -763,7 +763,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Bukan hanya tentang game. PUBG juga mengajarkan bagaimana kita harus melindungi kawan dan berjuang bersama**
+🏆 **Belajar dari game PUBG. Bukan tentang siapa yang datang duluan, tapi siapa yang bertahan sampai akhir**
 ```
 
 ### 28. Read Image
@@ -783,12 +783,8 @@ print(result)
 
 #### Expected Output
 
-```json
-{
-    "resultnya": " A calico cat is sitting on a hardwood floor, facing the camera. The cat is positioned near the center of the image, with its body occupying a significant portion of the frame. The floor appears to be made of wood, and the lighting in the scene is natural, creating a warm atmosphere. The cat's fur is a mix of orange, black, and white, giving it a unique and eye-catching appearance. The cat's eyes are open, and it seems to be staring directly at the camera, capturing the viewer's attention.",
-    "from": "ApiNyaEr",
-    "success": true
-}
+```text
+Request failed: 500, message='Internal Server Error', url='https://api.siputzx.my.id/api/ai/image2text?url=https://cataas.com/cat'
 ```
 
 ### 29. Terabox Dl
@@ -830,7 +826,7 @@ print(result)
 #### Expected Output
 
 ```text
-Siapa di antara temanmu yang kamu pikir matre?
+Apa yg kamu fikirkan sebelum kamu tidur ? ex: menghayal tentang jodoh,dll.
 ```
 
 ### 31. Wibu
@@ -872,8 +868,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Steins;Gate",
-            "url": "https://nekos.best/api/v2/kiss/30435bec-1eb5-4018-b4dc-685731298f13.gif"
+            "anime_name": "Golden Time",
+            "url": "https://nekos.best/api/v2/kiss/8f3d4d72-6d61-4071-9f23-6feeef219045.gif"
         }
     ]
 }
