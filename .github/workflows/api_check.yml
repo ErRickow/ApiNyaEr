@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install git+https://github.com/ErRickow/ApiNyaEr
+          pip install git+https://github.com/ErRickow/ApiNyaEr@Er
 
       - name: Run API Status Script
         run: |
