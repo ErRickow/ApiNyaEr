@@ -1,5 +1,5 @@
 aiohttp
 aiofiles
-requests
 pillow
-Flask
+httpx
+beautifulsoup4
