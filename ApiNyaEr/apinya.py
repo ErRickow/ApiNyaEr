@@ -2,10 +2,10 @@ import os
 import re
 import random
 import string
+from base64 import b64decode as apainier
 from typing import Union, Optional
 
 import aiofiles
-from base64 import b64decode as apainier
 
 from .td import DARE, TRUTH
 from ._req import Reqnya
