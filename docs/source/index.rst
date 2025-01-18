@@ -17,7 +17,7 @@ ApiNyaEr adalah kompilasi api dari berbagai resource, seperti Luminai yang popul
    :caption: Contents:
 
    client
-   api/saavn/index
+   saavn/apinya/index
 
 
 
