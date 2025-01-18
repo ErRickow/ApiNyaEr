@@ -18,4 +18,4 @@ ErApi
 .. toctree::
    :hidden:
 
-   api/index
+   saavn/index
