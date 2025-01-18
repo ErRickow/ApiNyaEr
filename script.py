@@ -4,8 +4,9 @@ import inspect
 
 import aiofiles
 
-from ApiNyaEr import apinya
+from ApiNyaEr import ErApi
 
+apinya = ErApi()
 
 # Helper function to test each API method
 async def test_method(method, *args):
