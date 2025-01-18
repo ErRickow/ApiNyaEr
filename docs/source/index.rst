@@ -1,5 +1,5 @@
 Selamat Datang 2 ApiNyaEr Documentation
-===============================
+=======================================
 
 Overview
 --------
@@ -31,7 +31,7 @@ Untuk menginstall ApiNyaEr, kamu bisa menggunakan pip:
    pip install ApiNyaEr
 
 Penggunaan 
------
+----------
 
 
 .. important :: 
