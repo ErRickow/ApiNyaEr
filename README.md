@@ -193,7 +193,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_cFOI0fMz.png
+/home/runner/work/ApiNyaEr/ApiNyaEr/downloads/carbon_wACX7zJ2.png
 ```
 
 ### 6. Cat
@@ -215,7 +215,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/4lt.gif
+https://cdn2.thecatapi.com/images/6vi.jpg
 ```
 
 ### 7. Dare
@@ -236,7 +236,7 @@ print(result)
 #### Expected Output
 
 ```text
-Makan 1 Sendok makan kecap manis dan kecap asin!
+Marah-marah ketemen kamu yang gak dateng padahal udah janjian mau main 'truth or dare' bareng-bareng
 ```
 
 ### 8. Doa
@@ -285,7 +285,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/81f989da-c722-4122-b73c-f18c89530276.JPG
+https://random.dog/25f36b67-5cbd-49fd-be73-b74c790c4736.mp4
 ```
 
 ### 10. Fakta Unik
@@ -306,7 +306,7 @@ print(result)
 #### Expected Output
 
 ```text
-🌾 **Pisang mengandung vitamin B6 yang bisa mengontrol kadar gula dalam darah, dan membangkitkan mood**
+🌾 **Tanduk badak terbuat dari rambutnya yang mengeras**
 ```
 
 ### 11. Fluxai
@@ -467,8 +467,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Ao Haru Ride",
-        "url": "https://nekos.best/api/v2/hug/2ebb7586-77d4-46d1-bc4a-649bdc8d7a4f.gif"
+        "anime_name": "Akatsuki no Yona: The Girl Standing in the Blush of Dawn",
+        "url": "https://nekos.best/api/v2/hug/2838c749-cbf0-407c-b727-ceb1ca517463.gif"
     }
 ]
 ```
@@ -492,7 +492,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Hal ini dijelaskan dalam Alquran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Quran 30:23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Al-Bukhari)\n\nDalam Islam, tidur yang cukup dan berkualitas dianggap sebagai salah satu bentuk ibadah dan penting bagi kesehatan fisik maupun mental. Namun, Islam juga mengajarkan agar tidak berlebihan dalam tidur dan tetap menjaga produktivitas.\n\nJika Anda membutuhkan informasi lebih lanjut mengenai pandangan Islam tentang tidur, saya sarankan untuk berkonsultasi dengan ulama atau sumber-sumber Islam yang terpercaya.",
+    "resultnya": "Maaf, saya tidak dapat memberikan informasi tentang tidur secara umum. Sebagai asisten yang berfokus pada Islam, saya hanya dapat memberikan informasi yang berkaitan dengan ajaran Islam mengenai tidur dan istirahat.\n\nDalam Islam, tidur dianggap sebagai salah satu tanda-tanda kekuasaan Allah SWT. Sebagaimana dijelaskan dalam Al-Quran:\n\n\"Dan di antara tanda-tanda kekuasaan-Nya ialah tidurmu di waktu malam dan siang hari dan usahamu mencari sebagian dari karunia-Nya. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang mendengarkan.\" (Ar-Rum: 23)\n\nRasulullah SAW juga bersabda:\n\n\"Tidur adalah saudara kembar kematian.\" (HR. Bukhari)\n\nDalam Islam, tidur yang cukup dan istirahat yang teratur dianggap sebagai hal yang penting bagi kesehatan fisik dan mental. Rasulullah SAW sendiri menganjurkan umatnya untuk tidur dan beristirahat secukupnya.\n\nJika Anda membutuhkan informasi lebih lanjut mengenai pandangan Islam tentang tidur dan istirahat, saya sarankan untuk berkonsultasi dengan ulama atau ahli agama yang terpercaya.",
     "from": "ApiNyaEr",
     "join": "@Er_Support_Group",
     "success": true
@@ -562,7 +562,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur itu penting, bro! \ud83d\ude34 Bikin badan fresh dan siap beraksi lagi. Kapan terakhir kali kamu tidur nyenyak? \ud83d\udca4\u2728",
+    "resultnya": "Tidur itu penting banget, bro! \ud83d\ude34 Biar otak dan badan kita bisa recharge. Kapan terakhir kali kamu tidur nyenyak?",
     "join": "@Er_Support_Group",
     "success": true
 }
@@ -587,7 +587,7 @@ print(result)
 
 ```json
 {
-    "resultnya": "Tidur adalah kegiatan alami yang sangat penting bagi manusia. Selama tidur, tubuh melakukan berbagai proses penting seperti:\n\n\n## Proses Fisik\n1. **Pemulihan Otot**: Otot-otot yang lelah selama aktivitas sehari-hari diperbaiki dan dikembalikan ke kondisi normal.\n2. **Pengembalian Energi**: Energi yang terkuras selama aktivitas sehari-hari dikembalikan.\n3. **Pembersihan Racun**: Otak membersihkan racun dan zat berbahaya yang menumpuk selama aktivitas.\n\n\n## Proses Mental\n1. **Pengolahan Memori**: Otak mengolah dan menyimpan memori.\n2. **Pengaturan Emosi**: Emosi yang tidak stabil selama hari dapat stabil kembali.\n3. **Pengembangan Kognitif**: Kemampuan kognitif seperti belajar dan berpikir ditingkatkan.\n\n\n## Manfaat Tidur\n1. Meningkatkan kesehatan fisik dan mental.\n2. Meningkatkan produktivitas dan konsentrasi.\n3. Membantu mengurangi stres dan kecemasan.\n4. Meningkatkan sistem imun.\n5. Membantu mengatur berat badan.\n\n\n## Tips Tidur yang Sehat\n1. Tidur pada jam yang sama setiap hari.\n2. Buatlah lingkungan tidur nyaman dan gelap.\n3. Hindari konsumsi kafein dan alkohol sebelum tidur.\n4. Batasi penggunaan perangkat elektronik sebelum tidur.\n5. Lakukan aktivitas santai sebelum tidur.\n\n\nBerapa jam tidur yang Anda butuhkan setiap hari?",
+    "resultnya": "Tidur adalah kegiatan alami yang sangat penting bagi manusia. Tidur membantu tubuh dan pikiran untuk beristirahat, memulihkan diri, dan mengembalikan energi. Berikut beberapa manfaat tidur:\n\n\n## Manfaat Tidur\n\n1. **Meningkatkan kesehatan fisik**: Tidur membantu memperbaiki dan memulihkan jaringan tubuh, serta meningkatkan sistem imun.\n2. **Mengurangi stres dan kecemasan**: Tidur membantu mengurangi hormon stres dan kecemasan, sehingga membuat pikiran lebih tenang dan nyaman.\n3. **Meningkatkan konsentrasi dan produktivitas**: Tidur yang cukup membantu meningkatkan kemampuan konsentrasi, memori, dan produktivitas.\n4. **Mengatur berat badan**: Tidur yang tidak cukup dapat menyebabkan peningkatan berat badan dan obesitas.\n5. **Meningkatkan kualitas hidup**: Tidur yang baik membantu meningkatkan kualitas hidup secara keseluruhan.\n\n\n## Tips untuk Tidur yang Baik\n\n1. **Atur jam tidur**: Pastikan Anda tidur dan bangun pada jam yang sama setiap hari.\n2. **Ciptakan lingkungan nyaman**: Pastikan kamar tidur gelap, sejuk, dan sunyi.\n3. **Hindari stimulan**: Hindari konsumsi kafein, alkohol, dan stimulan lainnya sebelum tidur.\n4. **Lakukan relaksasi**: Lakukan kegiatan relaksasi seperti membaca, mendengarkan musik, atau bermeditasi sebelum tidur.\n5. **Hindari layar sebelum tidur**: Hindari menggunakan perangkat elektronik seperti smartphone, tablet, atau laptop sebelum tidur.\n\n\n## Waktu Tidur yang Ideal\n\n* Dewasa: 7-9 jam per malam\n* Remaja: 8-10 jam per malam\n* Anak-anak: 9-11 jam per malam\n\n\nJika Anda memiliki masalah tidur, sebaiknya konsultasikan dengan dokter atau ahli kesehatan untuk mendapatkan saran yang tepat.",
     "from": "ApiNyaEr",
     "success": true
 }
@@ -611,7 +611,7 @@ print(result)
 #### Expected Output
 
 ```text
-꧁Ms. ★๖ۣۜƤriͥภcͣeͫss★꧂
+《Šûčî|Vāķűm》
 ```
 
 ### 22. Password
@@ -636,7 +636,7 @@ print(result)
 #### Expected Output
 
 ```text
-IU>'"ew;1^$?
+K<>+e3&MmZ)%
 ```
 
 ### 23. Pypi
@@ -696,10 +696,10 @@ print(result)
 
 ```json
 {
-    "\ud83c\udf81 **Quotes": "Kami (berdua) yang telah terluka saling mengharapkan hal yang sama.Jika besok kau mati, maka aku tidak keberatan jika besok hidupku juga berakhir.Jika hari ini kau tetap hidup, aku pun juga akan hidup.**",
-    "\ud83c\udf39 **Character": "Koyomi Araragi**",
-    "\ud83c\udf41 **Anime": "Kizumonogatari III: Reiketsu-hen**",
-    "\ud83c\udf41 **Episode": "Episode 1**"
+    "\ud83c\udf81 **Quotes": "Orang-orang terlalu mengistimewakan sesuatu yang tak bisa dilihat.**",
+    "\ud83c\udf39 **Character": "Mahito**",
+    "\ud83c\udf41 **Anime": "Jujutsu Kaisen**",
+    "\ud83c\udf41 **Episode": "Episode 10**"
 }
 ```
 
@@ -721,7 +721,7 @@ print(result)
 #### Expected Output
 
 ```text
-🃏 **Kami dimulai sebagai sekelompok orang yang dikendalikan tanpa sebuah alasan.**
+🃏 **Very smart people are often tricked by hackers, by phishing. I don't exclude myself from that. It's about being smarter than a hacker. Not about being smart.**
 ```
 
 ### 26. Qislam
@@ -742,7 +742,7 @@ print(result)
 #### Expected Output
 
 ```text
-📖 **Aku berharap bisa hidup mendampingimu namun apa daya ternyata diriku tidaklah baik untuk mendampingi dirimu**
+📖 **Ku rindu padamu ya rasul Kuingin jumpa Sekedar Saja walau hanya dalam mimpi**
 ```
 
 ### 27. Qpubg
@@ -763,7 +763,7 @@ print(result)
 #### Expected Output
 
 ```text
-🏆 **Belajar dari game PUBG. Bukan tentang siapa yang datang duluan, tapi siapa yang bertahan sampai akhir**
+🏆 **Jangan bermain untuk memenangkan pertempuran, tapi bermain lah untuk kesenangan**
 ```
 
 ### 28. Read Image
@@ -826,7 +826,7 @@ print(result)
 #### Expected Output
 
 ```text
-Apa yg kamu fikirkan sebelum kamu tidur ? ex: menghayal tentang jodoh,dll.
+Siapa orang yg paling menjengkelkan di antara teman teman mu ? alasannya!
 ```
 
 ### 31. Wibu
@@ -868,8 +868,8 @@ print(result)
 {
     "results": [
         {
-            "anime_name": "Golden Time",
-            "url": "https://nekos.best/api/v2/kiss/8f3d4d72-6d61-4071-9f23-6feeef219045.gif"
+            "anime_name": "Toradora!",
+            "url": "https://nekos.best/api/v2/kiss/1bd3a817-bb88-4a08-8c95-97a1793f86d2.gif"
         }
     ]
 }
