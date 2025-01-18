@@ -5,7 +5,7 @@ import string
 from typing import Union, Optional
 
 import aiofiles
-from bs4 import b64decode as apainier
+from base64 import b64decode as apainier
 
 from .td import DARE, TRUTH
 from ._req import Reqnya
