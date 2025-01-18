@@ -43,8 +43,8 @@ html_theme = "furo"
 html_copy_source = False
 html_static_path = ["_static"]
 html_extra_path = ["_templates"]
-html_css_files = ["css/pyrogram.css"]
-html_favicon = html_static_path[0] + "/img/Er.ico"
+html_css_files = ["css/pyro.css"]
+html_favicon = html_static_path[0] + "/img/logo.png"
 
 html_theme_options = {
     "navigation_with_keys": True,
