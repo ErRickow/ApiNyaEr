@@ -1,6 +1,3 @@
-from ._req import Reqnya
-
-
 class Lagunya:
     """
     A class for interacting with the Lagunya API.
