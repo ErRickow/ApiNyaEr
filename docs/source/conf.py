@@ -17,7 +17,7 @@ log = logging.info
 
 log("\n\n\n\n\n\n\n\n\n\n\n")
 
-project = "ApiNyaEr"
+project = "Docs-ApiNyaEr"
 author = "ErNewDev0"
 release = ApiNyaEr.__version__
 version = ".".join(release.split(".")[:2])
@@ -37,7 +37,7 @@ extensions = [
 templates_path = ["_templates"]
 exclude_patterns = []
 
-html_title = f"ApiNyaEr V{version}"
+html_title = f"ApiNyaEr v{version}"
 # html_theme = "sphinx_rtd_theme"
 html_theme = "furo"
 html_copy_source = False
@@ -94,6 +94,24 @@ pygments_style = "default"
 napoleon_include_special_with_doc = False
 napoleon_use_rtype = False
 napoleon_use_param = True
+html_show_copyright = False
+
+# Example configuration for intersphinx: refer to the Python standard library.
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+# if on_rtd:
+#     intersphinx_mapping = {
+#         'sphinx': ('/Users/eric/checkouts/sphinx/doc/_build/html/', None),
+#     }
+# else:
+intersphinx_mapping = {
+    # Links to "v2" version of the "docs" project.
+    "Install-ApiNyaEr": ("https://pypi.org/Projects/ApiNyaEr", None),
+    # Links to the French translation of the "docs" project.
+    "Other": ("https://ErNewDev0.github.io/", None),
+    # Links to the "apis" subproject of the "docs" project.
+    "Contact": ("https://t.me/chakszzz", None),
+}
+
 
 docs = os.getcwd()
 
