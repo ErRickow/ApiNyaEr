@@ -1,19 +1,11 @@
-import json
 import os
 import random
 import re
 import string
-import urllib
-import textwrap
-from bs4 import BeautifulSoup, b64decode as apainier
-from PIL import Image, ImageOps, ImageDraw, ImageFont
-from os.path import realpath
-from io import BytesIO
-from typing import List, Union, Optional
+from typing import Optional, Union
 
 import aiofiles
-import aiohttp
-import requests
+from bs4 import b64decode as apainier
 
 from ._req import Reqnya
 from .td import DARE, TRUTH
@@ -28,6 +20,7 @@ class ErApi:
         downloads_dir (``str``, *optional*): Directory to save downloaded files. Defaults to "downloads".
         quiet (``bool``, *optional*): Whether to suppress error messages. Defaults to False.
     """
+
     def __init__(self, downloads_dir: str = "downloads", quiet: bool = False):
         self.base_urls = {
             "siputx": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGk=").decode(
@@ -373,7 +366,7 @@ class ErApi:
             return {
                 "resultnya": False,
                 "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
-                "report": "@Er_Support_Group"
+                "report": "@Er_Support_Group",
             }
 
     async def meta_ai(self, tanya: str):
@@ -399,7 +392,7 @@ class ErApi:
             return {
                 "resultnya": False,
                 "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
-                "report": "@Er_Support_Group"
+                "report": "@Er_Support_Group",
             }
 
     async def fluxai(self, input: str):
@@ -417,7 +410,7 @@ class ErApi:
             return {
                 "resultnya": False,
                 "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
-                "report": "@Er_Support_Group"
+                "report": "@Er_Support_Group",
             }
 
     async def terabox_dl(self, link: str):
@@ -430,7 +423,9 @@ class ErApi:
         """
         params = {"url": link}
         try:
-            response = await self._make_request.get(self.base_urls["njir"], params=params)
+            response = await self._make_request.get(
+                self.base_urls["njir"], params=params
+            )
             if response["data"]:
                 return {
                     "judul": response["data"]["filename"],
@@ -443,7 +438,7 @@ class ErApi:
             return {
                 "resultnya": False,
                 "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
-                "report": "@Er_Support_Group"
+                "report": "@Er_Support_Group",
             }
 
     async def islam_ai(self, tanya: str):
@@ -468,7 +463,7 @@ class ErApi:
             return {
                 "resultnya": False,
                 "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
-                "report": "@Er_Support_Group"
+                "report": "@Er_Support_Group",
             }
 
     async def luminai(self, tanya: str):
@@ -494,7 +489,7 @@ class ErApi:
             return {
                 "resultnya": False,
                 "why?": "Response Luminai Sedang Eror kAk, silahkan coba lagi nanti",
-                "report": "@Er_Support_Group"
+                "report": "@Er_Support_Group",
             }
 
     async def ai(self, tanya: str):
@@ -521,7 +516,7 @@ class ErApi:
             return {
                 "resultnya": False,
                 "Why?": "Response Sedang Error",
-                "report": "@Er_Support_Group"
+                "report": "@Er_Support_Group",
             }
 
     async def doa(self, nama_doa: str) -> str:
@@ -575,7 +570,9 @@ class ErApi:
             "adlt": adlt,
             "qft": "",
         }
-        response = await self._make_request.get(self.base_urls["bing_image"], params=data)
+        response = await self._make_request.get(
+            self.base_urls["bing_image"], params=data
+        )
         return (
             re.findall(r"murl&quot;:&quot;(.*?)&quot;", response.text)
             if response
@@ -718,7 +715,9 @@ class ErApi:
             "windowTheme": window_theme,
         }
         try:
-            response = await self._make_request.post(self.base_urls["carbon"], json=payload)
+            response = await self._make_request.post(
+                self.base_urls["carbon"], json=payload
+            )
             response.raise_for_status()
             file_path = await self._create_file(
                 response.content, ext="png", name="carbon"
@@ -866,7 +865,7 @@ class ErApi:
         response = await self._make_request.get(self.base_urls["cat"])
         response = response.json()
         return response[0]["url"] if response else None
-        
+
     async def dog(self):
         """
         Fetches a random dog image URL.
@@ -891,7 +890,9 @@ class ErApi:
                       **"url"** (str): The URL of the GIF.
 
         """
-        response = await self._make_request.get(self.base_urls["neko_hug"].format(amount))
+        response = await self._make_request.get(
+            self.base_urls["neko_hug"].format(amount)
+        )
 
         return response.json()["results"]
 
