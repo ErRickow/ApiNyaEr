@@ -6,12 +6,7 @@ import aiofiles
 
 from ApiNyaEr import ErApi
 
-
-apinya = ErApi()
-
 # Helper function to test each API method
-
-
 async def test_method(method, *args):
     try:
         if inspect.iscoroutinefunction(method):
@@ -117,7 +112,7 @@ async def generate_api_status(methods):
             readme_content.append(
                 f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                 f"{formatted_docstring}\n\n"
-                f"```python\nfrom ApiNyaEr import apinya\n\n"
+                f"```python\nfrom ApiNyaEr import ErApi\n\napinya = ErApi()\n"
                 f"result = await apinya.{name}({params_str})\n"
                 f"print(result)\n```\n\n"
                 f"#### Expected Output\n\n"
@@ -131,7 +126,7 @@ async def generate_api_status(methods):
                 readme_content.append(
                     f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                     f"{formatted_docstring}\n\n"
-                    f"```python\nfrom ApiNyaEr import apinya\n\n"
+                    f"```python\nfrom ApiNyaEr import ErApi\n\napinya = ErApi()\n"
                     f"result = await apinya.{name}()\n"
                     f"print(result)\n```\n\n"
                     f"#### Expected Output\n\n"
@@ -160,7 +155,7 @@ async def generate_api_status(methods):
                 readme_content.append(
                     f"### {function_count}. {name.replace('_', ' ').title()}\n\n"
                     f"{formatted_docstring}\n\n"
-                    f"```python\nfrom ApiNyaEr import apinya\n\n"
+                    f"```python\nfrom ApiNyaEr import ErApi\n\napinya = ErApi()\n"
                     f"result = await apinya.{name}({params_str})\n"
                     f"print(result)\n```\n\n"
                     f"#### Expected Output\n\n"
@@ -214,7 +209,7 @@ async def write_api_status_to_file(
         "```\n"
         "- **Asynchronous usage**: Import the library with:\n"
         "```python\n"
-        "from ApiNyaEr import apinya\n"
+        "from ApiNyaEr import ErApi\n"
         "```\n\n"
         "Below, we’ll cover each function, providing examples and expected results so you can get started quickly! Let’s dive in 🚀\n\n"
         "## Status\n\n"
