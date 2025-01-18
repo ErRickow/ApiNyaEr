@@ -4,9 +4,10 @@ import inspect
 
 import aiofiles
 
-from ApiNyaEr import ErApi
 
 # Helper function to test each API method
+
+
 async def test_method(method, *args):
     try:
         if inspect.iscoroutinefunction(method):
