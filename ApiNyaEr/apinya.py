@@ -4,21 +4,31 @@ import random
 import re
 import string
 import urllib
-from base64 import b64decode as apainier
+import textwrap
+from bs4 import BeautifulSoup, b64decode as apainier
+from PIL import Image, ImageOps, ImageDraw, ImageFont
 from os.path import realpath
-from typing import Union
+from io import BytesIO
+from typing import List, Union, Optional
 
 import aiofiles
 import aiohttp
 import requests
 
-from .fungsi import FilePath
+from ._req import Reqnya
 from .td import DARE, TRUTH
 from .teks import ANIMEK, EPEP, FAKTA, HECKER, ISLAMIC, PUBG
 
 
 class ErApi:
-    def __init__(self):
+    """
+    A class to interact with various APIs and perform operations like fetching data and generating files.
+
+    Args:
+        downloads_dir (``str``, *optional*): Directory to save downloaded files. Defaults to "downloads".
+        quiet (``bool``, *optional*): Whether to suppress error messages. Defaults to False.
+    """
+    def __init__(self, downloads_dir: str = "downloads", quiet: bool = False):
         self.base_urls = {
             "siputx": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGk=").decode(
                 "utf-8"
@@ -62,91 +72,50 @@ class ErApi:
             ).decode("utf-8"),
             "pypi": apainier("aHR0cHM6Ly9weXBpLm9yZy9weXBp").decode("utf-8"),
         }
+        self._make_request = Reqnya()
+        self.downloads_dir = downloads_dir
+        self.quiet = quiet
 
-    async def _make_request(
-        self,
-        url: str,
-        method: str = "GET",
-        params: dict = None,
-        data: dict = None,
-        files: dict = None,
-        headers: dict = None,
-        verify: bool = True,
-    ) -> Union[dict, str]:
-        """
-        Membuat permintaan HTTP asinkron ke URL yang ditentukan dengan parameter, header, dan data opsional.
+        os.makedirs(self.downloads_dir, exist_ok=True)
 
-        Args:
-            url (str): URL tujuan permintaan dikirimkan.
-            method (str, opsional): Metode HTTP yang digunakan (misalnya, "GET", "POST"). Default: "GET".
-            params (dict, opsional): Parameter kueri yang disertakan dalam permintaan. Default: None.
-            data (dict, opsional): Data yang disertakan dalam body permintaan (untuk permintaan POST). Default: None.
-            files (dict, opsional): File yang diunggah dalam permintaan (jika ada). Default: None.
-            headers (dict, opsional): Header yang disertakan dalam permintaan. Default: None.
-            verify (bool, opsional): Apakah sertifikat SSL harus diverifikasi. Default: True.
+    def _handle_error(self, error: Exception) -> Union[dict, Exception]:
+        if self.quiet:
+            return {"error": True, "message": str(error)}
+        raise error
 
-        Returns:
-            Union[dict, str]: Respons JSON dalam bentuk dictionary jika respons diformat sebagai JSON,
-                              jika tidak, mengembalikan respons sebagai string.
+    async def _create_file(
+        self, contents: bytes, ext: str, name: Optional[str] = None
+    ) -> str:
+        file_name = f"{name or 'file'}_{self._rnd_str()}.{ext}"
+        file_path = os.path.join(self.downloads_dir, file_name)
 
-        Result:
-            ValueError: Jika permintaan gagal karena kesalahan klien.
-        """
-        async with aiohttp.ClientSession() as session:
-            try:
-                async with session.request(
-                    method=method,
-                    url=url,
-                    params=params,
-                    data=data,
-                    headers=headers,
-                    ssl=verify,
-                ) as response:
-                    response.raise_for_status()
-                    if "application/json" in response.headers.get("Content-Type", ""):
-                        return await response.json()
-                    return await response.text()
-            except aiohttp.ClientError as e:
-                raise ValueError(f"Request failed: {str(e)}")
+        async with aiofiles.open(file_path, "wb") as f:
+            await f.write(contents)
 
-    async def get_pinter_url(self, query: str) -> dict:
-        """
-        Mengembalikan hasil request Pinterest berdasarkan query yang diberikan.
+        return file_path
+
+    async def neko(self, endpoint: str = "neko", amount: int = 3) -> dict:
+        """Fetches a specified number of neko images or GIFs from the Nekos.Best API.
 
         Args:
-            query (str): Kata kunci pencarian untuk Pinterest.
-
-        Returns:
-            dict: Respons JSON dari API Pinterest.
-        """
-        url = self.base_urls["pinter"].format(query=query)
-        anunya = await self._make_request(url)
-        return anunya if anunya else None
-
-    async def wibu(self, endpoint: str = "kiss", amount: int = 1) -> dict:
-        """Fetch spesifik Gambar/Gif Anime.
-
-        Args:
-            endpoint (str): Kategori endpoin gambar/Gif animenya. Defaultnya
-            "kiss".
-                Valid Format endpoints:
-                - "husbando", "kitsune", "neko", "waifu"
+            endpoint (``str``): The endpoint category to fetch content from. Default is "neko".
+                Valid image endpoints:
+                **"husbando"**, **"kitsune"**, **"neko"**, **"waifu"**
                 Valid GIF endpoints:
-                - "baka", "bite", "blush", "bored", "cry", "cuddle", "dance", "facepalm",
-                  "feed", "handhold", "handshake", "happy", "highfive", "hug", "kick",
-                  "kiss", "laugh", "lurk", "nod", "nom", "nope", "pat", "peck", "poke",
-                  "pout", "punch", "shoot", "shrug", "slap", "sleep", "smile", "smug",
-                  "stare", "think", "thumbsup", "tickle", "wave", "wink", "yawn", "yeet"
-            amount (int): jumlah item gambarnya. Default 1.
+                **"baka"**, **"bite"**, **"blush"**, **"bored"**, **"cry"**, **"cuddle"**,
+                **"dance"**, **"facepalm"**, **"feed"**, **"handhold"**, **"handshake"**,
+                **"happy"**, **"highfive"**, **"hug"**, **"kick"**, **"kiss"**, **"laugh"**,
+                **"lurk"**, **"nod"**, **"nom"**, **"nope"**, **"pat"**, **"peck"**, **"poke"**,
+                **"pout"**, **"punch"**, **"shoot"**, **"shrug"**, **"slap"**, **"sleep"**,
+                **"smile"**, **"smug"**, **"stare"**, **"think"**, **"thumbsup"**, **"tickle"**,
+                **"wave"**, **"wink"**, **"yawn"**, **"yeet"**
+            amount (``int``): The number of items to fetch. Default is 3.
 
         Returns:
-            dict: Dictionary konten yang di request. Dictionarynya memiliki kata
-            kunci`"results"`,
-                  yang menampung limit.
-
-        Raises:
-            ValueError: Jika endpoint tidak valid.
+            ``dict``: A dictionary containing the results of the request. The dictionary has a key
+            **"results"**, which holds a list of items.
         """
+
         valid_categories = [
             "husbando",
             "kitsune",
@@ -195,223 +164,129 @@ class ErApi:
         ]
 
         if endpoint not in valid_categories:
-            raise ValueError(
-                f"SALAH GUOBLOK'{endpoint}'. Harus yang kek gini: {', '.join(valid_categories)}"
+            return self._handle_error(
+                ValueError(
+                    f"Invalid endpoint '{endpoint}'. Must be one of: {', '.join(valid_categories)}"
+                )
             )
 
         url = self.base_urls["neko_url"].format(endpoint=endpoint, amount=amount)
 
-        response = await self._make_request(url)
+        response = await self._make_request.get(url)
 
-        return response
+        return response.json()
 
-    @staticmethod
-    def password(num: int = 12) -> str:
+    async def password(num: int = 12) -> str:
         """
         Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
 
         Parameters:
-        - num (int): Panjang kata sandi yang dihasilkan. Default adalah 12 jika tidak ditentukan.
+            - num (``int``): Panjang kata sandi yang dihasilkan. Default adalah 12 jika tidak ditentukan.
 
         Returns:
-        - str: Kata sandi yang dihasilkan secara acak yang terdiri dari karakter dari string.ascii_letters, string.punctuation, dan string.digits.
+            - ``str``: Kata sandi yang dihasilkan secara acak yang terdiri dari karakter dari string.ascii_letters, string.punctuation, dan string.digits.
         """
         characters = string.ascii_letters + string.punctuation + string.digits
         password = "".join(random.sample(characters, num))
         return password
 
-    def _rnd_str(self):
-        """
-        Generates a random string of 8 alphanumeric characters.
-
-        Returns:
-            str: A random 8-character alphanumeric string.
-        """
+    def _rnd_str(self) -> str:
         random_str = "".join(random.choices(string.ascii_letters + string.digits, k=8))
         return random_str
 
-    @staticmethod
-    def gemini(tanya: str) -> dict:
-        """
-        Berinteraksi dengan Gemini AI. ✨
-
-        Args:
-            tanya (str): Teks yang di berikan.
-
-        Returns:
-            dict: dictionaries yang berisi konten ai nya.
-        """
-        url = apainier(
-            "aHR0cHM6Ly9nZW5lcmF0aXZlbGFuZ3VhZ2UuZ29vZ2xlYXBpcy5jb20vdjFiZXRhL21vZGVscy9nZW1pbmktcHJvOmdlbmVyYXRlQ29udGVudD9rZXk9QUl6YVN5QmtOSlVub3BEaEFvVmU3dVJqZ0gzeElPSnZBdHJ6Zk9J"
-        ).decode("utf-8")
-        headers = {"Content-Type": "application/json"}
-        payload = {"contents": [{"parts": [{"text": tanya}]}]}
-
-        try:
-            response = requests.post(url, headers=headers, data=json.dumps(payload))
-            if response.status_code == 200:
-                generated_text = response.json()["candidates"][0]["content"]["parts"][
-                    0
-                ]["text"]
-                return {
-                    "results": generated_text,
-                    "author": "@chakszzz",
-                    "success": True,
-                }
-        except Exception as e:
-            return e
-
-    @staticmethod
-    def truth():
+    async def truth():
         """
         Dapatkan Kata kata truth
 
         Returns:
-            str: Random kata truth
+            ``str``: Random kata truth
         """
         truthnya = random.choice(TRUTH)
         return truthnya
 
-    @staticmethod
-    def qanime():
+    async def qanime():
         """
         Dapatkan Kata kata anime
 
         Returns:
-            str: Random kata anime
+            ``str``: Random kata anime
         """
         mmk = random.choice(ANIMEK)
         return mmk
 
-    @staticmethod
-    def dare():
+    async def dare():
         """
         Dapatkan Kata kata dare
 
         Returns:
-            str: Random kata dare
+            ``str``: Random kata dare
         """
         darenya = random.choice(DARE)
         return darenya
 
-    @staticmethod
-    def nama_epep():
+    async def nama_epep():
         """
         Dapatkan random nama ep ep
 
         Returns:
-            str: Random nama ep epnya
+            ``str``: Random nama ep epnya
         """
         namanya = random.choice(EPEP)
         return namanya
 
-    @staticmethod
-    def qpubg():
+    async def qpubg():
         """
         Dapatkan random Quotes pubg
 
         Returns:
-            str: Random Quotes Pubg
+            ``str``: Random Quotes Pubg
         """
         kntlny = random.choice(PUBG)
         return kntlny
 
-    @staticmethod
-    def qhacker():
+    async def qhacker():
         """
         Dapatkan random Quotes Hacker
 
         Returns:
-            str: Random Quotes Hacker
+            ``str``: Random Quotes Hacker
         """
         mmk = random.choice(HECKER)
         return mmk
 
-    @staticmethod
-    def qislam():
+    async def qislam():
         """
         Dapatkan random Quotes Islamic
 
         Returns:
-            str: Random Quotes Islam
+            ``str``: Random Quotes Islam
         """
         Sabyan = random.choice(ISLAMIC)
         return Sabyan
 
-    @staticmethod
-    def fakta_unik():
+    async def fakta_unik():
         """
         Dapatkan random Seputar Fakta Unik
 
         Returns:
-            str: Random Fakta
+            ``str``: Random Fakta
         """
         kntlny = random.choice(FAKTA)
         return kntlny
-
-    @staticmethod
-    def blackbox(tanya: str) -> requests.Response:
-        """
-        Berinteraksi dengan Blackbox AI untuk menghasilkan konten. 🧠
-
-        Args:
-            tanya (str): Teks masukan untuk berinteraksi dengan API obrolan Blackbox AI.
-
-        Returns:
-            requests.Response: Objek respons dari permintaan API.
-        """
-
-        url = apainier("aHR0cHM6Ly9hcGkuYmxhY2tib3guYWkvYXBpL2NoYXQ=").decode("utf-8")
-
-        payload = {
-            "agentMode": {},
-            "codeModelMode": True,
-            "id": "XM7KpOE",
-            "isMicMode": False,
-            "maxTokens": None,
-            "messages": [
-                {
-                    "id": "XM7KpOE",
-                    "content": urllib.parse.unquote(tanya),
-                    "role": "user",
-                }
-            ],
-            "previewToken": None,
-            "trendingAgentMode": {},
-            "userId": "87cdaa48-cdad-4dda-bef5-6087d6fc72f6",
-            "userSystemPrompt": None,
-        }
-
-        headers = {
-            "Content-Type": "application/json",
-            "Cookie": "sessionId=f77a91e1-cbe1-47d0-b138-c2e23eeb5dcf; intercom-id-jlmqxicb=4cf07dd8-742e-4e3f-81de-38669816d300; intercom-device-id-jlmqxicb=1eafaacb-f18d-402a-8255-b763cf390df6; intercom-session-jlmqxicb=",
-            "Origin": apainier("aHR0cHM6Ly9hcGkuYmxhY2tib3guYWk=").decode("utf-8"),
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-        }
-        try:
-            response = requests.post(url, json=payload, headers=headers)
-            if response.status_code == 200:
-                return {
-                    "results": response.text.strip(),
-                    "join": "@Er_Support_Group",
-                    "success": True,
-                }
-        except Exception as e:
-            return e
 
     async def arti_nama(self, namanya: str):
         """
         Mendapatkan arti nama dari string
 
         Args:
-            namanya (str): Nama Kamu
+            namanya (``str``): Nama Kamu
         Returns:
-            dict: Informasi Arti Nama Kamu or Eror Msg
+            ``dict``: Informasi Arti Nama Kamu or Eror Msg
         """
         url = f"{self.base_urls['siputx']}/primbon/artinama"
         par = {"nama": namanya}
         try:
-            res = await self._make_request(url, params=par)
+            res = await self._make_request.get(url, params=par)
             if res["status"] is True:
                 return {
                     "namanya": res["data"]["nama"],
@@ -427,7 +302,7 @@ class ErApi:
                 }
         except Exception as r:
             return {
-                "Why?": f"Terjadi kesalahan: {str(r)}",
+                "Why?": f"Terjadi kesalaha",
                 "success": False,
                 "report": "@Er_Support_Group",
             }
@@ -437,15 +312,15 @@ class ErApi:
         Mengambil informasi zodiak berdasarkan input.
 
         Args:
-            input (str): Nama zodiak.
+            input (``str``): Nama zodiak.
 
         Returns:
-            dict: Informasi lengkap zodiak atau pesan kesalahan.
+            ``dict``: Informasi lengkap zodiak atau pesan kesalahan.
         """
         url = f"{self.base_urls['siputx']}/primbon/zodiak"
         par = {"zodiak": input}
         try:
-            res = await self._make_request(url, params=par)
+            res = await self._make_request.get(url, params=par)
             if res["status"] is True:
                 data = res["data"]
                 return {
@@ -469,7 +344,7 @@ class ErApi:
                 }
         except Exception as r:
             return {
-                "Why?": f"Terjadi kesalahan: {str(r)}",
+                "Why?": f"Terjadi kesalahan",
                 "success": False,
                 "report": "@Er_Support_Group",
             }
@@ -479,13 +354,15 @@ class ErApi:
         Bertanya gambar melalui url
 
         Returns:
-            url(str): string url
+            url(``str``): string url
+        Returns:
+            ``Response``: Response ainya
         """
         url = f"{self.base_urls['siputx']}/ai/image2text"
         urlnya = "https://cataas.com/cat"
         par = {"url": urlnya}
         try:
-            res = await self._make_request(url, params=par)
+            res = await self._make_request.get(url, params=par)
             if res["status"] is True:
                 return {
                     "resultnya": res["data"],
@@ -493,19 +370,25 @@ class ErApi:
                     "success": True,
                 }
         except Exception as r:
-            return str(r)
+            return {
+                "resultnya": False,
+                "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
+                "report": "@Er_Support_Group"
+            }
 
     async def meta_ai(self, tanya: str):
         """
         Bertanya pada meta AI
 
+        Args:
+            tanya(``str``): teks yang akan ditanyakan
         Returns:
-            tanya(str): teks yang akan ditanyakan
+            ``response``: Response Meta Ai
         """
         url = f"{self.base_urls['siputx']}/ai/metaai"
         par = {"query": tanya}
         try:
-            res = await self._make_request(url, params=par)
+            res = await self._make_request.get(url, params=par)
             if res["status"] is True:
                 return {
                     "resultnya": res["data"],
@@ -513,44 +396,41 @@ class ErApi:
                     "success": True,
                 }
         except Exception as r:
-            return str(r)
+            return {
+                "resultnya": False,
+                "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
+                "report": "@Er_Support_Group"
+            }
 
     async def fluxai(self, input: str):
         """
         Generate image from Teks
 
         Returns:
-            input: teks yang akan dijadikan image
+            ``input``: teks yang akan dijadikan image
         """
         params = {"prompt": input}
         try:
-            res = await self._make_request(self.base_urls["flux"], params=params)
+            res = await self._make_request.get(self.base_urls["flux"], params=params)
             return res
         except Exception as r:
-            return str(r)
-
-    async def kapan_libur(self):
-        """
-        Dapatkan informasi Hari libur kedepan.
-
-        Returns:
-            str: Hari Libur Berikutnya.
-        """
-        response = requests.get(self.base_urls["libur"]).json()
-        next_libur = response["data"]["nextLibur"]
-        return next_libur
+            return {
+                "resultnya": False,
+                "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
+                "report": "@Er_Support_Group"
+            }
 
     async def terabox_dl(self, link: str):
         """
         Args:
-            link (str): Teks query
+            link (``str``): Teks query
 
         Returns:
-            resultnya
+            ``resultnya``
         """
         params = {"url": link}
         try:
-            response = await self._make_request(self.base_urls["njir"], params=params)
+            response = await self._make_request.get(self.base_urls["njir"], params=params)
             if response["data"]:
                 return {
                     "judul": response["data"]["filename"],
@@ -560,19 +440,23 @@ class ErApi:
                     "success": True,
                 }
         except Exception as e:
-            return e
+            return {
+                "resultnya": False,
+                "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
+                "report": "@Er_Support_Group"
+            }
 
     async def islam_ai(self, tanya: str):
         """
         args:
-            tanya (str): teks pertanyaan
+            tanya (``str``): teks pertanyaan
 
         Returns:
-            resultnya
+            ``resultnya``: Response islam ai
         """
         paman = {"q": tanya}
         try:
-            res = await self._make_request(self.base_urls["whe"], params=paman)
+            res = await self._make_request.get(self.base_urls["whe"], params=paman)
             if res["status"] == True:
                 return {
                     "resultnya": res["result"],
@@ -581,36 +465,23 @@ class ErApi:
                     "success": True,
                 }
         except Exception as r:
-            return str(r)
-
-    async def logo_maker(self, input: str):
-        """
-        Membuat Logo Dari Input yang di masukkan
-
-        Args:
-            input: teks yang akan di buat Logo
-        Returns:
-            resultnya else str(eror)
-        """
-        url = self._make_request["hehe"]
-        parang = {"q": input}
-        try:
-            res = await self._make_request(url, params=parang)
-            return res
-        except Exception as r:
-            return r
+            return {
+                "resultnya": False,
+                "why?": "Response Sedang Eror kAk, silahkan coba lagi nanti",
+                "report": "@Er_Support_Group"
+            }
 
     async def luminai(self, tanya: str):
         """
         Args:
-            tanya (str): Teks query
+            tanya (``str``): Teks query
 
         Returns:
-            resultnya
+            ``resultnya``: Response luminai
         """
         params = {"text": tanya}
         try:
-            response = await self._make_request(
+            response = await self._make_request.get(
                 self.base_urls["luminai"], params=params
             )
             if response["data"]:
@@ -620,44 +491,52 @@ class ErApi:
                     "success": True,
                 }
         except Exception as e:
-            return e
+            return {
+                "resultnya": False,
+                "why?": "Response Luminai Sedang Eror kAk, silahkan coba lagi nanti",
+                "report": "@Er_Support_Group"
+            }
 
     async def ai(self, tanya: str):
         """
         Interaksi dengan AI Basis Text.
 
         Args:
-        tanya (str): Text inputnya.
+            tanya (``str``): Text inputnya.
 
         Returns:
-        str: Respon chatbotnya.
+            ``str``: Respon chatbotnya.
         """
         url = self.base_urls["ai"]
         par = {"q": tanya}
         try:
-            res = await self._make_request(url, params=par)
+            res = await self._make_request.get(url, params=par)
             if res["status"] == True:
                 return {
                     "resultnya": res["result"],
                     "from": "ApiNyaEr",
                     "join": "@Er_Support_Group",
                 }
-        except Exception as er:
-            return er
+        except Exception:
+            return {
+                "resultnya": False,
+                "Why?": "Response Sedang Error",
+                "report": "@Er_Support_Group"
+            }
 
     async def doa(self, nama_doa: str) -> str:
         """
         Mengambil data doa dari API ItzPire berdasarkan nama doa.
 
         Args:
-            nama_doa (str): Nama doa yang ingin diambil.
+            nama_doa (``str``): Nama doa yang ingin diambil.
 
         Returns:
-            str: Teks doa yang diformat dengan rapi termasuk doa, ayat, latin, dan artinya.
+            ``str``: Teks doa yang diformat dengan rapi termasuk doa, ayat, latin, dan artinya.
         """
         url = self.base_urls["doa_url"]
         params = {"doaName": nama_doa}
-        respons = await self._make_request(url, params=params)
+        respons = await self._make_request.get(url, params=params)
 
         if (
             isinstance(respons, dict)
@@ -673,67 +552,189 @@ class ErApi:
             )
         return "Doa tidak ditemukan atau format data tidak valid."
 
-    async def bing_image(self, teks: str, limit: int = 1):
+    async def bing_image(self, query: str, limit: int = 3, adlt: str = "moderate"):
         """
-        Cari bing images based om teks.
+        Searches Bing for images based on a query and retrieves image URLs.
 
         Args:
-            teks (str): Teks quesy yang ingin di cari gambarnya.
-            limit (int, optional): Maximum number photonya. Defaults nya 1.
+            query (``str``): The search query string for finding images.
+            limit (``int``, *optional*): The maximum number of image URLs to return. Defaults to 3.
+            adlt (``str``, *optional*): The level of adult content filtering to apply.
+                The available options are:
+                "off", which disables filtering for adult content.
+                "moderate" (default), which filters explicit images but may include related content.
+                "strict", which enforces strict filtering, excluding all adult content.
 
         Returns:
-            list: List image url yang di terima.
+            ``list``: A list of image URLs retrieved from the Bing search results.
         """
         data = {
-            "q": teks,
+            "q": query,
             "first": 0,
             "count": limit,
-            "adlt": "off",
+            "adlt": adlt,
             "qft": "",
         }
-        response = await self._make_request(self.base_urls["bing_image"], params=data)
-        return re.findall(r"murl&quot;:&quot;(.*?)&quot;", response) if response else []
+        response = await self._make_request.get(self.base_urls["bing_image"], params=data)
+        return (
+            re.findall(r"murl&quot;:&quot;(.*?)&quot;", response.text)
+            if response
+            else []
+        )
 
-    async def carbon(self, query):
+    async def carbon(
+        self,
+        code,
+        background_color="rgba(171, 184, 195, 1)",
+        drop_shadow=True,
+        drop_shadow_blur_radius="68px",
+        drop_shadow_offset_y="20px",
+        export_size="2x",
+        font_custom="",
+        font_size="14px",
+        font_family="Hack",
+        first_line_number=1,
+        language="auto",
+        line_height="133%",
+        line_numbers=False,
+        padding_horizontal="56px",
+        padding_vertical="56px",
+        prettify=False,
+        selected_lines="",
+        theme="seti",
+        watermark=False,
+        width=536,
+        width_adjustment=True,
+        window_controls=True,
+        window_theme="none",
+    ):
         """
+        Generate an image of a code snippet using the `Carbonara API <https://github.com/petersolopov/carbonara>`_.
+
+
         Args:
-            query (str): Potongan kode yang akan dirender sebagai gambar.
+            code (``str``): **Required.** The code snippet to generate an image for.
+            background_color (``str``, *optional*): Background color of the image. Can be in ``rgba`` or ``hex`` format. Default is ``"rgba(171, 184, 195, 1)"``.
+            drop_shadow (``bool``, *optional*): Whether to enable the shadow effect. Default is ``True``.
+            drop_shadow_blur_radius (``str``, *optional*): The blur radius of the shadow. Default is ``"68px"``.
+            drop_shadow_offset_y (``str``, *optional*): The vertical offset of the shadow. Default is ``"20px"``.
+            export_size (``str``, *optional*): Resolution of the exported image, such as ``"1x"``, ``"2x"``, or ``"3x"``. Default is ``"2x"``.
+            font_custom (``str``, *optional*): Custom font in Base64 format. Leave empty for default fonts. Default is an empty string.
+            font_size (``str``, *optional*): The size of the font in the code snippet. Default is ``"14px"``.
+            font_family (``str``, *optional*): Font family for the code snippet. Examples: ``"Hack"``, ``"JetBrains Mono"``, ``"Fira Code"``. Default is ``"Hack"``.
+            first_line_number (``int``, *optional*): The line number to start with in the snippet. Default is ``1``.
+            language (``str``, *optional*): Programming language for syntax highlighting. Default is ``"auto"``. Example: Use ``"python"``, ``"javascript"``, or ``"application/x-sh"`` for bash.
+            line_height (``str``, *optional*): Line height for the text in the snippet. Default is ``"133%"``.
+            line_numbers (``bool``, *optional*): Whether to display line numbers in the snippet. Default is ``False``.
+            padding_horizontal (``str``, *optional*): Horizontal padding around the code block. Default is ``"56px"``.
+            padding_vertical (``str``, *optional*): Vertical padding around the code block. Default is ``"56px"``.
+            prettify (``bool``, *optional*): Automatically format JavaScript code using Prettier. Default is ``False``.
+            selected_lines (``str``, *optional*): Specific lines to highlight, as a comma-separated string. Example: ``"3,4,6"``. Default is an empty string.
+            theme (``str``, *optional*): The theme for the code snippet. Available themes:
+                - "3024-night"
+                - "a11y-dark"
+                - "blackboard"
+                - "base16-dark"
+                - "base16-light"
+                - "cobalt"
+                - "duotone-dark"
+                - "dracula-pro"
+                - "hopscotch"
+                - "lucario"
+                - "material"
+                - "monokai"
+                - "nightowl"
+                - "nord"
+                - "oceanic-next"
+                - "one-light"
+                - "one-dark"
+                - "panda-syntax"
+                - "parasio-dark"
+                - "seti"
+                - "shades-of-purple"
+                - "solarized+dark"
+                - "solarized+light"
+                - "synthwave-84"
+                - "twilight"
+                - "verminal"
+                - "vscode"
+                - "yeti"
+                - "zenburn"
+                Default is ``"seti"``.
+            watermark (``bool``, *optional*): Whether to include the Carbon watermark. Default is ``False``.
+            width (``int``, *optional*): Width of the image in pixels. Default is ``536``.
+            width_adjustment (``bool``, *optional*): Automatically adjusts width based on content. Default is ``True``.
+            window_controls (``bool``, *optional*): Show or hide window controls (close, minimize, maximize buttons). Default is ``True``.
+            window_theme (``str``, *optional*): Style of the window controls. Options: ``"none"``, ``"sharp"``, ``"bw"``, ``"boxy"``. Default is ``"none"``.
 
-        Return:
-            FilePath: Jalur file dari gambar yang disimpan.
-        """
-        async with aiohttp.ClientSession(
-            headers={"Content-Type": "application/json"},
-        ) as ses:
-            params = {
-                "code": query,
-            }
-            try:
-                response = await ses.post(
-                    "https://carbonara.solopov.dev/api/cook",
-                    json=params,
+        Returns:
+            A dictionary containing either the file path to the generated image or an error message.
+            If successful, the dictionary will contain **"success": True** and **"result"**: the file path where the generated image is saved.
+            If failed, the dictionary will contain **"success": False** and **"error"**: a string describing the error that occurred.
+
+        Example:
+            .. code-block:: python
+
+                code_snippet = "print('Hello, World!')"
+
+                response = await api.carbon(
+                    code_snippet,
+                    theme="dracula",
+                    language="python"
                 )
-                response_data = await response.read()
-            except aiohttp.client_exceptions.ClientConnectorError:
-                raise ValueError("Can not reach the Host!")
 
-            downloads_folder = "downloads"
-            os.makedirs(downloads_folder, exist_ok=True)
+                if response['success']:
 
-            file_path = os.path.join(downloads_folder, f"carbon_{self._rnd_str()}.png")
+                    print(f"Code image saved as '{response['result']}'.")
 
-            async with aiofiles.open(file_path, "wb") as f:
-                await f.write(response_data)
+                else:
 
-            return FilePath(realpath(file_path))
-
-    async def github_search(self, cari, tipe="repositories", max_results=3):
+                    print(f"Error: {response['error']}")
         """
-        Pencarian GitHub untuk beberapa tipe konten.
+
+        payload = {
+            "code": code,
+            "backgroundColor": background_color,
+            "dropShadow": drop_shadow,
+            "dropShadowBlurRadius": drop_shadow_blur_radius,
+            "dropShadowOffsetY": drop_shadow_offset_y,
+            "exportSize": export_size,
+            "fontCustom": font_custom,
+            "fontSize": font_size,
+            "fontFamily": font_family,
+            "firstLineNumber": first_line_number,
+            "language": language,
+            "lineHeight": line_height,
+            "lineNumbers": line_numbers,
+            "paddingHorizontal": padding_horizontal,
+            "paddingVertical": padding_vertical,
+            "prettify": prettify,
+            "selectedLines": selected_lines,
+            "theme": theme,
+            "watermark": watermark,
+            "width": width,
+            "widthAdjustment": width_adjustment,
+            "windowControls": window_controls,
+            "windowTheme": window_theme,
+        }
+        try:
+            response = await self._make_request.post(self.base_urls["carbon"], json=payload)
+            response.raise_for_status()
+            file_path = await self._create_file(
+                response.content, ext="png", name="carbon"
+            )
+
+            return {"success": True, "result": file_path}
+        except Exception as e:
+            return {"success": False, "error": str(e)}
+
+    async def github_search(self, query, search_type="repositories", max_results=3):
+        """
+        Searches GitHub for various types of content.
 
         Args:
-            cari (str): untuk Pencarian.
-            tipe (str, optional): Type pencarian, terdiri dari:
+            query (``str``): The search query.
+            search_type (``str``, *optional*): The type of search. Can be one of:
                 - "repositories"
                 - "users"
                 - "organizations"
@@ -742,14 +743,13 @@ class ErApi:
                 - "commits"
                 - "topics"
 
-                Defaults ke "repositories".
-            max_results (int, optional): Maximum nomor dari results untuk
-            return. Defaultnya 3.
+                Defaults to "repositories".
+            max_results (``int``, *optional*): The maximum number of results to return. Defaults to 3.
 
         Returns:
-            list: List dari pencarian results atau pesan error.
+            ``list``: A list of search results or an error message.
         """
-        tipe_yang_valid = [
+        valid_search_types = [
             "repositories",
             "users",
             "organizations",
@@ -759,9 +759,9 @@ class ErApi:
             "topics",
         ]
 
-        if tipe not in tipe_yang_valid:
+        if search_type not in valid_search_types:
             return {
-                "error": f"Type pencarian salah guoblok. Tipe validnya kek gini: {tipe_yang_valid}"
+                "error": f"Invalid search type. Valid types are: {valid_search_types}"
             }
 
         url_mapping = {
@@ -770,29 +770,28 @@ class ErApi:
             "topics": "https://api.github.com/search/topics",
         }
 
-        if tipe in url_mapping:
-            url = url_mapping[tipe]
-            if tipe == "pull_requests":
-                cari += " type:pr"
-            elif tipe == "organizations":
-                cari += " type:org"
+        if search_type in url_mapping:
+            url = url_mapping[search_type]
+            if search_type == "pull_requests":
+                query += " type:pr"
+            elif search_type == "organizations":
+                query += " type:org"
         else:
-            url = f"https://api.github.com/search/{tipe}"
+            url = f"https://api.github.com/search/{search_type}"
 
         headers = {"Accept": "application/vnd.github.v3+json"}
-        params = {"q": cari, "per_page": max_results}
+        params = {"q": query, "per_page": max_results}
 
         try:
-            response = requests.get(url, headers=headers, params=params)
-            response.raise_for_status()
-            results = response.json()
-            items = results.get("items", [])
+            response = await self._make_request.get(url, headers=headers, params=params)
+            response = response.json()
+            items = response.get("items", [])
 
             result_list = []
 
             for item in items:
                 item_info = {}
-                if tipe == "repositories":
+                if search_type == "repositories":
                     item_info = {
                         "name": item["name"],
                         "full_name": item["full_name"],
@@ -802,7 +801,7 @@ class ErApi:
                         "stargazers_count": item.get("stargazers_count"),
                         "forks_count": item.get("forks_count"),
                     }
-                elif tipe in ["users", "organizations"]:
+                elif search_type in ["users", "organizations"]:
                     item_info = {
                         "login": item["login"],
                         "id": item["id"],
@@ -821,7 +820,7 @@ class ErApi:
                         "followers": item.get("followers"),
                         "following": item.get("following"),
                     }
-                elif tipe in ["issues", "pull_requests"]:
+                elif search_type in ["issues", "pull_requests"]:
                     item_info = {
                         "title": item["title"],
                         "user": item["user"]["login"],
@@ -832,7 +831,7 @@ class ErApi:
                         "updated_at": item.get("updated_at"),
                         "closed_at": item.get("closed_at"),
                     }
-                elif tipe == "commits":
+                elif search_type == "commits":
                     item_info = {
                         "sha": item["sha"],
                         "commit_message": item["commit"]["message"],
@@ -840,7 +839,7 @@ class ErApi:
                         "date": item["commit"]["author"]["date"],
                         "url": item["html_url"],
                     }
-                elif tipe == "topics":
+                elif search_type == "topics":
                     item_info = {
                         "name": item["name"],
                         "display_name": item.get("display_name"),
@@ -854,98 +853,63 @@ class ErApi:
 
             return result_list
 
-        except requests.exceptions.RequestException as e:
-            return {"error": f"Requestnya Error: {e}"}
-        except requests.exceptions.HTTPError as e:
-            return {
-                "error": f"HTTP error: {e.response.status_code} - {e.response.text}"
-            }
-        except KeyError as e:
-            return {"error": f"Key error: {e}"}
         except Exception as e:
-            return {"error": f"Unexpected error: {e}"}
+            return self._handle_error(ValueError(f"Unexpected error: {e}"))
 
     async def cat(self):
         """
-        Generate random gambar kucing.
+        Fetches a random cat image URL.
 
         Returns:
-            str or None: Url random kucing ataupun None; None jika response
-            tidak di terima.
+            ``str`` or ``None``: The URL of a random cat image if available; None if no response is received.
         """
-        response = await self._make_request(self.base_urls["cat"])
+        response = await self._make_request.get(self.base_urls["cat"])
+        response = response.json()
         return response[0]["url"] if response else None
-
+        
     async def dog(self):
         """
-        Dapatkan random foto anjing.
+        Fetches a random dog image URL.
 
         Returns:
-            str or None: Url Random anjing jika tersedia; None jika tidak ada
-            response yang di terima.
+            ``str`` or None: The URL of a random dog image if available; None if no response is received.
         """
-        response = await self._make_request(self.base_urls["dog"])
+        response = await self._make_request.get(self.base_urls["dog"])
+        response = response.json()
         return response["url"] if response else None
 
     async def hug(self, amount: int = 1) -> list:
-        """Dapatkan gif Random pelukan dari Nekos.Best API.
+        """Fetches a specified number hug gif from the Nekos.Best API.
 
         Args:
-            amount (int): amount gambar nya, Defaultnya 1.
+            amount (``int``): The number of neko images to fetch. Defaults to 1.
 
         Returns:
-            list: List dari dictionaries tentang informasi neko image atau GIF.
-                  Type dictionaries:
-                  - anime_name (str): Nama anime.
-                  - url (str): Url gif nya.
-        """
-        response = await self._make_request(self.base_urls["neko_hug"].format(amount))
-        return response["results"]
+            ``list``: A list of dictionaries containing information about each fetched neko image or GIF.
+                      Each dictionary will typically include:
+                      **"anime_name"** (str): The name of the anime.
+                      **"url"** (str): The URL of the GIF.
 
-    async def pypi(self, namanya):
         """
-        Mengambil informasi metadata tentang paket Python tertentu dari API PyPI.
+        response = await self._make_request.get(self.base_urls["neko_hug"].format(amount))
+
+        return response.json()["results"]
+
+    async def pypi(self, package_name):
+        """
+        Retrieves metadata information about a specified Python package from the PyPI API.
 
         Args:
-            namanya (str): Nama paket yang dicari di PyPI.
+            package_name (``str``): The name of the package to search for on PyPI.
 
         Returns:
-            dict atau None: Sebuah kamus dengan informasi relevan tentang paket jika ditemukan, yang berisi:
-            - name (str): Nama paket.
-            - version (str): Versi terbaru paket.
-            - summary (str): Deskripsi singkat tentang paket.
-            - author (str): Penulis paket.
-            - author_email (str): Email penulis paket.
-            - license (str): Jenis lisensi.
-            - home_page (str): URL halaman utama paket.
-            - package_url (str): URL paket di PyPI.
-            - requires_python (str): Versi Python minimum yang dibutuhkan.
-            - keywords (str): Kata kunci yang terkait dengan paket.
-            - classifiers (list): Daftar pengklasifikasi PyPI.
-            - project_urls (dict): URL proyek tambahan (misalnya, kode sumber, dokumentasi).
-         Returns None jika paket tidak ditemukan atau terjadi kesalahan.
+            ``dict`` or ``None``: A dictionary with relevant package information if found.
+            Returns None if the package is not found or there is an error.
         """
-        url = f"{self.base_urls['pypi']}/{namanya}/json"
-        response = await self._make_request(url)
+        url = f"{self.base_urls['pypi']}/{package_name}/json"
+        response = await self._make_request.get(url)
+        response = response.json()
         if response:
-            info = response["info"]
-            relevant_info = {
-                "name": info["name"],
-                "version": info["version"],
-                "summary": info["summary"],
-                "author": info["author"],
-                "author_email": info["author_email"],
-                "license": info["license"],
-                "home_page": info["home_page"],
-                "package_url": info["package_url"],
-                "requires_python": info["requires_python"],
-                "keywords": info["keywords"],
-                "classifiers": info["classifiers"],
-                "project_urls": info["project_urls"],
-            }
-            return relevant_info
+            return response
         else:
-            return "TOLOL"
-
-
-apinya = ErApi()
+            return None
