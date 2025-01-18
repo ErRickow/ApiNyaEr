@@ -31,7 +31,6 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx_copybutton",
     "sphinx_exec_code",
-    "sphinx.ext.intersphinx",
 ]
 
 
@@ -104,10 +103,7 @@ on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 #         'sphinx': ('/Users/eric/checkouts/sphinx/doc/_build/html/', None),
 #     }
 # else:
-intersphinx_mapping = {
-    # Links to "v2" version of the "docs" project.
-    "Install-ApiNyaEr": ("https://pypi.org/Project/ApiNyaEr", None),
-}
+
 
 
 docs = os.getcwd()
