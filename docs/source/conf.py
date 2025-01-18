@@ -106,11 +106,7 @@ on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 # else:
 intersphinx_mapping = {
     # Links to "v2" version of the "docs" project.
-    "Install-ApiNyaEr": ("https://pypi.org/Projects/ApiNyaEr", None),
-    # Links to the French translation of the "docs" project.
-    "Other": ("https://ErNewDev0.github.io/", None),
-    # Links to the "apis" subproject of the "docs" project.
-    "Contact": ("https://t.me/chakszzz", None),
+    "Install-ApiNyaEr": ("https://pypi.org/Project/ApiNyaEr", None),
 }
 
 
