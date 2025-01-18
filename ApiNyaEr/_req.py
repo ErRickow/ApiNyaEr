@@ -1,6 +1,6 @@
-from typing import Any, Dict, Union, Optional
+from typing import Any, Dict, Optional, Union
 
-from httpx import Response, AsyncClient
+from httpx import AsyncClient, Response
 
 
 class Reqnya:
