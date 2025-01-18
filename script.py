@@ -231,6 +231,7 @@ async def write_api_status_to_file(
 
 # Main function to run the script
 async def main():
+    apinya = ErApi()
     methods = inspect.getmembers(
         apinya, predicate=lambda m: inspect.ismethod(m) or inspect.isfunction(m)
     )
