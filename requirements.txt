@@ -1,4 +1,3 @@
-aiohttp
 aiofiles
 pillow
 httpx
