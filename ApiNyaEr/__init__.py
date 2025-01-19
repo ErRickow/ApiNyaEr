@@ -1,4 +1,4 @@
-from .songs import Lagunya
+from .songs import Musiknya
 from .apinya import ErApi
 
 
