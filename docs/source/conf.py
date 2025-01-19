@@ -45,6 +45,7 @@ html_static_path = ["_static"]
 html_extra_path = ["_templates"]
 html_css_files = ["css/pyro.css"]
 html_favicon = html_static_path[0] + "/img/logo.png"
+html_baseurl = "https://docs-apinyaer.readthedocs.com/"
 
 html_theme_options = {
     "navigation_with_keys": True,
