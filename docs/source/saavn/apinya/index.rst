@@ -1,18 +1,18 @@
-Lagunya
+Musiknya
 ========
 
 .. currentmodule:: ApiNyaEr
 
 
-.. autoclass:: Lagunya
+.. autoclass:: Musiknya
    :exclude-members: __new__
 
 
 .. code-block:: python
 
-   from ApiNyaEr import Lagunya
+   from ApiNyaEr import Musiknya
 
-   api = Lagunya()
+   api = Musiknya()
    await api.search("Gue Mah Apah Atuh")
 
 .. toctree::
