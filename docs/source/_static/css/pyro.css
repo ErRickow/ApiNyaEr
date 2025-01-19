@@ -12,7 +12,7 @@
 body {
         font-family: open sans, sans-serif;
         --color-brand-primary: #404040;
-        --color-brand-content: #93774b;
+        --color-brand-content: #934f4b;
         --color-foreground-primary: #404040;
         --color-background-primary: #f9f8f7;
         --color-background-secondary: #f3f2f1;
@@ -21,13 +21,13 @@ body {
         --color-background-border: #dddddd;
         --color-guilabel-background: #f3f2f1;
         --color-guilabel-border: #dddddd;
-        --color-admonition-title--note: #93774b;
+        --color-admonition-title--note: #934f4b;
         --color-admonition-title-background--note: #e4e0d7;
-        --color-admonition-title--seealso: #93774b;
+        --color-admonition-title--seealso: #934f4b;
         --color-admonition-title-background--seealso: #e4e0d7;
         --color-border: #dddddd;
         --color-button: #f3f6f6;
-        --color-background-highlight: #f3f2f1;
+        --color-background-highlight: #ffffffd0;
         --color-title: #303030;
         --color-link-hover: #bf431d;
         --color-carbon-ads-link: #606060;
@@ -573,7 +573,7 @@ strong {
 }
 
 .sidebar-tree .current>.reference::before {
-        content: "➤ "
+        content: "=> "
 }
 
 .toc-tree .reference::before {
