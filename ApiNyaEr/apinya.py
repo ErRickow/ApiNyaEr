@@ -300,7 +300,6 @@ class ErApi:
                 "report": "@Er_Support_Group",
             }
 
-
     async def zodiak(self, input: str):
         """
         Get information zodiak from a strings
@@ -448,7 +447,7 @@ class ErApi:
     async def islam_ai(self, tanya: str):
         """
         args:
-            tanya (``str``): teks question 
+            tanya (``str``): teks question
 
         Returns:
             ``resultnya``: Response islam ai
