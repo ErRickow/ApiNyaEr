@@ -1,4 +1,4 @@
-class Lagunya:
+class Musiknya:
     """
     A class for interacting with the Lagunya API.
 
