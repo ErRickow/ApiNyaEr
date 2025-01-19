@@ -1,15 +1,14 @@
-Selamat Datang 2 ApiNyaEr Documentation
-=======================================
+Welcum 2 ApiNyaEr Documentation
+===============================
 
 Overview
 --------
 
-ApiNyaEr adalah kompilasi api dari berbagai resource, seperti Luminai yang popular/sering di gunakan di whatsapp bot
-
+ApiNyaEr is a compilation of APIs from various resources, such as Luminai, which is popular and often used in WhatsApp bots.
 
 .. attention ::
 
-   This project is under active development. Expect frequent updates and improvements.
+   This project is currently in active development, with updates and improvements released frequently.
 
 
 .. toctree::
@@ -24,14 +23,14 @@ ApiNyaEr adalah kompilasi api dari berbagai resource, seperti Luminai yang popul
 Installation
 ------------
 
-Untuk menginstall ApiNyaEr, kamu bisa menggunakan pip:
+To install ApiNyaEr, simply run the following pip command to install it from PyPI:
 
 .. code-block:: bash
 
    pip install ApiNyaEr
 
-Penggunaan 
-----------
+Usage 
+-----
 
 
 .. important :: 
