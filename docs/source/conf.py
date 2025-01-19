@@ -37,7 +37,7 @@ extensions = [
 templates_path = ["_templates"]
 exclude_patterns = []
 
-html_title = f"ApiNyaEr v{version}"
+html_title = f"Documentations ApiNyaEr {version}"
 # html_theme = "sphinx_rtd_theme"
 html_theme = "furo"
 html_copy_source = False
@@ -103,6 +103,7 @@ on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 #         'sphinx': ('/Users/eric/checkouts/sphinx/doc/_build/html/', None),
 #     }
 # else:
+
 
 
 docs = os.getcwd()
