@@ -8,7 +8,7 @@
 |----------|--------|--------|
 ```python
 ErApi.neko(neko, 3)
-Status: ✅, Result: {'results': [{'artist_href': 'https://www.pixiv.net/en/users/44758303', 'artist_name': 'D・rai', 'source_url': 'https://www.pixiv.net/en/artworks/99989178', 'url': 'https://nekos.best/api/v2/neko/31d7e970-9b26-4a8c-a9bb-2182652c6273.png'}, {'artist_href': 'https://www.pixiv.net/en/users/8377268', 'artist_name': 'いかっち', 'source_url': 'https://www.pixiv.net/en/artworks/90764433', 'url': 'https://nekos.best/api/v2/neko/ba3647f6-af5e-4433-8441-0757096b5610.png'}, {'artist_href': 'https://www.pixiv.net/en/users/18593130', 'artist_name': '几乎U糖', 'source_url': 'https://www.pixiv.net/en/artworks/87139963', 'url': 'https://nekos.best/api/v2/neko/f0889bd3-6f56-4661-a0ee-297e91ac4976.png'}]}
+Status: ✅, Result: {'results': [{'artist_href': 'https://www.pixiv.net/en/users/12173021', 'artist_name': 'フィア', 'source_url': 'https://www.pixiv.net/en/artworks/100976865', 'url': 'https://nekos.best/api/v2/neko/ee0249e3-c263-4ab4-b32a-138c5262d0de.png'}, {'artist_href': 'https://www.pixiv.net/en/users/9077832', 'artist_name': '砂々雨', 'source_url': 'https://www.pixiv.net/en/artworks/79641627', 'url': 'https://nekos.best/api/v2/neko/cac4403c-931a-4ae1-9d0b-a2c6e5f8aa56.png'}, {'artist_href': 'https://www.pixiv.net/en/users/16240887', 'artist_name': 'ION', 'source_url': 'https://www.pixiv.net/en/artworks/91211717', 'url': 'https://nekos.best/api/v2/neko/f3e0eb6e-1bd3-46f4-b201-97e06ab06e84.png'}]}
 ```
 ```python
 ErApi.password(12)
