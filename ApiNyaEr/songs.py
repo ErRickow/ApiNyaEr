@@ -1,3 +1,5 @@
+from ApiNyaEr._req import Request
+
 class Musiknya:
     """
     A class for interacting with the Lagunya API.
