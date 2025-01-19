@@ -95,6 +95,7 @@ napoleon_include_special_with_doc = False
 napoleon_use_rtype = False
 napoleon_use_param = True
 html_show_copyright = True
+html_show_sphinx = False
 
 # Example configuration for intersphinx: refer to the Python standard library.
 on_rtd = os.environ.get("READTHEDOCS", None) == "True"
