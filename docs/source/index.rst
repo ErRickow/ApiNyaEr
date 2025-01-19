@@ -36,7 +36,7 @@ Penggunaan
 
 .. important :: 
 
-   All methods of the :obj:`~ApiNyaEr.ErApi` or :obj:`~ApiNyaEr.Lagunya` can be used asynchronously, allowing for non-blocking operations and improved performance in asynchronous environments.
+   All methods of the :obj:`~ApiNyaEr.ErApi` or :obj:`~ApiNyaEr.Musiknya` can be used asynchronously, allowing for non-blocking operations and improved performance in asynchronous environments.
 
 To start using ApiNyaEr, follow these steps:
 
@@ -56,13 +56,13 @@ To start using ApiNyaEr, follow these steps:
 
       print(res)
 
-3. You can use the :obj:`~ApiNyaEr.Lagunya` for making request for endpoint of saavn.dev
+3. You can use the :obj:`~ApiNyaEr.Musiknya` for making request for endpoint of saavn.dev
 
    .. code-block:: python 
 
-      from ApiNyaEr import Lagunya
+      from ApiNyaEr import Musiknya
 
-      api = Lagunya()
+      api = Musiknya()
 
       r = await api.search("Gue Mah Apah Atuh")
       
