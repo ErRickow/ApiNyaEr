@@ -1,5 +1,4 @@
-from ApiNyaEr._req import Request
-
+from ApiNyaEr._req import Reqnya
 
 class Musiknya:
     """
@@ -14,7 +13,7 @@ class Musiknya:
         Initializes the Lagunya instance with the base URL for the Saavn API.
         """
         self.base_url = "https://saavn.dev"
-        self.req = Request()
+        self.req = Reqnya()
 
     async def search(self, query: str):
         """
