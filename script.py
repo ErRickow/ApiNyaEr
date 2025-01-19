@@ -1,9 +1,14 @@
 import asyncio
 import inspect
+
 import aiofiles
+
 from ApiNyaEr import ErApi, Musiknya
 
+
 # Helper function to test each API method
+
+
 async def test_method(method, *args):
     try:
         if inspect.iscoroutinefunction(method):
@@ -16,21 +21,21 @@ async def test_method(method, *args):
         status = "❌"  # Mark as failed
         return status, str(e)
 
+
 # Function to test the selected methods
+
+
 async def test_selected_methods():
     erapi = ErApi()
     musiknya = Musiknya()
 
     # Test methods from ErApi
-    erapi_methods = [
-        (erapi.neko, "neko", 3),
-        (erapi.password)
-    ]
+    erapi_methods = [(erapi.neko, "neko", 3), (erapi.password)]
 
     # Test methods from Musiknya
     musiknya_methods = [
         (musiknya.search, "Gue Mah Apah"),
-        (musiknya.get_song_by_id, "some_song_id")
+        (musiknya.get_song_by_id, "some_song_id"),
     ]
 
     results = []
@@ -51,7 +56,10 @@ async def test_selected_methods():
 
     return results
 
+
 # Function to update README with test results
+
+
 async def update_readme(test_results):
     readme_file = "README.md"
     separator = "---"
@@ -74,9 +82,7 @@ async def update_readme(test_results):
     new_content = (
         "### Test Results\n\n"
         "| Function | Status | Result |\n"
-        "|----------|--------|--------|\n"
-        + test_results_str
-        + "\n"
+        "|----------|--------|--------|\n" + test_results_str + "\n"
     )
 
     updated_content = (
@@ -92,10 +98,14 @@ async def update_readme(test_results):
     async with aiofiles.open(readme_file, "w") as f:
         await f.write(updated_content)
 
+
 # Main function to run the script
+
+
 async def main():
     test_results = await test_selected_methods()
     await update_readme(test_results)
+
 
 if __name__ == "__main__":
     asyncio.run(main())
