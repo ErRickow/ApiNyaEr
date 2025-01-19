@@ -105,7 +105,6 @@ on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 # else:
 
 
-
 docs = os.getcwd()
 
 for root, _, files in os.walk(docs):
