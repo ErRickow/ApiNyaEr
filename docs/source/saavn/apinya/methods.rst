@@ -4,16 +4,16 @@ Methods
 .. currentmodule:: ApiNyaEr
 
 
-The following methods are available in :obj:`~ApiNyaEr.Lagunya`:
+The following methods are available in :obj:`~ApiNyaEr.Musiknya`:
 
 .. autosummary::
    :nosignatures:
 
-   {Lagunya_methods}
+   {Musiknya_methods}
 
 
 .. toctree::
    :hidden:
    :maxdepth: 1
 
-   {Lagunya_toctree}
+   {Musiknya_toctree}
