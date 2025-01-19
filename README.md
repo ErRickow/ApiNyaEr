@@ -2,66 +2,12 @@
 
 ---
 
-# 📘 API Documentation
+### Test Results
 
-Welcome to the **ErApi**! This library allows you to easily interact with the API using both **synchronous** and **asynchronous** options.
-
-## Installation
-To get started, make sure you have the library installed:
-```bash
-pip3 install ApiNyaEr
-```
-
-## Usage
-- **Synchronous usage**: Import the library with:
-```python
-from ApiNyaEr.sync import apinya
-```
-- **Asynchronous usage**: Import the library with:
-```python
-from ApiNyaEr import apinya
-```
-
-Below, we’ll cover each function, providing examples and expected results so you can get started quickly! Let’s dive in 🚀
-
-## Status
-
-| Function           | Status |
-|--------------------|--------|
-| [1. Apainier](#1-apainier) | ❌
-
-
-## 🎓 How to Use Each Function
-
-### 1. Apainier
-
-**Description**:
-Decode the Base64 encoded bytes-like object or ASCII string s.
-
-**Description**:
-Optional altchars must be a bytes-like object or ASCII string of length 2 which specifies the alternative alphabet used instead of the '+' and '/' characters.
-
-**Description**:
-The result is returned as a bytes object.  A binascii.Error is raised if s is incorrectly padded.
-
-**Description**:
-If validate is False (the default), characters that are neither in the normal base-64 alphabet nor the alternative alphabet are discarded prior to the padding check.  If validate is True, these non-alphabet characters in the input result in a binascii.Error. For more information about the strict base64 check, see:
-
-**Description**:
-https://docs.python.org/3.11/library/binascii.html#binascii.a2b_base64
-
-```python
-from ApiNyaEr import apinya
-
-result = await apinya.apainier(s='Tidur', altchars=None, validate=False)
-print(result)
-```
-
-#### Expected Output
-
-```text
-Invalid base64-encoded string: number of data characters (5) cannot be 1 more than a multiple of 4
-```
+ErApi.neko(neko, 3): ✅, Result: {'results': [{'artist_href': 'https://www.pixiv.net/en/users/17860912', 'artist_name': '凛歌', 'source_url': 'https://www.pixiv.net/en/artworks/88850986', 'url': 'https://nekos.best/api/v2/neko/40335fe9-251d-44a5-8428-ee1b16510888.png'}, {'artist_href': 'https://www.pixiv.net/en/users/57220309', 'artist_name': 'こっこ', 'source_url': 'https://www.pixiv.net/en/artworks/89337038', 'url': 'https://nekos.best/api/v2/neko/57797897-9d5c-4ad1-8bb8-a3ba8eedbdfa.png'}, {'artist_href': 'https://www.pixiv.net/en/users/4284365', 'artist_name': 'イカたると', 'source_url': 'https://www.pixiv.net/en/artworks/55142454', 'url': 'https://nekos.best/api/v2/neko/2b0940dd-334b-4986-8b6b-0469fc5e8e79.png'}]}
+ErApi.password(12): ❌, Result: ErApi.password() takes from 0 to 1 positional arguments but 2 were given
+Musiknya.search(Gue Mah Apah): ✅, Result: {'success': True, 'data': {'topQuery': {'results': [{'id': '39272173', 'title': 'I Guess', 'image': [{'quality': '50x50', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-50x50.jpg'}, {'quality': '150x150', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-150x150.jpg'}, {'quality': '500x500', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-500x500.jpg'}], 'url': 'https://www.jiosaavn.com/album/i-guess/pSS8kuIkjDY_', 'type': 'album', 'language': 'hindi', 'description': 'Hindi Album'}], 'position': 0}, 'songs': {'results': [{'id': 'fvYRNJSy', 'title': 'Guerrilla War', 'image': [{'quality': '50x50', 'url': 'https://c.saavncdn.com/235/Guerrilla-War-Punjabi-2017-50x50.jpg'}, {'quality': '150x150', 'url': 'https://c.saavncdn.com/235/Guerrilla-War-Punjabi-2017-150x150.jpg'}, {'quality': '500x500', 'url': 'https://c.saavncdn.com/235/Guerrilla-War-Punjabi-2017-500x500.jpg'}], 'album': 'Guerrilla War', 'url': 'https://www.jiosaavn.com/song/guerrilla-war/Fh4yYzp6ZEo', 'type': 'song', 'description': 'Guerrilla War · Amrit Maan', 'primaryArtists': 'Amrit Maan', 'singers': 'Amrit Maan, Goddess', 'language': 'punjabi'}, {'id': 'x4dNNyK5', 'title': 'GUESS', 'image': [{'quality': '50x50', 'url': 'https://c.saavncdn.com/722/GUESS-Hindi-2022-20221030113051-50x50.jpg'}, {'quality': '150x150', 'url': 'https://c.saavncdn.com/722/GUESS-Hindi-2022-20221030113051-150x150.jpg'}, {'quality': '500x500', 'url': 'https://c.saavncdn.com/722/GUESS-Hindi-2022-20221030113051-500x500.jpg'}], 'album': 'GUESS', 'url': 'https://www.jiosaavn.com/song/guess/CFwPfzpJfAY', 'type': 'song', 'description': 'GUESS · Emiway Bantai', 'primaryArtists': 'Emiway Bantai', 'singers': 'Amrit Maan, Goddess', 'language': 'hindi'}, {'id': 'Woyhfg0D', 'title': 'I Guess', 'image': [{'quality': '50x50', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-50x50.jpg'}, {'quality': '150x150', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-150x150.jpg'}, {'quality': '500x500', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-500x500.jpg'}], 'album': 'I Guess', 'url': 'https://www.jiosaavn.com/song/i-guess/JwcSWRJXB3c', 'type': 'song', 'description': 'I Guess · KR$NA', 'primaryArtists': 'KR$NA', 'singers': 'Amrit Maan, Goddess', 'language': 'hindi'}], 'position': 1}, 'albums': {'results': [{'id': '39272173', 'title': 'I Guess', 'image': [{'quality': '50x50', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-50x50.jpg'}, {'quality': '150x150', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-150x150.jpg'}, {'quality': '500x500', 'url': 'https://c.saavncdn.com/949/I-Guess-Hindi-2022-20221021113153-500x500.jpg'}], 'artist': 'KR$NA', 'url': 'https://www.jiosaavn.com/album/i-guess/pSS8kuIkjDY_', 'type': 'album', 'description': '2022 · Hindi Album · KR$NA', 'year': '2022', 'songIds': 'Woyhfg0D', 'language': 'hindi'}, {'id': '11647021', 'title': 'Guerrilla War', 'image': [{'quality': '50x50', 'url': 'https://c.saavncdn.com/235/Guerrilla-War-Punjabi-2017-50x50.jpg'}, {'quality': '150x150', 'url': 'https://c.saavncdn.com/235/Guerrilla-War-Punjabi-2017-150x150.jpg'}, {'quality': '500x500', 'url': 'https://c.saavncdn.com/235/Guerrilla-War-Punjabi-2017-500x500.jpg'}], 'artist': 'Amrit Maan', 'url': 'https://www.jiosaavn.com/album/guerrilla-war/Rg4T3Es1mSM_', 'type': 'album', 'description': '2017 · Punjabi Album · Amrit Maan', 'year': '2017', 'songIds': 'fvYRNJSy', 'language': 'punjabi'}, {'id': '39502353', 'title': 'GUESS', 'image': [{'quality': '50x50', 'url': 'https://c.saavncdn.com/722/GUESS-Hindi-2022-20221030113051-50x50.jpg'}, {'quality': '150x150', 'url': 'https://c.saavncdn.com/722/GUESS-Hindi-2022-20221030113051-150x150.jpg'}, {'quality': '500x500', 'url': 'https://c.saavncdn.com/722/GUESS-Hindi-2022-20221030113051-500x500.jpg'}], 'artist': 'Emiway Bantai', 'url': 'https://www.jiosaavn.com/album/guess/DUhWxLc1YKg_', 'type': 'album', 'description': '2022 · Hindi Album · Emiway Bantai', 'year': '2022', 'songIds': 'x4dNNyK5', 'language': 'hindi'}], 'position': 2}, 'artists': {'results': [], 'position': 4}, 'playlists': {'results': [], 'position': 3}}}
+Musiknya.get_song_by_id(some_song_id): ✅, Result: {'success': False, 'message': 'song not found'}
 
 
 This Project is Licensed under [GNU General Public License](https://github.com/ErRickow/ApiNyaEr/blob/Er/LICENSE)
