@@ -171,13 +171,13 @@ class ErApi:
 
     async def password(num: int = 12) -> str:
         """
-        Fungsi ini menghasilkan kata sandi acak dengan menggabungkan huruf besar, huruf kecil, tanda baca, dan digit.
+        This function generates a random password by combining uppercase letters, lowercase letters, punctuation, and digits.
 
         Parameters:
-            - num (``int``): Panjang kata sandi yang dihasilkan. Default adalah 12 jika tidak ditentukan.
+          - num (``int``): The length of the generated password. Defaults to 12 if not specified.
 
         Returns:
-            - ``str``: Kata sandi yang dihasilkan secara acak yang terdiri dari karakter dari string.ascii_letters, string.punctuation, dan string.digits.
+          - ``str``: A randomly generated password consisting of characters from string.ascii_letters, string.punctuation, and string.digits.
         """
         characters = string.ascii_letters + string.punctuation + string.digits
         password = "".join(random.sample(characters, num))
@@ -189,92 +189,92 @@ class ErApi:
 
     async def truth():
         """
-        Dapatkan Kata kata truth
+        Get random truth words.
 
         Returns:
-            ``str``: Random kata truth
+            ``str``: Random truth words.
         """
         truthnya = random.choice(TRUTH)
         return truthnya
 
     async def qanime():
         """
-        Dapatkan Kata kata anime
+        Get random anime quotes.
 
         Returns:
-            ``str``: Random kata anime
+            ``str``: Random anime quotes.
         """
         mmk = random.choice(ANIMEK)
         return mmk
 
     async def dare():
         """
-        Dapatkan Kata kata dare
+        Get random dare words.
 
         Returns:
-            ``str``: Random kata dare
+            ``str``: Random dare words.
         """
         darenya = random.choice(DARE)
         return darenya
 
     async def nama_epep():
         """
-        Dapatkan random nama ep ep
+        Get random Free Fire name.
 
         Returns:
-            ``str``: Random nama ep epnya
+            ``str``: Random Free Fire name.
         """
         namanya = random.choice(EPEP)
         return namanya
 
     async def qpubg():
         """
-        Dapatkan random Quotes pubg
+        Get random PUBG quotes.
 
         Returns:
-            ``str``: Random Quotes Pubg
+            ``str``: Random PUBG quotes.
         """
         kntlny = random.choice(PUBG)
         return kntlny
 
     async def qhacker():
         """
-        Dapatkan random Quotes Hacker
+        Get random Hacker quotes.
 
         Returns:
-            ``str``: Random Quotes Hacker
+            ``str``: Random Hacker quotes.
         """
         mmk = random.choice(HECKER)
         return mmk
 
     async def qislam():
         """
-        Dapatkan random Quotes Islamic
+        Get random Islamic quotes.
 
         Returns:
-            ``str``: Random Quotes Islam
+            ``str``: Random Islamic quotes.
         """
         Sabyan = random.choice(ISLAMIC)
         return Sabyan
 
     async def fakta_unik():
         """
-        Dapatkan random Seputar Fakta Unik
+        Get random unique facts.
 
         Returns:
-            ``str``: Random Fakta
+            ``str``: Random unique facts.
         """
         kntlny = random.choice(FAKTA)
         return kntlny
 
     async def arti_nama(self, namanya: str):
         """
-        Mendapatkan arti nama dari string
+        Get the meaning of a name from a string.
 
         Args:
-            namanya (``str``): Nama Kamu
+            namanya (``str``): Your name.
         Returns:
-            ``dict``: Informasi Arti Nama Kamu or Eror Msg
+            ``dict``: Information about the meaning of your name or an error message.
         """
         url = f"{self.base_urls['siputx']}/primbon/artinama"
         par = {"nama": namanya}
@@ -289,26 +289,27 @@ class ErApi:
                 }
             else:
                 return {
-                    "Why?": "gagal mendapatkan arti nama.",
+                    "Why?": "Failed to retrieve the meaning of the name.",
                     "success": False,
                     "report": "@Er_Support_Group",
                 }
         except Exception as r:
             return {
-                "Why?": f"Terjadi kesalaha",
+                "Why?": "An error occurred.",
                 "success": False,
                 "report": "@Er_Support_Group",
             }
 
+
     async def zodiak(self, input: str):
         """
-        Mengambil informasi zodiak berdasarkan input.
+        Get information zodiak from a strings
 
         Args:
-            input (``str``): Nama zodiak.
+            input (``str``): The zodiak(``eg. gemini``)
 
         Returns:
-            ``dict``: Informasi lengkap zodiak atau pesan kesalahan.
+            ``dict``: Full zodiak result or the error message
         """
         url = f"{self.base_urls['siputx']}/primbon/zodiak"
         par = {"zodiak": input}
@@ -344,12 +345,12 @@ class ErApi:
 
     async def read_image(self, urlnya: str):
         """
-        Bertanya gambar melalui url
+        Ask anything with given url
 
         Returns:
             url(``str``): string url
         Returns:
-            ``Response``: Response ainya
+            ``Response``: Response otherways throw error
         """
         url = f"{self.base_urls['siputx']}/ai/image2text"
         urlnya = "https://cataas.com/cat"
@@ -371,10 +372,10 @@ class ErApi:
 
     async def meta_ai(self, tanya: str):
         """
-        Bertanya pada meta AI
+        Ask to Meta Ai
 
         Args:
-            tanya(``str``): teks yang akan ditanyakan
+            tanya(``str``): The teks for question to Meta Ai
         Returns:
             ``response``: Response Meta Ai
         """
@@ -399,8 +400,11 @@ class ErApi:
         """
         Generate image from Teks
 
+        Args:
+            input(``str``): teks
+
         Returns:
-            ``input``: teks yang akan dijadikan image
+            ``str``: Result fluxai
         """
         params = {"prompt": input}
         try:
@@ -419,7 +423,7 @@ class ErApi:
             link (``str``): Teks query
 
         Returns:
-            ``resultnya``
+            ``resultnya``: This still eror
         """
         params = {"url": link}
         try:
@@ -444,7 +448,7 @@ class ErApi:
     async def islam_ai(self, tanya: str):
         """
         args:
-            tanya (``str``): teks pertanyaan
+            tanya (``str``): teks question 
 
         Returns:
             ``resultnya``: Response islam ai
@@ -494,13 +498,13 @@ class ErApi:
 
     async def ai(self, tanya: str):
         """
-        Interaksi dengan AI Basis Text.
+        Ask from Ai
 
         Args:
-            tanya (``str``): Text inputnya.
+            tanya (``str``): Text input
 
         Returns:
-            ``str``: Respon chatbotnya.
+            ``str``: Respon Ai.
         """
         url = self.base_urls["ai"]
         par = {"q": tanya}
@@ -521,13 +525,13 @@ class ErApi:
 
     async def doa(self, nama_doa: str) -> str:
         """
-        Mengambil data doa dari API ItzPire berdasarkan nama doa.
+        Fetch prayer data from the ItzPire API based on the prayer name.
 
         Args:
-            nama_doa (``str``): Nama doa yang ingin diambil.
+            nama_doa (``str``): The name of the prayer to fetch.
 
         Returns:
-            ``str``: Teks doa yang diformat dengan rapi termasuk doa, ayat, latin, dan artinya.
+            ``str``: A neatly formatted prayer text including the prayer, verse, Latin, and its meaning.
         """
         url = self.base_urls["doa_url"]
         params = {"doaName": nama_doa}
