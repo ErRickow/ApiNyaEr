@@ -5,7 +5,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-  - package-ecosystem: py
-    directory: "/python"
+  - package-ecosystem: pip
+    directory: "/"
     schedule:
       interval: "weekly"
