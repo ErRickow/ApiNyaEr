@@ -55,7 +55,7 @@ jobs:
             > This issue was created automatically by GitHub, 
             > **DO NOT** close this issue until resolved.
       - name: Auto Commit Changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
             commit_message: "Auto Code Fixes"
             commit_options: "--no-verify"
