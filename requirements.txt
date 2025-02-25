@@ -2,3 +2,4 @@ aiofiles
 pillow
 httpx
 beautifulsoup4
+ApiNyaEr
