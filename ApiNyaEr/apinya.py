@@ -4,6 +4,8 @@ import random
 import string
 from base64 import b64decode as apainier
 from typing import Union, Optional
+import aiohttp
+from io import BytesIO
 
 import aiofiles
 
@@ -23,6 +25,7 @@ class ErApi:
 
     def __init__(self, downloads_dir: str = "downloads", quiet: bool = False):
         self.base_urls = {
+            "er-api": apainier("aHR0cHM6Ly9lci1hcGkuYml6Lmlk").decode("utf-8"),
             "siputx": apainier("aHR0cHM6Ly9hcGkuc2lwdXR6eC5teS5pZC9hcGk=").decode(
                 "utf-8"
             ),
@@ -86,6 +89,133 @@ class ErApi:
             await f.write(contents)
 
         return file_path
+
+    async def github_to_raw(self, link: str):
+        """Generate Github Raws From The Given Link Github Alongside /blob/{bramch}/
+        
+        Args:
+            link (``str``): The given Github link to be converted to Raws
+        Returns:
+            ``str``: The converted raw Url
+        Example:
+            >>> from ApiNyaEr import apinya
+            >>> result = await apinya.github_to_raw("https://github.com/ErRickow/ApiNyaEr/blob/Er/LICENSE")
+            >>> print(result)
+        Notes:
+            - The input URL must follow the format:
+              `https://github.com/{owner}/{repo}/blob/{branch}/{file_path}`
+            - The function will convert it into:
+              `https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{file_path}`
+            - Example:
+              Input:  `https://github.com/ErRickow/ApiNyaEr/blob/Er/LICENSE`
+              Output: `https://raw.githubusercontent.com/ErRickow/ApiNyaEr/Er/LICENSE` 
+        """
+        url = f"{self.base_urls['er-api']}/tools/raw"
+        params = {"u": link}
+        try
+    
+    async def gen_img(self, text: str):
+        """Generate an image using Flux.1 Schennel from text input.
+
+        Args:
+            text (``str``): The input for generating an image, e.g., "cat black".
+    
+        Returns:
+            ``BytesIO``: The image as a file-like object, which can be sent directly in Telegram.
+    
+        Example:
+            >>> image = await apinya.gen_img("cat black")
+            >>> await message.reply_photo(image)  # Sending image in a Telegram bot
+        
+        Notes:
+            - The function does NOT return a URL but a file-like object containing the image.
+        """
+        url = f"{self.base_urls['er-api']}/get/generate"
+        params = {"t": text}
+        
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, params=params) as resp:
+                    if resp.status == 200:
+                        img_data = await resp.read()
+                        return BytesIO(img_data)  # Return image as a file-like object
+                    
+            return {
+                "Why?": "Failed to fetch the image.",
+                "success": False,
+                "report": "@Er_Support_Group",
+            }
+        
+        except Exception as e:
+            return {
+                "Why?": f"An error occurred: {str(e)}",
+                "success": False,
+                "report": "@Er_Support_Group",
+            }
+
+    async def erai(self, text: str):
+        """Get Response from Er-Ai
+        
+        Args:
+            text (``str``): The given teks to comunicate with Er-Ai
+        Returns:
+            ``str``: Response text from Er-Ai
+        """
+        url = f"{self.base_urls['er-api']}/get/erai"
+        params: {"t": text}
+        try:
+            res = await self._make_request.get(url, params=params)
+            if res["status"] is 200:
+              return {
+                  "response": res["message"],
+                  "from": "ApiNyaEr",
+                  "success": True,
+              }
+            else:
+                return {
+                    "Why?": "Failed to get response Er-Ai.",
+                    "success": False,
+                    "report": "@Er_Support_Group",
+                }
+        except Exception as r:
+            return {
+                "Why?": "An error occurred.",
+                "success": False,
+                "report": "@Er_Support_Group",
+            }
+
+    async def khodam(self, name: str):
+        """Get Khodam Description With Detailed But is Indonesian Language
+        
+        Args:
+            name (``str``): The name wanna check the Khodam
+        Returns:
+            ``dict``: Description About The Khodam Given Name
+        """
+        url = f"{self.base_urls['er-api']}/get/khodam"
+        param = {"t": name}
+        try:
+            res = await self._make_request.get(url, params=param)
+            if res["status"] is 200:
+                return {
+                    "namanya": name,
+                    "khodamnya": res["data"]["result"],
+                    "from": "ApiNyaEr",
+                    "success": True,
+                }
+            else:
+                return {
+                    "Why?": "Failed to retrieve khodam of the name.",
+                    "success": False,
+                    "report": "@Er_Support_Group",
+                }
+        except Exception as r:
+            return {
+                "Why?": "An error occurred.",
+                "success": False,
+                "report": "@Er_Support_Group",
+            }
+        
 
     async def neko(self, endpoint: str = "neko", amount: int = 3) -> dict:
         """Fetches a specified number of neko images or GIFs from the Nekos.Best API.
