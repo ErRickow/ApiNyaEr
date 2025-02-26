@@ -40,4 +40,8 @@ print(result)
 If you find a bug, please [open an issue](https://github.com/ErBots/ApiNyaEr/issues).  
 You can also contribute by submitting a pull request!
 
+# Migrating Project
+  - [Rest Apis](https://er-api.biz.id)
+  - [@er-npm/scraper](https://www.npmjs.com/package/@er-npm/scraper)
+
 > This Project is Licensed under [GNU General Public License](https://github.com/ErBots/ApiNyaEr/blob/Er/LICENSE)
