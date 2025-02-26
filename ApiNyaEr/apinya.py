@@ -112,7 +112,26 @@ class ErApi:
         """
         url = f"{self.base_urls['er-api']}/tools/raw"
         params = {"u": link}
-        try
+        try:
+            res = await self._make_request.get(url, params=params)
+            if res["status"] is 200:
+              return {
+                  "response": res,
+                  "from": "ApiNyaEr",
+                  "success": True,
+              }
+            else:
+                return {
+                    "Why?": "Failed to convert to raws.",
+                    "success": False,
+                    "report": "@Er_Support_Group",
+                }
+        except Exception as r:
+            return {
+                "Why?": "An error occurred.",
+                "success": False,
+                "report": "@Er_Support_Group",
+            }
     
     async def gen_img(self, text: str):
         """Generate an image using Flux.1 Schennel from text input.
