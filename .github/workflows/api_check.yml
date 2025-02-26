@@ -28,21 +28,21 @@ jobs:
         run: |
           python script.py
 
-      - name: Configure Git Identity
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit and Push Changes
-        run: |
-          git stash
-          git pull origin Er
-          git stash pop
-          git add README.md
-          git commit -m "Update Status of ApiNyaEr"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+#       - name: Configure Git Identity
+#         run: |
+#           git config user.name "github-actions[bot]"
+#           git config user.email "github-actions[bot]@users.noreply.github.com"
+# 
+#       - name: Commit and Push Changes
+#         run: |
+#           git stash
+#           git pull origin Er
+#           git stash pop
+#           git add README.md
+#           git commit -m "Update Status of ApiNyaEr"
+#           git push
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           
       - uses: yanzay/notify-telegram@master
         if: always()
