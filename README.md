@@ -36,4 +36,8 @@ print(result)
 ## Documentation
   - [Read The Docs](https://docs-apinyaer.rtfd.io)
 
+## Contribute  
+If you find a bug, please [open an issue](https://github.com/ErBots/ApiNyaEr/issues).  
+You can also contribute by submitting a pull request!
+
 > This Project is Licensed under [GNU General Public License](https://github.com/ErRickow/ApiNyaEr/blob/Er/LICENSE)
