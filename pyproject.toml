@@ -21,6 +21,7 @@ dependencies = [
     "pillow",
     "httpx",
     "beautifulsoup4",
+    "aiohttp",
 ]
 
 [project.urls]
