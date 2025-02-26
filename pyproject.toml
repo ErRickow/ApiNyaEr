@@ -1,6 +1,6 @@
 [project]
 name = "ApiNyaEr"
-version = "v2"
+version = "2.0"
 authors = [
     { name = "ErNewDev0" }
 ]
@@ -27,8 +27,14 @@ dependencies = [
 Issues = "https://github.com/ErRickow/ApiNyaEr/issues"
 Source = "https://pypi.org/projects/ApiNyaEr "
 Community = "https://t.me/Pamerdong"
-Documentation = "https://ErNewDev0.github.io/"
+Documentation = "https://docs-apinyaer.rtfd.io"
 
 [build-system]
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+exclude = ["docs*"]
