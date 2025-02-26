@@ -3,3 +3,4 @@ pillow
 httpx
 beautifulsoup4
 ApiNyaEr
+aiohttp
