@@ -2,11 +2,11 @@ import os
 import re
 import random
 import string
+from io import BytesIO
 from base64 import b64decode as apainier
 from typing import Union, Optional
-import aiohttp
-from io import BytesIO
 
+import aiohttp
 import aiofiles
 
 from .td import DARE, TRUTH
@@ -92,7 +92,7 @@ class ErApi:
 
     async def github_to_raw(self, link: str):
         """Generate Github Raws From The Given Link Github Alongside /blob/{bramch}/
-        
+
         Args:
             link (``str``): The given Github link to be converted to Raws
         Returns:
@@ -108,18 +108,18 @@ class ErApi:
               `https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{file_path}`
             - Example:
               Input:  `https://github.com/ErRickow/ApiNyaEr/blob/Er/LICENSE`
-              Output: `https://raw.githubusercontent.com/ErRickow/ApiNyaEr/Er/LICENSE` 
+              Output: `https://raw.githubusercontent.com/ErRickow/ApiNyaEr/Er/LICENSE`
         """
         url = f"{self.base_urls['er-api']}/tools/raw"
         params = {"u": link}
         try:
             res = await self._make_request.get(url, params=params)
             if res["status"] is 200:
-              return {
-                  "response": res,
-                  "from": "ApiNyaEr",
-                  "success": True,
-              }
+                return {
+                    "response": res,
+                    "from": "ApiNyaEr",
+                    "success": True,
+                }
             else:
                 return {
                     "Why?": "Failed to convert to raws.",
@@ -132,39 +132,39 @@ class ErApi:
                 "success": False,
                 "report": "@Er_Support_Group",
             }
-    
+
     async def gen_img(self, text: str):
         """Generate an image using Flux.1 Schennel from text input.
 
         Args:
             text (``str``): The input for generating an image, e.g., "cat black".
-    
+
         Returns:
             ``BytesIO``: The image as a file-like object, which can be sent directly in Telegram.
-    
+
         Example:
             >>> image = await apinya.gen_img("cat black")
             >>> await message.reply_photo(image)  # Sending image in a Telegram bot
-        
+
         Notes:
             - The function does NOT return a URL but a file-like object containing the image.
         """
         url = f"{self.base_urls['er-api']}/get/generate"
         params = {"t": text}
-        
+
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, params=params) as resp:
                     if resp.status == 200:
                         img_data = await resp.read()
                         return BytesIO(img_data)  # Return image as a file-like object
-                    
+
             return {
                 "Why?": "Failed to fetch the image.",
                 "success": False,
                 "report": "@Er_Support_Group",
             }
-        
+
         except Exception as e:
             return {
                 "Why?": f"An error occurred: {str(e)}",
@@ -174,7 +174,7 @@ class ErApi:
 
     async def erai(self, text: str):
         """Get Response from Er-Ai
-        
+
         Args:
             text (``str``): The given teks to comunicate with Er-Ai
         Returns:
@@ -185,11 +185,11 @@ class ErApi:
         try:
             res = await self._make_request.get(url, params=params)
             if res["status"] is 200:
-              return {
-                  "response": res["message"],
-                  "from": "ApiNyaEr",
-                  "success": True,
-              }
+                return {
+                    "response": res["message"],
+                    "from": "ApiNyaEr",
+                    "success": True,
+                }
             else:
                 return {
                     "Why?": "Failed to get response Er-Ai.",
@@ -205,7 +205,7 @@ class ErApi:
 
     async def khodam(self, name: str):
         """Get Khodam Description With Detailed But is Indonesian Language
-        
+
         Args:
             name (``str``): The name wanna check the Khodam
         Returns:
@@ -234,7 +234,6 @@ class ErApi:
                 "success": False,
                 "report": "@Er_Support_Group",
             }
-        
 
     async def neko(self, endpoint: str = "neko", amount: int = 3) -> dict:
         """Fetches a specified number of neko images or GIFs from the Nekos.Best API.
